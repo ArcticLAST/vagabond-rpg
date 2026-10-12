@@ -44,6 +44,7 @@ export function emptyMods() {
     rangedCrit: null,         // { extraDice, explode } on Ranged Crits (Bad Medicine, Devastator).
     sneakAttack: null,        // { dice, explode } (Sneak Attack, Lethal Weapon).
     alchemy: null,            // { perDie, explode } for Alchemical Items (Potency).
+    spellExplodeLow: 0,       // Spell damage dice also Explode on this roll or lower (Vehement Magic).
     cast: { upcastDiscount: 0, auraDiscount: 0 }, // Mana discounts (Sculpt Spell, Paragon's Aura).
     notes: {}                 // Feature name -> { key, data } for the sheet.
   };
@@ -58,6 +59,8 @@ export function featureMods(actor) {
   const mods = emptyMods();
   if ( actor?.type !== "character" ) return mods;
   const has = unlockedFeatures(actor);
+  // Vehement Magic: a Perk item, or granted by the Sorcerer's Tap Feature.
+  if ( has.has("Tap") || actor.items?.some(i => (i.type === "perk") && (i.name === "Vehement Magic")) ) mods.spellExplodeLow = 1;
   if ( !has.size ) return mods;
   const L = actor.system.details.level;
   const berserk = !!actor.statuses?.has("berserk");

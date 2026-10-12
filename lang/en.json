@@ -151,6 +151,7 @@
       "Immune": "{name} is Immune to {type} damage{why}. No damage applied.",
       "Weak": "{name} is Weak to {type} damage{why}: it ignores Armor.",
       "Frightened": "Frightened: −2 per die",
+      "Vehement": "Vehement Magic: dice Explode on a 1",
       "Berserk": "Berserk: damage die up one size",
       "Murder": "Berserk (Murder Mode): +{n} per die, Exploding",
       "Sickened": "Sickened: −2 per healing die"
@@ -394,6 +395,10 @@
         "All": "Everyone sees them",
         "GM": "Whisper to the GM",
         "Off": "Off"
+      },
+      "Vision": {
+        "Name": "Token Vision from Senses",
+        "Hint": "Set each Token's vision from its Senses: Darksight sees in the dark, and Allsight, Blindsight, Echolocation, Seismicsense, and Telepathy become detection modes. Tokens only change when the Senses do."
       }
     },
     "Sheet": {
@@ -1023,6 +1028,11 @@
       "g": "Gold",
       "s": "Silver",
       "c": "Copper"
+    },
+    "Senses": {
+      "blindsight": "Blindsight",
+      "echolocation": "Echolocation",
+      "telepathy": "Telepathy"
     }
   }
 }

@@ -96,6 +96,8 @@ const tests = {
     assert.equal(r.damageFormula({ count: 2, faces: 6, perDie: -2 }), "2d6 - 4");
     assert.equal(r.damageFormula({ count: 1, faces: 6, steps: 1, flat: 3 }), "1d8 + 3");
     assert.equal(r.damageFormula({ count: 1, faces: 1 }), "1");
+    assert.equal(r.damageFormula({ count: 2, faces: 6, explodeLow: 1 }), "2d6x<=1");
+    assert.equal(r.damageFormula({ count: 1, faces: 6, explode: true, explodeLow: 1 }), "1d6xx<=1");
   },
   "check resolution (p. 8)": () => {
     assert.equal(r.resolveCheck({ total: 15, natural: 15, difficulty: 12 }).outcome, "pass");

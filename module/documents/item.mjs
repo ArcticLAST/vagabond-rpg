@@ -230,8 +230,10 @@ export default class VagabondItem extends Item {
       perDie -= 2;
       notes.push(game.i18n.localize("VAGABOND.Damage.Frightened"));
     }
+    const explodeLow = actor?.system.featureMods?.spellExplodeLow ?? 0;
+    if ( explodeLow ) notes.push(game.i18n.localize("VAGABOND.Damage.Vehement"));
     const formula = rules.damageFormula({
-      count: dice, faces: this.system.damageDie, steps: actor?.system.bonuses?.dieStep?.spell ?? 0, perDie, flat
+      count: dice, faces: this.system.damageDie, steps: actor?.system.bonuses?.dieStep?.spell ?? 0, perDie, flat, explodeLow
     });
     const base = this.system.damageBase;
     return rollDamage({

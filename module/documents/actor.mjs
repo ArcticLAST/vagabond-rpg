@@ -1,6 +1,7 @@
 import * as rules from "../rules.mjs";
 import { rollCheck, rollDamage } from "../dice/rolls.mjs";
 import * as sheetLog from "../sheet-log.mjs";
+import * as vision from "../vision.mjs";
 
 /**
  * Extend the base Actor with Vagabond rolls, rests, and damage handling.
@@ -25,6 +26,12 @@ export default class VagabondActor extends Actor {
       if ( !("default" in (data.ownership ?? {})) ) changes["ownership.default"] = CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER;
     }
     changes.prototypeToken = foundry.utils.mergeObject(prototypeToken, data.prototypeToken ?? {});
+    // Token vision from the Being's Senses, unless this is a copy whose vision already follows them.
+    const sight = vision.prototypeVision(this);
+    const flag = `flags.${game.system.id}.senses`;
+    if ( sight.flags && (foundry.utils.getProperty(changes.prototypeToken, flag) !== foundry.utils.getProperty(sight, flag)) ) {
+      foundry.utils.mergeObject(changes.prototypeToken, sight);
+    }
     this.updateSource(changes);
   }
 
@@ -321,6 +328,11 @@ export default class VagabondActor extends Actor {
     super._onUpdate(changed, options, userId);
     const before = options.vagabondBefore?.[this.id];
     if ( (userId === game.user.id) && before ) sheetLog.post(this, sheetLog.fieldLines(this, before), options);
+    // Senses or Level (Ancestry traits) changed: update Token vision.
+    const flat = foundry.utils.flattenObject(changed);
+    if ( (userId === game.user.id) && (("system.details.senses" in flat) || ("system.details.level" in flat)) ) {
+      vision.syncVision(this);
+    }
     // Show floating HP changes on tokens, like dnd5e.
     const hp = foundry.utils.getProperty(changed, "system.attributes.hp.value");
     if ( (hp === undefined) || !options.vagabondDamage || (userId !== game.user.id) ) return;
@@ -358,6 +370,7 @@ export default class VagabondActor extends Actor {
   /** @override */
   _onUpdateDescendantDocuments(parent, collection, documents, changes, options, userId) {
     super._onUpdateDescendantDocuments(parent, collection, documents, changes, options, userId);
+    if ( (userId === game.user.id) && (parent === this) && (collection === "items") ) vision.syncVision(this);
     if ( (userId !== game.user.id) || !options.vagabondQuantity ) return;
     const lines = [];
     for ( const item of documents ) {
@@ -374,6 +387,7 @@ export default class VagabondActor extends Actor {
   /** @override */
   _onCreateDescendantDocuments(parent, collection, documents, data, options, userId) {
     super._onCreateDescendantDocuments(parent, collection, documents, data, options, userId);
+    if ( (userId === game.user.id) && (parent === this) && (collection === "items") ) vision.syncVision(this);
     if ( (userId !== game.user.id) || (parent !== this) || (collection !== "items") || !sheetLog.tracks(this, options) ) return;
     if ( documents.length ) sheetLog.post(this, [sheetLog.itemLine("Added", documents)], options);
   }
@@ -381,6 +395,7 @@ export default class VagabondActor extends Actor {
   /** @override */
   _onDeleteDescendantDocuments(parent, collection, documents, ids, options, userId) {
     super._onDeleteDescendantDocuments(parent, collection, documents, ids, options, userId);
+    if ( (userId === game.user.id) && (parent === this) && (collection === "items") ) vision.syncVision(this);
     if ( (userId !== game.user.id) || (parent !== this) || (collection !== "items") || !sheetLog.tracks(this, options) ) return;
     if ( documents.length ) sheetLog.post(this, [sheetLog.itemLine("Removed", documents)], options);
   }

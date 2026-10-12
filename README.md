@@ -177,6 +177,7 @@ Class Features that scale with Level apply themselves, and the Features tab show
   - Bad Medicine and Devastator: extra, exploding dice on Ranged Crits.
   - Potency: Alchemical Item damage and healing.
   - Sneak Attack: a button on Favored hits with Finesse, Keen, or Ranged Weapons. Lethal Weapon makes the dice Explode.
+  - Vehement Magic (the Perk, or a Sorcerer's Tap): Spell damage dice Explode on a 1, noted on the damage card.
 - **Applied when casting:** Sculpt Spell and Paragon's Aura lower the Mana cost in the cast dialog.
 - **Shown as numbers only:** thresholds, countdown dice, free Move, Lay on Hands healing, Alchemy formulas, and the other scaling values.
 
@@ -210,6 +211,7 @@ The **Studied** box in the Hero header holds Studied dice (p. 19).
 - **Initiative:** Heroes act before Enemies.
 - **Statuses:** all 18 statuses from the book are on the token HUD, plus Focusing.
 - **Burning:** a reminder is whispered to the GM at the start of a Burning combatant's turn.
+- **Vision:** every Token sees lit areas. Darksight sees in the dark. Allsight sees Invisible Beings, Blindsight and Echolocation see while Blinded or in Darkness (walls still block them), Seismicsense feels Beings on the ground, and Telepathy senses other Beings through walls. Ranges come from the Senses line ("Seismicsense 60'", "Telepathy (Near)"); with none given, the Sense covers the whole Scene. Heroes get Senses from Ancestry traits, the Infravision Perk, and Equipped Relics (Nightvision, Echolocation, Tremors, Telepathy, True-Seeing). Tokens update when the Senses change; turn this off with the **Token Vision from Senses** setting.
 
 ### Compendiums
 
@@ -236,6 +238,8 @@ The alpha text leaves some points open. These are the choices made here:
 - **Fluke** rerolls the d20 of a Check. The book allows rerolling any unresolved die.
 - **Class Features** that are situational (Momentum, Hunter's Mark, Deadeye stacks, Hex, damage reduction, and so on) stay as text. The Features tab shows their current numbers. Add an Active Effect when one matters, for example on `system.bonuses.critAttack`, `system.bonuses.speed`, or `system.bonuses.slots`.
 - **Valor and Spell-Slinger** lower the Crit on Saves only when the Save comes from an NPC Action's Save button, which is how the system knows the Save is against an attack or a Cast.
+- **Senses that need Focus or only work sometimes** (Telepath, Witchsight, the Helm of Telepathy, Bloodthirsty, Killer Instinct, "Telepathy (fungus only)") aren't applied. Turn the detection mode on in the Token's settings while it applies.
+- **Blindsight and Echolocation** don't reveal Invisible Beings; only Allsight does, as the book lists it as the Sense that isn't fooled by invisibility.
 - **Sneak Attack** shows its button on any Favored hit with a qualifying Weapon. Keeping it to the first hit each Turn is up to the player.
 - **Starting Packs:** Garrote and Ingredients aren't in the price lists, so they have no listed Slots; they are set to 1 Slot. The Fighter's recommended "Harrying" pack doesn't exist in the table and is left out.
 - **Relics** without a printed Value (Bag of Devouring, Black Wing, Philosopher's Stone, Standard of the Herald, Undertow, Voidedge) are recorded as 0.

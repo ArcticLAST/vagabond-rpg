@@ -18,6 +18,7 @@ import CreatureBuilder from "./module/applications/creature-builder.mjs";
 import { registerChatListeners } from "./module/chat.mjs";
 import * as transfer from "./module/transfer.mjs";
 import * as dice from "./module/dice/rolls.mjs";
+import * as vision from "./module/vision.mjs";
 
 const SYSTEM_ID = "vagabond-rpg";
 
@@ -63,6 +64,10 @@ Hooks.once("init", () => {
   CONFIG.specialStatusEffects.BLIND = "blinded";
   CONFIG.specialStatusEffects.INVISIBLE = "invisible";
 
+  // Vision: Senses as Token detection modes (p. 9).
+  vision.registerDetectionModes();
+  Hooks.on("preCreateToken", vision.onPreCreateToken);
+
   // Sheets
   const { DocumentSheetConfig } = foundry.applications.apps;
   DocumentSheetConfig.unregisterSheet(Actor, "core", foundry.appv1.sheets.ActorSheet);
@@ -99,6 +104,12 @@ function registerSettings() {
     hint: "VAGABOND.Settings.SheetLog.Hint",
     scope: "world", config: true, type: String, default: "all",
     choices: { all: "VAGABOND.Settings.SheetLog.All", gm: "VAGABOND.Settings.SheetLog.GM", off: "VAGABOND.Settings.SheetLog.Off" }
+  });
+  game.settings.register(SYSTEM_ID, "visionFromSenses", {
+    name: "VAGABOND.Settings.Vision.Name",
+    hint: "VAGABOND.Settings.Vision.Hint",
+    scope: "world", config: true, type: Boolean, default: true,
+    onChange: value => { if ( value ) vision.syncAll(); }
   });
   game.settings.register(SYSTEM_ID, "burningReminder", {
     name: "VAGABOND.Settings.Burning.Name",
@@ -141,6 +152,8 @@ Hooks.once("ready", () => {
   transfer.registerSocket();
   // Riders prepared before their Mount existed during world load pick up its Speed now.
   for ( const actor of game.actors ) if ( actor.system.attributes?.mount ) actor.reset();
+  // Token vision follows Senses; catch up Actors made before this existed or changed while it was off.
+  vision.syncAll();
 });
 
 /* -------------------------------------------- */

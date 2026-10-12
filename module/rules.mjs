@@ -137,9 +137,10 @@ export function parseDie(die) {
  * @param {number} [options.flat=0]      Flat bonus added once.
  * @param {boolean|number} [options.explode]  Whether the dice explode: true on their highest value, or a number N to
  *   explode on their N highest values ("two highest values" is 2).
+ * @param {number} [options.explodeLow=0]  The dice also explode on this roll or lower (Vehement Magic is 1).
  * @returns {string}
  */
-export function damageFormula({ count, faces, steps = 0, perDie = 0, flat = 0, explode = false }) {
+export function damageFormula({ count, faces, steps = 0, perDie = 0, flat = 0, explode = false, explodeLow = 0 }) {
   if ( !count ) return flat ? String(flat) : "0";
   const parts = [];
   if ( faces <= 1 && steps <= 0 ) {
@@ -149,7 +150,8 @@ export function damageFormula({ count, faces, steps = 0, perDie = 0, flat = 0, e
     if ( stepped.faces === null ) parts.push(String(count * stepped.flat));
     else {
       const top = explode === true ? 1 : Math.max(0, Number(explode) || 0);
-      const x = !top ? "" : (top === 1 ? "x" : `x>=${stepped.faces - top + 1}`);
+      let x = !top ? "" : (top === 1 ? "x" : `x>=${stepped.faces - top + 1}`);
+      if ( explodeLow > 0 ) x += `x<=${explodeLow}`;
       parts.push(`${count}d${stepped.faces}${x}`);
       if ( stepped.bonus ) perDie += stepped.bonus;
     }
