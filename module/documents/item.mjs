@@ -273,14 +273,14 @@ export default class VagabondItem extends Item {
       if ( flags ) data.flags = foundry.utils.mergeObject(data.flags ?? {}, flags);
       toCreate.push(data);
     }
-    const created = await actor.createEmbeddedDocuments("Item", toCreate, op);
+    const created = await actor.createEmbeddedDocuments("Item", toCreate, { ...op });
     const cur = actor.system.currency;
     if ( cur ) {
       const g = Math.floor(this.system.wealth / 100);
       const s = this.system.wealth % 100;
       await actor.update(replaceWealth
         ? { "system.currency.g": g, "system.currency.s": s, "system.currency.c": 0 }
-        : { "system.currency.g": cur.g + g, "system.currency.s": cur.s + s }, op);
+        : { "system.currency.g": cur.g + g, "system.currency.s": cur.s + s }, { ...op });
     }
     return created;
   }
