@@ -1,0 +1,41 @@
+# Publishing a GitHub release tagged vX.Y.Z attaches system.json and vagabond-rpg.zip to it, so Foundry can install
+# from the manifest URL. The release tag must match "version" in system.json.
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the version matches the tag
+        run: |
+          VERSION=$(jq -r .version system.json)
+          if [ "v$VERSION" != "${GITHUB_REF_NAME}" ]; then
+            echo "Tag ${GITHUB_REF_NAME} does not match system.json version $VERSION" >&2
+            exit 1
+          fi
+
+      - name: Point the download URL at this release
+        run: |
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${GITHUB_REF_NAME}/vagabond-rpg.zip"
+          jq --arg url "$URL" '.download = $url' system.json > system.tmp && mv system.tmp system.json
+
+      - name: Build the zip
+        run: |
+          mkdir -p dist/vagabond-rpg
+          cp -r system.json vagabond.mjs README.md lang module packs styles templates dist/vagabond-rpg/
+          find dist -name LOCK -delete
+          cd dist && zip -qr vagabond-rpg.zip vagabond-rpg
+
+      - name: Attach to the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${GITHUB_REF_NAME}" system.json dist/vagabond-rpg.zip --clobber

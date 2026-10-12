@@ -259,9 +259,9 @@
   },
   "primaryTokenAttribute": "attributes.hp",
   "secondaryTokenAttribute": "attributes.mana",
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/ArcticLAST/vagabond-rpg",
+  "manifest": "https://github.com/ArcticLAST/vagabond-rpg/releases/latest/download/system.json",
+  "download": "https://github.com/ArcticLAST/vagabond-rpg/releases/download/v0.6.7/vagabond-rpg.zip",
   "flags": {
     "hotReload": {
       "extensions": [
