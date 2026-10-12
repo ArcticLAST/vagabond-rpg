@@ -315,8 +315,10 @@
 .vagabond.chat-card .card-buttons button:hover { color: #fff; background: #7a2418; border-color: #5c1a12; }
 .vagabond.chat-card .card-buttons button { flex: 1 1 45%; font-size: 0.85em; height: 26px; line-height: 22px; padding: 0 6px; }
 .vagabond.chat-card.damage-card.healing .card-total { color: #2f6b3a; }
-.vagabond.chat-card .dice-roll .dice-tooltip { display: none; }
-.vagabond.chat-card .dice-roll.expanded .dice-tooltip, .vagabond.chat-card:hover .dice-roll .dice-tooltip { display: block; }
+/* Dice breakdown: click the result to show or hide it. Never on hover, which made the chat log jump. */
+.vagabond.chat-card .dice-roll { cursor: pointer; }
+.vagabond.chat-card .dice-roll .vg-dice-breakdown, .vagabond.chat-card .dice-roll .dice-tooltip { display: none; }
+.vagabond.chat-card .dice-roll.expanded .vg-dice-breakdown, .vagabond.chat-card .dice-roll.expanded .dice-tooltip { display: block; }
 .vagabond.chat-card.morale-card .card-result.pass { border-color: #2f6b3a; }
 .vagabond.chat-card.morale-card .card-result.fail { border-color: #8a2a1f; }
 

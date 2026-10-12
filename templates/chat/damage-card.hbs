@@ -7,15 +7,16 @@
     </div>
   </header>
 
-  <div class="card-result">
-    <span class="card-total">{{total}}</span>
-    <span class="card-vs damage-type">{{vsLabel}}</span>
-    <span class="card-formula">{{formula}}</span>
+  <div class="dice-roll" data-action="expandRoll">
+    <div class="card-result">
+      <span class="card-total">{{total}}</span>
+      <span class="card-vs damage-type">{{vsLabel}}</span>
+      <span class="card-formula">{{formula}}</span>
+    </div>
+    <div class="vg-dice-breakdown">{{{tooltip}}}</div>
   </div>
 
   {{#if tags.length}}<div class="card-tags">{{#each tags}}<span class="tag {{cls}}">{{label}}</span>{{/each}}</div>{{/if}}
-
-  <div class="dice-roll">{{{tooltip}}}</div>
 
   <div class="card-buttons">
     {{#each saves}}

@@ -87,7 +87,7 @@ What each Class Feature or Ancestry Trait grants lives on that row's **Hero buil
 
 ### Rolls
 
-There is no roll prompt. The header has a standing **Hinder / Normal / Favor** setting that every Check uses until you change it. There are no situational bonuses. Luck is spent and gained from the sheet, not by rolls.
+There is no roll prompt. The header has a standing **Hinder / Normal / Favor** setting that every Check uses until you change it. There are no situational bonuses. Luck is spent and gained from the sheet, not by rolls. Click a card's result to show or hide the individual dice; cards don't change size on hover.
 
 Statuses add Favor and Hinder automatically, and they cancel against the sheet setting. The card names the status behind each change, such as "Prone: Hinder" or "Target: Blinded (Vulnerable)":
 - **Confused**: Hinders the Being's own Checks and Saves.

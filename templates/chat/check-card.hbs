@@ -10,10 +10,13 @@
   {{#if flags.summary.length}}<div class="card-tags cast-summary">{{#each flags.summary}}<span class="tag">{{this}}</span>{{/each}}</div>{{/if}}
   {{#if body}}<div class="card-body">{{{body}}}</div>{{/if}}
 
-  <div class="card-result">
-    <span class="card-total" data-tooltip="VAGABOND.Roll.Natural">{{total}}</span>
-    <span class="card-vs">{{localize "VAGABOND.Difficulty"}} {{flags.difficulty}}</span>
-    <span class="outcome-badge {{flags.outcome}}">{{outcomeLabel}}</span>
+  <div class="dice-roll" data-action="expandRoll">
+    <div class="card-result">
+      <span class="card-total" data-tooltip="VAGABOND.Roll.Natural">{{total}}</span>
+      <span class="card-vs">{{localize "VAGABOND.Difficulty"}} {{flags.difficulty}}</span>
+      <span class="outcome-badge {{flags.outcome}}">{{outcomeLabel}}</span>
+    </div>
+    <div class="vg-dice-breakdown">{{{tooltip}}}</div>
   </div>
 
   <div class="card-tags">
@@ -30,8 +33,6 @@
     {{#if critText}}<div class="card-crit"><strong>{{localize "VAGABOND.Outcome.crit"}}:</strong> {{critText}}</div>{{/if}}
     {{#if (eq flags.type "save")}}<div class="card-crit">{{localize "VAGABOND.Roll.SaveCrit"}}</div>{{/if}}
   {{/if}}
-
-  <div class="dice-roll">{{{tooltip}}}</div>
 
   {{#if critChoice}}
   <div class="crit-choice" data-tooltip="VAGABOND.Crit.ChoiceHint">
