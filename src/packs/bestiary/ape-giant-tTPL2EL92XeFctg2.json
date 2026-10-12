@@ -1,0 +1,131 @@
+{
+  "_id": "tTPL2EL92XeFctg2",
+  "_key": "!actors!tTPL2EL92XeFctg2",
+  "name": "Ape, Giant",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 2.3,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 2,
+      "armorTag": "as (+1) Leather",
+      "morale": 7,
+      "speed": {
+        "value": 40,
+        "types": "Climb"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 124",
+      "description": "<p>Gorillas and the cave-dwelling white apes.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "cpCA6EdXRCFNEQFg",
+      "_key": "!actors.items!tTPL2EL92XeFctg2.cpCA6EdXRCFNEQFg",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zCssqMpyUUVbdjXG",
+      "_key": "!actors.items!tTPL2EL92XeFctg2.zCssqMpyUUVbdjXG",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ape, Giant",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_id": "TnTBXq0LYs9wPgVU",
+  "_key": "!actors!TnTBXq0LYs9wPgVU",
+  "name": "Trader",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.2,
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 6,
+      "speed": {
+        "value": 40,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 114",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "5IvEURBolUJoQlx9",
+      "_key": "!actors.items!TnTBXq0LYs9wPgVU.5IvEURBolUJoQlx9",
+      "name": "Weapon",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>3 (d6) or (by Weapon)</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Trader",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

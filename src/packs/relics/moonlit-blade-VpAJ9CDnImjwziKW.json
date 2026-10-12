@@ -1,0 +1,46 @@
+{
+  "_id": "VpAJ9CDnImjwziKW",
+  "_key": "!items!VpAJ9CDnImjwziKW",
+  "name": "Moonlit Blade",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Greatsword (Bound)</em></p><p>Greatsword that a Being must Bind themselves to to access its Powers, which are as follows:</p><ul><li><strong>(+3) Weapon:</strong> Deals an extra +3 damage.</li><li><strong>Blasting:</strong> Can make a Melee attack as an arc of moonlight energy at a Near Target. The Target is then illuminated with moonlight for the Round, can't benefit from being Invisible, and turns to its normal form if it was shapeshifted.</li><li><strong>Moonlit:</strong> Sheds Moonlight out to Near.</li></ul><p>Value: 25000g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 106",
+    "quantity": 1,
+    "slots": 2,
+    "value": 2500000,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": true,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "2h",
+    "damage": "d10",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 3,
+    "crude": false,
+    "relic": true,
+    "damageType": "physical"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

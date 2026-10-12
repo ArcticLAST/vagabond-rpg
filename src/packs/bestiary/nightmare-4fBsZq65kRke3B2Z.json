@@ -1,0 +1,227 @@
+{
+  "_id": "4fBsZq65kRke3B2Z",
+  "_key": "!actors!4fBsZq65kRke3B2Z",
+  "name": "Nightmare",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 5.6,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 5,
+      "armorTag": "as (+2) Plate",
+      "morale": 7,
+      "speed": {
+        "value": 50,
+        "types": "Fly"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "outer",
+      "subtype": "Hellspawn",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Fire, Poison",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 161",
+      "description": "<p>Black, semi-skeletal hell horses with manes of fire.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "GP1LhnApJy0q9aeR",
+      "_key": "!actors.items!4fBsZq65kRke3B2Z.GP1LhnApJy0q9aeR",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Bite and 1×Stomp</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yt22IqLXFT7q6Di8",
+      "_key": "!actors.items!4fBsZq65kRke3B2Z.yt22IqLXFT7q6Di8",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qRO3zhTtQh5czWlC",
+      "_key": "!actors.items!4fBsZq65kRke3B2Z.qRO3zhTtQh5czWlC",
+      "name": "Stomp",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6) plus 3 (d6 if Prone)) and Burning (Cd4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IoaVNuQkFBFKHiVr",
+      "_key": "!actors.items!4fBsZq65kRke3B2Z.IoaVNuQkFBFKHiVr",
+      "name": "Fire Rider",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Allies mounted on it are Immune to Fire.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4I22maAsP84LDyIt",
+      "_key": "!actors.items!4fBsZq65kRke3B2Z.4I22maAsP84LDyIt",
+      "name": "Illuminating",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Sheds Light out to Near.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Nightmare",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

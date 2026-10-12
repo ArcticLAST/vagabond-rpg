@@ -1,0 +1,19 @@
+{
+  "_id": "jAD5lvprmxPYg10O",
+  "_key": "!items!jAD5lvprmxPYg10O",
+  "name": "Cat-Like Reflexes",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You reduce any fall damage you take by half and you can stand up using 5' of Speed.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: DEX 4+ | Trained: Finesse"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "oKWudg74hQmu9Ud7",
+  "_key": "!items!oKWudg74hQmu9Ud7",
+  "name": "Cure",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>If the Target is Blinded or Sickened, the Status ends and they are immune to these Statuses for the duration.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

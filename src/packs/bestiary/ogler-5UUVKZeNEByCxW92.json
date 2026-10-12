@@ -1,0 +1,483 @@
+{
+  "_id": "5UUVKZeNEByCxW92",
+  "_key": "!actors!5UUVKZeNEByCxW92",
+  "name": "Ogler",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 12,
+    "tl": 11.2,
+    "attributes": {
+      "hp": {
+        "value": 54,
+        "max": 54
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 12,
+      "speed": {
+        "value": 0,
+        "types": "Fly 20'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "outer",
+      "subtype": "Beyonder",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "Darksight, Telepathy",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 162",
+      "description": "<p>Greedy, pompous creatures out-of-touch with reality by nature. They are always driven insane by arrogance and the insatiable desire to rule over all. They are known to claim the works of their subjects as their own, enforce overreaching taxes, and trick others into outrageous deals.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "ZsIh31fxdZVSgfka",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.ZsIh31fxdZVSgfka",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>3 (d6)×Eyebeam and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PBtwbZtCi3TYDDMm",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.PBtwbZtCi3TYDDMm",
+      "name": "Eyebeam",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Roll d8 for each:</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xpACdzgyuUaAack3",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.xpACdzgyuUaAack3",
+      "name": "Eyebeam 1: Charm",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Charmed (Cd4, or until damaged)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hmYad6vZYGCdSPA4",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.hmYad6vZYGCdSPA4",
+      "name": "Eyebeam 2: Sleep",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Unconscious (Cd6, or woken up)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZGDZl9VJMj1yWECQ",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.ZGDZl9VJMj1yWECQ",
+      "name": "Eyebeam 3: Kinesis",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Restrained (1 Round)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IUEzhhvRWMCBCAl7",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.IUEzhhvRWMCBCAl7",
+      "name": "Eyebeam 4: Petrify",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Transformed into a stone statue</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 5,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SC2wzWi37tQGST59",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.SC2wzWi37tQGST59",
+      "name": "Eyebeam 5: Death",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>14 (4d6)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Near Only | Endure",
+        "damage": "4d6",
+        "average": 14,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "",
+        "sort": 6,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hqsNZbMCq50wBMdT",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.hqsNZbMCq50wBMdT",
+      "name": "Eyebeam 6: Fear",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Frightened (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 7,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "h8VTSkDNCD8J4aBL",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.h8VTSkDNCD8J4aBL",
+      "name": "Eyebeam 7: Slow",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Speed reduced to 10' for (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 8,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mi6cRaDRo9iNlXsm",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.mi6cRaDRo9iNlXsm",
+      "name": "Eyebeam 8: Paralysis",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Paralyzed (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 9,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ACAwSquzbbvIbfKA",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.ACAwSquzbbvIbfKA",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 10,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sahOqmgQjAH6Yc1W",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.sahOqmgQjAH6Yc1W",
+      "name": "Antimagical Cone II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Cast Checks in a Far Cone from its central eye always fail, and any magic effect in the Cone is suspended while in the Cone.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OywtbgR3GFGwXJdz",
+      "_key": "!actors.items!5UUVKZeNEByCxW92.OywtbgR3GFGwXJdz",
+      "name": "Mind of Madness",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can Cast while Berserk.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ogler",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

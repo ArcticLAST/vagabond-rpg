@@ -1,0 +1,195 @@
+{
+  "_id": "YmQ6ApCLd8TFTvzM",
+  "_key": "!actors!YmQ6ApCLd8TFTvzM",
+  "name": "Magmot",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 6.4,
+    "attributes": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 9,
+      "speed": {
+        "value": 10,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "primordial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d2",
+      "senses": "",
+      "immune": "Fire",
+      "weak": "Cold",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 175",
+      "description": "<p>Rocken worms of lava, whose bodies glow white hot like molten steel.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "iGdTKMpYVxuDnKfi",
+      "_key": "!actors.items!YmQ6ApCLd8TFTvzM.iGdTKMpYVxuDnKfi",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Slams</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UbEwUlKTn4pqbwRH",
+      "_key": "!actors.items!YmQ6ApCLd8TFTvzM.UbEwUlKTn4pqbwRH",
+      "name": "Slam",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6) and pass [Endure] or become Burning (Cd4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FsKnbJ84RjTclicT",
+      "_key": "!actors.items!YmQ6ApCLd8TFTvzM.FsKnbJ84RjTclicT",
+      "name": "Burrow Burst",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it breaches the ground after moving at least 20' on the same Turn, its first Slam deals 18 (4d8) instead.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "4d8",
+        "average": 18,
+        "damageType": "physical",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uJasqvGVxewMh9M5",
+      "_key": "!actors.items!YmQ6ApCLd8TFTvzM.uJasqvGVxewMh9M5",
+      "name": "Tunneler",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can Move by burrowing in the ground at 30' per Round.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Magmot",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "XCipT3nbW4cU90xG",
+  "_key": "!items!XCipT3nbW4cU90xG",
+  "name": "Incense (stick)",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em>Books &amp; Magic</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 79",
+    "quantity": 1,
+    "slots": 0,
+    "value": 0.05,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

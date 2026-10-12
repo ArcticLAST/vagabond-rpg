@@ -1,0 +1,130 @@
+{
+  "_id": "JoCedU5DBAYByCfx",
+  "_key": "!actors!JoCedU5DBAYByCfx",
+  "name": "Beetle, Bombardier",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 2.0,
+    "attributes": {
+      "hp": {
+        "value": 2,
+        "max": 2
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 8,
+      "speed": {
+        "value": 40,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d6",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 125",
+      "description": "<p>A 3-foot long beetle with powerful mandibles that is capable of emiting noxious fumes that burns flesh.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "L3bqDDCAPG5afLFU",
+      "_key": "!actors.items!JoCedU5DBAYByCfx.L3bqDDCAPG5afLFU",
+      "name": "Noxious Gas",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>7 (2d6), half on pass and not a Crit.</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack, Cone 10' | Endure",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "poison",
+        "save": "endure",
+        "recharge": "Recharge Cd6",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0QXsq7vwpBrzgiKo",
+      "_key": "!actors.items!JoCedU5DBAYByCfx.0QXsq7vwpBrzgiKo",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Beetle, Bombardier",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

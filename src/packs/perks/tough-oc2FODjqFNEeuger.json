@@ -1,0 +1,41 @@
+{
+  "_id": "oc2FODjqFNEeuger",
+  "_key": "!items!oc2FODjqFNEeuger",
+  "name": "Tough",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You have a bonus to Max HP equal to your Level. You can take this Perk multiple times.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 7"
+  },
+  "effects": [
+    {
+      "_id": "3mnhsI4k6ChSL1WR",
+      "_key": "!items.effects!oc2FODjqFNEeuger.3mnhsI4k6ChSL1WR",
+      "name": "Tough",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.hpPerLevel",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

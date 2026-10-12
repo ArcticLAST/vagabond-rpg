@@ -1,0 +1,228 @@
+{
+  "_id": "BO2wxBDovl2PhfNs",
+  "_key": "!actors!BO2wxBDovl2PhfNs",
+  "name": "Manticore",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 3.8,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 2,
+      "armorTag": "as (+1) Leather",
+      "morale": 9,
+      "speed": {
+        "value": 30,
+        "types": "Fly 50'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "d4",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 144",
+      "description": "<p>Flying, quilled hybrids of a lion and bat, with a scorpion tail.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "PJagxI81YVweqhfk",
+      "_key": "!actors.items!BO2wxBDovl2PhfNs.PJagxI81YVweqhfk",
+      "name": "Combo 1",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>3 (d6)×Tail Spike</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "1/Day",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8QdWWvtIOJ92Gsod",
+      "_key": "!actors.items!BO2wxBDovl2PhfNs.8QdWWvtIOJ92Gsod",
+      "name": "Combo 2",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claws and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WedF8ElddR4a8c3y",
+      "_key": "!actors.items!BO2wxBDovl2PhfNs.WedF8ElddR4a8c3y",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ubpFyyW4LAaNZsQ1",
+      "_key": "!actors.items!BO2wxBDovl2PhfNs.ubpFyyW4LAaNZsQ1",
+      "name": "Claws",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "i8WCquU6NNAwBG2m",
+      "_key": "!actors.items!BO2wxBDovl2PhfNs.i8WCquU6NNAwBG2m",
+      "name": "Tail Spike",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Manticore",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

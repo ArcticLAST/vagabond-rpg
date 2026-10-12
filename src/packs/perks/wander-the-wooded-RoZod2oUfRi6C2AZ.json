@@ -1,0 +1,19 @@
+{
+  "_id": "RoZod2oUfRi6C2AZ",
+  "_key": "!items!RoZod2oUfRi6C2AZ",
+  "name": "Wander the Wooded",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Natural Difficult Terrain doesn't impede your Speed, and your Saves against natural hazards (avalanches, extreme heat, etc) are Favored.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: DEX 4+ | Trained: Survival"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

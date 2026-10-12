@@ -1,0 +1,98 @@
+{
+  "_id": "YYwnvB5WH7mSrrLC",
+  "_key": "!actors!YYwnvB5WH7mSrrLC",
+  "name": "Yellow Mould",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 0.9,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 12,
+      "speed": {
+        "value": 0,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "primordial",
+      "subtype": "Plant",
+      "zone": "",
+      "appearing": "d4",
+      "senses": "Blindsight, Telepathy (fungus only)",
+      "immune": "Acid, Cold, Shock, Poison, Physical",
+      "weak": "Fire",
+      "statusImmunities": "Berserk, Charmed, Confused, Fatigue, Frightened, Prone, Restrained, Sickened, Suffocating, Unconscious",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 175",
+      "description": "<p>A spore-producing fungus that thrives in dank environments.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "qH9vYh8LZOuWSNC6",
+      "_key": "!actors.items!YYwnvB5WH7mSrrLC.qH9vYh8LZOuWSNC6",
+      "name": "Spore Cloud",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>3 (d6) and pass [Endure] or become Sickened (Cd8, +1 Fatigue each Round).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "When Touched, Aura Close | Endure",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "poison",
+        "save": "endure",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Yellow Mould",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "_id": "caXqQ6OClQQt3GuW",
+  "_key": "!actors!caXqQ6OClQQt3GuW",
+  "name": "Oni",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 8,
+    "tl": 7.9,
+    "attributes": {
+      "hp": {
+        "value": 36,
+        "max": 36
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 11,
+      "speed": {
+        "value": 30,
+        "types": "Fly"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "outer",
+      "subtype": "Hellspawn",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 162",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "qu7qPtbzsprEErar",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.qu7qPtbzsprEErar",
+      "name": "Cone of Cold",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>36 (8d8)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 60' Cone | Endure",
+        "damage": "8d8",
+        "average": 36,
+        "damageType": "cold",
+        "save": "endure",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ulRkJuTV5P18MlBc",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.ulRkJuTV5P18MlBc",
+      "name": "Charm Person",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Charmed</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, a Remote Humanlike | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "1/Day, Focus",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "t2bhIc1odwbfhKrX",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.t2bhIc1odwbfhKrX",
+      "name": "Darkness",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>The Area becomes magical darkness, and snuffs out any light sources.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 20' Sphere",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Oilj5aQfgX96DdhB",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.Oilj5aQfgX96DdhB",
+      "name": "Sleep",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Unconscious (Cd4, or woken up)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 20' Sphere | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "1/Day",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hSJRo8inYiBcWGbv",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.hSJRo8inYiBcWGbv",
+      "name": "Gaseous Form",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Turns into an incorporeal cloud of gas for the duration.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "1/Day",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1bDux0qzmN6NCfsN",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.1bDux0qzmN6NCfsN",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 5,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AO73cS2y0ksJqjzj",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.AO73cS2y0ksJqjzj",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>6 (d8+2)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8+2",
+        "average": 6,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 6,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PsXpcfttXeNN1c1I",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.PsXpcfttXeNN1c1I",
+      "name": "Invisibility",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Turns Invisible for the duration.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Focus",
+        "sort": 7,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "A7JUVw7vSqXhRE00",
+      "_key": "!actors.items!caXqQ6OClQQt3GuW.A7JUVw7vSqXhRE00",
+      "name": "Regenerate II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Regains 9 (2d8) HP on its Turns.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Oni",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

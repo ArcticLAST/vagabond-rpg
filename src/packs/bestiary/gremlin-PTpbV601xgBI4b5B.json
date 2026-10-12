@@ -1,0 +1,194 @@
+{
+  "_id": "PTpbV601xgBI4b5B",
+  "_key": "!actors!PTpbV601xgBI4b5B",
+  "name": "Gremlin",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.5,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 2,
+      "speed": {
+        "value": 10,
+        "types": "Fly 30'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "cryptid",
+      "subtype": "Fae",
+      "zone": "midline",
+      "appearing": "d6",
+      "senses": "Darksight",
+      "immune": "Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 141",
+      "description": "<p>Tiny, goblinoid fae that are associated with sudden misfortunes and calamity.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "dhA76TGqEQFi4oNk",
+      "_key": "!actors.items!PTpbV601xgBI4b5B.dhA76TGqEQFi4oNk",
+      "name": "Sabotage",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Breaks into materials.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, a non-Relic Item in Near | Wielder's Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FNv5yerrx78KX5lT",
+      "_key": "!actors.items!PTpbV601xgBI4b5B.FNv5yerrx78KX5lT",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZitSgd87OhUHp3Xv",
+      "_key": "!actors.items!PTpbV601xgBI4b5B.ZitSgd87OhUHp3Xv",
+      "name": "Doom Magnet",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Near Enemies can't gain Favor.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sjZciauF1QN5x0Pm",
+      "_key": "!actors.items!PTpbV601xgBI4b5B.sjZciauF1QN5x0Pm",
+      "name": "Magic Resistance I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If Targeted with Magic, roll a d4. On a roll of 1, it ignores the effect.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Gremlin",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

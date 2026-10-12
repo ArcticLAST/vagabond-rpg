@@ -1,0 +1,227 @@
+{
+  "_id": "DUno47ougxPdInAr",
+  "_key": "!actors!DUno47ougxPdInAr",
+  "name": "Lindworm",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 7,
+    "tl": 5.7,
+    "attributes": {
+      "hp": {
+        "value": 31,
+        "max": 31
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 10,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Allsight",
+      "immune": "Acid, Fire, Poison",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 144",
+      "description": "<p>A serpent with a set of forelegs, and an acidic spit known to also poison those it touches.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "RiULphXdkgOeDz2H",
+      "_key": "!actors.items!DUno47ougxPdInAr.RiULphXdkgOeDz2H",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claws and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Gi4MmWPxwgD9rUc9",
+      "_key": "!actors.items!DUno47ougxPdInAr.Gi4MmWPxwgD9rUc9",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "edsxMpprcINFiRfK",
+      "_key": "!actors.items!DUno47ougxPdInAr.edsxMpprcINFiRfK",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "46QUb8hUA0dh5InI",
+      "_key": "!actors.items!DUno47ougxPdInAr.46QUb8hUA0dh5InI",
+      "name": "Caustic Venom",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>7 (2d6), and Burning (Cd6) and Sickened (Cd4 damage)</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "acid",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mqI3VmDbCkKoD8lF",
+      "_key": "!actors.items!DUno47ougxPdInAr.mqI3VmDbCkKoD8lF",
+      "name": "Regenerate I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Regains 9 (2d8) HP on its Turns.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Lindworm",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

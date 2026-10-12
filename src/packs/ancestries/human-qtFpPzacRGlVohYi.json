@@ -1,0 +1,51 @@
+{
+  "_id": "qtFpPzacRGlVohYi",
+  "_key": "!items!qtFpPzacRGlVohYi",
+  "name": "Human",
+  "type": "ancestry",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "description": "<p>Humans are social beings that tend to be central in the development of major, diverse melting pot civilizations. Their tendency to develop wide, sprawling empires and a huge pool of cultures makes them extremely adaptable adventurers.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 23",
+    "beingType": "humanlike",
+    "size": "medium",
+    "trainings": [],
+    "traits": [
+      {
+        "level": 1,
+        "name": "Aptitude",
+        "description": "<p>You gain a Perk and a Training.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 1,
+          "trainingChoices": 1,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Strong Potential",
+        "description": "<p>Increase one of your Stats by 1, but no higher than 7.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 1,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

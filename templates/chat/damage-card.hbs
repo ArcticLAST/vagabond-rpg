@@ -1,0 +1,33 @@
+<div class="vagabond chat-card damage-card {{#if healing}}healing{{/if}} {{#if damageType}}type-{{damageType}}{{/if}}" data-total="{{total}}">
+  <header class="card-header">
+    <img src="{{img}}" alt="" width="36" height="36">
+    <div class="card-titles">
+      <h3>{{title}}</h3>
+      {{#if subtitle}}<span class="card-subtitle">{{subtitle}}</span>{{/if}}
+    </div>
+  </header>
+
+  <div class="card-result">
+    <span class="card-total">{{total}}</span>
+    <span class="card-vs damage-type">{{vsLabel}}</span>
+    <span class="card-formula">{{formula}}</span>
+  </div>
+
+  {{#if tags.length}}<div class="card-tags">{{#each tags}}<span class="tag {{cls}}">{{label}}</span>{{/each}}</div>{{/if}}
+
+  <div class="dice-roll">{{{tooltip}}}</div>
+
+  <div class="card-buttons">
+    {{#each saves}}
+    <button type="button" data-vg-action="save" data-save="{{save}}" {{#if effect}}data-effect="1"{{/if}}><i class="fa-solid {{#if effect}}fa-shield-virus{{else}}fa-shield-halved{{/if}}"></i> {{label}}</button>
+    {{/each}}
+    {{#if healing}}
+    <button type="button" data-vg-action="apply" data-mode="heal"><i class="fa-solid fa-heart"></i> {{localize "VAGABOND.Damage.ApplyHeal"}}</button>
+    {{else}}
+    <button type="button" data-vg-action="apply" data-mode="normal" data-tooltip="VAGABOND.Damage.ApplyHint"><i class="fa-solid fa-shield"></i> {{localize "VAGABOND.Damage.Apply"}}</button>
+    <button type="button" data-vg-action="apply" data-mode="ignoreArmor" data-tooltip="VAGABOND.Damage.IgnoreArmorHint"><i class="fa-solid fa-bolt"></i> {{localize "VAGABOND.Damage.IgnoreArmor"}}</button>
+    <button type="button" data-vg-action="apply" data-mode="half"><i class="fa-solid fa-circle-half-stroke"></i> {{localize "VAGABOND.Damage.Half"}}</button>
+    <button type="button" data-vg-action="apply" data-mode="heal"><i class="fa-solid fa-heart"></i> {{localize "VAGABOND.Damage.ApplyHeal"}}</button>
+    {{/if}}
+  </div>
+</div>

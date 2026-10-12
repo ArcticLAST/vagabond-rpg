@@ -1,0 +1,130 @@
+{
+  "_id": "HnJroKdQITfqRPH4",
+  "_key": "!actors!HnJroKdQITfqRPH4",
+  "name": "Carbuncle",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.6,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 3,
+      "armorTag": "as (+2) Hide",
+      "morale": 1,
+      "speed": {
+        "value": 10,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 136",
+      "description": "<p>A green, armadillo-like creature with a gorgeous ruby on its head. These rubies are worth roughly 800g, but the carbuncle is easily scared to death. If it dies, its body and the ruby dissolves into dust.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "tTkfNMm95cjvt2Kn",
+      "_key": "!actors.items!HnJroKdQITfqRPH4.tTkfNMm95cjvt2Kn",
+      "name": "Scare to Death",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it fails a Morale Check or becomes Frightened, it dies.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "C1fvZigFsxt2gLaw",
+      "_key": "!actors.items!HnJroKdQITfqRPH4.C1fvZigFsxt2gLaw",
+      "name": "Shattering Death",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When it dies, it shatters to dust.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Carbuncle",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

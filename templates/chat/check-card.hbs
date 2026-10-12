@@ -1,0 +1,60 @@
+<div class="vagabond chat-card check-card {{flags.outcome}}" data-actor-uuid="{{flags.actorUuid}}" data-item-uuid="{{flags.itemUuid}}">
+  <header class="card-header">
+    <img src="{{img}}" alt="" width="36" height="36">
+    <div class="card-titles">
+      <h3>{{title}}</h3>
+      {{#if subtitle}}<span class="card-subtitle">{{subtitle}}</span>{{/if}}
+    </div>
+  </header>
+
+  {{#if flags.summary.length}}<div class="card-tags cast-summary">{{#each flags.summary}}<span class="tag">{{this}}</span>{{/each}}</div>{{/if}}
+  {{#if body}}<div class="card-body">{{{body}}}</div>{{/if}}
+
+  <div class="card-result">
+    <span class="card-total" data-tooltip="VAGABOND.Roll.Natural">{{total}}</span>
+    <span class="card-vs">{{localize "VAGABOND.Difficulty"}} {{flags.difficulty}}</span>
+    <span class="outcome-badge {{flags.outcome}}">{{outcomeLabel}}</span>
+  </div>
+
+  <div class="card-tags">
+    <span class="tag">{{localize "VAGABOND.Roll.Natural"}} {{flags.natural}}</span>
+    {{#if favorLabel}}<span class="tag {{#if (gt flags.favor 0)}}favor{{else}}hinder{{/if}}">{{localize favorLabel}}</span>{{/if}}
+    {{#if (lt flags.critOn 20)}}<span class="tag">{{localize "VAGABOND.CritOn"}} {{flags.critOn}}+</span>{{/if}}
+    {{#each reasons}}<span class="tag reason">{{this}}</span>{{/each}}
+    {{#if autoFail}}<span class="tag hinder">{{localize "VAGABOND.Roll.AutoFail"}}{{#if autoFailReason}}: {{autoFailReason}}{{/if}}</span>{{/if}}
+    {{#if spendStudied}}<span class="tag luck">{{localize "VAGABOND.Studied.Spent"}}</span>{{/if}}
+    {{#if fluke}}<span class="tag luck">{{localize "VAGABOND.Luck.Fluke"}}</span>{{/if}}
+  </div>
+
+  {{#if (eq flags.outcome "crit")}}
+    {{#if critText}}<div class="card-crit"><strong>{{localize "VAGABOND.Outcome.crit"}}:</strong> {{critText}}</div>{{/if}}
+    {{#if (eq flags.type "save")}}<div class="card-crit">{{localize "VAGABOND.Roll.SaveCrit"}}</div>{{/if}}
+  {{/if}}
+
+  <div class="dice-roll">{{{tooltip}}}</div>
+
+  {{#if critChoice}}
+  <div class="crit-choice" data-tooltip="VAGABOND.Crit.ChoiceHint">
+    <span class="crit-choice-label"><i class="fa-solid fa-star"></i> {{localize "VAGABOND.Crit.Choose"}}</span>
+    {{#if showDamage}}<button type="button" data-vg-action="critDamage"><i class="fa-solid fa-burst"></i> {{localize "VAGABOND.Crit.Damage"}}</button>{{/if}}
+    <button type="button" data-vg-action="critLuck"><i class="fa-solid fa-clover"></i> {{localize "VAGABOND.Crit.Luck"}}</button>
+  </div>
+  {{/if}}
+
+  <div class="card-buttons">
+    {{#if showDamage}}
+    {{#if (eq flags.type "cast")}}<label class="dice-count" data-tooltip="VAGABOND.Cast.DiceHint"><input type="number" name="dice" value="{{#if flags.dice}}{{flags.dice}}{{else}}1{{/if}}" min="1" step="1"> d{{item.system.damageDie}}</label>{{/if}}
+    <button type="button" data-vg-action="damage"><i class="fa-solid fa-burst"></i> {{localize "VAGABOND.Roll.Damage"}}</button>
+    {{#if (and flags.sneakAttack (gt flags.favor 0))}}<button type="button" data-vg-action="sneakAttack" data-tooltip="VAGABOND.Feature.SneakAttackHint"><i class="fa-solid fa-user-ninja"></i> {{localize "VAGABOND.Feature.SneakAttack"}}</button>{{/if}}
+    {{/if}}
+    {{#if (and (eq flags.type "cast") flags.focus)}}
+    <button type="button" data-vg-action="focusMana" data-tooltip="VAGABOND.CastDialog.KeepFocusHint"><i class="fa-solid fa-eye"></i> {{localize "VAGABOND.CastDialog.KeepFocus"}}</button>
+    {{/if}}
+    {{#if canStudyPass}}
+    <button type="button" data-vg-action="studyPass" data-tooltip="VAGABOND.Studied.PassHint"><i class="fa-solid fa-book-open"></i> {{localize "VAGABOND.Studied.Pass"}}</button>
+    {{/if}}
+    {{#if canFluke}}
+    <button type="button" data-vg-action="fluke" data-tooltip="VAGABOND.Luck.FlukeHint"><i class="fa-solid fa-clover"></i> {{localize "VAGABOND.Luck.Fluke"}}</button>
+    {{/if}}
+  </div>
+</div>

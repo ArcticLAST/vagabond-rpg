@@ -1,0 +1,259 @@
+{
+  "_id": "qxhnhWZvLA2Oy5Dy",
+  "_key": "!actors!qxhnhWZvLA2Oy5Dy",
+  "name": "Octopus, Giant",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 8,
+    "tl": 4.8,
+    "attributes": {
+      "hp": {
+        "value": 36,
+        "max": 36
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 7,
+      "speed": {
+        "value": 10,
+        "types": "Swim 30'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 129",
+      "description": "<p>Cephalopods capable of taking down small boats.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "pnH17YPCKTKT6ZqH",
+      "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.pnH17YPCKTKT6ZqH",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Tentacle per Tentacle it has, up to 4.</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7NBAQoV5YCvc21di",
+      "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.7NBAQoV5YCvc21di",
+      "name": "Beak",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f6M3dLg3tZXlKzaB",
+      "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.f6M3dLg3tZXlKzaB",
+      "name": "Tentacle",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4) and Restrained if Medium or smaller</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dk2cEIk7rj3TNoDx",
+      "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.dk2cEIk7rj3TNoDx",
+      "name": "Amphibious",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can breathe air or water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xrufTH3wHiRWtbxZ",
+      "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.xrufTH3wHiRWtbxZ",
+      "name": "Ink Cloud",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it retreats, the surrounding 20' of water becomes obscured by ink for 1 minute.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tfACwtIieQpdjfpg",
+      "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.tfACwtIieQpdjfpg",
+      "name": "Tentacles",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Starts with 8. Targetting a Tentacle causes a -3 penalty to the Attack Check, but severs it if at least 6 damage is dealt with the attack.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Octopus, Giant",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

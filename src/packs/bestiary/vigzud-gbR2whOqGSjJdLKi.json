@@ -1,0 +1,323 @@
+{
+  "_id": "gbR2whOqGSjJdLKi",
+  "_key": "!actors!gbR2whOqGSjJdLKi",
+  "name": "Vigzud",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 5,
+    "tl": 3.5,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 4,
+      "speed": {
+        "value": 30,
+        "types": "Climb, Cling"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "outer",
+      "subtype": "Beyonder",
+      "zone": "midline",
+      "appearing": "d2",
+      "senses": "Darksight",
+      "immune": "Poison",
+      "weak": "",
+      "statusImmunities": "Berserk, Frightened, Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 166",
+      "description": "<p>A bearded, panther-like creature with the eyes of a spider.</p><p>The Vigzud was originally created by Amanda Lee Frank.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "ERkehQaZtRZITmg6",
+      "_key": "!actors.items!gbR2whOqGSjJdLKi.ERkehQaZtRZITmg6",
+      "name": "Web",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>Restrained by Web</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BAq2owPs6zpOZYRB",
+      "_key": "!actors.items!gbR2whOqGSjJdLKi.BAq2owPs6zpOZYRB",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6yIATp6bBxH4jQam",
+      "_key": "!actors.items!gbR2whOqGSjJdLKi.6yIATp6bBxH4jQam",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8) and pass [Will] or become Sickened (Cd4, Berserk).</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": true
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wFKFsSf2ShsGoBaS",
+      "_key": "!actors.items!gbR2whOqGSjJdLKi.wFKFsSf2ShsGoBaS",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UUFVJmzInQlBFFqB",
+      "_key": "!actors.items!gbR2whOqGSjJdLKi.UUFVJmzInQlBFFqB",
+      "name": "Bloodlust",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Beings at or below half HP are Vulnerable to its attacks.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "c0yrKIXATswHMKTh",
+      "_key": "!actors.items!gbR2whOqGSjJdLKi.c0yrKIXATswHMKTh",
+      "name": "Pouncer",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it moves at least 20' before making an Attack on the same Turn, the Target is shoved Prone if it is this Being's size or smaller.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WJGjRsCRBj6gyAAx",
+      "_key": "!actors.items!gbR2whOqGSjJdLKi.WJGjRsCRBj6gyAAx",
+      "name": "Web-Walk",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Its Move is not impeded by webbing.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sLV6eEPiuA5upFFa",
+      "_key": "!actors.items!gbR2whOqGSjJdLKi.sLV6eEPiuA5upFFa",
+      "name": "Web",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Its web is an Object with 5 HP and Armor 1. The webs are Difficult Terrain as a surface, and cause a Target to be Restrained if hit with a Web Spit Attack from the Vigzud.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Vigzud",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

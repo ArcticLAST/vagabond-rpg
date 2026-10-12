@@ -1,0 +1,182 @@
+{
+  "_id": "9vWgCpnqGkI3Xarc",
+  "_key": "!items!9vWgCpnqGkI3Xarc",
+  "name": "Dancer",
+  "type": "class",
+  "img": "icons/svg/d20-black.svg",
+  "system": {
+    "description": "<p>She moves abstract just  like a shadow dancing on the edge, like a storm cloud passing overhead, hypnotizing me. —Dillinger Escape Plan, One of Us is the Killer Dancers are practitioners of the alluring art of dance. They have a flair for enlivening their audience and giving awe-inspiring shows.</p><p>The dancer is a low-defense support with a focus on action efficiency. Grant Actions through Step Up, as your main offenses will occur when you Crit on Reflex Saves.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Midline (Step Up)</li><li><strong>Key Stat:</strong> Dexterity</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Finesse, Performance</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 35",
+    "keyStats": [
+      "dex"
+    ],
+    "trainings": [
+      "finesse",
+      "performance"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Attack · Midline (Step Up)",
+    "startingPacks": "<p>Courtesan or Musician</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Step Up",
+        "description": "<p>Once per Round when you Move, you can make a Finesse Check. On a pass, one Being of your choice other than yourself that sees you can immediately take an extra Action.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Footloose",
+        "description": "<p>You gain the Fallaway Reverse Perk (p. 68) and, when you make a Reflex Save, roll two d20s and use the higher result.</p>",
+        "grants": {
+          "perks": "Fallaway Reverse",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Evasive",
+        "description": "<p>Once per Round after another Being uses an Action or Move, you can Move 10' without using Speed and can continue moving using your remaining Speed. This free Speed increases by 5' every 4 Levels hereafter.</p><p><em>Dancer: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Captivator",
+        "description": "<p>When you pass a Finesse Check or Crit on any Save, you can cause a Being that can see you to become Berserk, Charmed, Confused, or Frightened for Cd4 Rounds. Once this ends, they are immune to this Ability for the Shift. This countdown die increases to a Cd6 at 8th Level.</p><p><em>Dancer: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Don't Stop Me Now",
+        "description": "<p>Difficult Terrain doesn't impede your walking Speed, and you have Favor on Saves against being Paralyzed, Restrained, grappled, or moved.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Double Time",
+        "description": "<p>You can use Step Up twice per Round, rather than once, and the Beings you use it on can also Move up to 10' without using their Speed that Turn.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

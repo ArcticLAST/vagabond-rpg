@@ -1,0 +1,130 @@
+{
+  "_id": "GJU76ymh3Gojnbey",
+  "_key": "!actors!GJU76ymh3Gojnbey",
+  "name": "Velociraptor",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 1.4,
+    "attributes": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 10,
+      "speed": {
+        "value": 45,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d6",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 132",
+      "description": "<p>A vicious reptilian carnivore from the lost world. It walks upright, and moves with blinding speed.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "JRVPCoQBzVyDLygs",
+      "_key": "!actors.items!GJU76ymh3Gojnbey.JRVPCoQBzVyDLygs",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WtavGV2GOag0mvRV",
+      "_key": "!actors.items!GJU76ymh3Gojnbey.WtavGV2GOag0mvRV",
+      "name": "Pack Hunter",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Targets within 5' of one of this Being's Allies are Vulnerable to its attacks.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Velociraptor",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_id": "jTe3X5siQgNSkZl8",
+  "_key": "!actors!jTe3X5siQgNSkZl8",
+  "name": "Tyrannosaurus Rex",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 20,
+    "tl": 6.8,
+    "attributes": {
+      "hp": {
+        "value": 90,
+        "max": 90
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 11,
+      "speed": {
+        "value": 50,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 132",
+      "description": "<p>The tyrant lizard that dominates regions that have been \"lost to time.\" Its massive jaws are nearly unstoppable by man.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "p2FUZevG9s00JHOC",
+      "_key": "!actors.items!jTe3X5siQgNSkZl8.p2FUZevG9s00JHOC",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>21 (6d6) and Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "6d6",
+        "average": 21,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Tyrannosaurus Rex",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

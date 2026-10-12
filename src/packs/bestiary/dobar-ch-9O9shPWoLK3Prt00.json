@@ -1,0 +1,163 @@
+{
+  "_id": "9O9shPWoLK3Prt00",
+  "_key": "!actors!9O9shPWoLK3Prt00",
+  "name": "Dobar-Chú",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 5.8,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 9,
+      "speed": {
+        "value": 30,
+        "types": "Swim 40'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d3",
+      "senses": "",
+      "immune": "",
+      "weak": "Shock",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 138",
+      "description": "<p>The \"water devil\" is a semi-aquatic mammal that appears to be a huge otter</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "BJoJGmGfB4Hw7Ebg",
+      "_key": "!actors.items!9O9shPWoLK3Prt00.BJoJGmGfB4Hw7Ebg",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8LigaEykLD4XO5CE",
+      "_key": "!actors.items!9O9shPWoLK3Prt00.8LigaEykLD4XO5CE",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SNrSA0MJhVws1lrd",
+      "_key": "!actors.items!9O9shPWoLK3Prt00.SNrSA0MJhVws1lrd",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>10 (3d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dobar-Chú",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

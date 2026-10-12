@@ -1,0 +1,35 @@
+{
+  "_id": "L6cD6AatC9B3MzZ7",
+  "_key": "!items!L6cD6AatC9B3MzZ7",
+  "name": "Orrery",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em>Astronomy &amp; Navigation</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 78",
+    "quantity": 1,
+    "slots": 2,
+    "value": 300.0,
+    "equipped": false,
+    "category": "tool",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

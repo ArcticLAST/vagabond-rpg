@@ -1,0 +1,98 @@
+{
+  "_id": "BzqPUUZRKtKiq8bT",
+  "_key": "!actors!BzqPUUZRKtKiq8bT",
+  "name": "Ant, Giant",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 2.9,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 7,
+      "speed": {
+        "value": 60,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d6+2",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 124",
+      "description": "<p>The incredibly hardy ant, increased to massive proportions. Their tunnels are the size of mineshafts, and an infestation of giant ants can topple a city.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "0By5BR1ARyJbyXdZ",
+      "_key": "!actors.items!BzqPUUZRKtKiq8bT.0By5BR1ARyJbyXdZ",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ant, Giant",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "FFLbvs7vPp9L1DB1",
+  "_key": "!actors!FFLbvs7vPp9L1DB1",
+  "name": "Green Slime",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 1.0,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 12,
+      "speed": {
+        "value": 0,
+        "types": "Cling"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "primordial",
+      "subtype": "Slime",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Acid, Poison",
+      "weak": "Cold, Fire",
+      "statusImmunities": "Blinded, Fatigue, Prone, Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 173",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "rJwdmwS66GFQZHNg",
+      "_key": "!actors.items!FFLbvs7vPp9L1DB1.rJwdmwS66GFQZHNg",
+      "name": "Amorphous",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can Move into occupied space as small as 1 inch without squeezing.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KoOqI6vbdUvdQuZ0",
+      "_key": "!actors.items!FFLbvs7vPp9L1DB1.KoOqI6vbdUvdQuZ0",
+      "name": "Consume",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Beings in its space are Burning (2d8). A Being that dies this way is dissolved, and becomes another green slime.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "T3kVd6EtHxn0Gr5s",
+      "_key": "!actors.items!FFLbvs7vPp9L1DB1.T3kVd6EtHxn0Gr5s",
+      "name": "Living Sick",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Sunlight and any effect that ends the Sickened Status or kills bacteria kills this Being.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Green Slime",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

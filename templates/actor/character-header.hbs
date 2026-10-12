@@ -1,0 +1,104 @@
+<header class="vg-header">
+  <img class="portrait" src="{{actor.img}}" alt="{{actor.name}}" {{#if editable}}data-action="editImage" data-edit="img"{{/if}}>
+  <div class="header-main">
+    <div class="name-row">
+      {{#if editMode}}
+      <input class="actor-name" type="text" name="name" value="{{actor.name}}" placeholder="{{localize 'Name'}}">
+      {{else}}
+      <h1 class="actor-name">{{actor.name}}</h1>
+      {{/if}}
+      <div class="level-box">
+        <label>{{localize "VAGABOND.Level"}}</label>
+        <input type="number" name="system.details.level" value="{{source.details.level}}" min="0" step="1" {{disabled (not editable)}}>
+      </div>
+      <div class="level-box xp">
+        <label>{{localize "VAGABOND.XP"}}</label>
+        <input type="number" name="system.details.xp" value="{{source.details.xp}}" min="0" step="1" {{disabled (not editable)}}>
+      </div>
+    </div>
+
+    <div class="identity">
+      {{#if classItem}}<a data-action="editItem" data-item-id="{{classItem.id}}" class="pill">{{classItem.name}}</a>{{else}}<span class="pill empty">{{localize "VAGABOND.Sheet.DropClass"}}</span>{{/if}}
+      {{#if ancestryItem}}<a data-action="editItem" data-item-id="{{ancestryItem.id}}" class="pill">{{ancestryItem.name}}</a>{{else}}<span class="pill empty">{{localize "VAGABOND.Sheet.DropAncestry"}}</span>{{/if}}
+      {{#if editMode}}
+      <select name="system.details.size">{{selectOptions sizes selected=source.details.size localize=true}}</select>
+      <select name="system.details.beingType">{{selectOptions beingTypes selected=source.details.beingType localize=true}}</select>
+      {{else}}
+      <span class="pill quiet">{{localize (lookup config.sizes system.details.size)}} {{localize (lookup config.beingTypes system.details.beingType)}}</span>
+      {{/if}}
+    </div>
+
+    <div class="resources">
+      <div class="resource hp" data-tooltip="VAGABOND.HPHint">
+        <label>{{localize "VAGABOND.HP"}}</label>
+        <div class="bar"><div class="fill" style="width: {{hpBar.pct}}%"></div>
+          <div class="values">
+            <input class="delta" type="text" name="system.attributes.hp.value" value="{{hpBar.value}}" data-dtype="Number" {{disabled (not editable)}}>
+            <span class="sep">/</span><span class="max">{{hpBar.max}}</span>
+          </div>
+        </div>
+      </div>
+      {{#if system.attributes.isCaster}}
+      <div class="resource mana">
+        <label>{{localize "VAGABOND.Mana"}}</label>
+        <div class="bar"><div class="fill" style="width: {{manaBar.pct}}%"></div>
+          <div class="values">
+            <input class="delta" type="text" name="system.attributes.mana.value" value="{{manaBar.value}}" data-dtype="Number" {{disabled (not editable)}}>
+            <span class="sep">/</span><span class="max">{{manaBar.max}}</span>
+          </div>
+        </div>
+      </div>
+      {{/if}}
+      <div class="resource box luck" data-tooltip="VAGABOND.Luck.Hint">
+        <label>{{localize "VAGABOND.Luck.Label"}}</label>
+        <div class="box-value">
+          <input class="delta" type="text" name="system.attributes.luck.value" value="{{system.attributes.luck.value}}" data-dtype="Number" {{disabled (not editable)}}>
+          <span class="max">/ {{system.attributes.luck.max}}</span>
+        </div>
+      </div>
+      <div class="resource box studied" data-tooltip="VAGABOND.Studied.Hint">
+        <label>{{localize "VAGABOND.Studied.Label"}}</label>
+        <div class="box-value">
+          <input class="delta" type="text" name="system.attributes.studied" value="{{system.attributes.studied}}" data-dtype="Number" {{disabled (not editable)}}>
+          {{#if editable}}<a class="box-link" data-action="study" data-tooltip="VAGABOND.Studied.StudyHint" aria-label="{{localize 'VAGABOND.Studied.Study'}}"><i class="fa-solid fa-plus"></i></a>
+          {{#if system.attributes.studied}}<a class="box-link" data-action="giveStudied" data-tooltip="VAGABOND.Studied.Give" aria-label="{{localize 'VAGABOND.Studied.Give'}}"><i class="fa-solid fa-hand-holding"></i></a>{{/if}}{{/if}}
+        </div>
+      </div>
+      <div class="resource box armor" data-tooltip="VAGABOND.ArmorHint">
+        <label>{{localize "VAGABOND.Armor"}}</label>
+        <div class="box-value"><i class="fa-solid fa-shield"></i> {{system.attributes.armor}}</div>
+      </div>
+      <div class="resource box speed" data-tooltip="{{localize 'VAGABOND.Speed.Crawl'}} {{system.attributes.speed.crawl}}' · {{localize 'VAGABOND.Speed.Travel'}} {{system.attributes.speed.travel}} mi">
+        <label>{{localize "VAGABOND.Speed.Label"}}</label>
+        <div class="box-value">{{#if mount}}<i class="fa-solid fa-horse" data-tooltip="{{mount.name}}"></i> {{/if}}{{system.attributes.speed.value}}'</div>
+      </div>
+      <div class="resource box fatigue">
+        <label>{{localize "VAGABOND.Fatigue"}}</label>
+        <div class="pips">
+          {{#each fatiguePips}}
+          <a class="pip {{#if active}}active{{/if}}" data-action="setFatigue" data-n="{{n}}" data-tooltip="{{n}}"></a>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+
+    <div class="header-buttons">
+      <div class="roll-mode" role="radiogroup" aria-label="{{localize 'VAGABOND.Roll.Mode'}}" data-tooltip="VAGABOND.Roll.ModeHint">
+        {{#each rollModes}}
+        <button type="button" class="{{cssClass}} {{#if active}}active{{/if}}" data-action="setRollMode" data-favor="{{value}}"
+          aria-pressed="{{active}}" {{disabled (not @root.editable)}}><i class="{{icon}}"></i> {{localize label}}</button>
+        {{/each}}
+        <button type="button" class="luck-toggle studied-toggle {{#if system.attributes.studiedArmed}}active{{/if}}" data-action="toggleStudied"
+          aria-pressed="{{system.attributes.studiedArmed}}" data-tooltip="VAGABOND.Studied.ArmHint"
+          {{disabled (or (not editable) (not system.attributes.studied))}}><i class="fa-solid fa-book-open"></i> {{localize "VAGABOND.Studied.Arm"}}</button>
+      </div>
+      {{#if editable}}
+      <button type="button" data-action="breather" data-tooltip="VAGABOND.Breather.Hint"><i class="fa-solid fa-mug-hot"></i> {{localize "VAGABOND.Breather.Title"}}</button>
+      <button type="button" data-action="rest" data-tooltip="VAGABOND.Rest.Hint"><i class="fa-solid fa-campground"></i> {{localize "VAGABOND.Rest.Title"}}</button>
+      {{#if classItem}}<button type="button" data-action="levelUp" data-tooltip="VAGABOND.Builder.LevelUpHint"><i class="fa-solid fa-angles-up"></i> {{localize "VAGABOND.Builder.LevelUp"}}</button>
+      {{else}}<button type="button" class="bright" data-action="openBuilder"><i class="fa-solid fa-hat-wizard"></i> {{localize "VAGABOND.Builder.Title"}}</button>{{/if}}
+      {{/if}}
+      {{#each warnings}}<span class="warning-pill"><i class="fa-solid fa-triangle-exclamation"></i> {{localize this}}</span>{{/each}}
+    </div>
+  </div>
+</header>

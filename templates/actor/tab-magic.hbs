@@ -1,0 +1,44 @@
+<section class="tab magic {{tab.cssClass}}" data-tab="magic" data-group="primary">
+  <div class="magic-summary">
+    <div class="box casting"><label>{{localize "VAGABOND.CastingSkill"}}</label>
+      {{#if editMode}}
+      <select name="system.attributes.castingSkill">
+        <option value="">{{localize "VAGABOND.Sheet.FromClass"}}</option>
+        {{selectOptions castingSkills selected=source.attributes.castingSkill localize=true}}
+      </select>
+      {{else}}<span>{{localize system.attributes.cast.label}}</span>{{/if}}
+    </div>
+    <div class="box"><label>{{localize "VAGABOND.Difficulty"}}</label><span>{{system.attributes.cast.difficulty}}</span></div>
+    <div class="box"><label>{{localize "VAGABOND.Mana"}}</label><span>{{system.attributes.mana.value}} / {{system.attributes.mana.max}}</span></div>
+    <div class="box"><label>{{localize "VAGABOND.CastMax"}}</label><span>{{system.attributes.castMax}}</span></div>
+    <div class="box"><label>{{localize "VAGABOND.SpellsKnown"}}</label><span>{{system.attributes.spellsKnown.value}} / {{system.attributes.spellsKnown.max}}</span></div>
+  </div>
+
+  <div class="item-section">
+    <div class="list-header">
+      <span class="col-name">{{localize "TYPES.Item.spellPl"}}</span>
+      <span class="col">{{localize "VAGABOND.Spell.DamageBase"}}</span>
+      <span class="col">{{localize "VAGABOND.Spell.Focus"}}</span>
+      <span class="col controls">{{#if editable}}<a data-action="createItem" data-type="spell" data-tooltip="VAGABOND.Sheet.Create"><i class="fa-solid fa-plus"></i></a>{{/if}}</span>
+    </div>
+    <ol class="item-list">
+      {{#each spells}}
+      <li class="item draggable" data-item-id="{{id}}">
+        <img class="item-img rollable" src="{{img}}" alt="" data-action="useItem" data-tooltip="VAGABOND.Cast.Cast">
+        <div class="item-name"><a data-action="toggleDescription">{{name}}</a>
+          {{#if system.crit}}<span class="item-sub">{{localize "VAGABOND.Outcome.crit"}}: {{system.crit}}</span>{{/if}}</div>
+        <span class="col">{{#if system.damageBase}}{{localize (lookup @root.config.damageBases system.damageBase)}}{{else}}—{{/if}}</span>
+        <span class="col">{{#if system.focus}}<i class="fa-solid fa-check"></i>{{/if}}</span>
+        <span class="col controls">
+          <a class="item-control ready-toggle {{#if system.readied}}active{{/if}}" data-action="toggleReady" data-tooltip="{{#if system.readied}}VAGABOND.Spell.Unready{{else}}VAGABOND.Spell.Ready{{/if}}"><i class="fa-{{#if system.readied}}solid{{else}}regular{{/if}} fa-bookmark"></i></a>
+          <a class="item-control" data-action="useItem" data-tooltip="VAGABOND.Cast.Cast"><i class="fa-solid fa-wand-sparkles"></i></a>
+          <a class="item-control" data-action="postSpell" data-tooltip="VAGABOND.Cast.Post"><i class="fa-solid fa-comment"></i></a>
+          {{> "systems/vagabond-rpg/templates/actor/parts/item-controls.hbs"}}</span>
+        {{> "systems/vagabond-rpg/templates/actor/parts/item-description.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "VAGABOND.Sheet.NoSpells"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+</section>

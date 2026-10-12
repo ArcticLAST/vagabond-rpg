@@ -1,0 +1,130 @@
+{
+  "_id": "fMUrgTRirW9RNxG3",
+  "_key": "!actors!fMUrgTRirW9RNxG3",
+  "name": "Hawk",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.2,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 6,
+      "speed": {
+        "value": 5,
+        "types": "Fly 30'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "d6",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 127",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "4IVYPXh05pEKcRiB",
+      "_key": "!actors.items!fMUrgTRirW9RNxG3.4IVYPXh05pEKcRiB",
+      "name": "Talon",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>1</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "1",
+        "average": 1,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sr1kMi0miBBt5FI3",
+      "_key": "!actors.items!fMUrgTRirW9RNxG3.Sr1kMi0miBBt5FI3",
+      "name": "Nimble",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hawk",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

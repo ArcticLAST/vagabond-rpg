@@ -1,0 +1,35 @@
+{
+  "_id": "G4E3UbNVbLA73N4r",
+  "_key": "!items!G4E3UbNVbLA73N4r",
+  "name": "Pole, collapsing (10')",
+  "type": "gear",
+  "img": "icons/commodities/wood/wood-pole.webp",
+  "system": {
+    "description": "<p><em>Hardware</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 81",
+    "quantity": 1,
+    "slots": 1,
+    "value": 100.0,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

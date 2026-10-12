@@ -1,0 +1,137 @@
+<div class="builder creature">
+  <section class="creature-layout">
+    <div class="creature-main">
+      {{#unless editing}}
+      <label class="wide creature-source"><span>{{localize "VAGABOND.CreatureBuilder.StartFrom"}}</span>
+        <select data-field="source">
+          <option value="" {{#unless build.source}}selected{{/unless}}>{{localize "VAGABOND.CreatureBuilder.Scratch"}}</option>
+          {{#each sources}}<optgroup label="{{label}}">{{#each entries}}<option value="{{uuid}}" {{#if selected}}selected{{/if}}>{{name}}</option>{{/each}}</optgroup>{{/each}}
+        </select>
+      </label>
+      {{/unless}}
+
+      <h3>{{localize "VAGABOND.CreatureBuilder.Identity"}}</h3>
+      <div class="creature-grid">
+        <label class="span2"><span>{{localize "Name"}}</span><input type="text" data-field="name" value="{{build.name}}" placeholder="{{localize "VAGABOND.CreatureBuilder.NameHint"}}"></label>
+        <label class="span2"><span>{{localize "VAGABOND.CreatureBuilder.Image"}}</span><input type="text" data-field="img" value="{{build.img}}"></label>
+        <label><span>{{localize "VAGABOND.CreatureBuilder.Size"}}</span><select data-field="size">{{#each sizes}}<option value="{{key}}" {{#if (eq key @root.build.size)}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+        <label><span>{{localize "VAGABOND.CreatureBuilder.BeingType"}}</span><select data-field="beingType">{{#each beingTypes}}<option value="{{key}}" {{#if (eq key @root.build.beingType)}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+        <label><span>{{localize "VAGABOND.CreatureBuilder.Subtype"}}</span><input type="text" data-field="subtype" value="{{build.subtype}}"></label>
+        <label><span>{{localize "VAGABOND.CreatureBuilder.Zone"}}</span><select data-field="zone">{{#each zones}}<option value="{{key}}" {{#if (eq key @root.build.zone)}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+        <label><span>{{localize "VAGABOND.CreatureBuilder.Appearing"}}</span><input type="text" data-field="appearing" value="{{build.appearing}}" placeholder="d6"></label>
+        <label><span>{{localize "VAGABOND.CreatureBuilder.Morale"}}</span><input type="number" min="0" data-field="morale" value="{{build.morale}}"></label>
+      </div>
+
+      <h3>{{localize "VAGABOND.CreatureBuilder.Defense"}}</h3>
+      <div class="creature-grid">
+        <label><span>{{localize "VAGABOND.CreatureBuilder.HD"}}</span><input type="number" min="0" data-field="hd" value="{{build.hd}}"></label>
+        <label><span>{{localize "VAGABOND.CreatureBuilder.HP"}}</span><input type="number" min="0" data-field="hpCustom" value="{{#if hpOverridden}}{{build.hpCustom}}{{/if}}" placeholder="{{plan.avgHP}}"></label>
+        <label class="checkbox span2"><input type="checkbox" data-field="tougher" {{checked build.tougher}}> {{localize "VAGABOND.CreatureBuilder.Tougher"}}</label>
+        <label class="span2"><span>{{localize "VAGABOND.CreatureBuilder.ArmorTag"}}</span>
+          <select data-field="armorTag">
+            {{#each armorTags}}<option value="{{tag}}" {{#if selected}}selected{{/if}}>{{tag}} ({{armor}})</option>{{/each}}
+            {{#if customTag}}<option value="{{build.armorTag}}" selected>{{build.armorTag}}</option>{{/if}}
+          </select>
+        </label>
+        <label><span>{{localize "VAGABOND.CreatureBuilder.Armor"}}</span><input type="number" min="0" data-field="armor" value="{{build.armor}}"></label>
+      </div>
+      <p class="hint">{{localize "VAGABOND.CreatureBuilder.HPHint"}}</p>
+      {{#each traits}}
+      <div class="trait-picker" data-trait-field="{{field}}">
+        <span class="trait-label">{{label}}</span>
+        <div class="trait-chips">
+          {{#each options}}<label class="trait-chip {{#if checked}}on{{/if}}"><input type="checkbox" data-trait="{{../field}}" value="{{key}}" {{checked checked}}>{{label}}</label>{{/each}}
+          <input type="text" class="trait-other" data-trait="{{field}}" data-trait-other value="{{other}}" placeholder="{{localize "VAGABOND.Trait.Other"}}">
+        </div>
+      </div>
+      {{/each}}
+
+      <h3>{{localize "VAGABOND.CreatureBuilder.Movement"}}</h3>
+      <div class="creature-grid">
+        <label><span>{{localize "VAGABOND.CreatureBuilder.Speed"}}</span><input type="number" min="0" data-field="speed" value="{{build.speed}}"></label>
+        <label class="span2"><span>{{localize "VAGABOND.CreatureBuilder.SpeedTypes"}}</span><input type="text" data-field="speedTypes" value="{{build.speedTypes}}" placeholder="{{localize "VAGABOND.CreatureBuilder.SpeedTypesHint"}}"></label>
+        <label class="span3"><span>{{localize "VAGABOND.CreatureBuilder.Senses"}}</span><input type="text" data-field="senses" value="{{build.senses}}" placeholder="{{localize "VAGABOND.CreatureBuilder.SensesHint"}}"></label>
+      </div>
+
+      <h3>{{localize "VAGABOND.CreatureBuilder.Actions"}}</h3>
+      <ol class="creature-actions">
+        {{#each actions}}
+        <li class="creature-action">
+          <div class="action-head">
+            <input type="text" class="action-name" data-field="action.{{index}}.name" value="{{name}}" placeholder="{{localize "VAGABOND.CreatureBuilder.ActionName"}}">
+            <select data-field="action.{{index}}.actionType">{{#each @root.actionTypes}}<option value="{{key}}" {{#if (eq key ../actionType)}}selected{{/if}}>{{label}}</option>{{/each}}</select>
+            <input type="text" data-field="action.{{index}}.tags" value="{{tags}}" placeholder="{{localize "VAGABOND.CreatureBuilder.Tags"}}">
+            <span class="action-controls">
+              <a data-action="moveAction" data-index="{{index}}" data-delta="-1" class="{{#if first}}disabled{{/if}}" data-tooltip="VAGABOND.CreatureBuilder.MoveUp"><i class="fa-solid fa-arrow-up"></i></a>
+              <a data-action="moveAction" data-index="{{index}}" data-delta="1" class="{{#if last}}disabled{{/if}}" data-tooltip="VAGABOND.CreatureBuilder.MoveDown"><i class="fa-solid fa-arrow-down"></i></a>
+              <a data-action="removeAction" data-index="{{index}}" data-tooltip="VAGABOND.Sheet.Delete"><i class="fa-solid fa-trash"></i></a>
+            </span>
+          </div>
+          <div class="action-stats">
+            {{#if hasDamage}}
+            <label><span>{{localize "VAGABOND.CreatureBuilder.Damage"}}</span><input type="text" data-field="action.{{index}}.damage" value="{{damage}}" placeholder="2d6"></label>
+            <span class="action-average">{{#if average}}{{localize "VAGABOND.CreatureBuilder.Average"}} {{average}}{{else}}&mdash;{{/if}}</span>
+            {{/if}}
+            <label><span>{{localize "VAGABOND.CreatureBuilder.SaveType"}}</span><select data-field="action.{{index}}.save">{{#each @root.saves}}<option value="{{key}}" {{#if (eq key ../save)}}selected{{/if}}>{{label}}</option>{{/each}}</select></label>
+            <label><span>{{localize "VAGABOND.CreatureBuilder.Recharge"}}</span><input type="text" data-field="action.{{index}}.recharge" value="{{recharge}}" placeholder="Cd4"></label>
+          </div>
+          <textarea data-field="action.{{index}}.text" rows="2" placeholder="{{#if (eq actionType "combo")}}{{localize "VAGABOND.CreatureBuilder.ComboHint"}}{{else}}{{localize "VAGABOND.CreatureBuilder.TextHint"}}{{/if}}">{{text}}</textarea>
+        </li>
+        {{else}}
+        <li class="hint">{{localize "VAGABOND.CreatureBuilder.NoActions"}}</li>
+        {{/each}}
+      </ol>
+      <div class="add-actions">
+        <button type="button" data-action="addAction" data-type="melee"><i class="fa-solid fa-plus"></i> {{localize "VAGABOND.ActionType.melee"}}</button>
+        <button type="button" data-action="addAction" data-type="ranged"><i class="fa-solid fa-plus"></i> {{localize "VAGABOND.ActionType.ranged"}}</button>
+        <button type="button" data-action="addAction" data-type="cast"><i class="fa-solid fa-plus"></i> {{localize "VAGABOND.ActionType.cast"}}</button>
+        <button type="button" data-action="addAction" data-type="combo"><i class="fa-solid fa-plus"></i> {{localize "VAGABOND.ActionType.combo"}}</button>
+        <button type="button" data-action="addAction" data-type="ability"><i class="fa-solid fa-plus"></i> {{localize "VAGABOND.ActionType.ability"}}</button>
+      </div>
+
+      <h3>{{localize "VAGABOND.CreatureBuilder.Description"}}</h3>
+      <textarea data-field="description" rows="4">{{build.description}}</textarea>
+    </div>
+
+    <aside class="creature-summary">
+      <h3>{{#if build.name}}{{build.name}}{{else}}{{localize "VAGABOND.CreatureBuilder.Unnamed"}}{{/if}}</h3>
+      <div class="tl-big"><span>{{localize "VAGABOND.CreatureBuilder.TL"}}</span><strong>{{plan.tl}}</strong></div>
+      <table class="tl-parts">
+        <tr><td>{{localize "VAGABOND.CreatureBuilder.PartArmor"}}</td><td>2 &times; {{build.armor}}</td><td>{{plan.parts.a}}</td></tr>
+        <tr><td>{{localize "VAGABOND.CreatureBuilder.PartHP"}}</td><td>{{plan.hp}} &divide; 10</td><td>{{plan.parts.b}}</td></tr>
+        <tr><td>{{localize "VAGABOND.CreatureBuilder.PartDPR"}}</td><td>{{plan.dpr}} &divide; 6</td><td>{{plan.parts.c}}</td></tr>
+      </table>
+      <p class="hint">{{localize "VAGABOND.CreatureBuilder.Formula"}}</p>
+      {{#if (ne build.bookTL null)}}{{#if (ne build.bookTL plan.tl)}}<p class="hint">{{localize "VAGABOND.CreatureBuilder.BookTL" tl=build.bookTL}}</p>{{/if}}{{/if}}
+
+      <div class="dpr-box">
+        <label><span>{{localize "VAGABOND.CreatureBuilder.DPR"}}</span>
+          <input type="number" min="0" data-field="dpr" value="{{#if dprOverridden}}{{build.dpr}}{{/if}}" placeholder="{{plan.suggestion.dpr}}">
+          {{#if dprOverridden}}<a data-action="resetDpr" data-tooltip="VAGABOND.CreatureBuilder.ResetDPR"><i class="fa-solid fa-rotate-left"></i></a>{{/if}}
+        </label>
+        <p class="hint">{{localize "VAGABOND.CreatureBuilder.Suggested"}}: {{plan.suggestion.dpr}}{{#if plan.suggestion.from}} ({{plan.suggestion.from}}){{/if}}</p>
+        <p class="hint">{{localize "VAGABOND.CreatureBuilder.HPTotal"}}: {{plan.hp}}{{#if build.tougher}} ({{localize "VAGABOND.CreatureBuilder.Tougher"}}){{/if}}</p>
+      </div>
+
+      <h4>{{localize "VAGABOND.CreatureBuilder.Compare"}}</h4>
+      <label><span>{{localize "VAGABOND.CreatureBuilder.TargetTL"}}</span>
+        <select data-field="targetTL">{{#each tlTable}}<option value="{{tl}}" {{#if selected}}selected{{/if}}>TL {{tl}}</option>{{/each}}</select>
+      </label>
+      <table class="tl-compare">
+        <thead><tr><th></th><th>{{localize "VAGABOND.CreatureBuilder.Typical"}}</th><th>{{localize "VAGABOND.CreatureBuilder.This"}}</th></tr></thead>
+        <tbody>
+          <tr><td>{{localize "VAGABOND.CreatureBuilder.HD"}}</td><td>{{plan.row.hd}}</td><td class="{{checkIcons.hd.cls}}">{{build.hd}} <i class="fa-solid {{checkIcons.hd.icon}}"></i></td></tr>
+          <tr><td>{{localize "VAGABOND.CreatureBuilder.HP"}}</td><td>{{plan.row.hp}}</td><td class="{{checkIcons.hp.cls}}">{{plan.hp}} <i class="fa-solid {{checkIcons.hp.icon}}"></i></td></tr>
+          <tr><td>{{localize "VAGABOND.CreatureBuilder.Armor"}}</td><td>{{plan.row.armor}}</td><td class="{{checkIcons.armor.cls}}">{{build.armor}} <i class="fa-solid {{checkIcons.armor.icon}}"></i></td></tr>
+          <tr><td>{{localize "VAGABOND.CreatureBuilder.DPR"}}</td><td>{{plan.row.dpr}}</td><td class="{{checkIcons.dpr.cls}}">{{plan.dpr}} <i class="fa-solid {{checkIcons.dpr.icon}}"></i></td></tr>
+        </tbody>
+      </table>
+      <p class="hint">{{localize "VAGABOND.CreatureBuilder.CompareHint"}}</p>
+    </aside>
+  </section>
+
+  <footer class="builder-footer">
+    <span class="hint">{{#if editing}}{{localize "VAGABOND.CreatureBuilder.EditHint"}}{{else}}{{localize "VAGABOND.CreatureBuilder.FooterHint"}}{{/if}}</span>
+    <button type="button" class="bright" data-action="save" {{disabled (not plan.valid)}}><i class="fa-solid fa-dragon"></i> {{#if editing}}{{localize "VAGABOND.CreatureBuilder.Save"}}{{else}}{{localize "VAGABOND.CreatureBuilder.Create"}}{{/if}}</button>
+  </footer>
+</div>

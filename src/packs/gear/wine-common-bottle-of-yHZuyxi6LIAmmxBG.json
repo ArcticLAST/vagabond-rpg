@@ -1,0 +1,35 @@
+{
+  "_id": "yHZuyxi6LIAmmxBG",
+  "_key": "!items!yHZuyxi6LIAmmxBG",
+  "name": "Wine, Common, bottle of",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em>Liquor &amp; Spirits</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 81",
+    "quantity": 1,
+    "slots": 1,
+    "value": 2.0,
+    "equipped": false,
+    "category": "consumable",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "Qrrf1OHriGGf7KsZ",
+  "_key": "!items!Qrrf1OHriGGf7KsZ",
+  "name": "Helm of Telepathy",
+  "type": "gear",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Helmet (Bound)</em></p><p>Gorgeous helmet which grants the wearer the following Power:</p><ul><li><strong>Telepathy:</strong> Telepathy (Far), which requires Focus.</li></ul><p>Value: 10000g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 105",
+    "quantity": 1,
+    "slots": 1,
+    "value": 1000000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

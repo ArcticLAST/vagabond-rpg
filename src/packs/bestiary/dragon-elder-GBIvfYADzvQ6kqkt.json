@@ -1,0 +1,483 @@
+{
+  "_id": "GBIvfYADzvQ6kqkt",
+  "_key": "!actors!GBIvfYADzvQ6kqkt",
+  "name": "Dragon, Elder",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 20,
+    "tl": 8.7,
+    "attributes": {
+      "hp": {
+        "value": 90,
+        "max": 90
+      },
+      "armor": 5,
+      "armorTag": "as (+1) Plate and Shield",
+      "morale": 11,
+      "speed": {
+        "value": 40,
+        "types": "Fly 80'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "cryptid",
+      "subtype": "Wyrm",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "See table below; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Berserk, Charmed, Confused, Frightened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 138",
+      "description": "<p>This version of the Dragon is inspired by Skerples' from The Monster Overhaul.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "BM8eOKSnp7rNIvJz",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.BM8eOKSnp7rNIvJz",
+      "name": "Breath Attack",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Begins this Attack, which occurs on its next Turn. Pick the breath for its color from the Breath Actions below.</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack | 1/2 dmg on pass",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aQBkYEhYeLbf9Z89",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.aQBkYEhYeLbf9Z89",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uJbzdwpMDhDxhPK3",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.uJbzdwpMDhDxhPK3",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>11 (2d10)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d10",
+        "average": 11,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UpgEOBD0FmUq0XtS",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.UpgEOBD0FmUq0XtS",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zeR7WZcmUg5mXXET",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.zeR7WZcmUg5mXXET",
+      "name": "Tail",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (d10) and shoved Prone 20' away</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack 10'",
+        "damage": "d10",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8CICL5iwZ2ePTddk",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.8CICL5iwZ2ePTddk",
+      "name": "Red Breath",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>21 (6d6), and Burning (Cd4) if failed. Red dragons are Immune to Fire.</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack, Far Cone | 1/2 dmg on pass",
+        "damage": "6d6",
+        "average": 21,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 5,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "O0p9ZF7SSqMHdLaF",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.O0p9ZF7SSqMHdLaF",
+      "name": "Blue Breath",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>19 (3d12), and Dazed (Cd4) if failed. Blue dragons are Immune to Shock.</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack, Far Line | 1/2 dmg on pass",
+        "damage": "3d12",
+        "average": 19,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 6,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tuKXNzQfZEJ6e15J",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.tuKXNzQfZEJ6e15J",
+      "name": "Green Breath",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>14 (4d6), and Sickened (Cd4 dmg) if failed. Green dragons are Immune to Poison.</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack, Near Aura | 1/2 dmg on pass",
+        "damage": "4d6",
+        "average": 14,
+        "damageType": "poison",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 7,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "O6lYwonztzB7ExAQ",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.O6lYwonztzB7ExAQ",
+      "name": "White Breath",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>14 (4d6), and Dazed (Cd4 Speed reduced by 15') if failed. White dragons are Immune to Cold.</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack, Far Cone | 1/2 dmg on pass",
+        "damage": "4d6",
+        "average": 14,
+        "damageType": "cold",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 8,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xpGVFLeNcmhYuNuK",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.xpGVFLeNcmhYuNuK",
+      "name": "Black Breath",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>10 (3d6), and Burning (Cd4) if failed. Black dragons are Immune to Acid.</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack, Far Line, 10' wide | 1/2 dmg on pass",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "acid",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 9,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1l8rwFzUkfbjZ1X3",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.1l8rwFzUkfbjZ1X3",
+      "name": "Immutable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fZ088d9F48GFjwTm",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.fZ088d9F48GFjwTm",
+      "name": "Magic Ward III",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 3 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "g5ZzjCtb3oEniRAO",
+      "_key": "!actors.items!GBIvfYADzvQ6kqkt.g5ZzjCtb3oEniRAO",
+      "name": "Terror I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Enemies that can see it for the first time and at the start of their Turns thereafter must pass [Will] or be Frightened (Cd4).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dragon, Elder",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

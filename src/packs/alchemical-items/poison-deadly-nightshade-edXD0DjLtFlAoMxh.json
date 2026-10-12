@@ -1,0 +1,35 @@
+{
+  "_id": "edXD0DjLtFlAoMxh",
+  "_key": "!items!edXD0DjLtFlAoMxh",
+  "name": "Poison, Deadly Nightshade",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
+  "system": {
+    "description": "<p>The Target is Sickened (Cd4 damage) and, if it is cursed with Lycanthropy, the curse is removed.</p><p><strong>Consumed:</strong> Affects Targets who consume it.</p><p><strong>Injury:</strong> Affects Targets who are injured with Weapons coated with it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 200.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "poison",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

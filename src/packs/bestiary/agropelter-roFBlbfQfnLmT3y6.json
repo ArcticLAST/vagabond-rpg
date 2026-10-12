@@ -1,0 +1,130 @@
+{
+  "_id": "roFBlbfQfnLmT3y6",
+  "_key": "!actors!roFBlbfQfnLmT3y6",
+  "name": "Agropelter",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 1.5,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 5,
+      "speed": {
+        "value": 30,
+        "types": "Climb"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "cryptid",
+      "subtype": "Beast",
+      "zone": "backline",
+      "appearing": "d6",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 134",
+      "description": "<p>A spindly, rubbery-limbed primate, known to attack from treetops. They have a particular distaste of woodcutters and, as the stories go, if you find a dead lumberjack with a log nearby, beware of agropelters in the area.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "JUCGVjAYYAkbK8sp",
+      "_key": "!actors.items!roFBlbfQfnLmT3y6.JUCGVjAYYAkbK8sp",
+      "name": "Log Throw",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack, Near",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FNwhzS463DfE8uet",
+      "_key": "!actors.items!roFBlbfQfnLmT3y6.FNwhzS463DfE8uet",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Agropelter",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

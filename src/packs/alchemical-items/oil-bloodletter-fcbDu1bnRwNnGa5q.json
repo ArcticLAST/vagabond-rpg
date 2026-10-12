@@ -1,0 +1,35 @@
+{
+  "_id": "fcbDu1bnRwNnGa5q",
+  "_key": "!items!fcbDu1bnRwNnGa5q",
+  "name": "Oil, Bloodletter",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "system": {
+    "description": "<p>Acts as basic oil. However, while coated on a Weapon that is then ignited, its damage from attacks that hit Beings with half their HP or less can Explode on a 1 and cause them to bleed profusely for the Shift, granting Favor on Survival Checks to track it for this time.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 500.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "oil",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

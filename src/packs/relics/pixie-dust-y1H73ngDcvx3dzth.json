@@ -1,0 +1,35 @@
+{
+  "_id": "y1H73ngDcvx3dzth",
+  "_key": "!items!y1H73ngDcvx3dzth",
+  "name": "Pixie Dust",
+  "type": "gear",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Dandruff (Consumable)</em></p><p>You can Use a single use of pixie dust to sprinkle on a Being, giving it a Fly Speed equal to its Walk Speed for 1 Minute.</p><p>Value: 10g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 107",
+    "quantity": 1,
+    "slots": 1,
+    "value": 1000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

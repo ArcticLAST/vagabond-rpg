@@ -1,0 +1,19 @@
+{
+  "_id": "laIOCrNBHqpFbqZU",
+  "_key": "!items!laIOCrNBHqpFbqZU",
+  "name": "Medic",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>As an Action, or during a Breather, you can heal a Close Being for (d6 + AWR or RSN) HP and remove the Blinded or Sickened Status. Doing so as an Action requires a passed Medicine or Survival Check. If healed, they can't be affected by this Ability for a Shift.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Trained: Medicine or Survival"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

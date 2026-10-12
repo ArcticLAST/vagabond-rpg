@@ -1,0 +1,87 @@
+{
+  "_id": "UKdn6XOeWxbbOhku",
+  "_key": "!items!UKdn6XOeWxbbOhku",
+  "name": "Draken",
+  "type": "ancestry",
+  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "system": {
+    "description": "<p>Resembling humanoid dragons, Draken are relatives of the terrifying dragons of legend.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 25",
+    "beingType": "cryptid",
+    "size": "medium",
+    "trainings": [],
+    "traits": [
+      {
+        "level": 1,
+        "name": "Breath Attack",
+        "description": "<p>You have a Breath Attack that requires an Action to begin. On a subsequent Turn within the same Scene, you can then use an Action or skip your Move to exhale a 15' Cone of energy that deals 2d6!, using an Endure or Will Save for the Check.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Scale",
+        "description": "<p>You have a +1 bonus to Armor.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Draconic Resilience",
+        "description": "<p>You take half damage from a source of your choice from either Acid, Cold, Fire, or Shock.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [
+    {
+      "_id": "TkkS9NkbUtDzoece",
+      "_key": "!items.effects!UKdn6XOeWxbbOhku.TkkS9NkbUtDzoece",
+      "name": "Scale",
+      "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.armor",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

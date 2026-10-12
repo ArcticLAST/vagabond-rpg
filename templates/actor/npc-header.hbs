@@ -1,0 +1,44 @@
+<header class="vg-header npc-header">
+  <img class="portrait" src="{{actor.img}}" alt="{{actor.name}}" {{#if editable}}data-action="editImage" data-edit="img"{{/if}}>
+  <div class="header-main">
+    <div class="name-row">
+      {{#if editMode}}<input class="actor-name" type="text" name="name" value="{{actor.name}}">{{else}}<h1 class="actor-name">{{actor.name}}</h1>{{/if}}
+      <div class="level-box"><label>{{localize "VAGABOND.NPC.TL"}}</label>
+        <input type="number" name="system.tl" value="{{source.tl}}" min="0" step="0.1" {{disabled (not editMode)}}></div>
+    </div>
+    <div class="identity">
+      {{#if editMode}}
+      <select name="system.details.size">{{selectOptions sizes selected=source.details.size localize=true}}</select>
+      <select name="system.details.beingType">{{selectOptions beingTypes selected=source.details.beingType localize=true}}</select>
+      <input type="text" name="system.details.subtype" value="{{source.details.subtype}}" placeholder="{{localize 'VAGABOND.NPC.Subtype'}}">
+      {{else}}<span class="pill quiet">{{typeLabel}}</span>{{/if}}
+    </div>
+    <div class="resources">
+      <div class="resource hp">
+        <label>{{localize "VAGABOND.HP"}}</label>
+        <div class="bar"><div class="fill" style="width: {{hpBar.pct}}%"></div>
+          <div class="values">
+            <input class="delta" type="text" name="system.attributes.hp.value" value="{{hpBar.value}}" data-dtype="Number" {{disabled (not editable)}}>
+            <span class="sep">/</span>
+            {{#if editMode}}<input type="number" name="system.attributes.hp.max" value="{{source.attributes.hp.max}}" min="0">{{else}}<span class="max">{{hpBar.max}}</span>{{/if}}
+          </div>
+        </div>
+      </div>
+      <div class="resource box"><label>{{localize "VAGABOND.NPC.HD"}}</label>
+        <div class="box-value"><input type="number" name="system.hd" value="{{source.hd}}" min="0" {{disabled (not editMode)}}></div></div>
+      <div class="resource box"><label>{{localize "VAGABOND.Armor"}}</label>
+        <div class="box-value"><input type="number" name="system.attributes.armor" value="{{source.attributes.armor}}" min="0" {{disabled (not editMode)}}></div></div>
+      <div class="resource box"><label>{{localize "VAGABOND.Morale.Label"}}</label>
+        <div class="box-value">
+          {{#if editMode}}<input type="number" name="system.attributes.morale" value="{{source.attributes.morale}}" min="2" max="12">
+          {{else}}<a data-action="rollMorale" class="rollable" data-tooltip="VAGABOND.Morale.Check">{{#if (eq system.attributes.morale null)}}—{{else}}{{system.attributes.morale}}{{/if}} <i class="fa-solid fa-dice"></i></a>{{/if}}
+        </div></div>
+    </div>
+    {{#if editable}}
+    <div class="header-buttons">
+      <button type="button" data-action="rollHP"><i class="fa-solid fa-dice-d6"></i> {{localize "VAGABOND.NPC.RollHP"}}</button>
+      <button type="button" data-action="averageHP"><i class="fa-solid fa-equals"></i> {{localize "VAGABOND.NPC.AverageHP"}} ({{system.attributes.averageHP}})</button>
+    </div>
+    {{/if}}
+  </div>
+</header>

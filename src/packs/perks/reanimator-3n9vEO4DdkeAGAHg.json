@@ -1,0 +1,19 @@
+{
+  "_id": "3n9vEO4DdkeAGAHg",
+  "_key": "!items!3n9vEO4DdkeAGAHg",
+  "name": "Reanimator",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can conduct a Ritual (p. 10) with a corpse that was not an Artificial or Undead, and that has HD no higher than your Level. Doing so raises it as per the Raise Spell (p. 97). It is under your control until you perform this Ritual again. It uses either your Arcana, Craft, or Mysticism Skill for Checks.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Trained: Craft & either Arcana or Mysticism"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "NyXhthhTiIWJLg3x",
+  "_key": "!items!NyXhthhTiIWJLg3x",
+  "name": "Interceptor",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Once per Round, when an Enemy within your reach begins to Move, you can immediately make one Melee attack Targeting it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 4+ | Trained: Melee"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

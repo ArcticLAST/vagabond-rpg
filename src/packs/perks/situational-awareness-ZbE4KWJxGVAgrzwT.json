@@ -1,0 +1,19 @@
+{
+  "_id": "ZbE4KWJxGVAgrzwT",
+  "_key": "!items!ZbE4KWJxGVAgrzwT",
+  "name": "Situational Awareness",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You have Favor on Checks against surprise, and getting Flanked doesn't make you Vulnerable.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 7 | Trained: Detect"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,130 @@
+{
+  "_id": "9FwHhwOTk2UVFHVw",
+  "_key": "!actors!9FwHhwOTk2UVFHVw",
+  "name": "Basilisk",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 3.1,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 8,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "cryptid",
+      "subtype": "Wyrm",
+      "zone": "midline",
+      "appearing": "d4",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 135",
+      "description": "<p>Reptilian horrors with the ability to turn flesh to stone with a mere gaze.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "eTIsV5MD83kXtioK",
+      "_key": "!actors.items!9FwHhwOTk2UVFHVw.eTIsV5MD83kXtioK",
+      "name": "Gaze",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Cursed (Continual, turned to stone)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, a Being looking at it | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nm6zMm1ZCW1TPgR3",
+      "_key": "!actors.items!9FwHhwOTk2UVFHVw.nm6zMm1ZCW1TPgR3",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (d10) and pass an [Endure] Save or be Cursed (Continual, turned to stone)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d10",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Basilisk",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "_id": "3ODypbP9pRUfUXbt",
+  "_key": "!actors!3ODypbP9pRUfUXbt",
+  "name": "Roc",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 36,
+    "tl": 11.4,
+    "attributes": {
+      "hp": {
+        "value": 162,
+        "max": 162
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 10,
+      "speed": {
+        "value": 20,
+        "types": "Fly 160'"
+      }
+    },
+    "details": {
+      "size": "colossal",
+      "beingType": "cryptid",
+      "subtype": "Beast",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Allsight, Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 147",
+      "description": "<p>Birds of legend, rocs are known to prey on elephants, and have the power to sink ships.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "1tuzD5fodMVXlo6x",
+      "_key": "!actors.items!3ODypbP9pRUfUXbt.1tuzD5fodMVXlo6x",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Beak</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cKrWWwMfqmCoN7gm",
+      "_key": "!actors.items!3ODypbP9pRUfUXbt.cKrWWwMfqmCoN7gm",
+      "name": "Beak",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>28 (8d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "8d6",
+        "average": 28,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6oRBp3q1E3DJ7jCe",
+      "_key": "!actors.items!3ODypbP9pRUfUXbt.6oRBp3q1E3DJ7jCe",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Restrained if it's this Being's second Claw attack to hit it this Turn.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sjqee2EQEVD4zgJf",
+      "_key": "!actors.items!3ODypbP9pRUfUXbt.sjqee2EQEVD4zgJf",
+      "name": "Dive Bomb",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it flies at least 20' toward a Target before making an attack, the attack deals double damage.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Roc",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

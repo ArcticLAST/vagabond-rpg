@@ -1,0 +1,130 @@
+{
+  "_id": "l99jb3859Jbd0E47",
+  "_key": "!actors!l99jb3859Jbd0E47",
+  "name": "Imp",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 2.0,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 2,
+      "speed": {
+        "value": 10,
+        "types": "Fly 40'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "outer",
+      "subtype": "Hellspawn",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Fire, Poison",
+      "weak": "",
+      "statusImmunities": "Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 161",
+      "description": "<p>Owl-sized devils who often form their pacts by volunteering as familiars for diabolic mages.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "3I4ceKrJZSSRADNe",
+      "_key": "!actors.items!l99jb3859Jbd0E47.3I4ceKrJZSSRADNe",
+      "name": "Sting",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4) and pass [Endure] or Sickened (Cd4, Unconscious)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iVZvwOxptoH8TRKM",
+      "_key": "!actors.items!l99jb3859Jbd0E47.iVZvwOxptoH8TRKM",
+      "name": "Magic Ward I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Imp",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

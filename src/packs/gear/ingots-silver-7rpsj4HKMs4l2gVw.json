@@ -1,0 +1,35 @@
+{
+  "_id": "7rpsj4HKMs4l2gVw",
+  "_key": "!items!7rpsj4HKMs4l2gVw",
+  "name": "Ingots, Silver",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em>Smithy</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 82",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "treasure",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

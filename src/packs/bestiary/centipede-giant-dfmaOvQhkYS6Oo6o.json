@@ -1,0 +1,98 @@
+{
+  "_id": "dfmaOvQhkYS6Oo6o",
+  "_key": "!actors!dfmaOvQhkYS6Oo6o",
+  "name": "Centipede, Giant",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 0.1,
+    "attributes": {
+      "hp": {
+        "value": 2,
+        "max": 2
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 7,
+      "speed": {
+        "value": 20,
+        "types": "Climb"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d4",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 126",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "UHP2HowEXzXt85iA",
+      "_key": "!actors.items!dfmaOvQhkYS6Oo6o.UHP2HowEXzXt85iA",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Pass [Endure] or become Sickened (Cd4, Paralyzed)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Centipede, Giant",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

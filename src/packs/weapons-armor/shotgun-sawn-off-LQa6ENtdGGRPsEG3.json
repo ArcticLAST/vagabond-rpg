@@ -1,0 +1,44 @@
+{
+  "_id": "LQa6ENtdGGRPsEG3",
+  "_key": "!items!LQa6ENtdGGRPsEG3",
+  "name": "Shotgun, sawn-off",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 160.0,
+    "equipped": false,
+    "types": {
+      "melee": false,
+      "brawl": false,
+      "finesse": false,
+      "ranged": true
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": true
+    },
+    "range": "near",
+    "grip": "1h",
+    "damage": "d6",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

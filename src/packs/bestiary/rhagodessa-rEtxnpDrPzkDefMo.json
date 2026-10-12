@@ -1,0 +1,163 @@
+{
+  "_id": "rEtxnpDrPzkDefMo",
+  "_key": "!actors!rEtxnpDrPzkDefMo",
+  "name": "Rhagodessa",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 3.0,
+    "attributes": {
+      "hp": {
+        "value": 20,
+        "max": 20
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 9,
+      "speed": {
+        "value": 50,
+        "types": "Cling"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "Beast",
+      "zone": "frontline",
+      "appearing": "d6",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 147",
+      "description": "<p>In the deepest caves, the 10-legged rhagodessa hunts. These massive camel spider-like creatures have yellow markings all over their brown bodies, and are known to devour human flesh.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "cTuyVXiQc3QsfiqW",
+      "_key": "!actors.items!rEtxnpDrPzkDefMo.cTuyVXiQc3QsfiqW",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Sucker and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "kdibw1jZxjcwpKgv",
+      "_key": "!actors.items!rEtxnpDrPzkDefMo.kdibw1jZxjcwpKgv",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lAaMZPJJD6EIe7Is",
+      "_key": "!actors.items!rEtxnpDrPzkDefMo.lAaMZPJJD6EIe7Is",
+      "name": "Sucker",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Rhagodessa",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

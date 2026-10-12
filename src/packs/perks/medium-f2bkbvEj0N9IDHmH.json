@@ -1,0 +1,19 @@
+{
+  "_id": "f2bkbvEj0N9IDHmH",
+  "_key": "!items!f2bkbvEj0N9IDHmH",
+  "name": "Medium",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can conduct a Ritual (p. 10) to ask up to 3 questions from the GM which can only be answered with a \"yes\" or \"no.\" The GM will answer these questions truthfully (if possible). Afterward, you can't conduct this Ritual until you complete a Quest.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 4+ | Trained: Mysticism"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

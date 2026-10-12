@@ -1,0 +1,130 @@
+{
+  "_id": "DgWLX10GaQKGRSu2",
+  "_key": "!actors!DgWLX10GaQKGRSu2",
+  "name": "Slug, Giant",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 12,
+    "tl": 4.2,
+    "attributes": {
+      "hp": {
+        "value": 54,
+        "max": 54
+      },
+      "armor": 1,
+      "armorTag": "as Unarmored plus Shield",
+      "morale": 7,
+      "speed": {
+        "value": 10,
+        "types": "Cling"
+      }
+    },
+    "details": {
+      "size": "giant",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "Blunt from non-Relics",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 131",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "FAdpUyC9DX2eDnfD",
+      "_key": "!actors.items!DgWLX10GaQKGRSu2.FAdpUyC9DX2eDnfD",
+      "name": "Acid Spit",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Burning (Cd6)</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack, Near",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "acid",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qTY6jFocV3bdIJlC",
+      "_key": "!actors.items!DgWLX10GaQKGRSu2.qTY6jFocV3bdIJlC",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Slug, Giant",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

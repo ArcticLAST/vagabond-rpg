@@ -1,0 +1,46 @@
+{
+  "_id": "GoK7srx2NRjcm0K9",
+  "_key": "!items!GoK7srx2NRjcm0K9",
+  "name": "Peacemaker",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Revolver</em></p><p>Revolver which silvers all bullets fired from it. It has the following Powers:</p><ul><li><strong>(+2) Weapon:</strong> Deals an extra +2 damage.</li><li><strong>Silvering:</strong> Attacks with it count as Silvered.</li><li><strong>Personality:</strong> Will only fire at hostile foes.</li></ul><p>Value: 5000g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 106",
+    "quantity": 1,
+    "slots": 1,
+    "value": 500000,
+    "equipped": false,
+    "types": {
+      "melee": false,
+      "brawl": false,
+      "finesse": false,
+      "ranged": true
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "far",
+    "grip": "1h",
+    "damage": "d4",
+    "twoHanded": false,
+    "metal": "silver",
+    "bonus": 2,
+    "crude": false,
+    "relic": true,
+    "damageType": "physical"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

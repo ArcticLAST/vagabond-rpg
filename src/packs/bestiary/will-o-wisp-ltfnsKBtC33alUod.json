@@ -1,0 +1,194 @@
+{
+  "_id": "ltfnsKBtC33alUod",
+  "_key": "!actors!ltfnsKBtC33alUod",
+  "name": "Will o' Wisp",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 3.6,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 11,
+      "speed": {
+        "value": 0,
+        "types": "Fly 50', Phase"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "fae",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "d6",
+      "senses": "Darksight",
+      "immune": "Physical",
+      "weak": "",
+      "statusImmunities": "Charmed, Fatigue, Paralyzed, Prone, Restrained, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 157",
+      "description": "<p>Chaotic spirit motes that dwell in swamps. They can send a burst of spiritual energy that zaps the essence from a mortal.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "S3HCpuhe9TSpVQwi",
+      "_key": "!actors.items!ltfnsKBtC33alUod.S3HCpuhe9TSpVQwi",
+      "name": "Life Zap",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>5 (d10), healing this Being for the damage dealt</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch | Endure",
+        "damage": "d10",
+        "average": 5,
+        "damageType": "shock",
+        "save": "endure",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5ZVwR4xFMgAiw5Yc",
+      "_key": "!actors.items!ltfnsKBtC33alUod.5ZVwR4xFMgAiw5Yc",
+      "name": "Dissipate",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Invisible for the duration.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Self (Focus)",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0DD1IntQznYu15A3",
+      "_key": "!actors.items!ltfnsKBtC33alUod.0DD1IntQznYu15A3",
+      "name": "Wyrd Ward",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Cast Checks Targeting it are Hindered, as are attacks made with Magically-enhanced Weapons.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Wgq3zbLXj0Jjqf0Q",
+      "_key": "!actors.items!ltfnsKBtC33alUod.Wgq3zbLXj0Jjqf0Q",
+      "name": "Illuminating",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Sheds Light out to 30'.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Will o' Wisp",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

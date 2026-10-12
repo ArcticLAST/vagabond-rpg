@@ -1,0 +1,6 @@
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Quantity"}}</label><input type="number" name="system.quantity" value="{{source.quantity}}" min="0"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Slots"}}</label><input type="number" name="system.slots" value="{{source.slots}}" min="0"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Value"}}</label><input type="number" name="system.value" value="{{source.value}}" min="0" step="any" data-tooltip="VAGABOND.ValueHint"></div>
+  <div class="form-group checkbox"><label>{{localize "VAGABOND.Sheet.Equipped"}}</label><input type="checkbox" name="system.equipped" {{checked source.equipped}}></div>
+</div>

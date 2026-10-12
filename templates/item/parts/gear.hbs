@@ -1,0 +1,34 @@
+{{> "systems/vagabond-rpg/templates/item/parts/_physical.hbs"}}
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.GearCategory.Label"}}</label><select name="system.category">{{selectOptions options.gearCategories selected=source.category localize=true}}</select></div>
+  {{#if (eq source.category "alchemical")}}
+  <div class="form-group"><label>{{localize "VAGABOND.AlchemicalType.Label"}}</label><select name="system.alchemicalType">{{selectOptions options.alchemicalTypes selected=source.alchemicalType localize=true blank=""}}</select></div>
+  {{/if}}
+  <div class="form-group checkbox"><label>{{localize "VAGABOND.Gear.Consumable"}}</label><input type="checkbox" name="system.consumable" {{checked source.consumable}}></div>
+</div>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Uses"}}</label><input type="number" name="system.uses.value" value="{{source.uses.value}}" min="0"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.UsesMax"}}</label><input type="number" name="system.uses.max" value="{{source.uses.max}}" min="0"></div>
+  <div class="form-group"><label data-tooltip="VAGABOND.Gear.SlotsBonusHint">{{localize "VAGABOND.Gear.SlotsBonus"}}</label><input type="number" name="system.slotsBonus" value="{{source.slotsBonus}}"></div>
+</div>
+<fieldset><legend>{{localize "VAGABOND.Gear.Roll"}}</legend>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Formula"}}</label><input type="text" name="system.roll.formula" value="{{source.roll.formula}}" placeholder="2d6"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.RollType.Label"}}</label><select name="system.roll.type">{{selectOptions options.rollTypes selected=source.roll.type localize=true}}</select></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Saves"}}</label><select name="system.roll.save">{{selectOptions options.saves selected=source.roll.save localize=true}}</select></div>
+  {{#if (eq source.roll.type "damage")}}<div class="form-group"><label>{{localize "VAGABOND.Damage.Type"}}</label><select name="system.roll.damageType">{{selectOptions options.actionDamageTypes selected=source.roll.damageType localize=true}}</select></div>{{/if}}
+</div>
+</fieldset>
+{{#if system.isKit}}
+<fieldset class="kit-contents" data-kit-drop>
+  <legend>{{localize "VAGABOND.Kit.Contents"}}</legend>
+  <ul class="kit-list">
+    {{#each system.contents}}
+    <li><span class="kit-name">{{#if uuid}}{{{lookup @root.kitLinks @index}}}{{else}}{{name}}{{/if}}</span>{{#if (gt quantity 1)}} <span class="kit-qty">×{{quantity}}</span>{{/if}}
+      {{#if @root.editable}}<a data-action="deleteRow" data-list="contents" data-index="{{@index}}" data-tooltip="VAGABOND.Sheet.Delete"><i class="fa-solid fa-trash"></i></a>{{/if}}</li>
+    {{/each}}
+  </ul>
+  {{#if editable}}<p class="hint">{{localize "VAGABOND.Kit.DropHint"}}</p>{{/if}}
+  <div class="form-group"><label>{{localize "VAGABOND.Kit.Wealth"}}</label><input type="number" name="system.wealth" value="{{source.wealth}}" min="0"></div>
+</fieldset>
+{{/if}}

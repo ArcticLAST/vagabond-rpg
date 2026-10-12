@@ -1,0 +1,194 @@
+{
+  "_id": "DHOK0tdcDAAu1uL5",
+  "_key": "!actors!DHOK0tdcDAAu1uL5",
+  "name": "Air Bubble",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 1.6,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 10,
+      "speed": {
+        "value": 0,
+        "types": "Fly 20'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "primordial",
+      "subtype": "Slime",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Acid, Blunt, Slash",
+      "weak": "",
+      "statusImmunities": "Blinded, Charmed, Fatigue, Prone, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 168",
+      "description": "<p>Floating masses of highly acrid air.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "yHROypqFE5KteJRD",
+      "_key": "!actors.items!DHOK0tdcDAAu1uL5.yHROypqFE5KteJRD",
+      "name": "Engulf",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9T70XjGss7qa0pXh",
+      "_key": "!actors.items!DHOK0tdcDAAu1uL5.9T70XjGss7qa0pXh",
+      "name": "Seep",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "STc1FhA9StnxIIMM",
+      "_key": "!actors.items!DHOK0tdcDAAu1uL5.STc1FhA9StnxIIMM",
+      "name": "Engulfer",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Beings that share its space are Burning (2d4).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pqlTIOw1uVIhc2rZ",
+      "_key": "!actors.items!DHOK0tdcDAAu1uL5.pqlTIOw1uVIhc2rZ",
+      "name": "Sticky",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Hinders attempts to end being Restrained by it. Beings that make physical contact with it must pass [Endure] or be Restrained.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Air Bubble",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

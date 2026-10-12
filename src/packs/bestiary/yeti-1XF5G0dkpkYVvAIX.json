@@ -1,0 +1,163 @@
+{
+  "_id": "1XF5G0dkpkYVvAIX",
+  "_key": "!actors!1XF5G0dkpkYVvAIX",
+  "name": "Yeti",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 5,
+    "tl": 3.5,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 9,
+      "speed": {
+        "value": 40,
+        "types": "Climb"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Cold",
+      "weak": "Fire",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 152",
+      "description": "<p>Fuzzy, ape-like flesheaters that occupy the most extreme arctic areas. Their white fur and icy pale blue eyes embody wintry terror.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "vaqFzwLCEnYIHfpU",
+      "_key": "!actors.items!1XF5G0dkpkYVvAIX.vaqFzwLCEnYIHfpU",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uK3VZOwRN8k8Adat",
+      "_key": "!actors.items!1XF5G0dkpkYVvAIX.uK3VZOwRN8k8Adat",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6) plus 9 (2d8) if failed by 5 or more</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lskEUzbxN9YVz6HD",
+      "_key": "!actors.items!1XF5G0dkpkYVvAIX.lskEUzbxN9YVz6HD",
+      "name": "Terror Glare",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Frightened (Cd4, Paralyzed)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Sight | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "1/Day",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Yeti",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "_id": "AkisVsF2uBKKevlN",
+  "_key": "!actors!AkisVsF2uBKKevlN",
+  "name": "Minotaur",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 3.9,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 12,
+      "speed": {
+        "value": 40,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d6",
+      "senses": "Allsight (only in labyrinth)",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 145",
+      "description": "<p>Terrifying bull-like humanoids of gigantic stature and power. Usually found wandering labyrinths.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "uD9HnUsYz5bSZ5jm",
+      "_key": "!actors.items!AkisVsF2uBKKevlN.uD9HnUsYz5bSZ5jm",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Gore and 1×Greataxe</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "V17RtoKIE0hHMs9I",
+      "_key": "!actors.items!AkisVsF2uBKKevlN.V17RtoKIE0hHMs9I",
+      "name": "Gore",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (3d4) and Prone if failed by 10 or more.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d4",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FRp2tOIXWhs7BodB",
+      "_key": "!actors.items!AkisVsF2uBKKevlN.FRp2tOIXWhs7BodB",
+      "name": "Greataxe",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (d10) or half to two Targets</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Cleave",
+        "damage": "d10",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Minotaur",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "_id": "4n1nWiefCueQGr95",
+  "_key": "!actors!4n1nWiefCueQGr95",
+  "name": "Sea Serpent",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 14,
+    "tl": 6.2,
+    "attributes": {
+      "hp": {
+        "value": 63,
+        "max": 63
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 9,
+      "speed": {
+        "value": 0,
+        "types": "Swim 80'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "cryptid",
+      "subtype": "Wyrm",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Cold, Shock",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 148",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "QHVzsYNGMxTmFP6v",
+      "_key": "!actors.items!4n1nWiefCueQGr95.QHVzsYNGMxTmFP6v",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Bite or 1×Constrict</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mcsnJXB4lbNQCR4f",
+      "_key": "!actors.items!4n1nWiefCueQGr95.mcsnJXB4lbNQCR4f",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Restrained if smaller</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FvZRBQX8jhn6VnHg",
+      "_key": "!actors.items!4n1nWiefCueQGr95.FvZRBQX8jhn6VnHg",
+      "name": "Constrict",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>11 (2d10) and Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near Vessel",
+        "damage": "2d10",
+        "average": 11,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lhd48d9LIIjhFraP",
+      "_key": "!actors.items!4n1nWiefCueQGr95.lhd48d9LIIjhFraP",
+      "name": "Amphibious",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can breathe air and water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hpUXnTSTp8ICRxjJ",
+      "_key": "!actors.items!4n1nWiefCueQGr95.hpUXnTSTp8ICRxjJ",
+      "name": "Dreadnought",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Deals double damage to vehicles.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Sea Serpent",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

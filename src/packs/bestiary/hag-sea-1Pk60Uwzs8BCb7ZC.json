@@ -1,0 +1,226 @@
+{
+  "_id": "1Pk60Uwzs8BCb7ZC",
+  "_key": "!actors!1Pk60Uwzs8BCb7ZC",
+  "name": "Hag, Sea",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 3.6,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 2,
+      "armorTag": "as (+1) Leather",
+      "morale": 4,
+      "speed": {
+        "value": 30,
+        "types": "Swim"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "fae",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "d4",
+      "senses": "",
+      "immune": "",
+      "weak": "Shock",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 155",
+      "description": "<p>Ugly humanoid fae with a bloated, rotting corpse- like appearance. It tries to drag victims below the water to drown them.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "aw1p0CBuAdNAft5K",
+      "_key": "!actors.items!1Pk60Uwzs8BCb7ZC.aw1p0CBuAdNAft5K",
+      "name": "Death Glare",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>13 (3d8) and +2 (d4) Fatigue</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Sight (a Frightened Being) | Will",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "magic",
+        "save": "will",
+        "recharge": "3/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sspl4bK96G7D2Wdo",
+      "_key": "!actors.items!1Pk60Uwzs8BCb7ZC.Sspl4bK96G7D2Wdo",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IfgeFiuMja76N4V7",
+      "_key": "!actors.items!1Pk60Uwzs8BCb7ZC.IfgeFiuMja76N4V7",
+      "name": "Amphibious",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can breathe air and water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1akuA8sc48dNLlJ7",
+      "_key": "!actors.items!1Pk60Uwzs8BCb7ZC.1akuA8sc48dNLlJ7",
+      "name": "Magic Ward I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "P5ufDLzVtBJx6J1S",
+      "_key": "!actors.items!1Pk60Uwzs8BCb7ZC.P5ufDLzVtBJx6J1S",
+      "name": "Terror I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Enemies that can see it for the first time and at the start of their Turns must pass a [Will] Save or be Frightened until they pass this Check on a subsequent Turn, or for Cd4 Rounds afterwards.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hag, Sea",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

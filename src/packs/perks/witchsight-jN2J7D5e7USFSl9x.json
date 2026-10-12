@@ -1,0 +1,19 @@
+{
+  "_id": "jN2J7D5e7USFSl9x",
+  "_key": "!items!jN2J7D5e7USFSl9x",
+  "name": "Witchsight",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can use your Action or skip your Move to begin Focusing on this Ability to gain Allsight.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 4+ | Trained: Arcana or Mysticism"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

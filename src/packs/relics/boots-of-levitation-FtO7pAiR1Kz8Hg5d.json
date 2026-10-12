@@ -1,0 +1,35 @@
+{
+  "_id": "FtO7pAiR1Kz8Hg5d",
+  "_key": "!items!FtO7pAiR1Kz8Hg5d",
+  "name": "Boots of Levitation",
+  "type": "gear",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p><em>Lore: Relic Boots</em></p><p>The wearer has the following Power:</p><ul><li><strong>Levitation:</strong> They can Fly up or down, but not laterally, using their Speed.</li></ul><p>Value: 500g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 103",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "eZ9xwkK7Xx1MeT8i",
+  "_key": "!items!eZ9xwkK7Xx1MeT8i",
+  "name": "Tripod, cooking",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em>Cooking &amp; Food</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 80",
+    "quantity": 1,
+    "slots": 1,
+    "value": 20.0,
+    "equipped": false,
+    "category": "consumable",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

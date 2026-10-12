@@ -1,0 +1,130 @@
+{
+  "_id": "Fk3xqSshXytSwNUc",
+  "_key": "!actors!Fk3xqSshXytSwNUc",
+  "name": "Gladiator",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 1.7,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 7,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 113",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "vZ0aafHEJzr6XIdB",
+      "_key": "!actors.items!Fk3xqSshXytSwNUc.vZ0aafHEJzr6XIdB",
+      "name": "Weapon",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>5 (d8+1) or (by Weapon)</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack",
+        "damage": "d8+1",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GwWBGxuBzvyrosBo",
+      "_key": "!actors.items!Fk3xqSshXytSwNUc.GwWBGxuBzvyrosBo",
+      "name": "Prowess",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>+1 to attack damage it deals (already factored in).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Gladiator",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

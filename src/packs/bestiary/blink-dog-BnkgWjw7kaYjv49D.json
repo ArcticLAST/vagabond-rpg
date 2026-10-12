@@ -1,0 +1,130 @@
+{
+  "_id": "BnkgWjw7kaYjv49D",
+  "_key": "!actors!BnkgWjw7kaYjv49D",
+  "name": "Blink Dog",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 2.1,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 6,
+      "speed": {
+        "value": 40,
+        "types": "Phase"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "fae",
+      "subtype": "Beast",
+      "zone": "midline",
+      "appearing": "d6",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 153",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "lbYBBLE9TGDwy9K7",
+      "_key": "!actors.items!BnkgWjw7kaYjv49D.lbYBBLE9TGDwy9K7",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fAAUp0bwuoZH9sAR",
+      "_key": "!actors.items!BnkgWjw7kaYjv49D.fAAUp0bwuoZH9sAR",
+      "name": "Blink",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can use its Speed to magically teleport itself anywhere within the used Speed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Blink Dog",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

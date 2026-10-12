@@ -1,0 +1,44 @@
+{
+  "_id": "Sh0zWOhe32BjyjKS",
+  "_key": "!items!Sh0zWOhe32BjyjKS",
+  "name": "Poleblade",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Cleave:</strong> Ignores Flanked for attacks. You can reduce its die one size to hit another Target within reach per size reduction.</p><p><strong>Long:</strong> Its Range is doubled.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 2,
+    "value": 90.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": true,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": true,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "2h",
+    "damage": "d8",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

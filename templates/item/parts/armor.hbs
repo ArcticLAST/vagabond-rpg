@@ -1,0 +1,11 @@
+{{> "systems/vagabond-rpg/templates/item/parts/_physical.hbs"}}
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.ArmorType.Label"}}</label><select name="system.armorType">{{selectOptions options.armorTypes selected=source.armorType localize=true}}</select></div>
+  <div class="form-group"><label>{{localize "VAGABOND.ArmorItem.Rating"}}</label><input type="number" name="system.rating" value="{{source.rating}}" min="0"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.ArmorItem.Might"}}</label><input type="number" name="system.might" value="{{source.might}}" min="0"></div>
+</div>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Metal.Label"}}</label><select name="system.metal">{{selectOptions options.metals selected=source.metal localize=true}}</select></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Relic.Bonus"}}</label><input type="number" name="system.bonus" value="{{source.bonus}}"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.ArmorItem.Total"}}</label><span class="readout">{{system.total}}</span></div>
+</div>

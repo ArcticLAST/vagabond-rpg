@@ -1,0 +1,19 @@
+{
+  "_id": "6dF5Uzz9a7TYE966",
+  "_key": "!items!6dF5Uzz9a7TYE966",
+  "name": "Animal Companion",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>If you spend a Shift taming and training a non-hostile Beast with a HD count no higher than your Level, you can have it follow you as a companion. You command it with your Action or by skipping your Move. Otherwise, it instinctively attacks your Enemies. It uses your Survival for Checks. You can only have one such companion at a time.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: PRS 4+ | Trained: Leadership & Survival"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

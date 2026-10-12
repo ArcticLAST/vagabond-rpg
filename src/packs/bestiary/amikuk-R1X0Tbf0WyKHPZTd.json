@@ -1,0 +1,227 @@
+{
+  "_id": "R1X0Tbf0WyKHPZTd",
+  "_key": "!actors!R1X0Tbf0WyKHPZTd",
+  "name": "Amikuk",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 3.6,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 5,
+      "speed": {
+        "value": 30,
+        "types": "Climb"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "Cold",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 134",
+      "description": "<p>A pale, fleshy horror that lurks in the shallows of frozen waters. It hunts by wrapping around boats and dragging the passengers underwater.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "1b46FX6PEgGo3qhi",
+      "_key": "!actors.items!R1X0Tbf0WyKHPZTd.1b46FX6PEgGo3qhi",
+      "name": "Drown",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained and pulled Close</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, while submerged",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YSrJKpPpTg2bXxZu",
+      "_key": "!actors.items!R1X0Tbf0WyKHPZTd.YSrJKpPpTg2bXxZu",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YMCit1cN9m1n70Mu",
+      "_key": "!actors.items!R1X0Tbf0WyKHPZTd.YMCit1cN9m1n70Mu",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ALBETGzH5wRptAp0",
+      "_key": "!actors.items!R1X0Tbf0WyKHPZTd.ALBETGzH5wRptAp0",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mPMb0sZVsBEZ0YHx",
+      "_key": "!actors.items!R1X0Tbf0WyKHPZTd.mPMb0sZVsBEZ0YHx",
+      "name": "Amphibious",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Breathes air and water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Amikuk",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "4f5pbpl8tPH9QF6Y",
+  "_key": "!items!4f5pbpl8tPH9QF6Y",
+  "name": "Selfless",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Once per Turn, when a Near Ally takes damage, you can take the damage instead. This damage can't be reduced.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Bless"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

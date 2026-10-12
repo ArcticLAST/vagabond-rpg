@@ -1,0 +1,35 @@
+{
+  "_id": "moGBgSoNJ5g71R3g",
+  "_key": "!items!moGBgSoNJ5g71R3g",
+  "name": "Alkahest",
+  "type": "gear",
+  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "system": {
+    "description": "<p>When poured on or within an Alchemical Item, the item is reduced back to its raw materials after 1 Minute.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "concoction",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

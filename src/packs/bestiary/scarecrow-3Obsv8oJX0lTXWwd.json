@@ -1,0 +1,195 @@
+{
+  "_id": "3Obsv8oJX0lTXWwd",
+  "_key": "!actors!3Obsv8oJX0lTXWwd",
+  "name": "Scarecrow",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 5,
+    "tl": 2.2,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 2,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "artificial",
+      "subtype": "Undead",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Poison",
+      "weak": "Fire",
+      "statusImmunities": "Blinded, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 123",
+      "description": "<p>A straw effigy meant to deter pests, now being given animus by spirit possession.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "QRjNv7IFF0U6iHl1",
+      "_key": "!actors.items!3Obsv8oJX0lTXWwd.QRjNv7IFF0U6iHl1",
+      "name": "Scream",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Frightened (Cd4, Paralyzed if failed by 5 or more)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, any Being who can hear it | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xATGrxaeKipgKkDe",
+      "_key": "!actors.items!3Obsv8oJX0lTXWwd.xATGrxaeKipgKkDe",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aZ2UCjYc08SDw7HF",
+      "_key": "!actors.items!3Obsv8oJX0lTXWwd.aZ2UCjYc08SDw7HF",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LzQbejDJmZzW3ZUJ",
+      "_key": "!actors.items!3Obsv8oJX0lTXWwd.LzQbejDJmZzW3ZUJ",
+      "name": "Immutable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Scarecrow",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

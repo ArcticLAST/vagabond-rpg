@@ -1,0 +1,258 @@
+{
+  "_id": "su0KhkDA4tjaWPuK",
+  "_key": "!actors!su0KhkDA4tjaWPuK",
+  "name": "Black Pudding",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 10,
+    "tl": 8.2,
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45
+      },
+      "armor": 2,
+      "armorTag": "as (+1) Leather",
+      "morale": 12,
+      "speed": {
+        "value": 20,
+        "types": "Cling"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "primordial",
+      "subtype": "Slime",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Acid, Blunt, Cold, Shock, Slash",
+      "weak": "Fire",
+      "statusImmunities": "Blinded, Charmed, Fatigue, Frightened, Prone",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 168",
+      "description": "<p>This tar-like mass of ooze lurks in the darkness with a singular goal, consume.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "0a7HIpE7lxdZNbNv",
+      "_key": "!actors.items!su0KhkDA4tjaWPuK.0a7HIpE7lxdZNbNv",
+      "name": "Pseudopod",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d8) and Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cBweNrZSEHcS3KnF",
+      "_key": "!actors.items!su0KhkDA4tjaWPuK.cBweNrZSEHcS3KnF",
+      "name": "Pudding Nature",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Is Dazed (1 Round) after being subjected to Cold.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bkVrYAY52TwWbxk6",
+      "_key": "!actors.items!su0KhkDA4tjaWPuK.bkVrYAY52TwWbxk6",
+      "name": "Seep",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hosmC3roVNfEfjGV",
+      "_key": "!actors.items!su0KhkDA4tjaWPuK.hosmC3roVNfEfjGV",
+      "name": "Engulfer",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Beings that share a space with it are Burning 13 (3d8).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4Qj2ijpOdxb2GY59",
+      "_key": "!actors.items!su0KhkDA4tjaWPuK.4Qj2ijpOdxb2GY59",
+      "name": "Pudding Split",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it is larger than Small when subjected to Shock or Slash, it splits into two Black Puddings with half its current HP, round up, and are one size smaller. These deal 1 less d8 with its Pseudopod Action and Engulfer Ability.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tVo3YhQEVvmyA46A",
+      "_key": "!actors.items!su0KhkDA4tjaWPuK.tVo3YhQEVvmyA46A",
+      "name": "Sticky",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Hinders attempts to end being Restrained by it. Beings that make physical contact with it must pass [Endure] or be Restrained.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 104,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Black Pudding",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "KUbNYxhn6oBmlVjQ",
+  "_key": "!actors!KUbNYxhn6oBmlVjQ",
+  "name": "Elemental, Air",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 12,
+    "tl": 5.6,
+    "attributes": {
+      "hp": {
+        "value": 54,
+        "max": 54
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 10,
+      "speed": {
+        "value": 0,
+        "types": "Fly 80'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "primordial",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Poison, Shock; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Fatigued, Prone, Restrained, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 169",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "roGmy0hyFyLfTd6g",
+      "_key": "!actors.items!KUbNYxhn6oBmlVjQ.roGmy0hyFyLfTd6g",
+      "name": "Gust",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>9 (2d8) plus 4 (d8) if flying</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "N3vwWWJ4YYiWMEUh",
+      "_key": "!actors.items!KUbNYxhn6oBmlVjQ.N3vwWWJ4YYiWMEUh",
+      "name": "Living Gale",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Gusts surround it out to Near, Hindering Enemy Ranged Attacks Targeting those within.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Xyli1TpYb1GFhBxj",
+      "_key": "!actors.items!KUbNYxhn6oBmlVjQ.Xyli1TpYb1GFhBxj",
+      "name": "Seep",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Elemental, Air",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

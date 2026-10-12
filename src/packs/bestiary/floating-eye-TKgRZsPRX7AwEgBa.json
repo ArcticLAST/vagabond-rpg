@@ -1,0 +1,226 @@
+{
+  "_id": "TKgRZsPRX7AwEgBa",
+  "_key": "!actors!TKgRZsPRX7AwEgBa",
+  "name": "Floating Eye",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.1,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 7,
+      "speed": {
+        "value": 0,
+        "types": "Fly 30'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "outer",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "2d6",
+      "senses": "Darksight, Telepathy",
+      "immune": "",
+      "weak": "Acid, Pierce",
+      "statusImmunities": "Prone",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 161",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "chywJBezhNDqOUX5",
+      "_key": "!actors.items!TKgRZsPRX7AwEgBa.chywJBezhNDqOUX5",
+      "name": "Glare",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Transformed into a stone statue (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aivV1EfTS2Vge7kZ",
+      "_key": "!actors.items!TKgRZsPRX7AwEgBa.aivV1EfTS2Vge7kZ",
+      "name": "Muddle",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Confused (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 30-foot Cone | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Recharge Cd4",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wlNr3WjNPzBPYBGG",
+      "_key": "!actors.items!TKgRZsPRX7AwEgBa.wlNr3WjNPzBPYBGG",
+      "name": "Enrage",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Berserk (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 30-foot Cone | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Recharge Cd4",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "slrJRm6y1B9UjFnB",
+      "_key": "!actors.items!TKgRZsPRX7AwEgBa.slrJRm6y1B9UjFnB",
+      "name": "Antimagical Cone I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Cast Checks in a Near Cone from its central eye always fail, and any magic effect in the Cone is suspended while in the Cone.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IUsZRjJLoBFn3GAz",
+      "_key": "!actors.items!TKgRZsPRX7AwEgBa.IUsZRjJLoBFn3GAz",
+      "name": "Ocular",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Checks to make it Blinded are Favored.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Floating Eye",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

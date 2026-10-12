@@ -1,0 +1,98 @@
+{
+  "_id": "GKnoRGDgTU00P8a6",
+  "_key": "!actors!GKnoRGDgTU00P8a6",
+  "name": "Lizard, Giant Draco",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 2.4,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 7,
+      "speed": {
+        "value": 40,
+        "types": "70' with Glide"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d8",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 128",
+      "description": "<p>Massive lizards that glide in desert canyons and have a taste for human flesh.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "fgiWxdGANlqR2Xy1",
+      "_key": "!actors.items!GKnoRGDgTU00P8a6.fgiWxdGANlqR2Xy1",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (d10)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d10",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Lizard, Giant Draco",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

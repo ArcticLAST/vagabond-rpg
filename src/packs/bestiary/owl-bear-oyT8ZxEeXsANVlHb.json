@@ -1,0 +1,163 @@
+{
+  "_id": "oyT8ZxEeXsANVlHb",
+  "_key": "!actors!oyT8ZxEeXsANVlHb",
+  "name": "Owl Bear",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 5,
+    "tl": 4.6,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 10,
+      "speed": {
+        "value": 40,
+        "types": "Climb"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "Beast",
+      "zone": "frontline",
+      "appearing": "2d4",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 145",
+      "description": "<p>Monsters with the head of an owl and body of a bear. Often found in forests and caves.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "tu9xOreeAmVr8gLQ",
+      "_key": "!actors.items!oyT8ZxEeXsANVlHb.tu9xOreeAmVr8gLQ",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Beak. If both Claws hit, it takes an extra 9 (2d8)</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "D06Vy7cfHP3HRD8e",
+      "_key": "!actors.items!oyT8ZxEeXsANVlHb.D06Vy7cfHP3HRD8e",
+      "name": "Beak",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "109fcWv00lmw4X1A",
+      "_key": "!actors.items!oyT8ZxEeXsANVlHb.109fcWv00lmw4X1A",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Owl Bear",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "xuVVnkHH0eJ2eSEr",
+  "_key": "!items!xuVVnkHH0eJ2eSEr",
+  "name": "Gas",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You create a cloud of gas in an area equal to the size of the delivery (minimum 5' cube) and causing those within to be Sickened (Vulnerable) while in the area. This effect is dispersed by strong winds.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "poison",
+    "damageDie": 6,
+    "crit": "The effect lasts 1 Hour unless dispersed.",
+    "focus": false,
+    "noDamage": false,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

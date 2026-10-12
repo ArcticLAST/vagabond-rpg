@@ -1,0 +1,35 @@
+{
+  "_id": "WJfIIC9oPug06QSx",
+  "_key": "!items!WJfIIC9oPug06QSx",
+  "name": "Phoenix Down",
+  "type": "gear",
+  "img": "icons/commodities/bones/beak-orange-green.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Furs (Consumable)</em></p><p>This item can be placed on the corpse of a dead Being to return them to life at full HP. This does not work on Constructs or Undead. The Phoenix Down is consumed in this process.</p><ul><li><strong>Powers:</strong> Resurrection (one use)</li></ul><p>Value: 2500g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 107",
+    "quantity": 1,
+    "slots": 1,
+    "value": 250000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

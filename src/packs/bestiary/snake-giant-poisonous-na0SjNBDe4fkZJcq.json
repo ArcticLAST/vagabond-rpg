@@ -1,0 +1,98 @@
+{
+  "_id": "na0SjNBDe4fkZJcq",
+  "_key": "!actors!na0SjNBDe4fkZJcq",
+  "name": "Snake, Giant Poisonous",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 2.7,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 9,
+      "speed": {
+        "value": 40,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 131",
+      "description": "<p>Over-sized versions of the deadly cobra and viper.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "0Ve3s6ct5L9Oomn9",
+      "_key": "!actors.items!na0SjNBDe4fkZJcq.0Ve3s6ct5L9Oomn9",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8) and pass [Endure] or become Sickened (Cd6 damage each Minute).</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Snake, Giant Poisonous",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

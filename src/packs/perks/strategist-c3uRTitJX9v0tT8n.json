@@ -1,0 +1,19 @@
+{
+  "_id": "c3uRTitJX9v0tT8n",
+  "_key": "!items!c3uRTitJX9v0tT8n",
+  "name": "Strategist",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Your attacks against Enemies Close to your Allies are Favored if the Ally isn't Incapacitated. You can use an Action or skip your Move to make a Leadership Check. On a pass, you also grant this Favor to an Ally who can see or hear you.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 4+ | Trained: Leadership"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

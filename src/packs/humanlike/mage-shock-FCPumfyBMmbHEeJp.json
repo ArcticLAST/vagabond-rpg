@@ -1,0 +1,130 @@
+{
+  "_id": "FCPumfyBMmbHEeJp",
+  "_key": "!actors!FCPumfyBMmbHEeJp",
+  "name": "Mage, Shock",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.9,
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 4,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 114",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "ye7XIahPiQsYebF4",
+      "_key": "!actors.items!FCPumfyBMmbHEeJp.ye7XIahPiQsYebF4",
+      "name": "Lightning Bolt",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 30-foot Line | Reflex",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ceWBbFfpU1ZJMcrv",
+      "_key": "!actors.items!FCPumfyBMmbHEeJp.ceWBbFfpU1ZJMcrv",
+      "name": "Zap",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>7 (2d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Bolt | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Mage, Shock",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

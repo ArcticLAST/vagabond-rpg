@@ -1,0 +1,163 @@
+{
+  "_id": "2Bpqx2adsFnnirBW",
+  "_key": "!actors!2Bpqx2adsFnnirBW",
+  "name": "Warp Beast",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 3.4,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 9,
+      "speed": {
+        "value": 40,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "Beast",
+      "zone": "frontline",
+      "appearing": "2d4",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 151",
+      "description": "<p>Panther-like beasts with a bizarre array of tentacles, and a natural displacement magic caused by molecular vibrations in its fur.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "Nd38RmJqR5ycFx8d",
+      "_key": "!actors.items!2Bpqx2adsFnnirBW.Nd38RmJqR5ycFx8d",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Tentacle</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "p6JFMslcF6mCR5yA",
+      "_key": "!actors.items!2Bpqx2adsFnnirBW.p6JFMslcF6mCR5yA",
+      "name": "Tentacle",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack 10'",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4EwiJXeCVi8c0TGn",
+      "_key": "!actors.items!2Bpqx2adsFnnirBW.4EwiJXeCVi8c0TGn",
+      "name": "Displacement I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Attack and Cast Checks that directly Target it have a d4 penalty.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Warp Beast",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

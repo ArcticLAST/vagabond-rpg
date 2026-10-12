@@ -1,0 +1,387 @@
+{
+  "_id": "P4e16wOWN61ubDrW",
+  "_key": "!actors!P4e16wOWN61ubDrW",
+  "name": "Tarrasque",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 36,
+    "tl": 24.7,
+    "attributes": {
+      "hp": {
+        "value": 162,
+        "max": 162
+      },
+      "armor": 10,
+      "armorTag": "as (+3) Plate plus (+3) Shield",
+      "morale": 9,
+      "speed": {
+        "value": 120,
+        "types": "Swim"
+      }
+    },
+    "details": {
+      "size": "colossal",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "Unique",
+      "senses": "Darksight",
+      "immune": "Cold, Fire, Shock; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Charmed, Confused, Frightened, Paralyzed, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 151",
+      "description": "<p>A four-legged reptile of gargantuan proportions. It slumbers for centuries, then awakes to eat for weeks before returning to its sleep. During this time, it leaves destruction in its wake.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "ND9uV5RQpbMzguFc",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.ND9uV5RQpbMzguFc",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw, 1×Horn, 1×Bite, and 1×Tail</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MWfbBjOJ7ARHJvHW",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.MWfbBjOJ7ARHJvHW",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>18 (4d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "4d8",
+        "average": 18,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "I4MD6r5ZzQkXqZM2",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.I4MD6r5ZzQkXqZM2",
+      "name": "Horns",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>16 (3d10)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d10",
+        "average": 16,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oVWSjVMUSj1w9c7k",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.oVWSjVMUSj1w9c7k",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>27 (5d10) and the Target loses a limb of its choice if failed by 10 or more</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "5d10",
+        "average": 27,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4aqnmCgoYWTuFatJ",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.4aqnmCgoYWTuFatJ",
+      "name": "Tail",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d8) and shoved Prone</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J3i6mvlX3nmG5WU4",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.J3i6mvlX3nmG5WU4",
+      "name": "Charge",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it Moves at least 30' in a straight line then makes a Horn Attack on the same Turn, that attack deals double damage.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "94Mjm2XnmJU6lX3H",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.94Mjm2XnmJU6lX3H",
+      "name": "Magic Ward X",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 10 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "JEdyHPcRbyPgi78z",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.JEdyHPcRbyPgi78z",
+      "name": "Mythic",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It doesn't die unless a wish is granted to do so.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YeUoT3RlBqeJDCvQ",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.YeUoT3RlBqeJDCvQ",
+      "name": "Reflective Carapace",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>When Targeted with a Spell, roll d6. 1: the Spell is reflected back at the source. 2–3: the Spell is dispelled. 4–6, the Spell works as normal.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BSbzLRmM3VA5C5jD",
+      "_key": "!actors.items!P4e16wOWN61ubDrW.BSbzLRmM3VA5C5jD",
+      "name": "Regenerate II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Regains 9 (2d8) HP on each of its Turns.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 104,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Tarrasque",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "DI4PjtUoshiDUz05",
+  "_key": "!items!DI4PjtUoshiDUz05",
+  "name": "Fog",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Caster creates a cloud that obscures an area equal to the size of the delivery (minimum 5' cube). It Hinders Checks relying on sight of a Target within the fog and Checks made by Beings within the fog relying on sight.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "cold",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": false,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

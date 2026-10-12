@@ -1,0 +1,258 @@
+{
+  "_id": "VSlnCa4oUBW05ggf",
+  "_key": "!actors!VSlnCa4oUBW05ggf",
+  "name": "Hodag",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 3.1,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 10,
+      "speed": {
+        "value": 30,
+        "types": "Climb"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "",
+      "immune": "Fire, Poison",
+      "weak": "Acid",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 143",
+      "description": "<p>A fearsome creature with a monkey-like head, gruesome claws and fangs, spikes along its back, and a mix of alligator scales and damp green fur. They're known to have a taste for small dogs.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "EwfBPAOHOav01jFs",
+      "_key": "!actors.items!VSlnCa4oUBW05ggf.EwfBPAOHOav01jFs",
+      "name": "Fire Breath",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Near Cone | Reflex or Endure",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "fire",
+        "save": "endureReflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "JOYDPNEu3Gz5uYO9",
+      "_key": "!actors.items!VSlnCa4oUBW05ggf.JOYDPNEu3Gz5uYO9",
+      "name": "Spike",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WSeA7R5A46srR3Hl",
+      "_key": "!actors.items!VSlnCa4oUBW05ggf.WSeA7R5A46srR3Hl",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1URCYdFzjbNAgc4K",
+      "_key": "!actors.items!VSlnCa4oUBW05ggf.1URCYdFzjbNAgc4K",
+      "name": "Bloodlust",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it is missing at least half its HP, it is Berserk. Whenever it is Berserk, it can make 2 Attacks on its Turn instead of 1.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uZmHyAwVUvid4jP6",
+      "_key": "!actors.items!VSlnCa4oUBW05ggf.uZmHyAwVUvid4jP6",
+      "name": "Lemoniphobic",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened (Cd4) after seeing a lemon.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9aj2KeYRmA1GYnwX",
+      "_key": "!actors.items!VSlnCa4oUBW05ggf.9aj2KeYRmA1GYnwX",
+      "name": "Stench",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>All Near non-hodags that have to breathe are Sickened (while Near this Being).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hodag",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

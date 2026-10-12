@@ -1,0 +1,451 @@
+{
+  "_id": "E8jRJTTSVjthVsgl",
+  "_key": "!actors!E8jRJTTSVjthVsgl",
+  "name": "Angel",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 12,
+    "tl": 10.5,
+    "attributes": {
+      "hp": {
+        "value": 54,
+        "max": 54
+      },
+      "armor": 6,
+      "armorTag": "as (+3) Plate; Divine Armor",
+      "morale": 11,
+      "speed": {
+        "value": 40,
+        "types": "Fly 80'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "outer",
+      "subtype": "Divine",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Allsight, Telepathy",
+      "immune": "Poison; Physical from non-Relics and Relic Weapons weaker than (+2)",
+      "weak": "",
+      "statusImmunities": "Berserk, Blindness, Confused, Fatigued, Frightened, Paralyzed, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 158",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "gnDpx07iJfjKpT7C",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.gnDpx07iJfjKpT7C",
+      "name": "Dominator",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>2 Actions as below (d6 to determine).</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "V8E1y1LA4dsQNxoV",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.V8E1y1LA4dsQNxoV",
+      "name": "Dominator 1: (+3) Flaming Sword",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>17 (4d6+3) and Burning (Cd6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "4d6+3",
+        "average": 17,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "relic": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rP6l46h6iallKhgw",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.rP6l46h6iallKhgw",
+      "name": "Dominator 2: Burning Slash",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d6+3) and Burning (Cd6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near Cone | Half damage on a pass",
+        "damage": "3d6+3",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qWPSHUrY6WGEpwGz",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.qWPSHUrY6WGEpwGz",
+      "name": "Dominator 3: Banish",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is returned to its normal realm of existence, or ends another Being's possession of the Target.</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Remote | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FFbaKnETyhCCvRwk",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.FFbaKnETyhCCvRwk",
+      "name": "Dominator 4: Command",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>4 (d6+1) or obey the command issued by this Being.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Far Aura",
+        "damage": "d6+1",
+        "average": 4,
+        "damageType": "magic",
+        "save": "",
+        "recharge": "",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7hnObUX2fy8JkHM4",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.7hnObUX2fy8JkHM4",
+      "name": "Dominator 5: Heal",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>If it is a mortal Being, its HP is restored to maximum, and is cured of the Blinded, Paralyzed, or Sickened Status.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 5,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0MZyHGjeGGc0qigq",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.0MZyHGjeGGc0qigq",
+      "name": "Dominator 6: Radiance",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>The area within the Aura is Sunlight, which moves with this Being.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Far Aura",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 6,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bU1Rb4rlpKfe0YqY",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.bU1Rb4rlpKfe0YqY",
+      "name": "Fall from Grace",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it ever acts against divine ordainment, it loses Grace, Fly Speed, Allsight, Immune, and Status Immunities.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gqXoI8PKh1ZLd2MD",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.gqXoI8PKh1ZLd2MD",
+      "name": "Grace",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be reduced below 1 HP. If its body is destroyed, it immediately appears in its plane of origin at full HP.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xs5f2IXEtOtA8fbT",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.xs5f2IXEtOtA8fbT",
+      "name": "Illuminator",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Sheds Sunlight in Near.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CI7lMm0dzvRN1uMs",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.CI7lMm0dzvRN1uMs",
+      "name": "Magic Ward III",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 3 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "SnLdRH5MsuMdnjLk",
+      "_key": "!actors.items!E8jRJTTSVjthVsgl.SnLdRH5MsuMdnjLk",
+      "name": "Flaming Sword",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Has the Loyalty Power.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Relic; (+3) Silvered Greatsword",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 104,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Angel",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

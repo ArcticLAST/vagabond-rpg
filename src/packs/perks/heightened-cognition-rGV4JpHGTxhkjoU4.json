@@ -1,0 +1,19 @@
+{
+  "_id": "rGV4JpHGTxhkjoU4",
+  "_key": "!items!rGV4JpHGTxhkjoU4",
+  "name": "Heightened Cognition",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can spend a Studied die to pass a Detect, Mysticism, or Survival Check you fail.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 7"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

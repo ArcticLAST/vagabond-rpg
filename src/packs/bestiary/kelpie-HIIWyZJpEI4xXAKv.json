@@ -1,0 +1,194 @@
+{
+  "_id": "HIIWyZJpEI4xXAKv",
+  "_key": "!actors!HIIWyZJpEI4xXAKv",
+  "name": "Kelpie",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 5,
+    "tl": 2.4,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 4,
+      "speed": {
+        "value": 30,
+        "types": "Swim"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "primordial",
+      "subtype": "Shapechanger",
+      "zone": "backline",
+      "appearing": "d4",
+      "senses": "",
+      "immune": "",
+      "weak": "Shock",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 174",
+      "description": "<p>Intelligent, aquatic plant life that normally only appear as lumps of wet kelp. It can change its form to that of a horse or beautiful woman.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "2av39Ivt2efIkGHj",
+      "_key": "!actors.items!HIIWyZJpEI4xXAKv.2av39Ivt2efIkGHj",
+      "name": "Entangle",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Restrained</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Grapple, an Enemy in Water",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tsByRPuafuQIW5qt",
+      "_key": "!actors.items!HIIWyZJpEI4xXAKv.tsByRPuafuQIW5qt",
+      "name": "Enlure",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Charmed (Cd6, it must Move closer to this Being)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Sight | Will (-2 penalty)",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "1/Day",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H51EwJU5InfSTGiv",
+      "_key": "!actors.items!HIIWyZJpEI4xXAKv.H51EwJU5InfSTGiv",
+      "name": "Amphibious",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can breathe air and water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZMUXkv0E4HCLelPH",
+      "_key": "!actors.items!HIIWyZJpEI4xXAKv.ZMUXkv0E4HCLelPH",
+      "name": "Shapechange",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can skip its Move to turn into a green woman, or an aquatic horse (use the hippocampus statblock). It maintains its HP in these forms.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Kelpie",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

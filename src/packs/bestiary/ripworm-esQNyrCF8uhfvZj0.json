@@ -1,0 +1,162 @@
+{
+  "_id": "esQNyrCF8uhfvZj0",
+  "_key": "!actors!esQNyrCF8uhfvZj0",
+  "name": "Ripworm",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 3.1,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 10,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "Seismicsense 60'",
+      "immune": "Poison",
+      "weak": "",
+      "statusImmunities": "Fatigued, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 123",
+      "description": "<p>Tunneling automatons known to wreak havoc on structures by undermining its foundation. They can cut through solid rock and earth with ease.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "NqmADwbHo1cBFxjT",
+      "_key": "!actors.items!esQNyrCF8uhfvZj0.NqmADwbHo1cBFxjT",
+      "name": "Ripsaw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "N078b0nP8OMv8Tmt",
+      "_key": "!actors.items!esQNyrCF8uhfvZj0.N078b0nP8OMv8Tmt",
+      "name": "Immutable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HbVnFxoIPSUFpBKE",
+      "_key": "!actors.items!esQNyrCF8uhfvZj0.HbVnFxoIPSUFpBKE",
+      "name": "Tunneller",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can Move through solid rock and earth, leaving a 3-foot tunnel in its path.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ripworm",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "9VKECVJ50i2rCOON",
+  "_key": "!actors!9VKECVJ50i2rCOON",
+  "name": "Apothecary",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.5,
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 7,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 112",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "i37SPPkkoU1zVFIQ",
+      "_key": "!actors.items!9VKECVJ50i2rCOON.i37SPPkkoU1zVFIQ",
+      "name": "Health Potion",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Regain 4 (d6+1) HP</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Use",
+        "damage": "d6+1",
+        "average": 4,
+        "damageType": "",
+        "save": "",
+        "recharge": "2/Shift",
+        "sort": 0,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "p3oPVA60E2ahPCkX",
+      "_key": "!actors.items!9VKECVJ50i2rCOON.p3oPVA60E2ahPCkX",
+      "name": "Panacea",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Cured of Blinded or Sickened.</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Use",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "1/Shift",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Kihc9Eei6Jbr9DBC",
+      "_key": "!actors.items!9VKECVJ50i2rCOON.Kihc9Eei6Jbr9DBC",
+      "name": "Crossbow",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Apothecary",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

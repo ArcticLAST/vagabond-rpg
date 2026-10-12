@@ -1,0 +1,108 @@
+{
+  "_id": "gTkzrpfa1UMSNtWe",
+  "_key": "!items!gTkzrpfa1UMSNtWe",
+  "name": "Halfling",
+  "type": "ancestry",
+  "img": "icons/environment/people/commoner.webp",
+  "system": {
+    "description": "<p>Halflings are plucky, hill-dwelling folk of the shire. They are known to live life to the fullest, rise to any challenge, and bask even in their failures.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 25",
+    "beingType": "humanlike",
+    "size": "medium",
+    "trainings": [],
+    "traits": [
+      {
+        "level": 1,
+        "name": "Nimble",
+        "description": "<p>You have a 5' bonus to Speed and ignore Hinder on Reflex Saves.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Squat",
+        "description": "<p>You can Move through spaces occupied by other Beings.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Tricksy",
+        "description": "<p>When you regain Luck from a Rest, you gain 1 additional Luck.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [
+    {
+      "_id": "azfNSKG6DZk8sa0B",
+      "_key": "!items.effects!gTkzrpfa1UMSNtWe.azfNSKG6DZk8sa0B",
+      "name": "Nimble",
+      "img": "icons/environment/people/commoner.webp",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.speed",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    },
+    {
+      "_id": "iIPZDM0Kk5nHEu2k",
+      "_key": "!items.effects!gTkzrpfa1UMSNtWe.iIPZDM0Kk5nHEu2k",
+      "name": "Tricksy",
+      "img": "icons/environment/people/commoner.webp",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.luckOnRest",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

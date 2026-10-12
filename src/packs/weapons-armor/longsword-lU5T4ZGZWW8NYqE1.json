@@ -1,0 +1,44 @@
+{
+  "_id": "lU5T4ZGZWW8NYqE1",
+  "_key": "!items!lU5T4ZGZWW8NYqE1",
+  "name": "Longsword",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-guard.webp",
+  "system": {
+    "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 2,
+    "value": 40.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "v",
+    "damage": "d8",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

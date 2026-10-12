@@ -1,0 +1,19 @@
+{
+  "_id": "fxw5qie6NYfuiHoB",
+  "_key": "!items!fxw5qie6NYfuiHoB",
+  "name": "Diplomat",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Once per Shift, if you pass a Leadership Check to parley or end Combat peacefully by 15 or more, you gain a Studied die.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: PRS 4+ | Trained: Leadership"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

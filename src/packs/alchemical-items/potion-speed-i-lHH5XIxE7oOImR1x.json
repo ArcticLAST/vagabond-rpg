@@ -1,0 +1,35 @@
+{
+  "_id": "lHH5XIxE7oOImR1x",
+  "_key": "!items!lHH5XIxE7oOImR1x",
+  "name": "Potion, Speed (I)",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>This thin blue liquid tightens the consumer's muscles. For 1 Hour, the consumer's Speed is increased by 5' per Rank, as shown below:</p><p><strong>Rank I:</strong> +5'</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 250.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

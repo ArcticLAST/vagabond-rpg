@@ -1,0 +1,162 @@
+{
+  "_id": "7uaYDgdL3Wxe8cKK",
+  "_key": "!actors!7uaYDgdL3Wxe8cKK",
+  "name": "Firebat",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.0,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 4,
+      "speed": {
+        "value": 40,
+        "types": "Fly"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "primordial",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "2d6",
+      "senses": "Darksight",
+      "immune": "Fire, Poison",
+      "weak": "Cold",
+      "statusImmunities": "Fatigued, Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 171",
+      "description": "<p>A bat-like creature of pure elemental fire. It latches onto its target with its fangs to hold it in place while it burns them alive.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "TyUnhmsJZzBM6kcj",
+      "_key": "!actors.items!7uaYDgdL3Wxe8cKK.TyUnhmsJZzBM6kcj",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fTUWYMzqO7T1inbe",
+      "_key": "!actors.items!7uaYDgdL3Wxe8cKK.fTUWYMzqO7T1inbe",
+      "name": "Living Fire",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Close Beings are Burning (d4). It is Burning (d8) while in water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hH30CyRhG95smu5d",
+      "_key": "!actors.items!7uaYDgdL3Wxe8cKK.hH30CyRhG95smu5d",
+      "name": "Illuminating",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Sheds Light out to Near.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Firebat",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

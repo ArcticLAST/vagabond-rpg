@@ -1,0 +1,19 @@
+{
+  "_id": "0QrhfiT1lEzzbIiv",
+  "_key": "!items!0QrhfiT1lEzzbIiv",
+  "name": "Knife Juggler",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You treat 1H Thrown Weapons as 0 Slots for occupying your Slots, and your attacks with them aren't Hindered by Targeting out to Far.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: DEX 4+ | Trained: Finesse"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

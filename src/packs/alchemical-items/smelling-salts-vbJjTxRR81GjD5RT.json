@@ -1,0 +1,35 @@
+{
+  "_id": "vbJjTxRR81GjD5RT",
+  "_key": "!items!vbJjTxRR81GjD5RT",
+  "name": "Smelling Salts",
+  "type": "gear",
+  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "system": {
+    "description": "<p>This pungent fluid can be administered by wafting the contents under a Being's nose. If the Being is Unconscious from sleep, it immediately wakes up.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 5.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "concoction",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

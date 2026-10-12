@@ -1,0 +1,44 @@
+{
+  "_id": "JdPLS180hk6MTamm",
+  "_key": "!items!JdPLS180hk6MTamm",
+  "name": "Whip, leather",
+  "type": "weapon",
+  "img": "icons/sundries/survival/leather-strap-brown.webp",
+  "system": {
+    "description": "<p><strong>Grapple:</strong> Can Grapple with the Attack Check.</p><p><strong>Long:</strong> Its Range is doubled.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": true,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": true,
+      "keen": false,
+      "long": true,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "1",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

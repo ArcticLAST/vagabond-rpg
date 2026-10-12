@@ -1,0 +1,183 @@
+{
+  "_id": "aybbZ1YTK5kL9LDw",
+  "_key": "!items!aybbZ1YTK5kL9LDw",
+  "name": "Wizard",
+  "type": "class",
+  "img": "icons/magic/air/wind-tornado-wall-blue.webp",
+  "system": {
+    "description": "<p>In a way, we are magicians. We are alchemists, sorcerers and wizards. We are a very strange bunch. But there is great fun in being a wizard. And great power, too. —Billy Joel, Berklee College of Music Commencement 1993 Wizards are students of the arcane arts who research and develop spells as academic pursuit.</p><p>The wizard is a squishy blaster focused on Casting Spells. Stay in safety to Cast your Spells and discover Enemy weaknesses.</p><ul><li><strong>Action:</strong> Cast</li><li><strong>Move:</strong> Backline</li><li><strong>Key Stat:</strong> Reason</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Arcana, Craft, Mysticism</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 63",
+    "keyStats": [
+      "rsn"
+    ],
+    "trainings": [
+      "arcana",
+      "craft",
+      "mysticism"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "arcana",
+    "castMax": "full",
+    "mana": {
+      "perLevel": 4
+    },
+    "spells": {
+      "base": 4,
+      "every": 2
+    },
+    "playstyle": "Cast · Backline",
+    "startingPacks": "<p>Astronomer or Mage</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Spellcaster",
+        "description": "<p>You can Cast Spells using Arcana.</p><p><strong>Spells:</strong> You learn 4 Spells, and 1 other Spell every 2 Levels hereafter.</p><p><strong>Mana:</strong> Your Max Mana is equal to (4 × your Level), and your Cast Max for Spells is equal to (2 + your Level).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Page Master",
+        "description": "<p>You gain the Bookworm Perk (p. 67), and you can spend a Studied die to learn a Spell for the Shift.</p>",
+        "grants": {
+          "perks": "Bookworm",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Manifold Mind",
+        "description": "<p>The number of Spells you can Focus on at the same time increases by 1 now and every 4 Levels hereafter.</p><p><em>Wizard: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Sculpt Spell",
+        "description": "<p>You pay 1 less Mana for Delivery upcasting. This discount is increased by 1 every 4 Levels hereafter.</p><p><em>Wizard: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Extracurricular",
+        "description": "<p>When you successfully Cast a Spell, you can spend a Studied die to add the effect of another Spell you know to that Casting.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Archwizard",
+        "description": "<p>You can Cast Spells you do not know, but you cannot spend Mana to upcast them.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

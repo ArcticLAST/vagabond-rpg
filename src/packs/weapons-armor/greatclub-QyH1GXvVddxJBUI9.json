@@ -1,0 +1,44 @@
+{
+  "_id": "QyH1GXvVddxJBUI9",
+  "_key": "!items!QyH1GXvVddxJBUI9",
+  "name": "Greatclub",
+  "type": "weapon",
+  "img": "icons/weapons/clubs/club-heavy-barbed-grey.webp",
+  "system": {
+    "description": "",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 2,
+    "value": 30.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "2h",
+    "damage": "d8",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

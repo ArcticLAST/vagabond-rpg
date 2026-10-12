@@ -1,0 +1,184 @@
+{
+  "_id": "Fwq3Zvo3Zqqrbho5",
+  "_key": "!items!Fwq3Zvo3Zqqrbho5",
+  "name": "Merchant",
+  "type": "class",
+  "img": "icons/svg/d20-black.svg",
+  "system": {
+    "description": "<p>Lamp oil? Rope? Bombs? You want it? It's yours my friend, as long as you have enough rubies. —Morshu, Link: The Faces of Evil May they be an appraiser of rare magic items, peddler of illicit substances, or bookkeeper for the court, merchants are masters of exchange.</p><p>The merchant is a low-defense and damage character, who provides high-support through a wider inventory pool and optimizing your party&#x27;s resources. In combat, you should look out for allies in need of assistance and strategize what items to use.</p><ul><li><strong>Action:</strong> Use</li><li><strong>Move:</strong> Flexible (skip to Use)</li><li><strong>Key Stat:</strong> Luck/Reason</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Craft, Finesse, Influence</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 49",
+    "keyStats": [
+      "luk",
+      "rsn"
+    ],
+    "trainings": [
+      "craft",
+      "finesse",
+      "influence"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Use · Flexible (skip to Use)",
+    "startingPacks": "<p>Blacksmith, Cook, or Tinker</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Deep Pockets",
+        "description": "<p>You gain the Deft Hands Perk (p. 68), and you gain 2 extra Item Slots now and every 3 Levels hereafter.</p>",
+        "grants": {
+          "perks": "Deft Hands",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Gold Sink",
+        "description": "<p>You can take the Use Action to place Item(s) that aren't Fabled Relics inside a container and choose one Item with a value no higher than the Item(s) placed inside. The chosen Item replaces the originals. If the value exceeds 1g, you must spend 1 Luck to do so.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Line Goes Up",
+        "description": "<p>You gain 1 Luck during a Breather and when you spend a Shift to Craft or Travel.</p><p>Further, when you Rest, you gain 1 extra Luck. This extra Luck gained from a Rest increases by 1 every 4 Levels hereafter.</p><p><em>Merchant: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Diamond Hands",
+        "description": "<p>You can take the Use Action to change the Power of a Relic you are holding to another Power of equal or lesser value. The Powers must be valued at 250g or lower. This value is multiplied by 5 every 4 Levels hereafter.</p><p><em>Merchant: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Opportunist",
+        "description": "<p>Once per Round after another Being uses an Action or Move, you can immediately take the Use Action.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Midas Touch",
+        "description": "<p>Any Relic Item Bonus or Rank is increased by 1 while you have it Equipped.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

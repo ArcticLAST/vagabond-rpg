@@ -1,0 +1,195 @@
+{
+  "_id": "gzDNplyKHykUUJgC",
+  "_key": "!actors!gzDNplyKHykUUJgC",
+  "name": "Gargoyle",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 2.6,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 11,
+      "speed": {
+        "value": 15,
+        "types": "Fly 30'"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "",
+      "immune": "Poison",
+      "weak": "Blunt",
+      "statusImmunities": "Berserk, Charmed, Confused, Fatigue, Frightened, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 119",
+      "description": "<p>A flying statue with a demonic appearance.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "PbfxcCqU5SorGrHe",
+      "_key": "!actors.items!gzDNplyKHykUUJgC.PbfxcCqU5SorGrHe",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8wPuHbNQ2R00IOsm",
+      "_key": "!actors.items!gzDNplyKHykUUJgC.8wPuHbNQ2R00IOsm",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Bw8xyfosSGaGYXMe",
+      "_key": "!actors.items!gzDNplyKHykUUJgC.Bw8xyfosSGaGYXMe",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>1 (d3)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d3",
+        "average": 1,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZFbVBrciz51EJ4RC",
+      "_key": "!actors.items!gzDNplyKHykUUJgC.ZFbVBrciz51EJ4RC",
+      "name": "Immutable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Gargoyle",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

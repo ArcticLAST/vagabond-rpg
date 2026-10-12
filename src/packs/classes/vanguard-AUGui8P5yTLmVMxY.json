@@ -1,0 +1,182 @@
+{
+  "_id": "AUGui8P5yTLmVMxY",
+  "_key": "!items!AUGui8P5yTLmVMxY",
+  "name": "Vanguard",
+  "type": "class",
+  "img": "icons/svg/d20-black.svg",
+  "system": {
+    "description": "<p>Move, bitch. Get out the way. —Ludacris, Move Bitch Vanguards are terrifying sentinels of heavy metal armor that use shields to devastate their foes, standing tall as mobile bastions of fortitude and might.</p><p>The vanguard is a high-defense tank, trading off raw damage output for control. Actively defend through the Rush Action and Shoves.</p><ul><li><strong>Action:</strong> Shove (Attack)</li><li><strong>Move:</strong> Frontline</li><li><strong>Key Stat:</strong> Might</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Brawl, Melee</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 59",
+    "keyStats": [
+      "mit"
+    ],
+    "trainings": [
+      "brawl",
+      "melee"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Shove (Attack) · Frontline",
+    "startingPacks": "<p>Sentinel</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Crowd Control",
+        "description": "<p>You can try to Shove a Close Target (no Action) when they Move Close to you, or when you roll a Defense Weapon's damage die.</p><p>Further, you can push Targets you Shove ahead of you while you Move during the same Turn. If you push it into an occupied space, it deals your Weapon's damage to the Target and whatever occupied the space.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Stalwart",
+        "description": "<p>You gain the Protector Perk (p. 71) and, when you take the Hold Action, you can use the held Action or Move as late as the end of your next Turn.</p>",
+        "grants": {
+          "perks": "Protector",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Wall",
+        "description": "<p>You are considered one size larger for Shoves and the damage dice of Defense Weapons are one size larger while you have them Equipped. Both of these sizes increase by another size every 4 Levels hereafter.</p><p><em>Vanguard: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Indestructible",
+        "description": "<p>If you aren't Incapacitated and are wearing Armor, you have a +1 bonus to the damage die of Defense Weapons. This bonus increases by 1 every 4 Levels hereafter.</p><p><em>Vanguard: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Armored Titan",
+        "description": "<p>You gain a +1 bonus to Checks made to Shove a Target if you count as larger than them. This bonus increases by 1 for each size larger you are. Further, you can equip 2H Shields as 1H Shields, and Versatile Shields use the higher damage die when held as 1H.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Force Unrelenting",
+        "description": "<p>When you successfully Shove a Target, you cause them to be Dazed (Cd4) and can choose to launch them up to the distance you Moved during the Turn before the Shove.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

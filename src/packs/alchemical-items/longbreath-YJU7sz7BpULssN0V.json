@@ -1,0 +1,35 @@
+{
+  "_id": "YJU7sz7BpULssN0V",
+  "_key": "!items!YJU7sz7BpULssN0V",
+  "name": "Longbreath",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>For 1 Hour after inhaling the contents of the vial, the Being can hold its breath indefinitely while it's not Incapacitated.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

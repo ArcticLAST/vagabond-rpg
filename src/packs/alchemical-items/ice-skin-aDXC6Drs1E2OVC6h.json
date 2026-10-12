@@ -1,0 +1,35 @@
+{
+  "_id": "aDXC6Drs1E2OVC6h",
+  "_key": "!items!aDXC6Drs1E2OVC6h",
+  "name": "Ice Skin",
+  "type": "gear",
+  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "system": {
+    "description": "<p>One dose can cover a Medium or smaller Being for a Shift. During that Shift, that Being is protected against Bitter Cold.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "concoction",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

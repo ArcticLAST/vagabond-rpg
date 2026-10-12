@@ -1,0 +1,183 @@
+{
+  "_id": "8Le8ihRVsACE6YpP",
+  "_key": "!items!8Le8ihRVsACE6YpP",
+  "name": "Sorcerer",
+  "type": "class",
+  "img": "icons/magic/earth/projectiles-magma-stone-orange.webp",
+  "system": {
+    "description": "<p>She said sorcery is a sword without a hilt. There is no safe way to grasp it. —Melisandre, A Dance with Dragons Arcanists given a precious gift of magical prowess, sorcerers can tap into their own inner reserves to provide more Mana for casting.</p><p>The sorcerer is a squishy blaster focused on Casting Spells for instant burst damage. You should stay in safety to Cast.</p><ul><li><strong>Action:</strong> Cast</li><li><strong>Move:</strong> Backline</li><li><strong>Key Stat:</strong> Presence, Might</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Arcana, Influence</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 57",
+    "keyStats": [
+      "prs",
+      "mit"
+    ],
+    "trainings": [
+      "arcana",
+      "influence"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "influence",
+    "castMax": "full",
+    "mana": {
+      "perLevel": 4
+    },
+    "spells": {
+      "base": 4,
+      "every": 2
+    },
+    "playstyle": "Cast · Backline",
+    "startingPacks": "<p>Mage or Occultist</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Glamour",
+        "description": "<p>You can Cast Spells using Influence.</p><p><strong>Spells:</strong> You learn 4 Spells. You learn 1 other Spell every 2 Levels hereafter.</p><p><strong>Mana:</strong> Your Max Mana is equal to (4 × your Level), and your Cast Max for Spells is equal to (2 + your Level).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Tap",
+        "description": "<p>You gain the Vehement Magic Perk (p. 73), and you can spend your HP as Mana, which also reduces your Max HP by the same amount until you Rest. If you die from this reduction, the Cast still resolves and your body is vaporized.</p>",
+        "grants": {
+          "perks": "Vehement Magic",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Quickening",
+        "description": "<p>You can skip your Move to Cast a Spell. This Casting has a Cast Max of 0. The Cast Max increases by 1 every 4 Levels hereafter.</p><p><em>Sorcerer: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Spell-Slinger",
+        "description": "<p>The damage die of your Spells is one size larger. Further, the roll required for you to Crit on Cast Checks and Saves against Casts is reduced by 1, and is reduced by 1 more every 4 Levels hereafter.</p><p><em>Sorcerer: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Twinned Spell",
+        "description": "<p>If you Cast the same Spell twice on a turn, the second Cast Check is Favored.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Overpowered",
+        "description": "<p>When you Cast, you can choose to gain 1 Fatigue. If you do, you regain Cd4! HP and Max HP at the start of your Turns and have a bonus to your Cast Max each Turn equal to the roll. If using an Ability would kill you during this countdown, including Fatigue gained from this Ability, you do not die until the countdown ends, after which your body is vaporized.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

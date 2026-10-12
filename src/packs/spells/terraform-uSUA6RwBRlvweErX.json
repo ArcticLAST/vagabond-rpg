@@ -1,0 +1,24 @@
+{
+  "_id": "uSUA6RwBRlvweErX",
+  "_key": "!items!uSUA6RwBRlvweErX",
+  "name": "Terraform",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You manipulate the loose earth or stone around the Target in the following ways:</p><p><strong>Area:</strong> You can manipulate terrain in the area, either causing it to be Difficult Terrain or a Structure that can fit within the area for the duration. This magic can't move any terrain supporting an Object.</p><p><strong>Being or Object:</strong> Close earth or stone is Difficult Terrain for the duration.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "blunt",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": false,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

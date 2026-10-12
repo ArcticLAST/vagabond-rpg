@@ -1,0 +1,19 @@
+{
+  "_id": "ysfwncDrtPgoLo93",
+  "_key": "!items!ysfwncDrtPgoLo93",
+  "name": "Endless Stamina",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Fatigue doesn't prevent you from taking the Rush Action and, once per Day, you can remove 1 Fatigue during a Breather.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Brawl"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

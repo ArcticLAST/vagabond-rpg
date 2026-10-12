@@ -1,0 +1,87 @@
+{
+  "_id": "JJjvnYFZ270EHrCL",
+  "_key": "!items!JJjvnYFZ270EHrCL",
+  "name": "Orc",
+  "type": "ancestry",
+  "img": "icons/environment/people/charge.webp",
+  "system": {
+    "description": "<p>Orcs are mutant nightkin that take on a variety of appearances. They typically settle in close-knit tribes where \"might is right\".</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 26",
+    "beingType": "cryptid",
+    "size": "medium",
+    "trainings": [],
+    "traits": [
+      {
+        "level": 1,
+        "name": "Darksight",
+        "description": "<p>You are not Blinded by Dark.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Beefy",
+        "description": "<p>You make Saves against being Grappled or Shoved with Favor, and have Favor on Checks to Grapple or Shove.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Hulking",
+        "description": "<p>You have a +2 bonus to Item Slots.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [
+    {
+      "_id": "91lXTPxngm88JGDH",
+      "_key": "!items.effects!JJjvnYFZ270EHrCL.91lXTPxngm88JGDH",
+      "name": "Hulking",
+      "img": "icons/environment/people/charge.webp",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.slots",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,194 @@
+{
+  "_id": "ka05p7DLXWnui78g",
+  "_key": "!actors!ka05p7DLXWnui78g",
+  "name": "Elemental, Greater Fire",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 16,
+    "tl": 8.3,
+    "attributes": {
+      "hp": {
+        "value": 72,
+        "max": 72
+      },
+      "armor": 5,
+      "armorTag": "as (+2) Armor",
+      "morale": 10,
+      "speed": {
+        "value": 0,
+        "types": "Fly 50'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "primordial",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Fire, Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Fatigued, Prone, Restrained, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 170",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "7xTrI5ehZkW62vYV",
+      "_key": "!actors.items!ka05p7DLXWnui78g.7xTrI5ehZkW62vYV",
+      "name": "Flame",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>13 (3d8) and Burning (Cd8)</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "q8iH5N0nBc1rEkrE",
+      "_key": "!actors.items!ka05p7DLXWnui78g.q8iH5N0nBc1rEkrE",
+      "name": "Living Fire",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Close Beings are Burning (d10).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hZIWp8VnEDyd0thg",
+      "_key": "!actors.items!ka05p7DLXWnui78g.hZIWp8VnEDyd0thg",
+      "name": "Illuminating",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Sheds Light out to Near.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4HXSef3HIUvNd6Gp",
+      "_key": "!actors.items!ka05p7DLXWnui78g.4HXSef3HIUvNd6Gp",
+      "name": "Seep",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Elemental, Greater Fire",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

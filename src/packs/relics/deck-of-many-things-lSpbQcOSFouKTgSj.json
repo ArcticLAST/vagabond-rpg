@@ -1,0 +1,35 @@
+{
+  "_id": "lSpbQcOSFouKTgSj",
+  "_key": "!items!lSpbQcOSFouKTgSj",
+  "name": "Deck of Many Things",
+  "type": "gear",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "system": {
+    "description": "<p><em>Lore: Fabled Tarot Card Deck</em></p><p>Deck of 22 cards in a box. Each card depicts an esoteric image and is decorated with filigree of magical glyphs. A Being can draw up to 4 cards from the deck, and is affected by the magic effects of the card. Afterward, those cards return to the deck.</p><p>You can use a deck of Tarot cards to represent the Deck, using only the Major Arcana to represent it. Those cards are indicated in parenthesis.</p><ul><li><strong>Balance (Justice):</strong> Any three Relics of their choice with a bonus increase the bonus by 1.</li><li><strong>Comet (The World):</strong> By themselves, they must defeat the next Enemy they encounter to gain a Level.</li><li><strong>Donjon (The Empress):</strong> They drop their inventory, forget how to Cast any Spells, and are teleported to a prison. The deck then disappears and no cards can be drawn.</li><li><strong>Fates (The Lovers):</strong> They can choose to avoid one situation or the outcome of a situation at one point in the future.</li><li><strong>Flames (The Devil):</strong> A powerful Hellspawn takes a dedicated interest in them. It is now their Enemy, and will seek to ruin their life.</li><li><strong>Fool (The Fool):</strong> They lose 1 Level and draw another card. The Fool disappears forever.</li><li><strong>Gem (The Wheel of Fortune):</strong> (d66) gems worth 100g each and (d66) pieces of jewelry worth 200g each appear around them.</li><li><strong>Idiot (Temperance):</strong> Their Reason decreases by d6. If reduced to 0, they die. They can draw another card.</li><li><strong>Jester (The Hierophant):</strong> They gain 1 Level or draw two cards. The Jester disappears from the deck forever.</li><li><strong>Key (The High Priestess):</strong> A Fabled Relic of their choice that isn't the Deck of Many Things appears in their hand.</li><li><strong>Knight (Strength):</strong> You gain the service of an Ally champion, which obeys your commands as a companion.</li><li><strong>Medusa (The Magician):</strong> They are cursed, causing a -2 penalty to all Saves.</li><li><strong>Moon (The Moon):</strong> They gain three wishes, which must be made within 10 Minutes.</li><li><strong>Rogue (The Hanged Man):</strong> A friend to them now permanently hates them. This hatred is only revealed at the worst possible time.</li><li><strong>Ruin (The Tower):</strong> They lose all of their land, possessions, and wealth.</li><li><strong>Skull (Death):</strong> A grim reaper appears and attacks them. If any other Being attempts to help them, another grim reaper appears and attacks that Being.</li><li><strong>Star (The Star):</strong> A Stat of their choice increases by 1.</li><li><strong>Sun (The Sun):</strong> They gain 1 Level and one Relic of their choice that isn't a Fabled Relic.</li><li><strong>Talons (Judgement):</strong> Any Relics owned by them disappear instantly and permanently.</li><li><strong>Throne (The Emperor):</strong> Their Presence increases to 7 and they become the owner of a keep.</li><li><strong>Vizier (The Hermit):</strong> They can ask one question of their choice either now or in the future, and are given the most true and thorough answer to that question by the GM.</li><li><strong>Void (The Chariot):</strong> Their soul is ripped from their body, leaving behind a husk. The soul is trapped in a prison of the GM's choice, and may be saved by questing for it. The deck of many things then disappears and no other cards may be drawn from it.</li></ul><p><strong>Grim Reaper</strong> (summoned by the Skull card) &mdash; Medium Undead. HP: = 1/2 the summoner's; Speed: 60' (Fly, Phase); Zone: Frontline; Morale: 12; # Appearing: Special; Senses: Allsight, Darksight; Armor: 8 [as (+5) Heavy]; Immune: Cold, Fire, Poison, Shock; Weak: Physical from Silvered Weapons; Status Immune: Charm, Confused, Frightened, Paralyzed, Restrained, Sickened. <em>Actions:</em> Scythe [Melee]: 9 (2d8). <em>Abilities:</em> Inevitable: Its attacks always hit.</p><p>Value: Priceless (recorded as 0)</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 104",
+    "quantity": 1,
+    "slots": 1,
+    "value": 0,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

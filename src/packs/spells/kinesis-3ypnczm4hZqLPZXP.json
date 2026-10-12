@@ -1,0 +1,24 @@
+{
+  "_id": "3ypnczm4hZqLPZXP",
+  "_key": "!items!3ypnczm4hZqLPZXP",
+  "name": "Kinesis",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You shoot an unsecured Target of 1 or less HD or Slots to a point within Near. If the point is a Being or Object, this Cast deals the Spell's damage to both.</p><p>You can spend Mana to increase the Targetable HD or Slots by 1 per Mana spent to do so for that Casting.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "blunt",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": false,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

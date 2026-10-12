@@ -1,0 +1,35 @@
+{
+  "_id": "qaAg7B1kUxABQ2nI",
+  "_key": "!items!qaAg7B1kUxABQ2nI",
+  "name": "Golden Needle",
+  "type": "gear",
+  "img": "icons/commodities/metal/ingot-steel.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Sewing Needle (Consumable)</em></p><p>If the tip of the needle is pressed into a petrified Being, the needle melts into the stone and the curse of petrification ends. The needle is irretrievable after use.</p><p>Value: 50g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 105",
+    "quantity": 1,
+    "slots": 1,
+    "value": 5000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

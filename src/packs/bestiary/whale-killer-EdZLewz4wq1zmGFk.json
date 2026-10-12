@@ -1,0 +1,130 @@
+{
+  "_id": "EdZLewz4wq1zmGFk",
+  "_key": "!actors!EdZLewz4wq1zmGFk",
+  "name": "Whale, Killer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 3.1,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 7,
+      "speed": {
+        "value": 0,
+        "types": "Swim 80'"
+      }
+    },
+    "details": {
+      "size": "colossal",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d6",
+      "senses": "Echolocation",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 133",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "YyT6zYq8gW8v8kyw",
+      "_key": "!actors.items!EdZLewz4wq1zmGFk.YyT6zYq8gW8v8kyw",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>11 (2d10) and Restrained if smaller</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d10",
+        "average": 11,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rYF44mqYfwZ5jhSE",
+      "_key": "!actors.items!EdZLewz4wq1zmGFk.rYF44mqYfwZ5jhSE",
+      "name": "Hold Breath",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can hold its breath for up to two hours.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Whale, Killer",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

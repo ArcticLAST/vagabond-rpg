@@ -1,0 +1,195 @@
+{
+  "_id": "NanW4WWlVlvgU7PM",
+  "_key": "!actors!NanW4WWlVlvgU7PM",
+  "name": "Cave Fisher",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 2.5,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 6,
+      "speed": {
+        "value": 30,
+        "types": "Cling"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "d4",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 136",
+      "description": "<p>Massive, pale arachnids that lurk in dank tunnels. They use filament like trapwire to ensnare their prey.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "LWvL5AvwzLA9nP5v",
+      "_key": "!actors.items!NanW4WWlVlvgU7PM.LWvL5AvwzLA9nP5v",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Fish and 1×Claw, or 2×Claw</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "folhJ2O1hZHQ5W06",
+      "_key": "!actors.items!NanW4WWlVlvgU7PM.folhJ2O1hZHQ5W06",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "X2hSwGiHOiD5N9kt",
+      "_key": "!actors.items!NanW4WWlVlvgU7PM.X2hSwGiHOiD5N9kt",
+      "name": "Fish",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>Restrained by Filament and pulled Close.</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cXdyWTgVrsWlLzY8",
+      "_key": "!actors.items!NanW4WWlVlvgU7PM.cXdyWTgVrsWlLzY8",
+      "name": "Filament",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>As rope with 1 HD (4 HP)</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Cave Fisher",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

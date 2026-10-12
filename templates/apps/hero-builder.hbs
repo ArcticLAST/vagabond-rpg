@@ -1,0 +1,221 @@
+<div class="builder {{mode}}">
+{{#if isCreate}}
+  <nav class="builder-steps">
+    {{#each steps}}
+    <button type="button" class="step {{#if active}}active{{/if}} {{#if done}}done{{/if}} {{#if locked}}locked{{/if}}"
+      data-action="goto" data-step="{{id}}" {{disabled locked}}>
+      <span class="step-n">{{#if done}}<i class="fa-solid fa-check"></i>{{else}}{{n}}{{/if}}</span> {{localize label}}
+    </button>
+    {{/each}}
+  </nav>
+
+  <section class="builder-body">
+    {{#if (eq step "ancestry")}}
+    <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.ancestry"}}</p>
+    <div class="pick-grid">
+      {{#each cards}}
+      <article class="pick-card big {{#if selected}}selected{{/if}}" data-kind="ancestry" data-uuid="{{uuid}}">
+        <header class="pick-head" data-action="pick">
+          <img src="{{img}}" alt=""><div><h3>{{name}}</h3><span class="pick-sub">{{#each tags}}{{this}} {{/each}}</span></div>
+          <i class="pick-check {{#if selected}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i>
+        </header>
+        <ul class="pick-traits">{{#each traits}}<li><strong>{{name}}.</strong> {{{html}}}</li>{{/each}}</ul>
+      </article>
+      {{/each}}
+    </div>
+    {{/if}}
+
+    {{#if (eq step "class")}}
+    <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.class"}}</p>
+    <div class="pick-grid">
+      {{#each cards}}
+      <article class="pick-card big {{#if selected}}selected{{/if}}" data-kind="class" data-uuid="{{uuid}}">
+        <header class="pick-head" data-action="pick">
+          <img src="{{img}}" alt=""><div><h3>{{name}}</h3><span class="pick-sub">{{playstyle}}</span></div>
+          <i class="pick-check {{#if selected}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i>
+        </header>
+        <dl class="pick-facts">
+          <div><dt>{{localize "VAGABOND.Builder.KeyStats"}}</dt><dd>{{keyStats}}</dd></div>
+          <div><dt>{{localize "VAGABOND.Builder.Trainings"}}</dt><dd>{{trainings}}</dd></div>
+          {{#if caster}}<div><dt>{{localize "VAGABOND.Builder.Magic"}}</dt><dd><i class="fa-solid fa-wand-sparkles"></i></dd></div>{{/if}}
+        </dl>
+        <details class="pick-more"><summary>{{localize "VAGABOND.Builder.Level1Features"}}</summary>
+          <ul class="pick-traits">{{#each features}}<li><strong>{{name}}.</strong> {{{html}}}</li>{{/each}}</ul>
+        </details>
+      </article>
+      {{/each}}
+    </div>
+    {{/if}}
+
+    {{#if (eq step "stats")}}
+    <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.stats"}}</p>
+    <div class="array-grid">
+      {{#each arrays}}
+      <button type="button" class="array {{#if selected}}selected{{/if}}" data-action="pickArray" data-index="{{i}}">
+        <span class="array-n">{{n}}</span> {{values}}
+      </button>
+      {{/each}}
+    </div>
+    {{#if statRows}}
+    <div class="stats-assign">
+      <div class="assign-list">
+        <div class="assign-head"><h3>{{localize "VAGABOND.Builder.Assign"}}</h3>
+          <button type="button" data-action="autoAssign"><i class="fa-solid fa-wand-magic-sparkles"></i> {{localize "VAGABOND.Builder.AutoAssign"}}</button></div>
+        {{#each statRows}}
+        <label class="assign-row {{#if key_stat}}key{{/if}}">
+          <span class="assign-label">{{localize label}} <span class="assign-abbr">{{localize abbr}}</span>
+            {{#if key_stat}}<i class="fa-solid fa-key" data-tooltip="VAGABOND.Builder.KeyStat"></i>{{/if}}</span>
+          <select data-field="assign" data-stat="{{key}}">
+            <option value="">—</option>
+            {{#each options}}<option value="{{idx}}" {{#if selected}}selected{{/if}}>{{v}}{{#if taken}} ⇄{{/if}}</option>{{/each}}
+          </select>
+        </label>
+        {{/each}}
+        {{#if plan.boostNeeded}}
+        <label class="assign-row boost">
+          <span class="assign-label">{{localize "VAGABOND.Builder.StatBoost"}}</span>
+          <select data-field="boost"><option value="">—</option>
+            {{#each boostOptions}}<option value="{{key}}" {{#if selected}}selected{{/if}} {{disabled disabled}}>{{localize label}} +1</option>{{/each}}
+          </select>
+        </label>
+        {{/if}}
+      </div>
+      {{#if preview}}
+      <div class="preview">
+        <h3>{{localize "VAGABOND.Builder.AtLevel1"}}</h3>
+        <dl>
+          <div><dt>{{localize "VAGABOND.HP"}}</dt><dd>{{preview.hp}}</dd></div>
+          <div><dt>{{localize "VAGABOND.Slots"}}</dt><dd>{{preview.slots}}</dd></div>
+          <div><dt>{{localize "VAGABOND.Speed.Label"}}</dt><dd>{{preview.speed}}'</dd></div>
+          <div><dt>{{localize "VAGABOND.Luck.Label"}}</dt><dd>{{preview.luck}}</dd></div>
+          <div><dt>{{localize "VAGABOND.Save.endure"}}</dt><dd>{{preview.endure}}</dd></div>
+          <div><dt>{{localize "VAGABOND.Save.reflex"}}</dt><dd>{{preview.reflex}}</dd></div>
+          <div><dt>{{localize "VAGABOND.Save.will"}}</dt><dd>{{preview.will}}</dd></div>
+          <div><dt>{{localize "VAGABOND.Builder.ExtraTrainings"}}</dt><dd>{{preview.trainings}}</dd></div>
+        </dl>
+      </div>
+      {{/if}}
+    </div>
+    {{/if}}
+    {{/if}}
+
+    {{#if (eq step "skills")}}
+    <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.skills"}}</p>
+    <p class="counter {{#if (eq skillsLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=skillsLeft}}
+      {{#if plan.grants.trainingChoices}}<span class="hint">({{localize "VAGABOND.Builder.IncludesGrants"}} {{#each plan.grants.sources}}{{this}} {{/each}})</span>{{/if}}</p>
+    {{> "systems/vagabond-rpg/templates/apps/parts/skill-picker.hbs" rows=skillRows}}
+    {{/if}}
+
+    {{#if (eq step "perks")}}
+    <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.perks"}}</p>
+    <p class="counter {{#if (eq perksLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=perksLeft}}</p>
+    {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=perkCards kind="perks" search=state.search.perks}}
+    {{/if}}
+
+    {{#if (eq step "spells")}}
+    <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.spells"}}</p>
+    <p class="counter {{#if (eq spellsLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=spellsLeft}}</p>
+    {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=spellCards kind="spells" search=state.search.spells}}
+    {{/if}}
+
+    {{#if (eq step "review")}}
+    <div class="review">
+      <label class="review-name"><span>{{localize "Name"}}</span><input type="text" data-field="name" value="{{state.name}}"></label>
+      <dl class="review-list">
+        <div><dt>{{localize "TYPES.Item.ancestry"}}</dt><dd>{{review.ancestry}}</dd></div>
+        <div><dt>{{localize "TYPES.Item.class"}}</dt><dd>{{review.cls}}</dd></div>
+        <div><dt>{{localize "VAGABOND.Stats"}}</dt><dd>{{#each review.stats}}<span class="tag">{{localize abbr}} {{value}}</span> {{/each}}</dd></div>
+        {{#if review.preview}}
+        <div><dt>{{localize "VAGABOND.Builder.AtLevel1"}}</dt><dd>{{localize "VAGABOND.HP"}} {{review.preview.hp}} · {{localize "VAGABOND.Slots"}} {{review.preview.slots}} · {{localize "VAGABOND.Speed.Label"}} {{review.preview.speed}}'{{#if review.mana}} · {{localize "VAGABOND.Mana"}} {{review.mana}}{{/if}}</dd></div>
+        {{/if}}
+        <div><dt>{{localize "VAGABOND.Builder.Trainings"}}</dt><dd>{{review.skills}}</dd></div>
+        <div><dt>{{localize "TYPES.Item.perkPl"}}</dt><dd>{{review.perks}}</dd></div>
+        {{#if review.spells}}<div><dt>{{localize "TYPES.Item.spellPl"}}</dt><dd>{{review.spells}}</dd></div>{{/if}}
+      </dl>
+      <label class="review-kit"><span>{{localize "VAGABOND.Builder.StartingPack"}}</span>
+        <select data-field="kit">
+          <option value="gold" {{#if (eq review.kitChoice "gold")}}selected{{/if}}>{{localize "VAGABOND.Builder.KitGold"}}</option>
+          {{#if review.kitsRecommended.length}}<optgroup label="{{localize "VAGABOND.Builder.KitRecommended"}}">{{#each review.kitsRecommended}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</optgroup>{{/if}}
+          {{#if review.kitsOther.length}}<optgroup label="{{localize "VAGABOND.Builder.KitOther"}}">{{#each review.kitsOther}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</optgroup>{{/if}}
+          <option value="" {{#if (eq review.kitChoice "")}}selected{{/if}}>{{localize "VAGABOND.Builder.KitNone"}}</option>
+        </select>
+      </label>
+      {{#if review.kitGroups.length}}
+      <div class="kit-review">
+        <h4>{{localize "VAGABOND.Builder.KitIncludes"}}</h4>
+        {{#each review.kitGroups}}
+        <div class="kit-group"><h5>{{label}}</h5>
+          <ul class="kit-items">{{#each items}}<li><img src="{{img}}" alt="" width="24" height="24"><span class="kit-name">{{name}}{{#if worth}} <span class="kit-qty">({{worth}})</span>{{/if}}</span>{{#if (gt quantity 1)}}<span class="kit-count">×{{quantity}}</span>{{/if}}</li>{{/each}}</ul>
+        </div>
+        {{/each}}
+        <p class="kit-wealth"><i class="fa-solid fa-coins"></i> {{localize "VAGABOND.Builder.KitWealth"}}: <strong>{{review.kitWealth}}</strong></p>
+      </div>
+      {{else}}<p class="hint">{{localize "VAGABOND.Builder.GearHint"}}</p>{{/if}}
+      {{#if review.missing.length}}<p class="warning">{{localize "VAGABOND.Builder.StillNeeded"}}: {{#each review.missing}}{{localize this}} {{/each}}</p>{{/if}}
+    </div>
+    {{/if}}
+  </section>
+
+  <footer class="builder-footer">
+    <button type="button" data-action="back" {{disabled isFirst}}><i class="fa-solid fa-arrow-left"></i> {{localize "VAGABOND.Builder.Back"}}</button>
+    {{#if isLast}}
+    <button type="button" class="bright" data-action="finish" {{disabled (not plan.done.review)}}><i class="fa-solid fa-check"></i> {{localize "VAGABOND.Builder.Create"}}</button>
+    {{else}}
+    <button type="button" class="bright" data-action="next" {{disabled (not canNext)}}>{{localize "VAGABOND.Builder.Next"}} <i class="fa-solid fa-arrow-right"></i></button>
+    {{/if}}
+  </footer>
+
+{{else}}
+  <section class="builder-body levelup">
+    <div class="level-banner">
+      <span class="level-from">{{state.from}}</span><i class="fa-solid fa-angles-right"></i><span class="level-to">{{state.to}}</span>
+      <div class="level-gains">
+        <span class="tag">{{localize "VAGABOND.HP"}} +{{plan.hpGain}}</span>
+        {{#if plan.manaGain}}<span class="tag">{{localize "VAGABOND.Mana"}} +{{plan.manaGain}}</span>{{/if}}
+        {{#if (ne plan.castMaxBefore plan.castMaxAfter)}}<span class="tag">{{localize "VAGABOND.CastMax"}} {{plan.castMaxBefore}} → {{plan.castMaxAfter}}</span>{{/if}}
+      </div>
+    </div>
+
+    <h3>{{localize "VAGABOND.Builder.NewFeatures"}}</h3>
+    {{#if features.length}}
+    <ul class="pick-traits features">{{#each features}}<li><strong>{{name}}{{#if again}} ({{localize "VAGABOND.Builder.Again"}}){{/if}}.</strong> {{{html}}}</li>{{/each}}</ul>
+    {{else}}<p class="hint">{{localize "VAGABOND.Builder.NoFeatures"}}</p>{{/if}}
+
+    {{#if plan.statIncrease}}
+    <h3>{{localize "VAGABOND.Builder.StatIncrease"}}</h3>
+    <div class="stat-up-grid">
+      {{#each statChoices}}
+      <label class="stat-up {{#if selected}}selected{{/if}} {{#if capped}}capped{{/if}}">
+        <input type="radio" name="statUp" data-field="statUp" value="{{key}}" {{checked selected}} {{disabled capped}}>
+        <span class="stat-up-abbr">{{localize abbr}}</span>
+        <span class="stat-up-value">{{value}}{{#if selected}} → {{lookup @root.plan.after key}}{{/if}}</span>
+      </label>
+      {{/each}}
+    </div>
+    {{/if}}
+
+    {{#if plan.trainingPicks}}
+    <h3>{{localize "VAGABOND.Builder.NewTraining"}}</h3>
+    <p class="counter {{#if (eq skillsLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=skillsLeft}}</p>
+    {{> "systems/vagabond-rpg/templates/apps/parts/skill-picker.hbs" rows=skillRows}}
+    {{/if}}
+
+    {{#if perkCards}}
+    <h3>{{localize "VAGABOND.Builder.NewPerk"}}</h3>
+    <p class="counter {{#if (eq perksLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=perksLeft}}</p>
+    {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=perkCards kind="perks" search=state.search.perks}}
+    {{/if}}
+
+    {{#if spellCards}}
+    <h3>{{localize "VAGABOND.Builder.NewSpells"}}</h3>
+    <p class="counter {{#if (eq spellsLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=spellsLeft}}</p>
+    {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=spellCards kind="spells" search=state.search.spells}}
+    {{/if}}
+  </section>
+
+  <footer class="builder-footer">
+    <span></span>
+    <button type="button" class="bright" data-action="finish" {{disabled (not canFinish)}}><i class="fa-solid fa-angles-up"></i> {{localize "VAGABOND.Builder.LevelUpTo" level=state.to}}</button>
+  </footer>
+{{/if}}
+</div>

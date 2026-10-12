@@ -1,0 +1,19 @@
+{
+  "_id": "PXP7OeJobL5jnWri",
+  "_key": "!items!PXP7OeJobL5jnWri",
+  "name": "Arcane Artisan",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>When you Craft, you can spend Mana to supplement Materials by 5s per Mana spent. Further, you can conduct a Ritual (p. 10) to magically scrap a 2 Slot or less non-Relic Item you touch throughout the Ritual. The Item must have a value of at least 5s. The Item becomes 5s of Materials for every Slot it previously occupied.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Any | Trained: Arcana & Craft"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

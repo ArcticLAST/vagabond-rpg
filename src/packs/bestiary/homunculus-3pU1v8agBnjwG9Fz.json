@@ -1,0 +1,130 @@
+{
+  "_id": "3pU1v8agBnjwG9Fz",
+  "_key": "!actors!3pU1v8agBnjwG9Fz",
+  "name": "Homunculus",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.9,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 3,
+      "speed": {
+        "value": 10,
+        "types": "Fly 40'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Darksight, Echolocation",
+      "immune": "Poison",
+      "weak": "",
+      "statusImmunities": "Charmed, Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 120",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "zhL4kVbZDdvmyKVN",
+      "_key": "!actors.items!3pU1v8agBnjwG9Fz.zhL4kVbZDdvmyKVN",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>1 (d3) and (1/Day) pass [Endure] or become Sickened (Cd6 Rounds, Unconscious until it takes damage).</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d3",
+        "average": 1,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nxuJliip2nX54FX5",
+      "_key": "!actors.items!3pU1v8agBnjwG9Fz.nxuJliip2nX54FX5",
+      "name": "Spit Acid",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>2 (d4) and Burning (Cd4)</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack, Near",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "acid",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Homunculus",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

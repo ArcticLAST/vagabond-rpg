@@ -1,0 +1,98 @@
+{
+  "_id": "c10S9OJv2rcbqB57",
+  "_key": "!actors!c10S9OJv2rcbqB57",
+  "name": "Dungeonheart",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 10,
+    "tl": 1.7,
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": null,
+      "speed": {
+        "value": 0,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "Pierce",
+      "statusImmunities": "Berserk, Charmed, Confused, Dazed, Frightened, Incapacitated, Suffocating, Unconscious",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 118",
+      "description": "<p>The creation of a dungeonheart involves opening a summoning portal within a living troll's heart. The troll must survive the initial process to guarantee its regeneration works. Over time, the troll's blood and tissue seeps through the portal, which spits out all manner of bizarre creatures.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "IluYdEbKMYLPFjKh",
+      "_key": "!actors.items!c10S9OJv2rcbqB57.IluYdEbKMYLPFjKh",
+      "name": "Spawn",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>At the start of its Turn, roll d4. On a roll of 2 to 4, this Being spawns an Ally Being (d6, roll two and take the highest if this Being is at half HP or lower), which appears in the nearest open space: 1 Giant Spider (p. 132); 2 Basilisk (p. 135); 3 Owl Bear (p. 145); 4 Rust Monster (p. 147); 5 Warp Beast (p. 151); 6 Gelatinous Cube (p. 172)</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dungeonheart",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

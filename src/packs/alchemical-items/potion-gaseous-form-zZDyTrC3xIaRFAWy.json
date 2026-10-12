@@ -1,0 +1,35 @@
+{
+  "_id": "zZDyTrC3xIaRFAWy",
+  "_key": "!items!zZDyTrC3xIaRFAWy",
+  "name": "Potion, Gaseous Form",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>For 1 Hour, the consumer's body becomes a cloud of gas and the following rules apply:</p><ul><li>They immediately drop anything they have equipped, and can't equip anything.</li><li>They can Move by seeping into tiny spaces.</li><li>They can't Attack or Cast.</li><li>They are Immune to all damage from attacks that aren't made by Relics.</li></ul>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 25000.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

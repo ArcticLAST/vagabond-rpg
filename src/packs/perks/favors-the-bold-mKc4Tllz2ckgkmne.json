@@ -1,0 +1,19 @@
+{
+  "_id": "mKc4Tllz2ckgkmne",
+  "_key": "!items!mKc4Tllz2ckgkmne",
+  "name": "Favors the Bold",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>If you use Luck to grant a bonus to a Check and that Check would have passed without the bonus, you regain the Luck.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: LUK 7"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "ktWy9X4WoTjNpFeh",
+  "_key": "!items!ktWy9X4WoTjNpFeh",
+  "name": "New Training",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You gain a Training. You can take this Perk multiple times.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

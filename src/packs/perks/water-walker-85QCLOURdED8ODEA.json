@@ -1,0 +1,19 @@
+{
+  "_id": "85QCLOURdED8ODEA",
+  "_key": "!items!85QCLOURdED8ODEA",
+  "name": "Water Walker",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can walk on water.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Aqua"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

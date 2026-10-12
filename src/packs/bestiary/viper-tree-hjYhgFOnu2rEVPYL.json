@@ -1,0 +1,98 @@
+{
+  "_id": "hjYhgFOnu2rEVPYL",
+  "_key": "!actors!hjYhgFOnu2rEVPYL",
+  "name": "Viper Tree",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 9,
+    "tl": 3.2,
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "max": 40
+      },
+      "armor": 2,
+      "armorTag": "Bark",
+      "morale": null,
+      "speed": {
+        "value": 0,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "outer",
+      "subtype": "Hellspawn, Plant",
+      "zone": "frontline",
+      "appearing": "2d10",
+      "senses": "",
+      "immune": "Acid, Cold, Poison",
+      "weak": "Fire, damage from axes",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 166",
+      "description": "<p>In the twisted chaos of Hell, viper trees thrive. Easily mistaken for beech trees.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "Dmk8reWm6b7DcLYK",
+      "_key": "!actors.items!hjYhgFOnu2rEVPYL.Dmk8reWm6b7DcLYK",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6) and pass [Endure] with a -3 penalty or be Sickened (Cd4, Paralyzed).</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Viper Tree",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

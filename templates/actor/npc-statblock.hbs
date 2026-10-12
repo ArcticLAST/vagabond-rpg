@@ -1,0 +1,81 @@
+<section class="tab statblock {{tab.cssClass}}" data-tab="statblock" data-group="primary">
+  <dl class="statblock-fields">
+    <div><dt>{{localize "VAGABOND.Speed.Label"}}</dt><dd>
+      {{#if editMode}}<input type="number" name="system.attributes.speed.value" value="{{source.attributes.speed.value}}" min="0">
+      <input type="text" name="system.attributes.speed.types" value="{{source.attributes.speed.types}}" placeholder="{{localize 'VAGABOND.NPC.SpeedTypes'}}">
+      {{else}}{{system.attributes.speed.value}}'{{#if system.attributes.speed.types}}, {{system.attributes.speed.types}}{{/if}}{{/if}}</dd></div>
+    <div><dt>{{localize "VAGABOND.NPC.Zone"}}</dt><dd>
+      {{#if editMode}}<select name="system.details.zone">{{selectOptions zones selected=source.details.zone localize=true blank=""}}</select>
+      {{else}}{{localize (lookup config.zones system.details.zone)}}{{/if}}</dd></div>
+    {{#each (vgArray "appearing" "senses" "immune" "weak" "statusImmunities") as |field|}}
+    {{#if (or @root.editMode (lookup @root.system.details field))}}
+    <div><dt>{{localize (concat "VAGABOND.NPC.Field." field)}}</dt><dd>
+      {{#if @root.editMode}}<input type="text" name="system.details.{{field}}" value="{{lookup @root.source.details field}}">
+      {{else}}{{lookup @root.system.details field}}{{/if}}</dd></div>
+    {{/if}}
+    {{/each}}
+    {{#if (or editMode system.attributes.travel)}}
+    <div data-tooltip="VAGABOND.NPC.TravelHint"><dt>{{localize "VAGABOND.Speed.Travel"}}</dt><dd>
+      {{#if editMode}}<input type="number" name="system.attributes.travel" value="{{source.attributes.travel}}" min="0"> mi
+      {{else}}{{system.attributes.travel}} mi{{/if}}</dd></div>
+    {{/if}}
+    {{#if (or editMode system.cargo.max)}}
+    <div data-tooltip="VAGABOND.NPC.CargoHint"><dt>{{localize "VAGABOND.Storage.Cargo"}}</dt><dd>
+      {{#if editMode}}<input type="number" name="system.cargo.max" value="{{source.cargo.max}}" min="0"> {{localize "VAGABOND.Slots"}}
+      {{else}}{{system.cargo.slots.value}} / {{system.cargo.max}} {{localize "VAGABOND.Slots"}}{{/if}}</dd></div>
+    {{/if}}
+    {{#if (or editMode system.attributes.armorTag)}}
+    <div><dt>{{localize "VAGABOND.NPC.ArmorTag"}}</dt><dd>
+      {{#if editMode}}<input type="text" name="system.attributes.armorTag" value="{{source.attributes.armorTag}}">{{else}}{{system.attributes.armorTag}}{{/if}}</dd></div>
+    {{/if}}
+  </dl>
+
+  <div class="item-section statblock-actions">
+    <div class="list-header"><span class="col-name">{{localize "VAGABOND.NPC.Actions"}}</span>
+      <span class="col controls">{{#if editable}}<a data-action="createItem" data-type="action" data-action-type="melee" data-tooltip="VAGABOND.Sheet.Create"><i class="fa-solid fa-plus"></i></a>{{/if}}</span></div>
+    <ol class="item-list">
+      {{#each actions}}
+      <li class="item action draggable" data-item-id="{{id}}">
+        <img class="item-img rollable" src="{{img}}" alt="" data-action="useItem" data-tooltip="VAGABOND.Sheet.Use">
+        <div class="item-name action-text">
+          <a data-action="useItem"><strong>{{name}}</strong></a>{{#if system.tags}} <span class="action-tags">[{{system.tags}}]</span>{{/if}}{{#if system.recharge}} <span class="action-recharge">({{system.recharge}})</span>{{/if}}{{#if system.damageInfo}} <span class="action-dtype type-{{system.damageInfo.type}}">{{localize (lookup @root.config.damageTypes system.damageInfo.type)}}{{#if system.damageInfo.relic}} {{localize "VAGABOND.Damage.Relic" n=system.damageInfo.bonus}}{{/if}}</span>{{/if}}:
+          <div class="action-desc">{{{descriptionHTML}}}</div>
+        </div>
+        <span class="col controls">{{> "systems/vagabond-rpg/templates/actor/parts/item-controls.hbs"}}</span>
+      </li>
+      {{else}}<li class="empty">{{localize "VAGABOND.Sheet.Empty"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+
+  <div class="item-section statblock-abilities">
+    <div class="list-header"><span class="col-name">{{localize "VAGABOND.NPC.Abilities"}}</span>
+      <span class="col controls">{{#if editable}}<a data-action="createItem" data-type="action" data-action-type="ability" data-tooltip="VAGABOND.Sheet.Create"><i class="fa-solid fa-plus"></i></a>{{/if}}</span></div>
+    <ol class="item-list">
+      {{#each abilities}}
+      <li class="item action draggable" data-item-id="{{id}}">
+        <div class="item-name action-text"><a data-action="useItem"><strong>{{name}}</strong></a>{{#if system.recharge}} <span class="action-recharge">({{system.recharge}})</span>{{/if}}{{#if system.damageInfo}} <span class="action-dtype type-{{system.damageInfo.type}}">{{localize (lookup @root.config.damageTypes system.damageInfo.type)}}</span>{{/if}}: <div class="action-desc">{{{descriptionHTML}}}</div></div>
+        <span class="col controls">{{> "systems/vagabond-rpg/templates/actor/parts/item-controls.hbs"}}</span>
+      </li>
+      {{else}}<li class="empty">{{localize "VAGABOND.Sheet.Empty"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+
+  {{#if (or otherItems.length system.cargo.max)}}
+  <div class="item-section">
+    <div class="list-header"><span class="col-name">{{#if system.cargo.max}}{{localize "VAGABOND.Storage.Cargo"}} ({{system.cargo.slots.value}} / {{system.cargo.max}}){{else}}{{localize "VAGABOND.NPC.Items"}}{{/if}}</span></div>
+    <ol class="item-list">
+      {{#each otherItems}}
+      <li class="item draggable" data-item-id="{{id}}">
+        <img class="item-img rollable" src="{{img}}" alt="" data-action="useItem">
+        <div class="item-name"><a data-action="toggleDescription">{{name}}</a></div>
+        <span class="col controls">{{> "systems/vagabond-rpg/templates/actor/parts/item-controls.hbs"}}</span>
+        {{> "systems/vagabond-rpg/templates/actor/parts/item-description.hbs"}}
+      </li>
+      {{else}}<li class="empty">{{localize "VAGABOND.Storage.DragHint"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+  {{/if}}
+</section>

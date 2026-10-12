@@ -1,0 +1,130 @@
+{
+  "_id": "F7WiVTDdxYPNb6ct",
+  "_key": "!actors!F7WiVTDdxYPNb6ct",
+  "name": "Living Statue, Crystal",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 2.6,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 11,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "",
+      "immune": "Poison",
+      "weak": "Blunt",
+      "statusImmunities": "Blinded, Fatigued, Suffocating, Unconscious",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 121",
+      "description": "<p>An animated crystal statue, capable of moving and attacking.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "faY29KqAYVCL3iAL",
+      "_key": "!actors.items!F7WiVTDdxYPNb6ct.faY29KqAYVCL3iAL",
+      "name": "Weapon",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8) or (by Weapon)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qMCDALKrCBlGns3w",
+      "_key": "!actors.items!F7WiVTDdxYPNb6ct.qMCDALKrCBlGns3w",
+      "name": "Immutable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Living Statue, Crystal",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

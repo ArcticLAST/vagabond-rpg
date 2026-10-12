@@ -1,0 +1,98 @@
+{
+  "_id": "yuIpAZPdklzQOK9D",
+  "_key": "!actors!yuIpAZPdklzQOK9D",
+  "name": "Bee, Giant",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.9,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 9,
+      "speed": {
+        "value": 10,
+        "types": "Fly 50'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "2d6",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 125",
+      "description": "<p>Roughly 1' in length, these giant bees are extremely territorial, but otherwise non-aggressive.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "RZqkNTiWmnmOsoSw",
+      "_key": "!actors.items!yuIpAZPdklzQOK9D.RZqkNTiWmnmOsoSw",
+      "name": "Sting",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Bee, Giant",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

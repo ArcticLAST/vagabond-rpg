@@ -1,0 +1,227 @@
+{
+  "_id": "hKFB7o57rvq7RL1R",
+  "_key": "!actors!hKFB7o57rvq7RL1R",
+  "name": "Carcolh",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 15,
+    "tl": 7.1,
+    "attributes": {
+      "hp": {
+        "value": 67,
+        "max": 67
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 11,
+      "speed": {
+        "value": 20,
+        "types": "Climb, Cling"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "fae",
+      "subtype": "Wyrm",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Seismicsense",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 154",
+      "description": "<p>A snail-like serpent that usually resides in gardens of splendor and crystal caves. Their mouths are lined with draconic fangs, and their head is crowned with multiple hairy tentacles.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "p2cg9DrzTpBWXczc",
+      "_key": "!actors.items!hKFB7o57rvq7RL1R.p2cg9DrzTpBWXczc",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Tentacle per (Tentacles) and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NdtjvZO8mRJAW85S",
+      "_key": "!actors.items!hKFB7o57rvq7RL1R.NdtjvZO8mRJAW85S",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>16 (3d10) and Burning (Cd6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d10",
+        "average": 16,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7uPdRDhj9DAtjwSo",
+      "_key": "!actors.items!hKFB7o57rvq7RL1R.7uPdRDhj9DAtjwSo",
+      "name": "Tentacle",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Restrained and pulled Close.</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Grapple, Near",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "k7uNS8n6UcDw2CEQ",
+      "_key": "!actors.items!hKFB7o57rvq7RL1R.k7uNS8n6UcDw2CEQ",
+      "name": "Magic Ward II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NBr7acKTpqD9jlsw",
+      "_key": "!actors.items!hKFB7o57rvq7RL1R.NBr7acKTpqD9jlsw",
+      "name": "Tentacles",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Starts with 6 Tentacles. Targetting a Tentacle causes a -4 penalty to the Attack Check, but severs it if at least 16 damage is dealt with the attack.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Carcolh",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

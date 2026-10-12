@@ -1,0 +1,35 @@
+{
+  "_id": "kS3FnvtMLcLmRDY7",
+  "_key": "!items!kS3FnvtMLcLmRDY7",
+  "name": "Piton",
+  "type": "gear",
+  "img": "icons/tools/fasteners/nail-steel.webp",
+  "system": {
+    "description": "<p><em>Hardware</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 81",
+    "quantity": 1,
+    "slots": 1,
+    "value": 0.05,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

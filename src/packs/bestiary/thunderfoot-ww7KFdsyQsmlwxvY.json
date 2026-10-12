@@ -1,0 +1,130 @@
+{
+  "_id": "ww7KFdsyQsmlwxvY",
+  "_key": "!actors!ww7KFdsyQsmlwxvY",
+  "name": "Thunderfoot",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 35,
+    "tl": 10.5,
+    "attributes": {
+      "hp": {
+        "value": 157,
+        "max": 157
+      },
+      "armor": 4,
+      "armorTag": "as (+3) Leather",
+      "morale": 9,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "colossal",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d12",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 132",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "0KncZodDgtY3h8Q6",
+      "_key": "!actors.items!ww7KFdsyQsmlwxvY.0KncZodDgtY3h8Q6",
+      "name": "Stomp",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>25 (4d10+3)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "4d10+3",
+        "average": 25,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3tUgD00UUc6b1W36",
+      "_key": "!actors.items!ww7KFdsyQsmlwxvY.3tUgD00UUc6b1W36",
+      "name": "Tail",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>22 (5d8) and shoved Prone 30' away</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "5d8",
+        "average": 22,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Thunderfoot",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

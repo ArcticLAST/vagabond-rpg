@@ -1,0 +1,24 @@
+{{> "systems/vagabond-rpg/templates/item/parts/_physical.hbs"}}
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Damage.Die"}}</label><input type="text" name="system.damage" value="{{source.damage}}" placeholder="d6"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Weapon.Range"}}</label><select name="system.range">{{selectOptions options.ranges selected=source.range localize=true}}</select></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Weapon.Grip"}}</label><select name="system.grip">{{selectOptions options.grips selected=source.grip localize=true}}</select></div>
+</div>
+{{#if (eq source.grip "v")}}
+<div class="form-group checkbox"><label>{{localize "VAGABOND.Weapon.TwoHanded"}}</label><input type="checkbox" name="system.twoHanded" {{checked source.twoHanded}}></div>
+{{/if}}
+<fieldset><legend>{{localize "VAGABOND.Weapon.Types"}}</legend>
+  <div class="checkbox-grid">{{#each weaponTypes}}<label class="checkbox"><input type="checkbox" name="system.types.{{key}}" {{checked checked}}> {{localize label}}</label>{{/each}}</div>
+</fieldset>
+<fieldset><legend>{{localize "VAGABOND.Weapon.Properties"}}</legend>
+  <div class="checkbox-grid">{{#each weaponProperties}}<label class="checkbox" data-tooltip="{{hint}}"><input type="checkbox" name="system.properties.{{key}}" {{checked checked}}> {{localize label}}</label>{{/each}}</div>
+</fieldset>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Damage.Type"}}</label><select name="system.damageType">{{selectOptions options.weaponDamageTypes selected=source.damageType localize=true}}</select></div>
+  <div class="form-group checkbox"><label data-tooltip="VAGABOND.Weapon.RelicHint">{{localize "VAGABOND.Weapon.Relic"}}</label><input type="checkbox" name="system.relic" {{checked source.relic}}></div>
+</div>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Metal.Label"}}</label><select name="system.metal">{{selectOptions options.metals selected=source.metal localize=true}}</select></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Relic.Bonus"}}</label><input type="number" name="system.bonus" value="{{source.bonus}}"></div>
+  <div class="form-group checkbox"><label data-tooltip="VAGABOND.Weapon.CrudeHint">{{localize "VAGABOND.Weapon.Crude"}}</label><input type="checkbox" name="system.crude" {{checked source.crude}}></div>
+</div>

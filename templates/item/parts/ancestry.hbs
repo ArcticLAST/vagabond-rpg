@@ -1,0 +1,10 @@
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Size.Label"}}</label><select name="system.size">{{selectOptions options.sizes selected=source.size localize=true}}</select></div>
+  <div class="form-group"><label>{{localize "VAGABOND.BeingType.Label"}}</label><select name="system.beingType">{{selectOptions options.beingTypes selected=source.beingType localize=true}}</select></div>
+</div>
+<fieldset><legend>{{localize "VAGABOND.Class.Trainings"}}</legend>
+  <div class="checkbox-grid">{{#each skillChecks}}<label class="checkbox"><input type="checkbox" name="system._trainings.{{key}}" {{checked checked}}> {{localize label}}</label>{{/each}}</div>
+</fieldset>
+<fieldset><legend>{{localize "VAGABOND.Sheet.Traits"}}</legend>
+  {{> "systems/vagabond-rpg/templates/item/parts/_rows.hbs" rows=traitRows list="traits" withLevel=false}}
+</fieldset>

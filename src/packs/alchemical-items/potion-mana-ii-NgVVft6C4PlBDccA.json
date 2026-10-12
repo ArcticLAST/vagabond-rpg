@@ -1,0 +1,35 @@
+{
+  "_id": "NgVVft6C4PlBDccA",
+  "_key": "!items!NgVVft6C4PlBDccA",
+  "name": "Potion, Mana (II)",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>The consumer regains Mana equal to a number of d6 rolls determined by the Potion's Rank, plus a modifier equal to its Rank:</p><p>Once it regains Mana with one of these</p><p><strong>Rank II:</strong> 2d6+2</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 1500.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "2d6+2",
+      "type": "mana",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

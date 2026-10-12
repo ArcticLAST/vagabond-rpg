@@ -1,0 +1,35 @@
+{
+  "_id": "Fy8pjPXpXE5xmn4A",
+  "_key": "!items!Fy8pjPXpXE5xmn4A",
+  "name": "Book, sheet music",
+  "type": "gear",
+  "img": "icons/sundries/books/book-rounded-red.webp",
+  "system": {
+    "description": "<p><em>Musical</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 81",
+    "quantity": 1,
+    "slots": 1,
+    "value": 20.0,
+    "equipped": false,
+    "category": "tool",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

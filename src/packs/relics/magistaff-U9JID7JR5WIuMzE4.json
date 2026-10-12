@@ -1,0 +1,46 @@
+{
+  "_id": "U9JID7JR5WIuMzE4",
+  "_key": "!items!U9JID7JR5WIuMzE4",
+  "name": "Magistaff",
+  "type": "weapon",
+  "img": "icons/weapons/staves/staff-simple-spiral-grey.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Staff (Bound)</em></p><p>A 10 Minute Ritual can be conducted while it is held by a willing Being that knows a Spell. During the Ritual, that Being chooses a Spell and chooses how they would Cast it. Their Maximum Mana is reduced by the cost it would take to Cast it, which is only restored if the Bond to the magistaff ends.</p><p>After the Ritual, the Bound wielder can spend a charge from the staff to Cast that Spell as it was Cast during the Ritual, using a Skill of their choice. The number of Charges corresponds to the rarity of the magistaff, as shown below, and its Countdown die resets at dawn.</p><ul><li><strong>Common:</strong> Cd4 Charges</li><li><strong>Rare:</strong> Cd6 Charges</li><li><strong>Legendary:</strong> Cd8 Charges</li></ul><p>Value: Common (5000g), Rare (15000g), Legendary (50000g)</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 106",
+    "quantity": 1,
+    "slots": 1,
+    "value": 500000,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": true,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": true,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "v",
+    "damage": "d4",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false,
+    "relic": true,
+    "damageType": "physical"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

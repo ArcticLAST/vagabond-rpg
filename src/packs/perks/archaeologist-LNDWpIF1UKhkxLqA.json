@@ -1,0 +1,19 @@
+{
+  "_id": "LNDWpIF1UKhkxLqA",
+  "_key": "!items!LNDWpIF1UKhkxLqA",
+  "name": "Archaeologist",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Your Checks and Saves against traps have Favor and, when you are subjected to a Curse (p. 99), you can make a Will Save to try to instantly break the curse's hold on you.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: RSN 4+ | Trained: Craft"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

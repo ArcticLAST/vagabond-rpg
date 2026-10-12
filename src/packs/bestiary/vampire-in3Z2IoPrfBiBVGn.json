@@ -1,0 +1,323 @@
+{
+  "_id": "in3Z2IoPrfBiBVGn",
+  "_key": "!actors!in3Z2IoPrfBiBVGn",
+  "name": "Vampire",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 8,
+    "tl": 6.7,
+    "attributes": {
+      "hp": {
+        "value": 36,
+        "max": 36
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 12,
+      "speed": {
+        "value": 35,
+        "types": "Fly 30'"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "Shapechanger",
+      "zone": "midline",
+      "appearing": "d4",
+      "senses": "Darksight, Telepathy",
+      "immune": "Cold, Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Charmed, Fatigue, Paralyzed, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 180",
+      "description": "<p>Blood-sucking, intelligent undead who bear the curse of vampirism.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "0T6HAmzTTylIlevR",
+      "_key": "!actors.items!in3Z2IoPrfBiBVGn.0T6HAmzTTylIlevR",
+      "name": "Enthrall",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Target is Charmed (Cd6) and must do all it can to defend this Being. A Target that passes the Save is immune to this for 1 Day.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, all Beings that can see it | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Recharge Cd6",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H6108EEHm61o9YCr",
+      "_key": "!actors.items!in3Z2IoPrfBiBVGn.H6108EEHm61o9YCr",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claws and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "4S0hqZfBpxWLoseu",
+      "_key": "!actors.items!in3Z2IoPrfBiBVGn.4S0hqZfBpxWLoseu",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6) and this Being is healed for the damage dealt. A Being that takes damage from this attack must pass [Endure] or be Cursed with Vampirism.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5XO0iFImnD9QD0iF",
+      "_key": "!actors.items!in3Z2IoPrfBiBVGn.5XO0iFImnD9QD0iF",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (3d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d4",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zbyMuPki8xqs2zPL",
+      "_key": "!actors.items!in3Z2IoPrfBiBVGn.zbyMuPki8xqs2zPL",
+      "name": "Magic Ward II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "h8zWqFMYfdUsJLgA",
+      "_key": "!actors.items!in3Z2IoPrfBiBVGn.h8zWqFMYfdUsJLgA",
+      "name": "Shapeshift",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can use its Action to change into a bat, owl, rat, or wolf. It typically does so to retreat.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "G1QaMhmQzIciKEZT",
+      "_key": "!actors.items!in3Z2IoPrfBiBVGn.G1QaMhmQzIciKEZT",
+      "name": "Sunlight Hypersensitivity",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is Burning (d8) while illuminated by Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cyMAhcNfDCESioN9",
+      "_key": "!actors.items!in3Z2IoPrfBiBVGn.cyMAhcNfDCESioN9",
+      "name": "Vampiric",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It regenerates 3 HP at the start of its Turn unless it is in Sunlight. If it is killed, it reforms in its resting place after 1 Day unless either: ◆ A wooden stake is stabbed through its heart. ◆ It dies in Sunlight or while doused in holy water. ◆ It consumes garlic.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Vampire",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

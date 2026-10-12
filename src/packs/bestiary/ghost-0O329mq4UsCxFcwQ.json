@@ -1,0 +1,194 @@
+{
+  "_id": "0O329mq4UsCxFcwQ",
+  "_key": "!actors!0O329mq4UsCxFcwQ",
+  "name": "Ghost",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 10,
+    "tl": 3.8,
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 12,
+      "speed": {
+        "value": 0,
+        "types": "Fly 40', Phase"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Acid, Cold, Fire, Poison, Shock; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Charmed, Fatigue, Paralyzed, Prone, Restrained, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 177",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "7V0wuAEYzO6sQpS0",
+      "_key": "!actors.items!0O329mq4UsCxFcwQ.7V0wuAEYzO6sQpS0",
+      "name": "Chill Touch",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>3 (d6) and +1 Fatigue</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch | Endure",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "cold",
+        "save": "endure",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bdZ2XLCpDKp9H0Pz",
+      "_key": "!actors.items!0O329mq4UsCxFcwQ.bdZ2XLCpDKp9H0Pz",
+      "name": "Posession",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>This Being gains control of the Target while it is alive, unless forced out by an effect that turns Undead or dispells magic</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Recharge Cd6",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "q64K5IWfG1Sop9jt",
+      "_key": "!actors.items!0O329mq4UsCxFcwQ.q64K5IWfG1Sop9jt",
+      "name": "Aging Terror II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened (Cd6) and aged 10 (d20) years.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Enemies' first time seeing it and on their Turns | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YQjPyiNMlStItN0D",
+      "_key": "!actors.items!0O329mq4UsCxFcwQ.YQjPyiNMlStItN0D",
+      "name": "Nightwalker",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ghost",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

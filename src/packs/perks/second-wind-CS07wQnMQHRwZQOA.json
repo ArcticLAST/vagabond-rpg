@@ -1,0 +1,19 @@
+{
+  "_id": "CS07wQnMQHRwZQOA",
+  "_key": "!items!CS07wQnMQHRwZQOA",
+  "name": "Second Wind",
+  "type": "perk",
+  "img": "icons/magic/life/heart-glowing-red.webp",
+  "system": {
+    "description": "<p>Once per Shift, you can use your Action or skip your Move to regain (d6 + MIT) HP.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Brawl"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

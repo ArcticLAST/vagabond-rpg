@@ -1,0 +1,24 @@
+{
+  "_id": "UzfY4MCjXfmZhx08",
+  "_key": "!items!UzfY4MCjXfmZhx08",
+  "name": "Hymn",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>If the Target is Berserk, Charmed, Confused, or Frightened, the Status ends and they are Immune to these Statuses for the duration.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

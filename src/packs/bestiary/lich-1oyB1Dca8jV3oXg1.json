@@ -1,0 +1,450 @@
+{
+  "_id": "1oyB1Dca8jV3oXg1",
+  "_key": "!actors!1oyB1Dca8jV3oXg1",
+  "name": "Lich",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 11,
+    "tl": 8.5,
+    "attributes": {
+      "hp": {
+        "value": 49,
+        "max": 49
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 8,
+      "speed": {
+        "value": 20,
+        "types": "Fly 60'"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Allsight",
+      "immune": "Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Berserk, Charmed, Confused, Fatigued, Frightened, Paralyzed, Sickened, Suffocating, Unconscious",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 178",
+      "description": "<p>Undead wizards who give themselves over to necromancy and study the arcane for eternity.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "yIJfylK7J0RTkRwJ",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.yIJfylK7J0RTkRwJ",
+      "name": "Dominator",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>2 Actions as below (d6 to determine).</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BLzZ2ceoWJCpKOOA",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.BLzZ2ceoWJCpKOOA",
+      "name": "Dominator 1: Anti-Life Drain",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6) and this Being is healed equal to the damage</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Endure",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "h0TM4NEhNm3U7myz",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.h0TM4NEhNm3U7myz",
+      "name": "Dominator 2: Disintegrate",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>21 (6d6) and disintegrated if killed this way</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Endure",
+        "damage": "6d6",
+        "average": 21,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "Recharge Cd4",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Iim8Kj06qvlvdmzR",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.Iim8Kj06qvlvdmzR",
+      "name": "Dominator 3: Raise",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Raised as a Zombie under this Being's control</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, a corpse in Far",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "v3umpfXcHqb2xaAR",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.v3umpfXcHqb2xaAR",
+      "name": "Dominator 4: Death Touch",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>5 (d10) and Paralyzed (Cd6)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Endure",
+        "damage": "d10",
+        "average": 5,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tfOuH8XESEIApdkK",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.tfOuH8XESEIApdkK",
+      "name": "Dominator 5: Fear",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Frightened (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Aura Far | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 5,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dXImZdqtD9gp0bJM",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.dXImZdqtD9gp0bJM",
+      "name": "Dominator 6: Life Disruption",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6, half on pass) and +1 Fatigue</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Aura Near | Endure",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "",
+        "sort": 6,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MeQj9VaxA2yDjMMH",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.MeQj9VaxA2yDjMMH",
+      "name": "Fear Aura",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened until they pass this Check on a subsequent Turn, or Cd6 after.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Aura Near | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yfzR5lSXcE7eMCDf",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.yfzR5lSXcE7eMCDf",
+      "name": "Indomitable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "um23ICMOSOjThPxx",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.um23ICMOSOjThPxx",
+      "name": "Grim Harvester",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Whenever a Being dies within Far, this Being regains HP equal to that Being's HD or Level.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zNhhT8CHzOJ5XO0u",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.zNhhT8CHzOJ5XO0u",
+      "name": "Magic Ward V",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 5 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bo85x6WiMlcSA8b7",
+      "_key": "!actors.items!1oyB1Dca8jV3oXg1.bo85x6WiMlcSA8b7",
+      "name": "Soul Jar",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't die if it has a Soul Jar intact.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 104,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Lich",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

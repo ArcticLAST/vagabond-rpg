@@ -1,0 +1,130 @@
+{
+  "_id": "dncfSi6Q4X8r5rPq",
+  "_key": "!actors!dncfSi6Q4X8r5rPq",
+  "name": "Mage, Fire",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 2.3,
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 8,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 113",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "NkI8exUP4Zt9BoEF",
+      "_key": "!actors.items!dncfSi6Q4X8r5rPq.NkI8exUP4Zt9BoEF",
+      "name": "Fireball",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 20-foot Sphere | Reflex",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZF7qKMGmk2ciTdy5",
+      "_key": "!actors.items!dncfSi6Q4X8r5rPq.ZF7qKMGmk2ciTdy5",
+      "name": "Firebolt",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>7 (2d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Mage, Fire",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

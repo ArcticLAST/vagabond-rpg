@@ -1,0 +1,182 @@
+{
+  "_id": "A3R7iIwpwpbaNtbs",
+  "_key": "!items!A3R7iIwpwpbaNtbs",
+  "name": "Luminary",
+  "type": "class",
+  "img": "icons/svg/d20-black.svg",
+  "system": {
+    "description": "<p>Faith is about what you do. It's about aspiring to be better and nobler and kinder than you are. —Jim Butcher, Changes Channelers of the magic of creation, luminaries are philosophers, muses, and healers.</p><p>Luminary is a high-support healer. It&#x27;s recommended that you avoid direct melee.</p><ul><li><strong>Action:</strong> Cast</li><li><strong>Move:</strong> Midline/Backline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Influence, Mysticism</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 45",
+    "keyStats": [
+      "awr"
+    ],
+    "trainings": [
+      "influence",
+      "mysticism"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "mysticism",
+    "castMax": "full",
+    "mana": {
+      "perLevel": 4
+    },
+    "spells": {
+      "base": 4,
+      "every": 2
+    },
+    "playstyle": "Cast · Midline/Backline",
+    "startingPacks": "<p>Devout</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Theurgy",
+        "description": "<p>You can Cast Spells using Mysticism.</p><p><strong>Spells:</strong> You learn 4 Spells, one of which must always be Life. You learn 1 other Spell every 2 Levels hereafter.</p><p><strong>Mana:</strong> Your Max Mana is equal to (4 × your Level), and your Cast Max for Spells is equal to (2 + your Level).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "Life",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Radiant Healer",
+        "description": "<p>You get the Assured Healer Perk (p. 64), and the healing rolls of your Spells can also Explode on their highest value.</p>",
+        "grants": {
+          "perks": "Assured Healer",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Overheal",
+        "description": "<p>Once per Action when you restore HP, you add half your Level to the total HP restored and, once per Turn, if you restore HP that exceeds the Being's Max HP, you can give the excess to yourself or a Being you can see.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Ever-Cure",
+        "description": "<p>When you restore HP, you can choose to end one Status affecting the Target from either Berserk, Blinded, Charmed, Confused, Dazed, Frightened, Paralyzed, or Sickened. The number of Statuses you can remove at once this way increases by 1 every 4 Levels hereafter.</p><p><em>Luminary: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Revivify",
+        "description": "<p>You can revive a Being with the Life Spell if it has been dead for as long as 1 Hour. If you die, you are instantly revived. Afterward, you can't be revived by this Ability for 1 Day.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Life-Giver",
+        "description": "<p>Beings you revive are revived at 4 Fatigue if their Fatigue was previously higher, and don't gain Fatigue from your Life Spell.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

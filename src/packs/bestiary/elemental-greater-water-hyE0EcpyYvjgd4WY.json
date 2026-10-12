@@ -1,0 +1,130 @@
+{
+  "_id": "hyE0EcpyYvjgd4WY",
+  "_key": "!actors!hyE0EcpyYvjgd4WY",
+  "name": "Elemental, Greater Water",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 16,
+    "tl": 7.3,
+    "attributes": {
+      "hp": {
+        "value": 72,
+        "max": 72
+      },
+      "armor": 5,
+      "armorTag": "as (+2) Plate",
+      "morale": 10,
+      "speed": {
+        "value": 0,
+        "types": "Swim 50'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "primordial",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Acid, Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Fatigued, Prone, Restrained, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 171",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "deiXPKky1WmQAHTO",
+      "_key": "!actors.items!hyE0EcpyYvjgd4WY.deiXPKky1WmQAHTO",
+      "name": "Strike",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d8) plus 4 (d8) if in water</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PZxL2Mqs6BzlW6kp",
+      "_key": "!actors.items!hyE0EcpyYvjgd4WY.PZxL2Mqs6BzlW6kp",
+      "name": "Waterbound",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Must stay Near a body of water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Elemental, Greater Water",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "_id": "TwSXGdie6Us9ZWmC",
+  "_key": "!actors!TwSXGdie6Us9ZWmC",
+  "name": "Piercer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 3.6,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 12,
+      "speed": {
+        "value": 5,
+        "types": "Cling"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "3d6",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 146",
+      "description": "<p>Ambush predators that resemble stalactites. They drop on unsuspecting creatures in the dark.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "JqYd0EFlRtCzpeek",
+      "_key": "!actors.items!TwSXGdie6Us9ZWmC.JqYd0EFlRtCzpeek",
+      "name": "Drop",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>10 (3d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "matuwAQaHmx4Wcn3",
+      "_key": "!actors.items!TwSXGdie6Us9ZWmC.matuwAQaHmx4Wcn3",
+      "name": "Falling Ambush",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Does not take falling damage from heights of 30' or shorter.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Piercer",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

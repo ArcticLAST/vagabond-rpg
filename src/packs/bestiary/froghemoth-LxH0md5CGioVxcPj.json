@@ -1,0 +1,227 @@
+{
+  "_id": "LxH0md5CGioVxcPj",
+  "_key": "!actors!LxH0md5CGioVxcPj",
+  "name": "Froghemoth",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 16,
+    "tl": 7.8,
+    "attributes": {
+      "hp": {
+        "value": 72,
+        "max": 72
+      },
+      "armor": 3,
+      "armorTag": "as (+2) Leather",
+      "morale": 9,
+      "speed": {
+        "value": 30,
+        "types": "Swim 60'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "cryptid",
+      "subtype": "Beast",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Fire, Shock",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 141",
+      "description": "<p>20' tall mix of frog, octopus, and hate.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "LnILfqXsbylGvBo7",
+      "_key": "!actors.items!LxH0md5CGioVxcPj.LnILfqXsbylGvBo7",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>16 (3d10)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d10",
+        "average": 16,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Y87Zrq0sa4XhuHm6",
+      "_key": "!actors.items!LxH0md5CGioVxcPj.Y87Zrq0sa4XhuHm6",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Tentacle</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AUcLJxwfofL9UrLC",
+      "_key": "!actors.items!LxH0md5CGioVxcPj.AUcLJxwfofL9UrLC",
+      "name": "Tentacle",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d8) and Restrained if smaller. It can't Restrain more than one Target at a time with the same Tentacle.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "baIi62yP8zALu4ee",
+      "_key": "!actors.items!LxH0md5CGioVxcPj.baIi62yP8zALu4ee",
+      "name": "Tongue",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained if smaller. If Restrained, it is pulled to Close, and this Being can make a Bite Attack against it.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VpK77m4rbMjkcEVx",
+      "_key": "!actors.items!LxH0md5CGioVxcPj.VpK77m4rbMjkcEVx",
+      "name": "Tentacles",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Starts with 4 Tentacles. Targetting one causes a -4 penalty to the Attack Check, but severs it if at least 15 damage is dealt with the attack.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Froghemoth",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "jHlPx37fBT3MH8vV",
+  "_key": "!items!jHlPx37fBT3MH8vV",
+  "name": "Sentinel",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Enemies within your reach that you could viably Grapple can't Move for the rest of the Turn if you hit them with a Brawl or Melee attack.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Brawl or Melee"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,227 @@
+{
+  "_id": "8NhJPcuBlNQluEqC",
+  "_key": "!actors!8NhJPcuBlNQluEqC",
+  "name": "Golem, Flesh",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 9,
+    "tl": 4.7,
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "max": 40
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 10,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Cold, Poison, Shock; Physical from non-Relics",
+      "weak": "Fire",
+      "statusImmunities": "Charmed, Fatigued, Paralyzed, Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 120",
+      "description": "<p>A living automoton of stitched-together flesh, given life through electric strikes.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "kxseeNiIfi4804d0",
+      "_key": "!actors.items!8NhJPcuBlNQluEqC.kxseeNiIfi4804d0",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Slam</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tbiRdI4yfxPT7k24",
+      "_key": "!actors.items!8NhJPcuBlNQluEqC.tbiRdI4yfxPT7k24",
+      "name": "Slam",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8) (+2 if this Being is Berserk)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LRmFjB02Jq5t2IAq",
+      "_key": "!actors.items!8NhJPcuBlNQluEqC.LRmFjB02Jq5t2IAq",
+      "name": "Bloodied Rage",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>At 20 HP or less, it is Berserk.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6Px4eBLIS30guihC",
+      "_key": "!actors.items!8NhJPcuBlNQluEqC.6Px4eBLIS30guihC",
+      "name": "Flame-Averse",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it can see fire or takes damage from fire, it is Frightened (Cd4).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jjilwTmr6rIP5Mz1",
+      "_key": "!actors.items!8NhJPcuBlNQluEqC.jjilwTmr6rIP5Mz1",
+      "name": "Shock-Absorber",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Shock damage rolls heal it instead.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Golem, Flesh",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

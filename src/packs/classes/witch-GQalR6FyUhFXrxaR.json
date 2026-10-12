@@ -1,0 +1,182 @@
+{
+  "_id": "GQalR6FyUhFXrxaR",
+  "_key": "!items!GQalR6FyUhFXrxaR",
+  "name": "Witch",
+  "type": "class",
+  "img": "icons/svg/d20-black.svg",
+  "system": {
+    "description": "<p>Wouldst thou like to live deliciously? —Robert Eggers, The VVitch Witches are mediaries of magical secrets. One may become a witch through the whispers of a familiar or the favor of a being from beyond.</p><p>The witch is a debuffer focused on Casting Spells to stack detriments. Stick to the shadows and pile on Statuses through Hex.</p><ul><li><strong>Action:</strong> Cast</li><li><strong>Move:</strong> Backline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Craft, Mysticism</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 61",
+    "keyStats": [
+      "awr"
+    ],
+    "trainings": [
+      "craft",
+      "mysticism"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "mysticism",
+    "castMax": "full",
+    "mana": {
+      "perLevel": 4
+    },
+    "spells": {
+      "base": 4,
+      "every": 2
+    },
+    "playstyle": "Cast · Backline",
+    "startingPacks": "<p>Fortune Teller or Mage</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Occultist",
+        "description": "<p>You gain a Perk with the Trained: Mysticism Prerequisite, and you can Cast Spells using Mysticism.</p><p><strong>Spells:</strong> You learn 4 Spells. You learn 1 other Spell every 2 Levels hereafter.</p><p><strong>Mana:</strong> Your Max Mana is equal to (4 × your Level), and your Cast Max for Spells is equal to (2 + your Level).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 1,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Hex",
+        "description": "<p>When you affect Enemies with the effect of a Spell, you can hex one of the Targeted Enemies. Doing so causes the effect to be continual (p. 91) until you hex a new Target.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Widdershins",
+        "description": "<p>Your damage from Spell effects and your effective Level for the purpose of Spell effects are both increased by 1 against your hexed Target, and increased 1 more every 4 Levels hereafter.</p><p><em>Witch: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Grudge Bearer",
+        "description": "<p>The number of Spells you can cause to be continual on the Target with your Hex Feature increases by 1 now and every 4 Levels hereafter. Further, if you hex a new Target while you have an Enemy hexed, the new Target is affected by the previous Spells.</p><p><em>Witch: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Soul Link",
+        "description": "<p>Once per Action when you deal damage to an Enemy within Far of your hexed Target, the hexed Target also takes the damage.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Misery Business",
+        "description": "<p>If you deal damage to your hexed Target, they are considered Weak to the damage.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

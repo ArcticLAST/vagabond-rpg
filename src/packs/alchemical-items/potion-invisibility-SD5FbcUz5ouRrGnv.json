@@ -1,0 +1,35 @@
+{
+  "_id": "SD5FbcUz5ouRrGnv",
+  "_key": "!items!SD5FbcUz5ouRrGnv",
+  "name": "Potion, Invisibility",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>For 1 Hour, the consumer and everything they are wearing and carrying become Invisible until they attempt to harm another Being.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 5000.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

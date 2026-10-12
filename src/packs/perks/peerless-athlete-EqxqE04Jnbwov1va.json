@@ -1,0 +1,19 @@
+{
+  "_id": "EqxqE04Jnbwov1va",
+  "_key": "!items!EqxqE04Jnbwov1va",
+  "name": "Peerless Athlete",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can stand from Prone at the start of your Turn (no Action), and you can skip your Move to Jump.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Brawl"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

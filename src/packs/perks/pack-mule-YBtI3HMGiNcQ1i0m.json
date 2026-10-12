@@ -1,0 +1,41 @@
+{
+  "_id": "YBtI3HMGiNcQ1i0m",
+  "_key": "!items!YBtI3HMGiNcQ1i0m",
+  "name": "Pack Mule",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You gain 2 Item Slots. You can take this Perk multiple Times.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Brawl"
+  },
+  "effects": [
+    {
+      "_id": "7p6SotnLpkYr4uI6",
+      "_key": "!items.effects!YBtI3HMGiNcQ1i0m.7p6SotnLpkYr4uI6",
+      "name": "Pack Mule",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.slots",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

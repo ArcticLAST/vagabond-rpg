@@ -1,0 +1,19 @@
+{
+  "_id": "oDKy8zDep6ivAGeW",
+  "_key": "!items!oDKy8zDep6ivAGeW",
+  "name": "Master Breaker",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>If you fail a Finesse Check to pick a lock, your lockpick isn't broken and you make Saves against traps it triggers with Favor.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: DEX 4+ | Trained: Finesse"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

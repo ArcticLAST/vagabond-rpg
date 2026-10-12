@@ -1,0 +1,35 @@
+{
+  "_id": "4yIPmfb3TZFYRaLE",
+  "_key": "!items!4yIPmfb3TZFYRaLE",
+  "name": "Potion, Control Person",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>The consumer gains the ability to control a type of Being they can see for 1 Hour, which requires their Focus. The type of Being is determined by the name of the potion.</p><p>Once a Being is chosen, the consumer must make a Will Save. On a pass, the Being is Charmed and under their control for the duration. A Being controlled this way will not obey commands that clearly cause harm to itself. After this time, the Being becomes Hostile.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 25000.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

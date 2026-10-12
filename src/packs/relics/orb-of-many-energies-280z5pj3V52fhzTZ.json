@@ -1,0 +1,35 @@
+{
+  "_id": "280z5pj3V52fhzTZ",
+  "_key": "!items!280z5pj3V52fhzTZ",
+  "name": "Orb of Many Energies",
+  "type": "gear",
+  "img": "icons/commodities/gems/gem-cut-faceted-princess-purple.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Trinket (Orb, Bound)</em></p><p>Roll a d8 to determine its starting color. Each color corresponds to a Spell, which the Bound Being can Cast as long as the orb is that color by spending a Charge.</p><p>Whenever you Cast a Spell that corresponds to the orb's current color, roll a d8 to determine its new color.</p><table><thead><tr><th>d8</th><th>Color</th><th>Spell</th></tr></thead><tbody><tr><td>1</td><td>Red</td><td>Burn</td></tr><tr><td>2</td><td>Orange</td><td>Amplify</td></tr><tr><td>3</td><td>Yellow</td><td>Zap</td></tr><tr><td>4</td><td>Green</td><td>Sprout</td></tr><tr><td>5</td><td>Blue</td><td>Freeze</td></tr><tr><td>6</td><td>Indigo</td><td>Ward</td></tr><tr><td>7</td><td>Violet</td><td>Color</td></tr><tr><td>8</td><td>Special</td><td>The orb becomes two colors at once. Roll twice, rerolling 8s. When you Cast a Spell corresponding to either of these colors, you may Cast the Spell corresponding to the other color as a part of the same Action.</td></tr></tbody></table><p>The orb has Cd6 Charges. When it runs out of Charges, it dims to a grayish color and can't be used until the next dawn.</p><p>Value: 2500g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 106",
+    "quantity": 1,
+    "slots": 1,
+    "value": 250000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

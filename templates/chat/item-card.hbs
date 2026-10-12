@@ -1,0 +1,23 @@
+<div class="vagabond chat-card item-card" data-item-uuid="{{item.uuid}}">
+  <header class="card-header">
+    <img src="{{item.img}}" alt="" width="36" height="36">
+    <div class="card-titles">
+      <h3>{{item.name}}</h3>
+      {{#if subtitle}}<span class="card-subtitle">{{subtitle}}</span>{{/if}}
+    </div>
+  </header>
+  {{#if tags.length}}
+  <div class="card-tags">{{#each tags}}<span class="tag">{{this}}</span>{{/each}}</div>
+  {{/if}}
+  {{#if castSummary.length}}<div class="card-tags cast-summary">{{#each castSummary}}<span class="tag">{{this}}</span>{{/each}}</div>{{/if}}
+  {{#if description}}<div class="card-body">{{{description}}}</div>{{/if}}
+  {{#if note}}<p class="card-note">{{note}}</p>{{/if}}
+  {{#if buttons.length}}
+  <div class="card-buttons">
+    {{#each buttons}}
+    {{#if dice}}<label class="dice-count" data-tooltip="VAGABOND.Cast.DiceHint"><input type="number" name="dice" value="{{dice}}" min="1" step="1"> d{{@root.item.system.damageDie}}</label>{{/if}}
+    <button type="button" data-vg-action="{{action}}" {{#if save}}data-save="{{save}}"{{/if}} {{#if effect}}data-effect="1"{{/if}} {{#if itemId}}data-item-id="{{itemId}}"{{/if}}><i class="{{icon}}"></i> {{localize label}}</button>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>

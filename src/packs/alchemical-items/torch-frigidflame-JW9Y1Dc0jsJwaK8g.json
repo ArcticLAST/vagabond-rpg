@@ -1,0 +1,35 @@
+{
+  "_id": "JW9Y1Dc0jsJwaK8g",
+  "_key": "!items!JW9Y1Dc0jsJwaK8g",
+  "name": "Torch, Frigidflame",
+  "type": "gear",
+  "img": "icons/sundries/lights/torch-black.webp",
+  "system": {
+    "description": "<p>While burning, it sheds Moonlight and counts as a source of ice rather than fire.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 200.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "torch",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

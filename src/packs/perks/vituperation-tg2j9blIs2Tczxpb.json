@@ -1,0 +1,19 @@
+{
+  "_id": "tg2j9blIs2Tczxpb",
+  "_key": "!items!tg2j9blIs2Tczxpb",
+  "name": "Vituperation",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can use your Action or skip your Move to Target an Enemy and make an Influence Check with a penalty equal to their Morale. If you pass, it is Vulnerable until your next Turn or until it deals damage. Beings without Morale can't be affected by this Ability.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: PRS 4+ | Trained: Influence"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

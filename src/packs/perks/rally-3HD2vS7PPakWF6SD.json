@@ -1,0 +1,19 @@
+{
+  "_id": "3HD2vS7PPakWF6SD",
+  "_key": "!items!3HD2vS7PPakWF6SD",
+  "name": "Rally",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Once per Shift, you can use an Action to boost the morale of your Allies, granting them 1 Luck and ending a Status affecting them from either Charmed or Frightened.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: PRS 4+ | Trained: Leadership"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

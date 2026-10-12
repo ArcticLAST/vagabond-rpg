@@ -1,0 +1,35 @@
+{
+  "_id": "LGKEfHNv7E7S4edA",
+  "_key": "!items!LGKEfHNv7E7S4edA",
+  "name": "Caltrops, bag of 10",
+  "type": "gear",
+  "img": "icons/weapons/thrown/bomb-spiked-purple.webp",
+  "system": {
+    "description": "<p><em>Outdoors</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 82",
+    "quantity": 1,
+    "slots": 1,
+    "value": 4.0,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

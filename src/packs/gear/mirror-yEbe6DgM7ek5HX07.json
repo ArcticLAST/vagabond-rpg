@@ -1,0 +1,35 @@
+{
+  "_id": "yEbe6DgM7ek5HX07",
+  "_key": "!items!yEbe6DgM7ek5HX07",
+  "name": "Mirror",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em>Clothing, Hygiene, &amp; Textiles</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 79",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

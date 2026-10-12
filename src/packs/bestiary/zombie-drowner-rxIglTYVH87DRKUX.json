@@ -1,0 +1,162 @@
+{
+  "_id": "rxIglTYVH87DRKUX",
+  "_key": "!actors!rxIglTYVH87DRKUX",
+  "name": "Zombie, Drowner",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 0.9,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 12,
+      "speed": {
+        "value": 20,
+        "types": "Swim"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "3d8",
+      "senses": "Darksight",
+      "immune": "Poison",
+      "weak": "Shock",
+      "statusImmunities": "Berserk, Charmed, Confused, Fatigued, Frightened, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 181",
+      "description": "<p>Corpses are at risk of becoming drowners if they are tossed to the sea, being reanimated by some unknown forces that lurk in the depths.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "ayKVONsRfsMVh53e",
+      "_key": "!actors.items!rxIglTYVH87DRKUX.ayKVONsRfsMVh53e",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, a Restrained Being",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "o66syN2Hi9IHAtTn",
+      "_key": "!actors.items!rxIglTYVH87DRKUX.o66syN2Hi9IHAtTn",
+      "name": "Grasp",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qIskBdBhdI3QOsrr",
+      "_key": "!actors.items!rxIglTYVH87DRKUX.qIskBdBhdI3QOsrr",
+      "name": "Zombie",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be reduced below 1 HP unless dealt by a Crit, damage it is Weak to, or while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Zombie, Drowner",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

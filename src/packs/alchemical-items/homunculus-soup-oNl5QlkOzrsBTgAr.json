@@ -1,0 +1,35 @@
+{
+  "_id": "oNl5QlkOzrsBTgAr",
+  "_key": "!items!oNl5QlkOzrsBTgAr",
+  "name": "Homunculus Soup",
+  "type": "gear",
+  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "system": {
+    "description": "<p>This soup creates a homunculus (p. 120) under the alchemist's control, and it uses their Craft Skill for any Checks it makes. If another homunculus is created from the same alchemist's blood, the oldest homunculus dies.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 750.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "concoction",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

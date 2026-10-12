@@ -1,0 +1,515 @@
+{
+  "_id": "LTz0FJeGSqbQXuff",
+  "_key": "!actors!LTz0FJeGSqbQXuff",
+  "name": "Sphinx, Archon",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 24,
+    "tl": 12.6,
+    "attributes": {
+      "hp": {
+        "value": 108,
+        "max": 108
+      },
+      "armor": 6,
+      "armorTag": "as (+3) Plate",
+      "morale": 10,
+      "speed": {
+        "value": 60,
+        "types": "Fly 160'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "outer",
+      "subtype": "Beyonder",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Allsight, Telepathy",
+      "immune": "Physical from Weapons weaker than (+2) Relics",
+      "weak": "",
+      "statusImmunities": "Berserk, Charmed, Confused, Frightened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 164",
+      "description": "<p>The highest of all sphinxes, the Archonsphinx is an alien mastermind and reality bender.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "ULApZAp5oJMliJiA",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.ULApZAp5oJMliJiA",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Cast of its choice</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3gKoaHrPW8Ag8QKE",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.3gKoaHrPW8Ag8QKE",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>14 (4d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "4d6",
+        "average": 14,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MzGazfGWq2dQGPRM",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.MzGazfGWq2dQGPRM",
+      "name": "Arcane Wing",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>27 (5d10)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 2×Remote | Reflex",
+        "damage": "5d10",
+        "average": 27,
+        "damageType": "magic",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RUaEyCUst4El2b4w",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.RUaEyCUst4El2b4w",
+      "name": "Reality Warp",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Roll d4;</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Near Cone | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CUpriH7A1pqB5Glr",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.CUpriH7A1pqB5Glr",
+      "name": "Reality Warp 1: Gate",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Pulled Close to this Being</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7TFrX6Avtt7uc6aR",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.7TFrX6Avtt7uc6aR",
+      "name": "Reality Warp 2: Riddle",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Dazed (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 5,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hZlyDcYp0WQO354Z",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.hZlyDcYp0WQO354Z",
+      "name": "Reality Warp 3: Time Lock",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Paralyzed (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Endure",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 6,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8c9dXIufHO6NeNDn",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.8c9dXIufHO6NeNDn",
+      "name": "Reality Warp 4: Unmake",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>13 (3d8)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast | Reflex",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "magic",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 7,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Y7azGTgUQh31yVfa",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.Y7azGTgUQh31yVfa",
+      "name": "Banish",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Incapacitated (Cd4, sent to a pocket dimension)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote (Focus) | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Focus",
+        "sort": 8,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jG7Yho272a5unBy8",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.jG7Yho272a5unBy8",
+      "name": "Dispel Magic",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>A magic effect of its choice is dispelled or suspended for 2d6 hours if it is a Curse or Relic Power</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "3/Day",
+        "sort": 9,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cLDL6678tPlwCHCz",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.cLDL6678tPlwCHCz",
+      "name": "Future Sight",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Hinders Saves against its Attacks.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cTAk9HRXeVcSxLSX",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.cTAk9HRXeVcSxLSX",
+      "name": "Magic Ward III",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 3 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MqgwWX7nsiKMRquv",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.MqgwWX7nsiKMRquv",
+      "name": "Metalepsis (1/Day)",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>This Being gains the approximate answer to a question it asks itself.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XBM3pAl5keZT4WFS",
+      "_key": "!actors.items!LTz0FJeGSqbQXuff.XBM3pAl5keZT4WFS",
+      "name": "Teleporting (Recharge Cd4)",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can use its Move to teleport to an open space it can see.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Sphinx, Archon",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

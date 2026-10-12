@@ -1,0 +1,194 @@
+{
+  "_id": "3QKAx5fL3V8V8ptj",
+  "_key": "!actors!3QKAx5fL3V8V8ptj",
+  "name": "Wraith",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 5,
+    "tl": 2.7,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 12,
+      "speed": {
+        "value": 30,
+        "types": "Phase"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d6",
+      "senses": "Darksight",
+      "immune": "Physical",
+      "weak": "",
+      "statusImmunities": "Charmed, Fatigue, Frightened, Paralyzed, Prone, Restrained, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 180",
+      "description": "<p>Wispy shades of pure malice and anti-life. Where it moves, blight follows.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "JiZC7dEJzqf2TnQT",
+      "_key": "!actors.items!3QKAx5fL3V8V8ptj.JiZC7dEJzqf2TnQT",
+      "name": "Energy Drain",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>3 (d6), which also reduces its Maximum HP until it spends 1 Shift in Sunlight</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "magic",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wnOfz8jaaDp4WFlg",
+      "_key": "!actors.items!3QKAx5fL3V8V8ptj.wnOfz8jaaDp4WFlg",
+      "name": "Nightwalker",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "M3NvAzrRPpSecgKs",
+      "_key": "!actors.items!3QKAx5fL3V8V8ptj.M3NvAzrRPpSecgKs",
+      "name": "Incorporeal",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can Move into occupied space.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iAVHUjdNt55kTyJp",
+      "_key": "!actors.items!3QKAx5fL3V8V8ptj.iAVHUjdNt55kTyJp",
+      "name": "Shadow Stealth",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is Invisible in the Dark.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Wraith",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

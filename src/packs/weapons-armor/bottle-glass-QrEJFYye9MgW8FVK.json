@@ -1,0 +1,44 @@
+{
+  "_id": "QrEJFYye9MgW8FVK",
+  "_key": "!items!QrEJFYye9MgW8FVK",
+  "name": "Bottle, glass",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Thrown:</strong> Can throw attack to Near, or Far with Hinder. Can be drawn from the Inventory as a part of the attack. You can use this Property if you aren't Trained with it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 2.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": true,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": true,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "1",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,195 @@
+{
+  "_id": "77Ytt6meih6Zkcnl",
+  "_key": "!actors!77Ytt6meih6Zkcnl",
+  "name": "Hydrangean",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 2.0,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 8,
+      "speed": {
+        "value": 5,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "primordial",
+      "subtype": "Plant",
+      "zone": "frontline",
+      "appearing": "d6",
+      "senses": "",
+      "immune": "",
+      "weak": "Fire, Poison, Slash",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 173",
+      "description": "<p>Sharp-toothed carnivorous plants, with multiple serpentine petioles atop a digestive pitcher.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "CehlUBAdSGEatX2z",
+      "_key": "!actors.items!77Ytt6meih6Zkcnl.CehlUBAdSGEatX2z",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Bite per head (Multi-Headed)</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KEwMGg5jDoqAtohH",
+      "_key": "!actors.items!77Ytt6meih6Zkcnl.KEwMGg5jDoqAtohH",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mdv7tuxrvxsJUTF3",
+      "_key": "!actors.items!77Ytt6meih6Zkcnl.mdv7tuxrvxsJUTF3",
+      "name": "Multi-Headed",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It starts with 3 Heads. Targetting an area that could behead it causes a -3 penalty to the Check, but severs it if at least 2 damage is dealt in a single damage instance.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Sxat4Ki5MAdlqaY1",
+      "_key": "!actors.items!77Ytt6meih6Zkcnl.Sxat4Ki5MAdlqaY1",
+      "name": "Hydra Regrowth",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Regains 4 HP at the start of its Turns. If it is missing one of its heads when this happens, two Heads sprout. This Ability doesn't work if it took damage from fire since its last Turn.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "4",
+        "average": 4,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hydrangean",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

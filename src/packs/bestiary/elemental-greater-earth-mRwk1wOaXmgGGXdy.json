@@ -1,0 +1,130 @@
+{
+  "_id": "mRwk1wOaXmgGGXdy",
+  "_key": "!actors!mRwk1wOaXmgGGXdy",
+  "name": "Elemental, Greater Earth",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 16,
+    "tl": 7.3,
+    "attributes": {
+      "hp": {
+        "value": 72,
+        "max": 72
+      },
+      "armor": 5,
+      "armorTag": "as (+2) Plate",
+      "morale": 10,
+      "speed": {
+        "value": 40,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "primordial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Seismicsense",
+      "immune": "Poison, Shock",
+      "weak": "Blunt",
+      "statusImmunities": "Fatigued, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 170",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "fGTHvV188kcBjL4W",
+      "_key": "!actors.items!mRwk1wOaXmgGGXdy.fGTHvV188kcBjL4W",
+      "name": "Strike",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d8) plus 4 (d8) if on the ground</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zBAzLit6hrFT1kJu",
+      "_key": "!actors.items!mRwk1wOaXmgGGXdy.zBAzLit6hrFT1kJu",
+      "name": "Burrower",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It ignores Difficult Terrain of sand, stone, and earth, and it can Move by quickly burrowing in them. However, it can't cross water deeper than its height.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Elemental, Greater Earth",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

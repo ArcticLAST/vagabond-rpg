@@ -1,0 +1,54 @@
+<section class="tab inventory {{tab.cssClass}}" data-tab="inventory" data-group="primary">
+  <div class="inventory-summary">
+    <div class="slots-meter {{#if slotsBar.over}}over{{/if}}">
+      <label>{{localize "VAGABOND.Slots"}}</label>
+      <div class="bar"><div class="fill" style="width: {{slotsBar.pct}}%"></div><span class="values">{{slotsBar.value}} / {{slotsBar.max}}</span></div>
+    </div>
+    <div class="currency">
+      <label><i class="fa-solid fa-coins"></i> {{localize "VAGABOND.Currency.Label"}}</label>
+      <span class="coin gold"><input type="number" name="system.currency.g" value="{{source.currency.g}}" min="0" {{disabled (not editable)}}><abbr>g</abbr></span>
+      <span class="coin silver"><input type="number" name="system.currency.s" value="{{source.currency.s}}" min="0" {{disabled (not editable)}}><abbr>s</abbr></span>
+      <span class="coin copper"><input type="number" name="system.currency.c" value="{{source.currency.c}}" min="0" {{disabled (not editable)}}><abbr>c</abbr></span>
+    </div>
+  </div>
+
+  {{#each inventory}}
+  <div class="item-section">
+    <div class="list-header">
+      <span class="col-name">{{localize label}}</span>
+      {{#if (eq columns "weapon")}}<span class="col">{{localize "VAGABOND.Damage.Damage"}}</span><span class="col">{{localize "VAGABOND.Weapon.Grip"}}</span>{{/if}}
+      {{#if (eq columns "armor")}}<span class="col">{{localize "VAGABOND.Armor"}}</span><span class="col">{{localize "VAGABOND.Stat.mit"}}</span>{{/if}}
+      {{#if (eq columns "gear")}}<span class="col">{{localize "VAGABOND.Uses"}}</span><span class="col"></span>{{/if}}
+      <span class="col qty">{{localize "VAGABOND.Quantity"}}</span>
+      <span class="col">{{localize "VAGABOND.Slots"}}</span>
+      <span class="col controls">
+        {{#if @root.editable}}<a data-action="createItem" data-type="{{type}}" {{#if category}}data-category="{{category}}"{{/if}} data-tooltip="VAGABOND.Sheet.Create"><i class="fa-solid fa-plus"></i></a>{{/if}}
+      </span>
+    </div>
+    <ol class="item-list">
+      {{#each items}}
+      <li class="item draggable {{#if system.equipped}}equipped{{/if}}" data-item-id="{{id}}">
+        <img class="item-img rollable" src="{{img}}" alt="" data-action="useItem" data-tooltip="VAGABOND.Sheet.Use">
+        <div class="item-name"><a data-action="toggleDescription">{{name}}</a>
+          {{#if tags.length}}<span class="item-sub">{{#each tags}}{{this}}{{#unless @last}} · {{/unless}}{{/each}}</span>{{/if}}</div>
+        {{#if (eq ../columns "weapon")}}<span class="col">{{system.damage}}</span><span class="col">{{localize (lookup @root.config.grips system.grip)}}</span>{{/if}}
+        {{#if (eq ../columns "armor")}}<span class="col">{{system.total}}</span><span class="col">{{system.might}}</span>{{/if}}
+        {{#if (eq ../columns "gear")}}<span class="col">
+          {{#if system.hasUses}}<a data-action="adjustUses" data-delta="-1"><i class="fa-solid fa-minus fa-xs"></i></a> {{system.uses.value}}/{{system.uses.max}} <a data-action="adjustUses" data-delta="1"><i class="fa-solid fa-plus fa-xs"></i></a>{{/if}}
+        </span><span class="col"></span>{{/if}}
+        <span class="col qty">
+          <a data-action="adjustQuantity" data-delta="-1"><i class="fa-solid fa-minus fa-xs"></i></a>
+          {{system.quantity}}
+          <a data-action="adjustQuantity" data-delta="1"><i class="fa-solid fa-plus fa-xs"></i></a>
+        </span>
+        <span class="col">{{slotsTotal}}</span>
+        <span class="col controls">{{> "systems/vagabond-rpg/templates/actor/parts/item-controls.hbs"}}</span>
+        {{> "systems/vagabond-rpg/templates/actor/parts/item-description.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "VAGABOND.Sheet.Empty"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+  {{/each}}
+</section>

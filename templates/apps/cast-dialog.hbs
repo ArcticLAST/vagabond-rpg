@@ -1,0 +1,95 @@
+<div class="cast-dialog-content">
+<div class="cast-cost-bar {{#if overMax}}over{{/if}} {{#if overMana}}short{{/if}}">
+  <div class="cost-cell total">
+    <span class="cost-label">{{localize "VAGABOND.CastDialog.SpellCost"}}</span>
+    <span class="cost-value"><strong>{{cost.total}}</strong> {{localize "VAGABOND.Mana"}}</span>
+    {{#if upcast}}<span class="tag upcast">{{localize "VAGABOND.CastDialog.Upcast"}}</span>{{/if}}
+  </div>
+  <div class="cost-cell" data-tooltip="VAGABOND.CastDialog.CastMaxHint">
+    <span class="cost-label">{{localize "VAGABOND.CastMax"}}</span>
+    <span class="cost-value"><strong>{{#if castMax}}{{castMax}}{{else}}—{{/if}}</strong></span>
+  </div>
+  <div class="cost-cell">
+    <span class="cost-label">{{localize "VAGABOND.Mana"}}</span>
+    <span class="cost-value"><strong>{{mana}}</strong>/{{manaMax}}</span>
+  </div>
+</div>
+
+<div class="cast-dialog-body">
+  <section class="cast-step">
+    <h4><span class="step-n">1</span> {{localize "VAGABOND.CastDialog.Delivery"}}</h4>
+    <div class="delivery-grid">
+      {{#each deliveries}}
+      <button type="button" class="delivery {{#if selected}}active{{/if}}" data-action="pickDelivery" data-delivery="{{key}}" data-tooltip="{{area}}">
+        <span class="d-name">{{label}}</span><span class="d-cost">{{cost}}</span>
+      </button>
+      {{/each}}
+    </div>
+    {{#if delivery}}
+    <p class="hint">{{delivery.area}}{{#if delivery.note}}. {{delivery.note}}{{/if}}</p>
+    {{#if delivery.upcast}}
+    <div class="cast-row">
+      <label>{{localize "VAGABOND.CastDialog.Bigger"}} <span class="hint">(+{{delivery.upcast}} {{localize "VAGABOND.Mana"}} {{delivery.step}})</span></label>
+      <span class="stepper">
+        <button type="button" data-action="step" data-field="steps" data-delta="-1" {{disabled (eq choice.steps 0)}} aria-label="-">−</button>
+        <input type="number" data-field="steps" value="{{choice.steps}}" min="0">
+        <button type="button" data-action="step" data-field="steps" data-delta="1" aria-label="+">+</button>
+      </span>
+    </div>
+    {{/if}}
+    {{/if}}
+  </section>
+
+  {{#if picked}}
+  <section class="cast-step">
+    <h4><span class="step-n">2</span> {{localize "VAGABOND.CastDialog.CastFor"}} <span class="hint">{{localize "VAGABOND.CastDialog.BothHint"}}</span></h4>
+    <div class="cast-use">
+      <label class="checkbox {{#unless canDamage}}disabled{{/unless}}"><input type="checkbox" data-field="damage" {{checked (and canDamage choice.damage)}} {{disabled (not canDamage)}}> {{localize "VAGABOND.CastDialog.Damage"}}</label>
+      <label class="checkbox"><input type="checkbox" data-field="effect" {{checked choice.effect}}> {{localize "VAGABOND.CastDialog.Effect"}}</label>
+    </div>
+    {{#unless canDamage}}<p class="hint">{{localize "VAGABOND.CastDialog.NoDamage"}}</p>{{/unless}}
+
+    {{#if showDice}}
+    <div class="cast-row">
+      <label>{{localize "VAGABOND.CastDialog.ExtraDice"}} <span class="hint">({{localize "VAGABOND.CastDialog.ExtraDiceHint"}})</span></label>
+      <span class="stepper">
+        <button type="button" data-action="step" data-field="extraDice" data-delta="-1" {{disabled (eq choice.extraDice 0)}} aria-label="-">−</button>
+        <input type="number" data-field="extraDice" value="{{choice.extraDice}}" min="0">
+        <button type="button" data-action="step" data-field="extraDice" data-delta="1" aria-label="+">+</button>
+      </span>
+    </div>
+    {{/if}}
+
+    {{#if showEffectUpcast}}
+    <div class="cast-row">
+      <label data-tooltip="VAGABOND.CastDialog.OtherHint">{{localize "VAGABOND.CastDialog.Other"}} <span class="hint">({{localize "VAGABOND.CastDialog.OtherCost"}})</span></label>
+      <span class="stepper">
+        <button type="button" data-action="step" data-field="otherMana" data-delta="-1" {{disabled (eq choice.otherMana 0)}} aria-label="-">−</button>
+        <input type="number" data-field="otherMana" value="{{choice.otherMana}}" min="0">
+        <button type="button" data-action="step" data-field="otherMana" data-delta="1" aria-label="+">+</button>
+      </span>
+    </div>
+    {{#if upcastText}}<p class="hint upcast-text">{{upcastText}}</p>{{/if}}
+    {{/if}}
+
+    <label class="checkbox"><input type="checkbox" data-field="focus" {{checked choice.focus}}> {{localize "VAGABOND.CastDialog.Focus"}}</label>
+  </section>
+
+  <div class="cast-breakdown">
+    <span>{{localize "VAGABOND.CastDialog.Delivery"}} {{cost.delivery}}</span>
+    {{#if cost.discount}}<span class="discount">{{localize "VAGABOND.CastDialog.Discount" n=cost.discount}}</span>{{/if}}
+    {{#if cost.both}}<span>{{localize "VAGABOND.CastDialog.Both"}} {{cost.both}}</span>{{/if}}
+    {{#if cost.dice}}<span>{{localize "VAGABOND.CastDialog.Dice"}} {{cost.dice}}</span>{{/if}}
+    {{#if cost.other}}<span>{{localize "VAGABOND.CastDialog.Other"}} {{cost.other}}</span>{{/if}}
+  </div>
+  {{/if}}
+  {{#each problems}}<p class="warning">{{this}}</p>{{/each}}
+</div>
+<footer class="form-footer">
+  <p class="hint">{{localize "VAGABOND.CastDialog.CheckHint"}}</p>
+  <div class="cast-buttons">
+    <button type="button" class="bright" data-action="castRoll" {{disabled (not canCast)}}><i class="fa-solid fa-dice-d20"></i> {{localize "VAGABOND.CastDialog.CastRoll"}}</button>
+    <button type="button" data-action="castPost" {{disabled (not canCast)}}><i class="fa-solid fa-comment"></i> {{localize "VAGABOND.CastDialog.CastNoRoll"}}</button>
+  </div>
+</footer>
+</div>

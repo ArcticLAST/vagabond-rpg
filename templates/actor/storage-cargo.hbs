@@ -1,0 +1,82 @@
+<section class="tab cargo {{tab.cssClass}}" data-tab="cargo" data-group="primary">
+  <div class="inventory-summary">
+    <div class="slots-meter {{#if slots.over}}over{{/if}}">
+      <label>{{#if isVehicle}}{{localize "VAGABOND.Storage.Cargo"}}{{else}}{{localize "VAGABOND.Slots"}}{{/if}}</label>
+      <div class="bar"><div class="fill" style="width: {{slots.pct}}%"></div>
+        <span class="values">{{slots.value}} / {{#if slots.unlimited}}∞{{else}}{{slots.max}}{{/if}}</span></div>
+    </div>
+    <div class="currency">
+      <label><i class="fa-solid fa-coins"></i> {{localize "VAGABOND.Currency.Label"}}</label>
+      {{#if editMode}}
+      <span class="coin gold"><input type="number" name="system.currency.g" value="{{source.currency.g}}" min="0"><abbr>g</abbr></span>
+      <span class="coin silver"><input type="number" name="system.currency.s" value="{{source.currency.s}}" min="0"><abbr>s</abbr></span>
+      <span class="coin copper"><input type="number" name="system.currency.c" value="{{source.currency.c}}" min="0"><abbr>c</abbr></span>
+      {{else}}<span class="coin-total">{{coins}}</span>{{/if}}
+      {{#if hero}}
+      <a class="coin-link" data-action="deposit" data-tooltip="VAGABOND.Storage.DepositHint"><i class="fa-solid fa-right-to-bracket"></i> {{localize "VAGABOND.Storage.Deposit"}}</a>
+      <a class="coin-link" data-action="withdraw" data-tooltip="VAGABOND.Storage.WithdrawHint"><i class="fa-solid fa-right-from-bracket"></i> {{localize "VAGABOND.Storage.Withdraw"}}</a>
+      {{/if}}
+    </div>
+  </div>
+
+  {{#if system.locked}}<p class="storage-note locked"><i class="fa-solid fa-lock"></i> {{localize "VAGABOND.Storage.LockedNote"}}</p>
+  {{else}}<p class="storage-note"><i class="fa-solid fa-hand-pointer"></i> {{localize "VAGABOND.Storage.DragHint"}}</p>{{/if}}
+
+  <div class="item-section">
+    <div class="list-header">
+      <span class="col-name">{{#if isVehicle}}{{localize "VAGABOND.Storage.Cargo"}}{{else}}{{localize "VAGABOND.Storage.Contents"}}{{/if}}</span>
+      <span class="col type">{{localize "VAGABOND.Storage.Type"}}</span>
+      <span class="col qty">{{localize "VAGABOND.Quantity"}}</span>
+      <span class="col">{{localize "VAGABOND.Slots"}}</span>
+      <span class="col controls"></span>
+    </div>
+    <ol class="item-list">
+      {{#each cargo}}
+      <li class="item draggable" data-item-id="{{id}}">
+        <img class="item-img" src="{{img}}" alt="">
+        <div class="item-name"><a data-action="toggleDescription">{{name}}</a>
+          {{#if tags.length}}<span class="item-sub">{{#each tags}}{{this}}{{#unless @last}} · {{/unless}}{{/each}}</span>{{/if}}</div>
+        <span class="col type">{{typeLabel}}</span>
+        <span class="col qty">
+          {{#if @root.editable}}<a data-action="adjustQuantity" data-delta="-1"><i class="fa-solid fa-minus fa-xs"></i></a>{{/if}}
+          {{system.quantity}}
+          {{#if @root.editable}}<a data-action="adjustQuantity" data-delta="1"><i class="fa-solid fa-plus fa-xs"></i></a>{{/if}}
+        </span>
+        <span class="col">{{slotsTotal}}</span>
+        <span class="col controls"><div class="item-controls">
+          {{#if (and @root.hero (not @root.system.locked))}}<a class="item-control take" data-action="takeItem" data-tooltip="VAGABOND.Storage.TakeHint"><i class="fa-solid fa-hand-holding-hand"></i></a>{{/if}}
+          <a class="item-control" data-action="toggleDescription" data-tooltip="VAGABOND.Sheet.Details"><i class="fa-solid fa-circle-info"></i></a>
+          {{#if @root.editable}}
+          <a class="item-control" data-action="editItem" data-tooltip="VAGABOND.Sheet.Edit"><i class="fa-solid fa-pen-to-square"></i></a>
+          <a class="item-control" data-action="deleteItem" data-tooltip="VAGABOND.Sheet.Delete"><i class="fa-solid fa-trash"></i></a>
+          {{/if}}
+        </div></span>
+        {{> "systems/vagabond-rpg/templates/actor/parts/item-description.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "VAGABOND.Storage.Empty"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+
+  {{#if isVehicle}}
+  <div class="item-section riders">
+    <div class="list-header">
+      <span class="col-name">{{localize "VAGABOND.Vehicle.Aboard"}}</span>
+      <span class="col controls">{{#if hero}}{{#if heroAboard}}
+        <a data-action="disembark" data-tooltip="VAGABOND.Mount.Disembark"><i class="fa-solid fa-person-walking-arrow-right"></i></a>
+        {{else}}<a data-action="board" data-tooltip="VAGABOND.Vehicle.BoardHint"><i class="fa-solid fa-person-walking-arrow-loop-left"></i></a>{{/if}}{{/if}}</span>
+    </div>
+    <ol class="item-list">
+      {{#each riders}}
+      <li class="item" data-rider-id="{{id}}">
+        <img class="item-img" src="{{img}}" alt="">
+        <div class="item-name"><a data-action="openRider">{{name}}</a></div>
+        <span class="col controls"><div class="item-controls">{{#if canRemove}}<a class="item-control" data-action="disembark" data-tooltip="VAGABOND.Mount.Disembark"><i class="fa-solid fa-person-walking-arrow-right"></i></a>{{/if}}</div></span>
+      </li>
+      {{else}}<li class="empty">{{localize "VAGABOND.Vehicle.NoneAboard"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+  {{/if}}
+</section>

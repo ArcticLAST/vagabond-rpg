@@ -1,0 +1,18 @@
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.ActionType.Label"}}</label><select name="system.actionType">{{selectOptions options.actionTypes selected=source.actionType localize=true}}</select></div>
+  <div class="form-group grow"><label>{{localize "VAGABOND.Action.Tags"}}</label><input type="text" name="system.tags" value="{{source.tags}}" placeholder="Melee Attack, Near"></div>
+</div>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Damage.Damage"}}</label><input type="text" name="system.damage" value="{{source.damage}}" placeholder="2d6"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Action.Average"}}</label><input type="number" name="system.average" value="{{source.average}}"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Action.DamageType"}}</label><select name="system.damageType">{{selectOptions options.actionDamageTypes selected=source.damageType localize=true}}</select></div>
+  <div class="form-group"><label data-tooltip="VAGABOND.Action.RelicHint">{{localize "VAGABOND.Action.Relic"}}</label><input type="number" name="system.relic" value="{{source.relic}}" min="0" step="1"></div>
+</div>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Saves"}}</label><select name="system.save">{{selectOptions options.saves selected=source.save localize=true}}</select></div>
+  <div class="form-group"><label data-tooltip="VAGABOND.Action.EffectSavesHint">{{localize "VAGABOND.Action.EffectSaves"}}</label>
+    <div class="checkbox-row">{{#each options.effectSaveKeys}}<label class="checkbox"><input type="checkbox" name="system.effectSaves.{{key}}" {{checked (lookup ../source.effectSaves key)}}> {{localize label}}</label>{{/each}}</div>
+  </div>
+  <div class="form-group"><label data-tooltip="VAGABOND.Action.HealingHint">{{localize "VAGABOND.Action.Healing"}}</label><input type="checkbox" name="system.healing" {{checked source.healing}}></div>
+  <div class="form-group grow"><label>{{localize "VAGABOND.Action.Recharge"}}</label><input type="text" name="system.recharge" value="{{source.recharge}}" placeholder="Recharge Cd4"></div>
+</div>

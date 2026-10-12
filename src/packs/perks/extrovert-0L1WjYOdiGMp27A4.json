@@ -1,0 +1,19 @@
+{
+  "_id": "0L1WjYOdiGMp27A4",
+  "_key": "!items!0L1WjYOdiGMp27A4",
+  "name": "Extrovert",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Once per Shift, if you pass a social Influence Check by 15 or more or meet a new friendly person, you gain a Studied die.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: PRS 4+ | Trained: Influence"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

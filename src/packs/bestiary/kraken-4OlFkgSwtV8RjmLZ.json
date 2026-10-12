@@ -1,0 +1,195 @@
+{
+  "_id": "4OlFkgSwtV8RjmLZ",
+  "_key": "!actors!4OlFkgSwtV8RjmLZ",
+  "name": "Kraken",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 20,
+    "tl": 22.3,
+    "attributes": {
+      "hp": {
+        "value": 89,
+        "max": 89
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 11,
+      "speed": {
+        "value": 20,
+        "types": "Swim 60'"
+      }
+    },
+    "details": {
+      "size": "colossal",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "Cold, Shock",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 144",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "2qdo3QoK64HcX6P1",
+      "_key": "!actors.items!4OlFkgSwtV8RjmLZ.2qdo3QoK64HcX6P1",
+      "name": "Lightning Bolt",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>21 (6d6)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 2 (d4) 120' Lines | Reflex",
+        "damage": "6d6",
+        "average": 21,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "kFm4vWfChltmsqSF",
+      "_key": "!actors.items!4OlFkgSwtV8RjmLZ.kFm4vWfChltmsqSF",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Tentacle per (Tentacles)</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "BMyyhgZVU6v0C1aq",
+      "_key": "!actors.items!4OlFkgSwtV8RjmLZ.BMyyhgZVU6v0C1aq",
+      "name": "Tentacle",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>13 (3d8) and Restrained if smaller</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Grapple",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Kfu8EEG9V3RwCWSa",
+      "_key": "!actors.items!4OlFkgSwtV8RjmLZ.Kfu8EEG9V3RwCWSa",
+      "name": "Tentacles",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Starts with 8. Targetting one causes a -4 penalty to the Check, but severs it if at least 16 damage is dealt.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Kraken",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "j9KvTaOCYJqeWSoZ",
+  "_key": "!actors!j9KvTaOCYJqeWSoZ",
+  "name": "Skeleton, Blazing Bones",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.6,
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 12,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "Fire, Pierce, Poison, Slash",
+      "weak": "Blunt",
+      "statusImmunities": "Fatigue, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 179",
+      "description": "<p>A charred skeleton which burns with an eternal flame for as long as the skeleton has animus. Something seems to keep them in constant pain, as they never stop screaming.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "4GYXm0m9FHL7Ql3B",
+      "_key": "!actors.items!j9KvTaOCYJqeWSoZ.4GYXm0m9FHL7Ql3B",
+      "name": "Hurl Fire",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>3 (d6) and Burning (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Bolt | Reflex",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "PDTYgQNBMrd6wFdI",
+      "_key": "!actors.items!j9KvTaOCYJqeWSoZ.PDTYgQNBMrd6wFdI",
+      "name": "Grapple",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "l2HAUIOgxZ15wJuU",
+      "_key": "!actors.items!j9KvTaOCYJqeWSoZ.l2HAUIOgxZ15wJuU",
+      "name": "Flame Aura",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Close Beings are Burning (d6).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Skeleton, Blazing Bones",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

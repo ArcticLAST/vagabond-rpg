@@ -1,0 +1,60 @@
+<aside class="vg-sidebar">
+  <section class="stats">
+    <h3>{{localize "VAGABOND.Stats"}}</h3>
+    <ul class="stat-list">
+      {{#each stats}}
+      <li class="stat" data-stat="{{key}}">
+        <a class="stat-label rollable" data-action="rollStat" data-tooltip="{{hint}}">{{localize abbr}}</a>
+        {{#if @root.editMode}}
+        <input type="number" name="{{name}}" value="{{value}}" min="0" max="12" step="1">
+        {{else}}
+        <span class="stat-value">{{value}}</span>
+        {{/if}}
+        <span class="stat-name">{{localize label}}</span>
+      </li>
+      {{/each}}
+    </ul>
+  </section>
+
+  <section class="saves">
+    <h3>{{localize "VAGABOND.Saves"}}</h3>
+    <ul class="save-list">
+      {{#each saves}}
+      <li class="save" data-save="{{key}}">
+        <a class="rollable" data-action="rollSave" data-save="{{key}}" data-tooltip="{{hint}}">
+          <i class="fa-solid fa-shield-halved"></i> {{localize label}}
+        </a>
+        <span class="difficulty" data-tooltip="VAGABOND.Difficulty">{{difficulty}}</span>
+      </li>
+      {{/each}}
+    </ul>
+    {{#if system.attributes.armorPenalty}}<p class="hint">{{localize "VAGABOND.ReflexPenalty"}}: +{{system.attributes.armorPenalty}}</p>{{/if}}
+  </section>
+
+  <section class="derived">
+    <div class="row"><span>{{localize "VAGABOND.Slots"}}</span><span class="{{#if slotsBar.over}}over{{/if}}">{{slotsBar.value}} / {{slotsBar.max}}</span></div>
+    <div class="row"><span>{{localize "VAGABOND.Speed.Crawl"}}</span><span>{{system.attributes.speed.crawl}}'</span></div>
+    <div class="row"><span>{{localize "VAGABOND.Speed.Travel"}}</span><span>{{system.attributes.speed.travel}} mi</span></div>
+    <div class="row"><span>{{localize "VAGABOND.CritOn"}}</span><span>{{system.attributes.crit.attack}}+</span></div>
+    {{#if system.attributes.isCaster}}
+    <div class="row"><span>{{localize "VAGABOND.CastMax"}}</span><span>{{system.attributes.castMax}}</span></div>
+    {{/if}}
+  </section>
+
+  <section class="mount">
+    <h3>{{localize "VAGABOND.Mount.Label"}}</h3>
+    {{#if mount}}
+    <div class="mount-card">
+      <img src="{{mount.img}}" alt="" width="32" height="32">
+      <a class="mount-name" data-action="openMount">{{mount.name}}</a>
+      {{#if editable}}<a class="item-control" data-action="dismount" data-tooltip="{{#if mount.isVehicle}}VAGABOND.Mount.Disembark{{else}}VAGABOND.Mount.Dismount{{/if}}"><i class="fa-solid fa-person-walking-arrow-right"></i></a>{{/if}}
+    </div>
+    <div class="row"><span>{{localize "VAGABOND.Speed.Label"}}</span><span>{{mount.speed}}'</span></div>
+    <div class="row"><span>{{localize "VAGABOND.Speed.Travel"}}</span><span>{{mount.travel}} mi</span></div>
+    {{#if mount.cargo.max}}<div class="row"><span>{{localize "VAGABOND.Storage.Cargo"}}</span><span class="{{#if mount.cargo.over}}over{{/if}}">{{mount.cargo.value}} / {{mount.cargo.max}}</span></div>{{/if}}
+    <p class="hint">{{#if mount.isVehicle}}{{localize "VAGABOND.Mount.VehicleHint"}}{{else}}{{localize "VAGABOND.Mount.RiderHint"}}{{/if}}</p>
+    {{else}}
+    <p class="hint">{{localize "VAGABOND.Mount.DropHint"}}</p>
+    {{/if}}
+  </section>
+</aside>

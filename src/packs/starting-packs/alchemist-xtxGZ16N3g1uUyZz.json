@@ -1,0 +1,86 @@
+{
+  "_id": "xtxGZ16N3g1uUyZz",
+  "_key": "!items!xtxGZ16N3g1uUyZz",
+  "name": "Starting Pack: Alchemist",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-leather-white-tan.webp",
+  "system": {
+    "description": "<p><strong>d66 1-1.</strong> Alchemy tools, materials (1g), l. armor.</p><p>Also includes a backpack, bedroll, 5 days of rations, 2 torches, and a waterskin. Each pack spends the 3g of Starting Wealth; remaining Wealth: <strong>87s</strong>.</p><p>Drop this pack on a Hero to unpack its Items and Wealth.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 75",
+    "quantity": 1,
+    "slots": 0,
+    "value": 300,
+    "equipped": false,
+    "category": "kit",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    },
+    "contents": [
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.62jhTZIVJ6RS9oPX",
+        "name": "Alchemy Tools",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.dEjYwd4KsVXAFo5o",
+        "name": "Materials",
+        "quantity": 1,
+        "value": 100
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.weapons-armor.Item.e8flfzb0F5yy82qk",
+        "name": "Armor, Light",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.rYDDsfJdwHBgN6eP",
+        "name": "Backpack",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.YjQnzy3TlzU6fMOO",
+        "name": "Bedroll",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.Xp8qUBGWi6qwCt9q",
+        "name": "Rations (1 day)",
+        "quantity": 5,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.D2A54vaOYkGUjHUS",
+        "name": "Torch",
+        "quantity": 2,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.1I35UOtusHeC6QZe",
+        "name": "Waterskin",
+        "quantity": 1,
+        "value": null
+      }
+    ],
+    "wealth": 87
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

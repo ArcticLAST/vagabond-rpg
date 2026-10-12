@@ -1,0 +1,292 @@
+{
+  "_id": "pbRw4iWRFaEzlbdw",
+  "_key": "!actors!pbRw4iWRFaEzlbdw",
+  "name": "Death Knight",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 11,
+    "tl": 9.6,
+    "attributes": {
+      "hp": {
+        "value": 49,
+        "max": 49
+      },
+      "armor": 4,
+      "armorTag": "as (+2) Chain",
+      "morale": 12,
+      "speed": {
+        "value": 25,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Allsight, Darksight",
+      "immune": "Fire, Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Fatigued, Frightened, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 177",
+      "description": "<p>An oathbroken knight, their soul corrupted by necromantic manipulation.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "dKrKbNi84xf5sONh",
+      "_key": "!actors.items!pbRw4iWRFaEzlbdw.dKrKbNi84xf5sONh",
+      "name": "Stun",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Paralyzed (Cd6 Rounds)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, all who hear it | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GnGRsZwujWTppqr6",
+      "_key": "!actors.items!pbRw4iWRFaEzlbdw.GnGRsZwujWTppqr6",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>3×(+2) Longsword</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "x3tCvep1mldkNqGK",
+      "_key": "!actors.items!pbRw4iWRFaEzlbdw.x3tCvep1mldkNqGK",
+      "name": "(+2) Longsword",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>6 (d8+2)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8+2",
+        "average": 6,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "relic": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IMzRRVqZQT41D46k",
+      "_key": "!actors.items!pbRw4iWRFaEzlbdw.IMzRRVqZQT41D46k",
+      "name": "Hellfire",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>35 (10d6) and Burning (Cd6)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 20-foot Sphere | Reflex",
+        "damage": "10d6",
+        "average": 35,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "1/Day",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fSVb1oS8UteGzeHU",
+      "_key": "!actors.items!pbRw4iWRFaEzlbdw.fSVb1oS8UteGzeHU",
+      "name": "Fear Aura",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened until they pass this Check on a subsequent Turn, or Cd6 after.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Aura Near | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HnAt72s9L21RhgRs",
+      "_key": "!actors.items!pbRw4iWRFaEzlbdw.HnAt72s9L21RhgRs",
+      "name": "Dispel",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can end a Spell affecting it at the start of its Turns.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ohQil9RWx0zsE7pT",
+      "_key": "!actors.items!pbRw4iWRFaEzlbdw.ohQil9RWx0zsE7pT",
+      "name": "Zombie",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be reduced below 1 HP unless damaged by a Crit, damage it is Weak to, or while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Death Knight",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

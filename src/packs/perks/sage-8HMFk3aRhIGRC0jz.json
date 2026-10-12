@@ -1,0 +1,19 @@
+{
+  "_id": "8HMFk3aRhIGRC0jz",
+  "_key": "!items!8HMFk3aRhIGRC0jz",
+  "name": "Sage",
+  "type": "perk",
+  "img": "icons/sundries/books/book-open-brown.webp",
+  "system": {
+    "description": "<p>You can give an Ally that can see or hear you one of your Studied dice as an Action or by skipping your Move.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: RSN 4+ | Trained: Leadership"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

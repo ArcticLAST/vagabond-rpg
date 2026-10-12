@@ -1,0 +1,58 @@
+{
+  "_id": "RWpZFkKx2wrOuobQ",
+  "_key": "!actors!RWpZFkKx2wrOuobQ",
+  "name": "Sailboat",
+  "type": "vehicle",
+  "img": "icons/environment/settlement/ship.webp",
+  "system": {
+    "capacity": 1000,
+    "locked": false,
+    "currency": {
+      "g": 0,
+      "s": 0,
+      "c": 0
+    },
+    "details": {
+      "description": "<p>A water vessel from the Water Travel table (p. 17): 30 miles per Shift, 1000 Slots of Capacity, costs 1000g.</p><p>The Alpha 3 rules don't give vessels HP, Armor, or a combat Speed; set them here if your table needs them.</p>"
+    },
+    "kind": "water",
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "max": 0
+      },
+      "armor": 0,
+      "speed": 0,
+      "travel": 30
+    },
+    "cost": "1000g"
+  },
+  "effects": [],
+  "items": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Sailboat",
+    "displayName": 20,
+    "actorLink": true,
+    "disposition": 0,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/environment/settlement/ship.webp"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

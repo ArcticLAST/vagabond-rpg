@@ -1,0 +1,98 @@
+{
+  "_id": "guyozyHEW78Ul4Ig",
+  "_key": "!items!guyozyHEW78Ul4Ig",
+  "name": "Starting Pack: Trapper",
+  "type": "gear",
+  "img": "icons/containers/bags/pack-leather-white-tan.webp",
+  "system": {
+    "description": "<p><strong>d66 6-3.</strong> Longbow, quiver, hunting trap, leatherworking tools, l. armor.</p><p>Also includes a backpack, bedroll, 5 days of rations, 2 torches, and a waterskin. Each pack spends the 3g of Starting Wealth; remaining Wealth: <strong>24s</strong>.</p><p>Drop this pack on a Hero to unpack its Items and Wealth.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 75",
+    "quantity": 1,
+    "slots": 0,
+    "value": 300,
+    "equipped": false,
+    "category": "kit",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    },
+    "contents": [
+      {
+        "uuid": "Compendium.vagabond-rpg.weapons-armor.Item.D2V9q6pyhHtr7qZf",
+        "name": "Longbow",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.laTUS9Z3FdgMgwql",
+        "name": "Quiver",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.eUBwaS3FPyWMuHu7",
+        "name": "Hunting trap",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.7p9C3bmH6iHVs6k2",
+        "name": "Leatherworking Tools",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.weapons-armor.Item.e8flfzb0F5yy82qk",
+        "name": "Armor, Light",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.rYDDsfJdwHBgN6eP",
+        "name": "Backpack",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.YjQnzy3TlzU6fMOO",
+        "name": "Bedroll",
+        "quantity": 1,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.Xp8qUBGWi6qwCt9q",
+        "name": "Rations (1 day)",
+        "quantity": 5,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.D2A54vaOYkGUjHUS",
+        "name": "Torch",
+        "quantity": 2,
+        "value": null
+      },
+      {
+        "uuid": "Compendium.vagabond-rpg.gear.Item.1I35UOtusHeC6QZe",
+        "name": "Waterskin",
+        "quantity": 1,
+        "value": null
+      }
+    ],
+    "wealth": 24
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 6300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

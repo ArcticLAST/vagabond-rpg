@@ -1,0 +1,35 @@
+{
+  "_id": "hMAKclAzsca74u7k",
+  "_key": "!items!hMAKclAzsca74u7k",
+  "name": "Dwarfblind Stone",
+  "type": "gear",
+  "img": "icons/weapons/thrown/bomb-fuse-black.webp",
+  "system": {
+    "description": "<p>A hit Target with Darksight is Blinded (Cd6).</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 200.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "explosive",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

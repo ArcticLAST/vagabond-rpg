@@ -1,0 +1,162 @@
+{
+  "_id": "pDDs43MqrLYQ8U3b",
+  "_key": "!actors!pDDs43MqrLYQ8U3b",
+  "name": "Wight",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 2.2,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 12,
+      "speed": {
+        "value": 25,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d8",
+      "senses": "Darksight",
+      "immune": "Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Berserk, Charmed, Confused, Fatigued, Frightened, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 180",
+      "description": "<p>Life-draining spirits in the body of a dead humanoid.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "RdmV8ICcp0YWLp2L",
+      "_key": "!actors.items!pDDs43MqrLYQ8U3b.RdmV8ICcp0YWLp2L",
+      "name": "Energy Drain",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>3 (d6) and +1 Fatigue, healing this Being for the damage dealt</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch | Reflex",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "magic",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RJgnZpxWGaP7jzEI",
+      "_key": "!actors.items!pDDs43MqrLYQ8U3b.RJgnZpxWGaP7jzEI",
+      "name": "Longsword",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dMNZcfQNlNWPXfFo",
+      "_key": "!actors.items!pDDs43MqrLYQ8U3b.dMNZcfQNlNWPXfFo",
+      "name": "Nightwalker",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Wight",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

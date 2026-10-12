@@ -1,0 +1,19 @@
+{
+  "_id": "3OPWNUlwAawrU1qB",
+  "_key": "!items!3OPWNUlwAawrU1qB",
+  "name": "Grim Harvest",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>When one of your Spells kills an Enemy that is not an Artificial or Undead, you regain HP equal to the damage of the Spell.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Raise"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

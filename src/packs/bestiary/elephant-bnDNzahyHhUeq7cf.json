@@ -1,0 +1,166 @@
+{
+  "_id": "bnDNzahyHhUeq7cf",
+  "_key": "!actors!bnDNzahyHhUeq7cf",
+  "name": "Elephant",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 9,
+    "tl": 5.0,
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "max": 40
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 8,
+      "speed": {
+        "value": 40,
+        "types": ""
+      },
+      "travel": 8
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d20",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 127",
+      "description": ""
+    },
+    "cargo": {
+      "max": 96
+    }
+  },
+  "items": [
+    {
+      "_id": "75fKHfqMKzFU5YqY",
+      "_key": "!actors.items!bnDNzahyHhUeq7cf.75fKHfqMKzFU5YqY",
+      "name": "Trample",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>18 (4d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "4d8",
+        "average": 18,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ipn7FiTLSCUc7aI5",
+      "_key": "!actors.items!bnDNzahyHhUeq7cf.Ipn7FiTLSCUc7aI5",
+      "name": "Tusk",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ljdQfdM7PcHEC73p",
+      "_key": "!actors.items!bnDNzahyHhUeq7cf.ljdQfdM7PcHEC73p",
+      "name": "Charger",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it Moves at least 20' in a straight line before making a Tusk Attack, the damage is doubled.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Elephant",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<section class="tab description {{tab.cssClass}}" data-tab="description" data-group="primary">
+  {{#if editable}}
+  <prose-mirror name="system.details.description" value="{{source.details.description}}" document-uuid="{{actor.uuid}}" toggled>{{{descriptionHTML}}}</prose-mirror>
+  {{else}}<div class="prose">{{{descriptionHTML}}}</div>{{/if}}
+  {{#if editMode}}<div class="form-group"><label>{{localize "VAGABOND.Source"}}</label><input type="text" name="system.details.source" value="{{source.details.source}}"></div>
+  {{else}}{{#if system.details.source}}<p class="hint">{{localize "VAGABOND.Source"}}: {{system.details.source}}</p>{{/if}}{{/if}}
+</section>

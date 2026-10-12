@@ -1,0 +1,35 @@
+{
+  "_id": "HVo3HKYP4x0LHfRm",
+  "_key": "!items!HVo3HKYP4x0LHfRm",
+  "name": "Candle, Basic",
+  "type": "gear",
+  "img": "icons/sundries/lights/candle-unlit-tan.webp",
+  "system": {
+    "description": "<p>Acts as a torch, but its Light only sheds out to Close.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 0.01,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "torch",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

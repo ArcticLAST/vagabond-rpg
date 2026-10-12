@@ -1,0 +1,130 @@
+{
+  "_id": "jVq8xygKdwcMRmSo",
+  "_key": "!actors!jVq8xygKdwcMRmSo",
+  "name": "Whale, Blue",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 15,
+    "tl": 8.7,
+    "attributes": {
+      "hp": {
+        "value": 67,
+        "max": 67
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 7,
+      "speed": {
+        "value": 0,
+        "types": "Swim 60'"
+      }
+    },
+    "details": {
+      "size": "colossal",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Echolocation",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 133",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "AZPdo0s3zp02tgon",
+      "_key": "!actors.items!jVq8xygKdwcMRmSo.AZPdo0s3zp02tgon",
+      "name": "Slam",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>39 (6d12)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "6d12",
+        "average": 39,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WPguzC8DqxZei6wD",
+      "_key": "!actors.items!jVq8xygKdwcMRmSo.WPguzC8DqxZei6wD",
+      "name": "Hold Breath",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can hold its breath for up to two hours.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Whale, Blue",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

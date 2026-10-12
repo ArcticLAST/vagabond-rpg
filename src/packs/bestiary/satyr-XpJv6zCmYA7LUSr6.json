@@ -1,0 +1,258 @@
+{
+  "_id": "XpJv6zCmYA7LUSr6",
+  "_key": "!actors!XpJv6zCmYA7LUSr6",
+  "name": "Satyr",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 2.3,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 9,
+      "speed": {
+        "value": 35,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "fae",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d4",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 156",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "fkSjO6EFL9yEpbYO",
+      "_key": "!actors.items!XpJv6zCmYA7LUSr6.fkSjO6EFL9yEpbYO",
+      "name": "Sleep",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Unconscious (Cd6 or until awoken)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Beings who hear it",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "k3T916k66tzJMpAG",
+      "_key": "!actors.items!XpJv6zCmYA7LUSr6.k3T916k66tzJMpAG",
+      "name": "Charm",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Charmed (until this Being drops Focus). Those Charmed this way must Move toward this Being and use their Action to obey its commands.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Beings who hear it | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "1/Day",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "IG1QEk2SYadjhpq5",
+      "_key": "!actors.items!XpJv6zCmYA7LUSr6.IG1QEk2SYadjhpq5",
+      "name": "Horns",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9mbgkrlhQv4WEUSh",
+      "_key": "!actors.items!XpJv6zCmYA7LUSr6.9mbgkrlhQv4WEUSh",
+      "name": "Fear",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Frightened (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Beings who hear it | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "1/Day",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1obhYIxlUrQ4HY5H",
+      "_key": "!actors.items!XpJv6zCmYA7LUSr6.1obhYIxlUrQ4HY5H",
+      "name": "Magic Ward I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wM4e9Tq7bYDSxVdZ",
+      "_key": "!actors.items!XpJv6zCmYA7LUSr6.wM4e9Tq7bYDSxVdZ",
+      "name": "Panpipes",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It casn't use Sleep, Charm, or Fear without its panpipes.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Item",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Satyr",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

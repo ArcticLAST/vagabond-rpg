@@ -1,0 +1,47 @@
+{
+  "_id": "x7JnSJCsGAwg1A4c",
+  "_key": "!items!x7JnSJCsGAwg1A4c",
+  "name": "Skirmisher",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Your penalty to Reflex Saves from Armor is reduced by 1, and you have a 5' bonus to Speed. Further, you can Move through spaces occupied by Beings. You can take this Perk up to 3 times.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: DEX 4+ | Trained: Finesse or Melee"
+  },
+  "effects": [
+    {
+      "_id": "u2bNYWD595fl2sNZ",
+      "_key": "!items.effects!x7JnSJCsGAwg1A4c.u2bNYWD595fl2sNZ",
+      "name": "Skirmisher",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.reflexPenalty",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.speed",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

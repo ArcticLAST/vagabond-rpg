@@ -1,0 +1,194 @@
+{
+  "_id": "mORfuzGxlJabixyE",
+  "_key": "!actors!mORfuzGxlJabixyE",
+  "name": "Dethbat",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.0,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 3,
+      "speed": {
+        "value": 5,
+        "types": "Fly 30'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "outer",
+      "subtype": "Hellspawn",
+      "zone": "midline",
+      "appearing": "2d6",
+      "senses": "Darksight",
+      "immune": "Fire, Physical, Poison",
+      "weak": "",
+      "statusImmunities": "Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 160",
+      "description": "<p>Infernal bats with human faces and grotesque tongues that drag below them as they fly.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "W7jllzHnsSLB4Zy6",
+      "_key": "!actors.items!mORfuzGxlJabixyE.W7jllzHnsSLB4Zy6",
+      "name": "Kiss",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Dethbat's Curse (Continual, until removed)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, a Paralyzed Enemy | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bLkbzUHEz2Okkw0Z",
+      "_key": "!actors.items!mORfuzGxlJabixyE.bLkbzUHEz2Okkw0Z",
+      "name": "Shriek",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened (Cd4, Paralyzed)</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "All Near non-Dethbats that hear it | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GO1jKSRJ1PDazeZi",
+      "_key": "!actors.items!mORfuzGxlJabixyE.GO1jKSRJ1PDazeZi",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wumpR7NmGmHhsdim",
+      "_key": "!actors.items!mORfuzGxlJabixyE.wumpR7NmGmHhsdim",
+      "name": "Dethbat's Curse",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Every hour while cursed and not in Sunlight, the victim rolls a d6, progressing the curse by 1 stage on a roll of 1: 1 Their hair falls out. 2 Their ears transform into wings and their teeth become fangs. 3 They gain 1 Fatigue. If they die due to this, their head rips from their body and becomes a Dethbat.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Curse",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dethbat",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

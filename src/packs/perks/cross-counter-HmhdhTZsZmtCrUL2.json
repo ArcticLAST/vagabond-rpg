@@ -1,0 +1,19 @@
+{
+  "_id": "HmhdhTZsZmtCrUL2",
+  "_key": "!items!HmhdhTZsZmtCrUL2",
+  "name": "Cross Counter",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Once per Round, you can choose to fail a Reflex Save against an attack from a Close Being to make an attack against them.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 7 | Trained: Brawl or Melee"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

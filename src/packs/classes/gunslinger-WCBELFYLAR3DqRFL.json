@@ -1,0 +1,182 @@
+{
+  "_id": "WCBELFYLAR3DqRFL",
+  "_key": "!items!WCBELFYLAR3DqRFL",
+  "name": "Gunslinger",
+  "type": "class",
+  "img": "icons/svg/d20-black.svg",
+  "system": {
+    "description": "<p>This... is my BOOMSTICK! —Ash, Army of Darkness Attitude and tenacity are as core to the gunslinger as ammo. They stare down challenges through iron sights, fortified by their inner grit.</p><p>The gunslinger is a low-defense, highcrit striker. In combat, stay as far back as possible and keep the enemy under constant fire.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Backline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Detect, Ranged</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 41",
+    "keyStats": [
+      "awr"
+    ],
+    "trainings": [
+      "detect",
+      "ranged"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Attack · Backline",
+    "startingPacks": "<p>Bounty Hunter or Tinker</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Deadeye",
+        "description": "<p>After you make a Ranged attack, you Crit on subsequent Ranged attacks on a d20 roll 1 lower, and can stack up to 3 times. It resets at the end of your Turn if you didn't hit a Ranged attack since the start of your last Turn.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Shooting Irons",
+        "description": "<p>You gain the Quick Draw Perk (p. 71) and, once per Round, you can make a Ranged attack against an attack that would hit. If you pass, reduce the damage dealt by the Target's attack by your attack's damage.</p>",
+        "grants": {
+          "perks": "Quick Draw",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Bad Medicine",
+        "description": "<p>You deal an extra die of damage when you Crit with a Ranged Check. The number of extra dice increases by 1 every 4 Levels hereafter.</p><p><em>Gunslinger: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Grit",
+        "description": "<p>At the start of your Turn, you can remove 3 Deadeye stacks to remove a Status from yourself from either Blinded, Burning, Confused, Dazed, or Frightened.</p><p>The Deadeye stacks removed by this Ability are reduced by 1 every 4 Levels hereafter (minimum 0).</p><p><em>Gunslinger: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Devastator",
+        "description": "<p>When you Crit with a Ranged Check, the damage dice can Explode.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "High Noon",
+        "description": "<p>When you kill an Enemy, your Deadeye is immediately set to 17.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

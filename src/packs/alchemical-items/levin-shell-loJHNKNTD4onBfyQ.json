@@ -1,0 +1,36 @@
+{
+  "_id": "loJHNKNTD4onBfyQ",
+  "_key": "!items!loJHNKNTD4onBfyQ",
+  "name": "Levin Shell",
+  "type": "gear",
+  "img": "icons/weapons/thrown/bomb-fuse-black.webp",
+  "system": {
+    "description": "<p>An unstable mass of electric energy that sparks when exposed to oxygen. A Target hit with this Item takes d6 damage and any other Close Beings take half. A Being that takes this damage is Dazed until the end of its next Turn.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "explosive",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "d6",
+      "type": "damage",
+      "save": "reflex",
+      "damageType": "shock"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

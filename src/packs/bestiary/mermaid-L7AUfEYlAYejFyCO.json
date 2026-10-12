@@ -1,0 +1,354 @@
+{
+  "_id": "L7AUfEYlAYejFyCO",
+  "_key": "!actors!L7AUfEYlAYejFyCO",
+  "name": "Mermaid",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 2.0,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 2,
+      "armorTag": "as (+1) Leather",
+      "morale": 2,
+      "speed": {
+        "value": 10,
+        "types": "Swim 40'"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "fae",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "Cold, Shock",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 155",
+      "description": "<p>Half-human half-piscine fae who are venerated by all creatures of the sea.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "Dh4F0BkZwIwhcNpk",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.Dh4F0BkZwIwhcNpk",
+      "name": "Call Terror",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Terror-Bound Being arrives in Cd4.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RNHtBVFJFFfuZwHN",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.RNHtBVFJFFfuZwHN",
+      "name": "Enchanting Song",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Enchanting Song</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast (Focus)",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xsaB3jevfmXiLh23",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.xsaB3jevfmXiLh23",
+      "name": "Trident",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7BbiPpIk4CzKvPKR",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.7BbiPpIk4CzKvPKR",
+      "name": "Storm Bringer",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>A storm stirs out to 1 mile from it, and lasts for Cd4 hours.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "1/Day",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HoQb7V09CNqOwfdl",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.HoQb7V09CNqOwfdl",
+      "name": "Amphibious",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Breathes air and water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fM6K0qRBryZ87d4h",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.fM6K0qRBryZ87d4h",
+      "name": "Magic Ward I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sMYgkoFjcRqOYDnj",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.sMYgkoFjcRqOYDnj",
+      "name": "Enchanting Song",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Enemies that can hear it for the first time and at the start of their Turns must pass [Will] or be Charmed (Cd4). While Charmed this way, they can only Move directly toward this Being.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "T3BKWdmGQ2n6agVN",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.T3BKWdmGQ2n6agVN",
+      "name": "Immortal of the Sea",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be reduced below 1 HP while in contact with a body of water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "i0LSBlUpJX9wMpS5",
+      "_key": "!actors.items!L7AUfEYlAYejFyCO.i0LSBlUpJX9wMpS5",
+      "name": "Terror-Bound",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is bound to a terror of the sea, such as a beisht kione dhoo, kraken, or sea serpent.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 104,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Mermaid",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

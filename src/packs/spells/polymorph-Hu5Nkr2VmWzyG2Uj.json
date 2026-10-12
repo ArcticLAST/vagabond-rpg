@@ -1,0 +1,24 @@
+{
+  "_id": "Hu5Nkr2VmWzyG2Uj",
+  "_key": "!items!Hu5Nkr2VmWzyG2Uj",
+  "name": "Polymorph",
+  "type": "spell",
+  "img": "icons/creatures/amphibians/frog-confused-green-blue.webp",
+  "system": {
+    "description": "<p>The Target becomes a Beast of your choice with HD no higher than your Level for the duration. If the Target is unwilling and its HD are higher than your Level, the Spell fails. During this time, the Target uses:</p><ul><li>The Beast's Speed, Passives, Senses, Armor, Immune, Weak, Actions, and Abilities.</li><li>The Target's HP and, if possible, its Actions and Abilities.</li></ul><p>You must spend 1 Mana on your Turns to Focus on this Spell, even for willing Targets.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

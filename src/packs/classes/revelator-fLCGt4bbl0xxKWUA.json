@@ -1,0 +1,183 @@
+{
+  "_id": "fLCGt4bbl0xxKWUA",
+  "_key": "!items!fLCGt4bbl0xxKWUA",
+  "name": "Revelator",
+  "type": "class",
+  "img": "icons/svg/d20-black.svg",
+  "system": {
+    "description": "<p>For he who comes in our time of need is not of mortal breed, he is the Destroyer, the right hand of our Creator and the one who brings fear where there is no hope. —Corrax Tablet 3:13, Doom Eternal Revelators are warriors of radiance and justice. These oathsworn knights hold an honorable vow that becomes its own power.</p><p>Revelators are high defense frontline strikers. Stay in the frontline for melee attacks, and smite the transgressors.</p><ul><li><strong>Action:</strong> Attack/Cast</li><li><strong>Move:</strong> Frontline</li><li><strong>Key Stat:</strong> Might/Presence</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Leadership, Melee</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 53",
+    "keyStats": [
+      "mit",
+      "prs"
+    ],
+    "trainings": [
+      "leadership",
+      "melee"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "leadership",
+    "castMax": "half",
+    "mana": {
+      "perLevel": 2
+    },
+    "spells": {
+      "base": 2,
+      "every": 3
+    },
+    "playstyle": "Attack/Cast · Frontline",
+    "startingPacks": "<p>Knight or Warrior</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Righteous",
+        "description": "<p>You gain the Gish Perk (p. 69), can Cast Spells using Leadership.</p><p><strong>Spells:</strong> You learn 2 Spells, one of which must always have a damage base. You learn 1 other Spell every 3 Levels hereafter.</p><p><strong>Mana:</strong> Your Max Mana is equal to (2 × your Level), and your Cast Max for Spells is equal to (1 + half your Level, round up).</p>",
+        "grants": {
+          "perks": "Gish",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Enspell",
+        "description": "<p>You can have one Imbue Casting as continual duration on your Weapon, and can skip your Move to change the Spell.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Lay on Hands",
+        "description": "<p>You can spend 1 Mana and use your Action or skip your Move to restore (d4 + your Level) HP to yourself or a Close Being. This die size increases by one size every 4 Levels hereafter.</p><p><em>Revelator: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Paragon's Aura",
+        "description": "<p>You have a 2 Mana discount on the Aura Delivery.</p><p>Further, once per Round when you deliver a Spell with an Imbued Weapon, you can do so against one Target with a 1 Mana discount. This discount increases every 4 Levels hereafter.</p><p><em>Revelator: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Divine Resolve",
+        "description": "<p>You can't be Blinded, Paralyzed, or Sickened. Targets of your Lay on Hands Ability are cured of these Statuses.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Holy Diver",
+        "description": "<p>You and Weapons you wield are permanently under the effects of the Bless and Exalt Spells.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

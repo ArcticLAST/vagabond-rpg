@@ -1,0 +1,35 @@
+{
+  "_id": "Jcquo4KSNl0gBam7",
+  "_key": "!items!Jcquo4KSNl0gBam7",
+  "name": "Bolt case",
+  "type": "gear",
+  "img": "icons/weapons/ammunition/arrows-fletching.webp",
+  "system": {
+    "description": "<p>Ammunition container. You don't track every piece of mundane ammo: if you have a container (quiver, box, etc.), you have ammunition.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 76",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10,
+    "equipped": false,
+    "category": "ammunition",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

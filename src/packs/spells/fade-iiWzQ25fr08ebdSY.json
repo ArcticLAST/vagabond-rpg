@@ -1,0 +1,24 @@
+{
+  "_id": "iiWzQ25fr08ebdSY",
+  "_key": "!items!iiWzQ25fr08ebdSY",
+  "name": "Fade",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Target is Invisible for the duration, ending early if they use an Action.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

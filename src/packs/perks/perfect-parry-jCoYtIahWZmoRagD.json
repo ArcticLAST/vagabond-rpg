@@ -1,0 +1,19 @@
+{
+  "_id": "jCoYtIahWZmoRagD",
+  "_key": "!items!jCoYtIahWZmoRagD",
+  "name": "Perfect Parry",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>If you don't take damage from an attack that Targets you, you can deflect the attack to a viable Target of the attack, which could be the attacker, rerolling the damage.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: DEX 7"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,194 @@
+{
+  "_id": "Xs3O8dBaJFVP8vhx",
+  "_key": "!actors!Xs3O8dBaJFVP8vhx",
+  "name": "Ankheg",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 5,
+    "tl": 5.1,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 3,
+      "armorTag": "as Chain plus Shield",
+      "morale": 5,
+      "speed": {
+        "value": 40,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d6",
+      "senses": "Darksight, Seismicsense",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 135",
+      "description": "<p>Horse-sized, acid-spewing antlions that typically make their nests deep underground.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "repv9POUAyv2COt2",
+      "_key": "!actors.items!Xs3O8dBaJFVP8vhx.repv9POUAyv2COt2",
+      "name": "Acid Spray",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>18 (4d8) and Burning (Cd4)</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack, Near",
+        "damage": "4d8",
+        "average": 18,
+        "damageType": "acid",
+        "save": "reflex",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ebsaUYcUbHofwIZw",
+      "_key": "!actors.items!Xs3O8dBaJFVP8vhx.ebsaUYcUbHofwIZw",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Burning (Cd4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8JGtTFiChr7NrvUA",
+      "_key": "!actors.items!Xs3O8dBaJFVP8vhx.8JGtTFiChr7NrvUA",
+      "name": "Soft Underbelly",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Its Armor is 0 while it is Prone.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lxcflDZSRmeWhgVI",
+      "_key": "!actors.items!Xs3O8dBaJFVP8vhx.lxcflDZSRmeWhgVI",
+      "name": "Tunneler",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can Move at full Speed through solid earth and stone by digging.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ankheg",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

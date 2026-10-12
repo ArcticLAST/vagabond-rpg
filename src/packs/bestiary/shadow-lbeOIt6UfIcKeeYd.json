@@ -1,0 +1,162 @@
+{
+  "_id": "lbeOIt6UfIcKeeYd",
+  "_key": "!actors!lbeOIt6UfIcKeeYd",
+  "name": "Shadow",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 1.6,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 12,
+      "speed": {
+        "value": 30,
+        "types": "Phase"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d6",
+      "senses": "Darksight",
+      "immune": "Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Charmed, Fatigue, Frightened, Paralyzed, Prone, Restrained, Sickened, Suffocating, Unconscious",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 179",
+      "description": "<p>An animus of pure vomit darkness and anti-life.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "ir78B3yYgELLVOqb",
+      "_key": "!actors.items!lbeOIt6UfIcKeeYd.ir78B3yYgELLVOqb",
+      "name": "Life Drain",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4) and pass [Endure] or +1 Fatigue. If this kills it, it rises as a Shadow.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "RaibvIo4CyhqcWpx",
+      "_key": "!actors.items!lbeOIt6UfIcKeeYd.RaibvIo4CyhqcWpx",
+      "name": "Nightwalker",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QLJbbePZCalHwhmH",
+      "_key": "!actors.items!lbeOIt6UfIcKeeYd.QLJbbePZCalHwhmH",
+      "name": "Shadow Stealth",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is Invisible in the Dark.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Shadow",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

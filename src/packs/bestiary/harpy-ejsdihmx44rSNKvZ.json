@@ -1,0 +1,162 @@
+{
+  "_id": "ejsdihmx44rSNKvZ",
+  "_key": "!actors!ejsdihmx44rSNKvZ",
+  "name": "Harpy",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 1.5,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 2,
+      "speed": {
+        "value": 10,
+        "types": "Fly 30'"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d6",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 142",
+      "description": "<p>Hatched on the highest peaks of the land, harpies are a people with the wings and talons of predatory raptor birds.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "xjfjEd0pMUQiskd6",
+      "_key": "!actors.items!ejsdihmx44rSNKvZ.xjfjEd0pMUQiskd6",
+      "name": "Enthralling Song",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Charmed (Cd4) and must Move toward this Being.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, all that hear it (Focus) | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Recharge Cd6",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WuCdo8j4B6Xt3Fvj",
+      "_key": "!actors.items!ejsdihmx44rSNKvZ.WuCdo8j4B6Xt3Fvj",
+      "name": "Claws",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cYmF8JwyiK354loZ",
+      "_key": "!actors.items!ejsdihmx44rSNKvZ.cYmF8JwyiK354loZ",
+      "name": "Weapon",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>3 (d6) or (by Weapon)</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Harpy",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

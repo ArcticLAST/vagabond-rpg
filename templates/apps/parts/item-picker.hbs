@@ -1,0 +1,29 @@
+<div class="item-picker">
+  <div class="picker-search"><i class="fa-solid fa-magnifying-glass"></i>
+    <input type="search" data-search="{{kind}}" value="{{search}}" placeholder="{{localize 'VAGABOND.Builder.Search'}}" aria-label="{{localize 'VAGABOND.Builder.Search'}}">
+    {{#if (eq kind "perks")}}<label class="picker-filter"><input type="checkbox" data-filter-unmet {{checked @root.state.hideUnmet}}> {{localize "VAGABOND.Builder.HideUnmet"}}</label>{{/if}}</div>
+  <div class="pick-list" data-search-list="{{kind}}">
+    {{#each cards}}
+    <article class="pick-card {{#if selected}}selected{{/if}} {{#if fixed}}fixed{{/if}} {{#if owned}}owned{{/if}} {{#if blocked}}blocked{{/if}}" data-kind="{{../kind}}" data-uuid="{{uuid}}" data-name="{{name}}" {{#if unmet}}data-unmet{{/if}}>
+      <header class="pick-head" {{#unless (or fixed owned)}}data-action="toggle"{{/unless}} {{#if blocked}}aria-disabled="true"{{/if}}>
+        <img src="{{img}}" alt="">
+        <div class="pick-title"><h4>{{name}}</h4>
+          <span class="pick-sub">
+            {{#if prerequisites}}{{prerequisites}}{{/if}}{{#if damage}}{{damage}}{{/if}}{{#if focus}} · {{localize "VAGABOND.Spell.Focus"}}{{/if}}
+          </span>
+          {{#if unmet}}<span class="pick-unmet" data-tooltip="VAGABOND.Builder.UnmetHint"><i class="fa-solid fa-lock"></i> {{unmet}}</span>{{/if}}
+          {{#if via}}<span class="pick-via"><i class="fa-solid fa-unlock"></i> {{localize "VAGABOND.Builder.Via" source=via}}</span>{{/if}}
+          {{#if taken}}<span class="pick-via">{{localize "VAGABOND.Builder.Taken" n=taken}}</span>{{/if}}
+        </div>
+        {{#if fixed}}<span class="pick-badge">{{localize "VAGABOND.Builder.Granted"}}</span>
+        {{else if owned}}<span class="pick-badge">{{localize "VAGABOND.Builder.Owned"}}</span>
+        {{else if blocked}}<i class="pick-check fa-solid fa-lock" data-tooltip="VAGABOND.Builder.UnmetHint"></i>
+        {{else}}<i class="pick-check {{#if selected}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i>{{/if}}
+      </header>
+      {{#if choice}}<div class="pick-choice">{{#each choice}}<label><span>{{localize label}}</span>
+        <select data-perk-choice="{{../uuid}}" data-choice-field="{{field}}"><option value="">—</option>{{selectOptions options selected=value localize=true}}</select></label>{{/each}}</div>{{/if}}
+      <details class="pick-more"><summary>{{localize "VAGABOND.Sheet.Details"}}</summary><div class="pick-desc">{{{html}}}</div></details>
+    </article>
+    {{/each}}
+  </div>
+</div>

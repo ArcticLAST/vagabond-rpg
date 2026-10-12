@@ -1,0 +1,162 @@
+{
+  "_id": "o4rPjZZVRiwiTo8t",
+  "_key": "!actors!o4rPjZZVRiwiTo8t",
+  "name": "Ooze, Quicksilver",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 5,
+    "tl": 1.7,
+    "attributes": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 12,
+      "speed": {
+        "value": 10,
+        "types": "Cling"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "primordial",
+      "subtype": "Slime",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Magic, Pierce, Slash",
+      "weak": "",
+      "statusImmunities": "Blinded, Charmed, Fatigue, Frightened, Prone",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 174",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "2nYzH5kKGRuqNzXW",
+      "_key": "!actors.items!o4rPjZZVRiwiTo8t.2nYzH5kKGRuqNzXW",
+      "name": "Pseudopod",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ohImPhm55Qq5AImD",
+      "_key": "!actors.items!o4rPjZZVRiwiTo8t.ohImPhm55Qq5AImD",
+      "name": "Amorphous",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can Move into occupied space as small as 1 inch without squeezing.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vTAtoeke6MmaqaCD",
+      "_key": "!actors.items!o4rPjZZVRiwiTo8t.vTAtoeke6MmaqaCD",
+      "name": "Mercurial Reflection",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Spells that Target it are reflected at a different randomly-determined Target.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Ooze, Quicksilver",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

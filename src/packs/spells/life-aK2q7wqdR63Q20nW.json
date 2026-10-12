@@ -1,0 +1,24 @@
+{
+  "_id": "aK2q7wqdR63Q20nW",
+  "_key": "!items!aK2q7wqdR63Q20nW",
+  "name": "Life",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You revive a Target that died from damage after the end of your last Turn, reviving it with 1 HP and +1 Fatigue. This Spell does not regenerate missing parts, and revives them at the start of your Turn if you are Focusing on this Spell. In addition, you can upcast this Spell to heal Target(s) for d6 HP per Mana spent to do so.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

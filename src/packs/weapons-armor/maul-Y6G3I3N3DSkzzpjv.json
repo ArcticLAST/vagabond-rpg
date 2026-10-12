@@ -1,0 +1,44 @@
+{
+  "_id": "Y6G3I3N3DSkzzpjv",
+  "_key": "!items!Y6G3I3N3DSkzzpjv",
+  "name": "Maul",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-double-stone-worn.webp",
+  "system": {
+    "description": "<p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 2,
+    "value": 150.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": true
+    },
+    "range": "close",
+    "grip": "2h",
+    "damage": "d10",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

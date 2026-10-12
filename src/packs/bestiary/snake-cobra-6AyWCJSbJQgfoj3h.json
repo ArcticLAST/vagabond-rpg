@@ -1,0 +1,130 @@
+{
+  "_id": "6AyWCJSbJQgfoj3h",
+  "_key": "!actors!6AyWCJSbJQgfoj3h",
+  "name": "Snake, Cobra",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.5,
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 7,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 131",
+      "description": "<p>Venomous snakes that can deliver their venom through bites or by spitting.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "wtynwWIrhBxcn7Pn",
+      "_key": "!actors.items!6AyWCJSbJQgfoj3h.wtynwWIrhBxcn7Pn",
+      "name": "Venom Spit",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>0 and, if failed by 5 or more, Blinded</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack, Near",
+        "damage": "0",
+        "average": 0,
+        "damageType": "poison",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LgpQBCOvrNjQ6FRw",
+      "_key": "!actors.items!6AyWCJSbJQgfoj3h.LgpQBCOvrNjQ6FRw",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>1 (d3) and pass [Endure] or become Sickened (Cd6 damage each minute)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d3",
+        "average": 1,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Snake, Cobra",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

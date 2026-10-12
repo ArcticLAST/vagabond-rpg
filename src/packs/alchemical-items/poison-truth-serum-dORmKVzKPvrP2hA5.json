@@ -1,0 +1,35 @@
+{
+  "_id": "dORmKVzKPvrP2hA5",
+  "_key": "!items!dORmKVzKPvrP2hA5",
+  "name": "Poison, Truth Serum",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
+  "system": {
+    "description": "<p>The Target is Sickened (Cd8, can't willingly lie).</p><p><strong>Consumed:</strong> Affects Targets who consume it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 200.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "poison",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

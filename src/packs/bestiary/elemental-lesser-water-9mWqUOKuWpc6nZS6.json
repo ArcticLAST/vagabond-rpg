@@ -1,0 +1,130 @@
+{
+  "_id": "9mWqUOKuWpc6nZS6",
+  "_key": "!actors!9mWqUOKuWpc6nZS6",
+  "name": "Elemental, Lesser Water",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 8,
+    "tl": 3.9,
+    "attributes": {
+      "hp": {
+        "value": 36,
+        "max": 36
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 10,
+      "speed": {
+        "value": 0,
+        "types": "Swim 30'"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "primordial",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Acid, Poison; Physical from non-Relics",
+      "weak": "Shock",
+      "statusImmunities": "Fatigued, Prone, Sickened, Suffocating, Restrained",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 171",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "Zjnr1Eg5WErWcmmO",
+      "_key": "!actors.items!9mWqUOKuWpc6nZS6.Zjnr1Eg5WErWcmmO",
+      "name": "Strike",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8) plus 4 (d8) if in water</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "D6pDAhEuZRQ7FkDN",
+      "_key": "!actors.items!9mWqUOKuWpc6nZS6.D6pDAhEuZRQ7FkDN",
+      "name": "Waterbound",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Must stay Near a body of water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Elemental, Lesser Water",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

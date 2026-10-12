@@ -1,0 +1,259 @@
+{
+  "_id": "suyGP49FNsaCUInu",
+  "_key": "!actors!suyGP49FNsaCUInu",
+  "name": "Stolas Demon",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 27,
+    "tl": 11.2,
+    "attributes": {
+      "hp": {
+        "value": 121,
+        "max": 121
+      },
+      "armor": 7,
+      "armorTag": "as (+4) Plate",
+      "morale": 11,
+      "speed": {
+        "value": 40,
+        "types": "Cling; Fly 160'"
+      }
+    },
+    "details": {
+      "size": "giant",
+      "beingType": "outer",
+      "subtype": "Hellspawn",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight, Telepathy",
+      "immune": "Fire, Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 165",
+      "description": "<p>Stolas demons are the astronomers of hell, appearing as massive owls whose eyes scintillate with a cosmic sprawl. They are created from the deceased souls of philosophers who valued reason and pragmatism over humanity and ethics, and stolas are extreme utilitarians in their slaughter.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "ZNKoaZhBvGtSQvkn",
+      "_key": "!actors.items!suyGP49FNsaCUInu.ZNKoaZhBvGtSQvkn",
+      "name": "Peer Beyond",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>21 (6d6) and Dazed (Cd6 Rounds)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 30' Cone | Will",
+        "damage": "6d6",
+        "average": 21,
+        "damageType": "magic",
+        "save": "will",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "CHlgJe9VJGPq35rm",
+      "_key": "!actors.items!suyGP49FNsaCUInu.CHlgJe9VJGPq35rm",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Beak</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1ePa4Vx5lhWZBFBC",
+      "_key": "!actors.items!suyGP49FNsaCUInu.1ePa4Vx5lhWZBFBC",
+      "name": "Beak",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>14 (4d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "4d6",
+        "average": 14,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pusXNNSH6JaAw1gT",
+      "_key": "!actors.items!suyGP49FNsaCUInu.pusXNNSH6JaAw1gT",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d8) and Restrained if failed by 5 or more.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "JPfQFZR9cv1wcNJK",
+      "_key": "!actors.items!suyGP49FNsaCUInu.JPfQFZR9cv1wcNJK",
+      "name": "Magic Ward IV",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 4 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "eCEZ2bgpRVEQii5T",
+      "_key": "!actors.items!suyGP49FNsaCUInu.eCEZ2bgpRVEQii5T",
+      "name": "Regenerate III",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Regains 13 (3d8) HP on each of its Turns.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Stolas Demon",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

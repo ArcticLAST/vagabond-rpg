@@ -1,0 +1,162 @@
+{
+  "_id": "8FrOK3BJD02q2t4x",
+  "_key": "!actors!8FrOK3BJD02q2t4x",
+  "name": "Couatl",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 9,
+    "tl": 3.8,
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "max": 40
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 9,
+      "speed": {
+        "value": 20,
+        "types": "Fly 60'"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "outer",
+      "subtype": "Divine",
+      "zone": "backline",
+      "appearing": "d4",
+      "senses": "Allsight, Telepathy 120'",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "Berserk, Blindness, Confused, Fatigued, Frightened, Paralyzed, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 159",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "BJcH63xlnBO1bkBI",
+      "_key": "!actors.items!8FrOK3BJD02q2t4x.BJcH63xlnBO1bkBI",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4) and Sickened (Cd4, Unconscious and +1 Fatigue each Round). If failed by 5 or more, it is also Restrained (5 (2d4) each Round)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "fu2mM1t2qcnEhy6u",
+      "_key": "!actors.items!8FrOK3BJD02q2t4x.fu2mM1t2qcnEhy6u",
+      "name": "Restoration",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Regain 10 (3d6) HP</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wPV6vkUTiItZzO7x",
+      "_key": "!actors.items!8FrOK3BJD02q2t4x.wPV6vkUTiItZzO7x",
+      "name": "Shapechange",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Polymorphs into a Medium or smaller Being. It uses its own Statblock.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Self",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "Focus",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Couatl",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

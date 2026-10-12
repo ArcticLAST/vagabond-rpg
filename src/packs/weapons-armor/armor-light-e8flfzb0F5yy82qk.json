@@ -1,0 +1,27 @@
+{
+  "_id": "e8flfzb0F5yy82qk",
+  "_key": "!items!e8flfzb0F5yy82qk",
+  "name": "Armor, Light",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "system": {
+    "description": "<p>Worn Armor grants its Armor Rating. You can only benefit from one set of worn Armor. If your Might is lower than 2, you are Restrained while wearing it. Wearing Armor gives a penalty to Reflex Saves equal to the Slots it occupies. Equipping or unequipping Armor takes a Scene.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 76",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50,
+    "equipped": false,
+    "armorType": "light",
+    "rating": 1,
+    "might": 2,
+    "metal": "",
+    "bonus": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

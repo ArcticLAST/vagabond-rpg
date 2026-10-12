@@ -1,0 +1,185 @@
+{
+  "_id": "dbKDFjMxWQAb4iPL",
+  "_key": "!items!dbKDFjMxWQAb4iPL",
+  "name": "Rogue",
+  "type": "class",
+  "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+  "system": {
+    "description": "<p>I may be a burglar... but I'm an honest one, I hope, more or less. —Bilbo Baggins, The Hobbit Rogues are the back-alley urchins, gutterborn scum, and shadowed assassins. To hammers, every problem looks like a nail. Rogues are blades, and every problem is a throat.</p><p>Rogues are low-defense, midline harassers that focus on one single, deadly shot. They are given Features that reinforce attempting to gain Favor on their Attacks.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Midline</li><li><strong>Key Stat:</strong> Dexterity/Awareness, Luck</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Ranged, Finesse, Sneak</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 55",
+    "keyStats": [
+      "dex",
+      "awr",
+      "luk"
+    ],
+    "trainings": [
+      "ranged",
+      "finesse",
+      "sneak"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Attack · Midline",
+    "startingPacks": "<p>Assassin, Conman, Investigator, or Scout</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Sneak Attack",
+        "description": "<p>The first time you hit with a Favored attack on a Turn with a Finesse, Keen, or Ranged Weapon, it deals extra damage. This extra damage is a number of d4s equal to (your Level divided by 3, round up). The attack also ignores an amount of Armor equal to this number of extra dice.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Infiltrator",
+        "description": "<p>You gain the Resourceful Perk (p. 71), and you have Favor on Checks made to ambush and against traps that you are aware of.</p>",
+        "grants": {
+          "perks": "Resourceful",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Evasive",
+        "description": "<p>Once per Round after another Being uses an Action or Move, you can Move 10' without using Speed and can continue moving using your remaining Speed. This free Speed increases by 5' every 4 Levels hereafter.</p><p><em>Rogue: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Knack",
+        "description": "<p>You gain 1 Luck during a Breather and when you Crit, in addition to other Crit benefits. Further, when you Rest, you gain 1 extra Luck. This extra Luck gained from a Rest increases by 1 every 4 Levels hereafter.</p><p><em>Rogue: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Lethal Weapon",
+        "description": "<p>Your Sneak Attack dice can Explode.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Waylay",
+        "description": "<p>When you kill an Enemy or use your Evasive Ability, you can spend 1 Luck to immediately take an Action. You can't spend more than 1 Luck on this Ability at a time.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

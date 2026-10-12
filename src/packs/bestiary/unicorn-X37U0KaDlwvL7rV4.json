@@ -1,0 +1,291 @@
+{
+  "_id": "X37U0KaDlwvL7rV4",
+  "_key": "!actors!X37U0KaDlwvL7rV4",
+  "name": "Unicorn",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 4.2,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 7,
+      "speed": {
+        "value": 80,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "fae",
+      "subtype": "Divine",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Allsight, Telepathy",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "Charmed, Confused, Frightened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 157",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "LGd8y4YJLd7O9MGD",
+      "_key": "!actors.items!X37U0KaDlwvL7rV4.LGd8y4YJLd7O9MGD",
+      "name": "Heal",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Regains 7 (2d6) HP and removes the Blinded, Confused, Paralyzed, or Sickened Status</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "",
+        "save": "",
+        "recharge": "1/Day",
+        "sort": 0,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xIYNQE7JM5PwiDxo",
+      "_key": "!actors.items!X37U0KaDlwvL7rV4.xIYNQE7JM5PwiDxo",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Hoof and 1×Horn</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jTVr517xfT1vRiz2",
+      "_key": "!actors.items!X37U0KaDlwvL7rV4.jTVr517xfT1vRiz2",
+      "name": "Hoof",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "VZ0ywKfhkf6geitR",
+      "_key": "!actors.items!X37U0KaDlwvL7rV4.VZ0ywKfhkf6geitR",
+      "name": "Horn",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bxrj31It0cJTaMiT",
+      "_key": "!actors.items!X37U0KaDlwvL7rV4.bxrj31It0cJTaMiT",
+      "name": "Teleport",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Teleports itself and any Being mounting it up to Far</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "1/Day",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lDbW4pUXc9Suf7sZ",
+      "_key": "!actors.items!X37U0KaDlwvL7rV4.lDbW4pUXc9Suf7sZ",
+      "name": "Magic Ward III",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 3 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZPfeZUqIxok6sfGf",
+      "_key": "!actors.items!X37U0KaDlwvL7rV4.ZPfeZUqIxok6sfGf",
+      "name": "Regenerate I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Regains 4 (d8) HP on each of its Turns.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Unicorn",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

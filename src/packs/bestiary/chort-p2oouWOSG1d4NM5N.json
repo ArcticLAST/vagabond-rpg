@@ -1,0 +1,196 @@
+{
+  "_id": "p2oouWOSG1d4NM5N",
+  "_key": "!actors!p2oouWOSG1d4NM5N",
+  "name": "Chort",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 7,
+    "tl": 5.0,
+    "attributes": {
+      "hp": {
+        "value": 31,
+        "max": 31
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 11,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "outer",
+      "subtype": "Hellspawn",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "Allsight, Blindsight",
+      "immune": "Fire, Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Fatigued, Frightened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 159",
+      "description": "<p>Goat-like bipedal demons, and sons of Chernobog.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "cH6rklRFC5F1Vt0p",
+      "_key": "!actors.items!p2oouWOSG1d4NM5N.cH6rklRFC5F1Vt0p",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Headbutt</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "DQFtOHGYWFvlr7G4",
+      "_key": "!actors.items!p2oouWOSG1d4NM5N.DQFtOHGYWFvlr7G4",
+      "name": "(+1) Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d4+1)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4+1",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "relic": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H8nBmvnxbUTJiE4D",
+      "_key": "!actors.items!p2oouWOSG1d4NM5N.H8nBmvnxbUTJiE4D",
+      "name": "Headbutt",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jhYy4K6a854Vwplt",
+      "_key": "!actors.items!p2oouWOSG1d4NM5N.jhYy4K6a854Vwplt",
+      "name": "Magic Ward II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Chort",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

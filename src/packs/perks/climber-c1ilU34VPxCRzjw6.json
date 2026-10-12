@@ -1,0 +1,19 @@
+{
+  "_id": "c1ilU34VPxCRzjw6",
+  "_key": "!items!c1ilU34VPxCRzjw6",
+  "name": "Climber",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You gain Climb.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: DEX 4+"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

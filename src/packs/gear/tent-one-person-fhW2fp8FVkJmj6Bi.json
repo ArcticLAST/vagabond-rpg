@@ -1,0 +1,35 @@
+{
+  "_id": "fhW2fp8FVkJmj6Bi",
+  "_key": "!items!fhW2fp8FVkJmj6Bi",
+  "name": "Tent, one-person",
+  "type": "gear",
+  "img": "icons/environment/settlement/tent.webp",
+  "system": {
+    "description": "<p><em>Outdoors</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 82",
+    "quantity": 1,
+    "slots": 1,
+    "value": 30.0,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

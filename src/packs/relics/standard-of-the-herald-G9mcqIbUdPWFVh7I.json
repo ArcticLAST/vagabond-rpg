@@ -1,0 +1,46 @@
+{
+  "_id": "G9mcqIbUdPWFVh7I",
+  "_key": "!items!G9mcqIbUdPWFVh7I",
+  "name": "Standard of the Herald",
+  "type": "weapon",
+  "img": "icons/weapons/polearms/spear-flared-green.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Spear (Bound)</em></p><p>Spear with a banneret's standard capable of instilling bravery. It has the following Powers:</p><ul><li><strong>Warlord's Resolve:</strong> While planted in the ground, Allies within Near have a +1 bonus to Armor, and Favor on Saves against Frightened.</li><li><strong>Loyalty:</strong> Can be thrown to attack. It then magically returns to the Wielder's hand after the attack.</li><li><strong>Glamour:</strong> The standard can change to a design of the Bound Being's choice. It never gets dirty.</li></ul><p>Value: not listed in the rulebook (recorded as 0)</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 108",
+    "quantity": 1,
+    "slots": 1,
+    "value": 0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": true,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "v",
+    "damage": "d6",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false,
+    "relic": true,
+    "damageType": "physical"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

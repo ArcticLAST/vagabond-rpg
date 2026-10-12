@@ -1,0 +1,47 @@
+<header class="vg-header storage-header">
+  <img class="portrait" src="{{actor.img}}" alt="{{actor.name}}" {{#if editable}}data-action="editImage" data-edit="img"{{/if}}>
+  <div class="header-main">
+    <div class="name-row">
+      {{#if editMode}}<input class="actor-name" type="text" name="name" value="{{actor.name}}">{{else}}<h1 class="actor-name">{{actor.name}}</h1>{{/if}}
+      {{#if editable}}
+      <a class="lock-toggle {{#if system.locked}}active{{/if}}" data-action="toggleLock" data-tooltip="VAGABOND.Storage.LockHint"
+        aria-label="{{localize 'VAGABOND.Storage.Lock'}}"><i class="fa-solid {{#if system.locked}}fa-lock{{else}}fa-lock-open{{/if}}"></i></a>
+      {{else}}{{#if system.locked}}<span class="pill quiet"><i class="fa-solid fa-lock"></i> {{localize "VAGABOND.Storage.Locked"}}</span>{{/if}}{{/if}}
+    </div>
+    <div class="identity">
+      {{#if isVehicle}}
+      {{#if editMode}}
+      <select name="system.kind">{{selectOptions vehicleKinds selected=source.kind localize=true}}</select>
+      <input type="text" name="system.cost" value="{{source.cost}}" placeholder="{{localize 'VAGABOND.Vehicle.Cost'}}">
+      {{else}}
+      <span class="pill quiet">{{localize (lookup vehicleKinds system.kind)}}</span>
+      {{#if system.cost}}<span class="pill quiet">{{system.cost}}</span>{{/if}}
+      {{/if}}
+      {{else}}
+      <span class="pill quiet">{{localize "TYPES.Actor.container"}}</span>
+      {{/if}}
+    </div>
+    <div class="resources">
+      {{#if isVehicle}}
+      <div class="resource hp">
+        <label>{{localize "VAGABOND.HP"}}</label>
+        <div class="bar"><div class="fill" style="width: {{hpBar.pct}}%"></div>
+          <div class="values">
+            <input class="delta" type="text" name="system.attributes.hp.value" value="{{hpBar.value}}" data-dtype="Number" {{disabled (not editable)}}>
+            <span class="sep">/</span>
+            {{#if editMode}}<input type="number" name="system.attributes.hp.max" value="{{source.attributes.hp.max}}" min="0">{{else}}<span class="max">{{hpBar.max}}</span>{{/if}}
+          </div>
+        </div>
+      </div>
+      <div class="resource box"><label>{{localize "VAGABOND.Armor"}}</label>
+        <div class="box-value"><input type="number" name="system.attributes.armor" value="{{source.attributes.armor}}" min="0" {{disabled (not editMode)}}></div></div>
+      <div class="resource box" data-tooltip="VAGABOND.Vehicle.SpeedHint"><label>{{localize "VAGABOND.Speed.Label"}}</label>
+        <div class="box-value"><input type="number" name="system.attributes.speed" value="{{source.attributes.speed}}" min="0" step="5" {{disabled (not editMode)}}>'</div></div>
+      <div class="resource box" data-tooltip="VAGABOND.Vehicle.TravelHint"><label>{{localize "VAGABOND.Speed.Travel"}}</label>
+        <div class="box-value"><input type="number" name="system.attributes.travel" value="{{source.attributes.travel}}" min="0" {{disabled (not editMode)}}> mi</div></div>
+      {{/if}}
+      <div class="resource box capacity" data-tooltip="VAGABOND.Storage.CapacityHint"><label>{{localize "VAGABOND.Storage.Capacity"}}</label>
+        <div class="box-value"><input type="number" name="system.capacity" value="{{source.capacity}}" min="0" {{disabled (not editMode)}}></div></div>
+    </div>
+  </div>
+</header>

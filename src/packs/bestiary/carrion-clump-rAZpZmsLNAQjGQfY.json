@@ -1,0 +1,98 @@
+{
+  "_id": "rAZpZmsLNAQjGQfY",
+  "_key": "!actors!rAZpZmsLNAQjGQfY",
+  "name": "Carrion Clump",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 0.9,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 12,
+      "speed": {
+        "value": 10,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d6",
+      "senses": "Blindsight",
+      "immune": "Poison",
+      "weak": "Acid",
+      "statusImmunities": "Charmed, Fatigued, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 176",
+      "description": "<p>A writhing mass of fetid bones, tissue, and viscera.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "siA4zAxbsrLlcvm3",
+      "_key": "!actors.items!rAZpZmsLNAQjGQfY.siA4zAxbsrLlcvm3",
+      "name": "Viscera Sling",
+      "type": "action",
+      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "system": {
+        "description": "<p>3 (d6) and pass [Endure] or become Sickened (Cd6, stinks and can't speak from retching).</p>",
+        "source": "",
+        "actionType": "ranged",
+        "tags": "Ranged Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Carrion Clump",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,64 @@
+<section class="tab skills {{tab.cssClass}}" data-tab="skills" data-group="primary">
+  <div class="skills-grid">
+    <div class="skills-col">
+    <ul class="skill-list">
+      <li class="list-header"><span>{{localize "VAGABOND.Skills"}}</span><span>{{localize "VAGABOND.Difficulty"}}</span></li>
+      {{#each skills}}
+      <li class="skill {{#if trained}}trained{{/if}}" data-skill="{{key}}">
+        <a class="trained-toggle" data-action="toggleTrained" data-tooltip="VAGABOND.Trained">
+          <i class="{{#if trained}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i>
+        </a>
+        <a class="skill-name rollable" data-action="rollSkill">{{localize label}}
+          {{#if attack}}<i class="fa-solid fa-crosshairs fa-xs" data-tooltip="VAGABOND.AttackSkill"></i>{{/if}}
+          {{#if casting}}<i class="fa-solid fa-wand-sparkles fa-xs" data-tooltip="VAGABOND.CastingSkill"></i>{{/if}}
+        </a>
+        <span class="skill-stat">{{stat}}</span>
+        <span class="difficulty">{{difficulty}}</span>
+      </li>
+      {{/each}}
+    </ul>
+    <p class="hint">{{localize "VAGABOND.Sheet.TrainingHint" count=system.attributes.trainedCount bonus=system.attributes.bonusTrainings}}</p>
+    </div>
+
+    <div class="attacks">
+      <h3>{{localize "VAGABOND.Attacks"}}</h3>
+      <ul class="item-list">
+        {{#each attacks}}
+        <li class="item attack draggable" data-item-id="{{id}}">
+          <img class="item-img rollable" src="{{img}}" alt="" data-action="rollAttack">
+          <div class="item-name">
+            <a data-action="rollAttack">{{name}}</a>
+            <span class="item-sub">{{localize skillLabel}} · {{localize "VAGABOND.Difficulty"}} {{difficulty}}{{#if (lt critOn 20)}} · {{localize "VAGABOND.CritOn"}} {{critOn}}+{{/if}}</span>
+          </div>
+          <span class="item-formula">{{formula}}</span>
+          <a class="item-control" data-action="toggleDescription" data-tooltip="VAGABOND.Sheet.Details"><i class="fa-solid fa-circle-info"></i></a>
+          {{#if expanded}}<div class="item-description">
+            <div class="tags">{{#each tags}}<span class="tag">{{this}}</span>{{/each}}</div>{{{description}}}</div>{{/if}}
+        </li>
+        {{else}}
+        <li class="empty">{{localize "VAGABOND.Sheet.NoAttacks"}}</li>
+        {{/each}}
+      </ul>
+      <p class="hint">{{localize "VAGABOND.Sheet.EquippedSlots"}}: {{system.attributes.equippedWeaponSlots}} / 3</p>
+
+      <h3>{{localize "VAGABOND.Sheet.ReadiedSpells"}}</h3>
+      <ul class="item-list readied-spells">
+        {{#each readiedSpells}}
+        <li class="item spell draggable" data-item-id="{{id}}">
+          <img class="item-img rollable" src="{{img}}" alt="" data-action="useItem" data-tooltip="VAGABOND.Cast.Cast">
+          <div class="item-name">
+            <a data-action="useItem">{{name}}</a>
+            <span class="item-sub">{{localize @root.system.attributes.cast.label}} · {{localize "VAGABOND.Difficulty"}} {{@root.system.attributes.cast.difficulty}}{{#if system.damageBase}} · {{localize (lookup @root.config.damageBases system.damageBase)}} d{{system.damageDie}}{{/if}}{{#if system.focus}} · {{localize "VAGABOND.Spell.Focus"}}{{/if}}</span>
+          </div>
+          <a class="item-control" data-action="useItem" data-tooltip="VAGABOND.Cast.Cast"><i class="fa-solid fa-wand-sparkles"></i></a>
+          <a class="item-control" data-action="postSpell" data-tooltip="VAGABOND.Cast.Post"><i class="fa-solid fa-comment"></i></a>
+          <a class="item-control" data-action="toggleDescription" data-tooltip="VAGABOND.Sheet.Details"><i class="fa-solid fa-circle-info"></i></a>
+          {{#if expanded}}<div class="item-description">{{{description}}}</div>{{/if}}
+        </li>
+        {{else}}
+        <li class="empty">{{localize "VAGABOND.Sheet.NoReadiedSpells"}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</section>

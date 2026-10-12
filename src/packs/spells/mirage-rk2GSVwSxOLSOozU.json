@@ -1,0 +1,24 @@
+{
+  "_id": "rk2GSVwSxOLSOozU",
+  "_key": "!items!rk2GSVwSxOLSOozU",
+  "name": "Mirage",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You create an illusionary Object or effect which fits either within the area, or on the Target for the duration. The Object isn't tangible form and can't deal damage. However, its appearance, movement, and sound it produces are up to you. If any action is taken to investigate the Object, make a Cast Check to determine the outcome. When you Focus on it, you can change any of these aspects of the illusion.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "LmOZoizI3EMKtgkK",
+  "_key": "!items!LmOZoizI3EMKtgkK",
+  "name": "Resourceful",
+  "type": "perk",
+  "img": "icons/tools/hand/hammer-and-nail.webp",
+  "system": {
+    "description": "<p>You can spend 1 Luck to recall having packed an Item in your inventory with a value as high as 50s. It doesn't \"appear,\" it was always there. You can do so as an Action or by skipping your Move.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: LUK 4+ | Trained: Craft"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

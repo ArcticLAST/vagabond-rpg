@@ -1,0 +1,162 @@
+{
+  "_id": "dlrL385fZxd0ONBm",
+  "_key": "!actors!dlrL385fZxd0ONBm",
+  "name": "Zombie, Boomer",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 2.0,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 12,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d8",
+      "senses": "Darksight",
+      "immune": "Poison",
+      "weak": "",
+      "statusImmunities": "Berserk, Charmed, Confused, Fatigued, Frightened, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 181",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "vzSmHjpH0fwV9YCa",
+      "_key": "!actors.items!dlrL385fZxd0ONBm.vzSmHjpH0fwV9YCa",
+      "name": "Boom",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>7 (2d6) and pass [Endure] or Sickened (Cd4 damage). This Being dies.</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Action, Aura Near | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "G6hHylsan8Lu8mk8",
+      "_key": "!actors.items!dlrL385fZxd0ONBm.G6hHylsan8Lu8mk8",
+      "name": "Nightwalker",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "wH9vsnWGZacutM1N",
+      "_key": "!actors.items!dlrL385fZxd0ONBm.wH9vsnWGZacutM1N",
+      "name": "Zombie",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be reduced below 1 HP unless damaged by a Crit, damage it is Weak to, or while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Zombie, Boomer",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "_id": "2z7RA1NXBGv3ZORi",
+  "_key": "!actors!2z7RA1NXBGv3ZORi",
+  "name": "Demon Ray",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 2.4,
+    "attributes": {
+      "hp": {
+        "value": 4,
+        "max": 4
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 10,
+      "speed": {
+        "value": 0,
+        "types": "Swim 30'"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "outer",
+      "subtype": "Beyonder",
+      "zone": "midline",
+      "appearing": "2d6",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 160",
+      "description": "<p>Vampiric manta rays with razor sharp teeth and a remarkable bite force.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "w2EuGHsZrHZM5Idi",
+      "_key": "!actors.items!2z7RA1NXBGv3ZORi.w2EuGHsZrHZM5Idi",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (3d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d4",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rdWoMQELq7cEyq1g",
+      "_key": "!actors.items!2z7RA1NXBGv3ZORi.rdWoMQELq7cEyq1g",
+      "name": "Leech",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>3 (d6) and Sickened (Cd6, any healing that affects it heals this Being instead)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Endure",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Ak9SeL1634llgmmP",
+      "_key": "!actors.items!2z7RA1NXBGv3ZORi.Ak9SeL1634llgmmP",
+      "name": "Amphibious",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can breathe air and water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Z5dhx9frvBQBfgx5",
+      "_key": "!actors.items!2z7RA1NXBGv3ZORi.Z5dhx9frvBQBfgx5",
+      "name": "Sunblinded",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Blinded by Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Demon Ray",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

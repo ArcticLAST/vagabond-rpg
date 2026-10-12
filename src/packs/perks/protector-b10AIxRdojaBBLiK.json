@@ -1,0 +1,19 @@
+{
+  "_id": "b10AIxRdojaBBLiK",
+  "_key": "!items!b10AIxRdojaBBLiK",
+  "name": "Protector",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>When a Close Ally would be dealt damage due to a failed Reflex Save while you have a Defense Weapon Equipped, you can use the Defense property for them.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Melee"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

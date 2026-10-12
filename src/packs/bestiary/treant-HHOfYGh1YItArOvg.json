@@ -1,0 +1,163 @@
+{
+  "_id": "HHOfYGh1YItArOvg",
+  "_key": "!actors!HHOfYGh1YItArOvg",
+  "name": "Treant",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 8,
+    "tl": 5.3,
+    "attributes": {
+      "hp": {
+        "value": 36,
+        "max": 36
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 9,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "primordial",
+      "subtype": "Plant",
+      "zone": "frontline",
+      "appearing": "d8",
+      "senses": "",
+      "immune": "",
+      "weak": "Fire, Poison; Damage from axes",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 175",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "WdTWeVkemHvh1DAH",
+      "_key": "!actors.items!HHOfYGh1YItArOvg.WdTWeVkemHvh1DAH",
+      "name": "Animate Trees",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>The tree acts as a Treant, though it has a Speed of 10' and doesn't have this Animate Trees Action.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, a tree in Far",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "Focus",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oww1V1J9OV5ZAsCF",
+      "_key": "!actors.items!HHOfYGh1YItArOvg.oww1V1J9OV5ZAsCF",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Slams</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AWzTPuliqYifwrH2",
+      "_key": "!actors.items!HHOfYGh1YItArOvg.AWzTPuliqYifwrH2",
+      "name": "Slam",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Treant",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "nnzNqTsfrlAO5i37",
+  "_key": "!items!nnzNqTsfrlAO5i37",
+  "name": "Charm",
+  "type": "spell",
+  "img": "icons/magic/air/wind-tornado-spiral-pink-purple.webp",
+  "system": {
+    "description": "<p>Enthrallment keeps the Target Charmed for the duration, ending early if it takes damage or if you Cast this Spell again.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "Duration is continual.",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "PX1oZuFJnkATD4dQ",
+  "_key": "!items!PX1oZuFJnkATD4dQ",
+  "name": "Drunken Master",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can attack with Crude Weapons using Brawl or Finesse.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Trained: Brawl or Finesse"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

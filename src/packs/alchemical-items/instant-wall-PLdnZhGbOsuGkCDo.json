@@ -1,0 +1,35 @@
+{
+  "_id": "PLdnZhGbOsuGkCDo",
+  "_key": "!items!PLdnZhGbOsuGkCDo",
+  "name": "Instant Wall",
+  "type": "gear",
+  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "system": {
+    "description": "<p>Creates a wall that is 10' in length and height, and 1' in width. The wall appears in the orientation of the user's choice. It has 20 HP and Armor: 2. The wall crumbles to dust after 1 Minute or if it is destroyed.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 500.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "concoction",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

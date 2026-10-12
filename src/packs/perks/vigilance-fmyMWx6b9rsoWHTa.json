@@ -1,0 +1,19 @@
+{
+  "_id": "fmyMWx6b9rsoWHTa",
+  "_key": "!items!fmyMWx6b9rsoWHTa",
+  "name": "Vigilance",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You don't need to sleep to Rest, but you can't remove Fatigue without normal Rest.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Detect"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

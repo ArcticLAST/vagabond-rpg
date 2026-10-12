@@ -1,0 +1,44 @@
+{
+  "_id": "T4SUl3duA2BBTvXt",
+  "_key": "!items!T4SUl3duA2BBTvXt",
+  "name": "Greatsword",
+  "type": "weapon",
+  "img": "icons/weapons/swords/greatsword-crossguard-steel.webp",
+  "system": {
+    "description": "<p><strong>Cleave:</strong> Ignores Flanked for attacks. You can reduce its die one size to hit another Target within reach per size reduction.</p><p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 2,
+    "value": 80.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": true,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "2h",
+    "damage": "d10",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

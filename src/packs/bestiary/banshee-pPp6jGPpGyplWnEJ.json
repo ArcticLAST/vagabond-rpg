@@ -1,0 +1,194 @@
+{
+  "_id": "pPp6jGPpGyplWnEJ",
+  "_key": "!actors!pPp6jGPpGyplWnEJ",
+  "name": "Banshee",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 7,
+    "tl": 3.6,
+    "attributes": {
+      "hp": {
+        "value": 31,
+        "max": 31
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 12,
+      "speed": {
+        "value": 0,
+        "types": "Fly 40', Phase"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "midline",
+      "appearing": "1",
+      "senses": "Allsight",
+      "immune": "Cold, Poison, Shock; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Charmed, Fatigue, Frightened, Paralyzed, Prone, Restrained, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 176",
+      "description": "<p>The feminine spirit of an evil elf, known to kill with its scream. Often has a sort of guardianship over fae creatures.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "HVf4Pxil41aCREiI",
+      "_key": "!actors.items!pPp6jGPpGyplWnEJ.HVf4Pxil41aCREiI",
+      "name": "Wail",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened (Cd4) or immediate death if failed by 5 or more</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Action while in darkness, all Near who hear it | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "1/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Y3ErdpsCCSKSG95L",
+      "_key": "!actors.items!pPp6jGPpGyplWnEJ.Y3ErdpsCCSKSG95L",
+      "name": "Chill Touch",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "cold",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tQx1bx4xEUyhBzq8",
+      "_key": "!actors.items!pPp6jGPpGyplWnEJ.tQx1bx4xEUyhBzq8",
+      "name": "Nightwalker",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nRGIY4hNyl014Eay",
+      "_key": "!actors.items!pPp6jGPpGyplWnEJ.nRGIY4hNyl014Eay",
+      "name": "Terror II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened until they pass this Check on a subsequent Turn, or for Cd6 after.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Enemies' first time seeing it and on their Turns | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Banshee",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

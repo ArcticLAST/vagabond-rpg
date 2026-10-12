@@ -1,0 +1,259 @@
+{
+  "_id": "hsgymwMbiLsXTelr",
+  "_key": "!actors!hsgymwMbiLsXTelr",
+  "name": "Efreeti",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 10,
+    "tl": 5.7,
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 11,
+      "speed": {
+        "value": 30,
+        "types": "Fly 80'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "primordial",
+      "subtype": "Djinn",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Fire",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 169",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "fYpYGfbRL5pzrKIw",
+      "_key": "!actors.items!hsgymwMbiLsXTelr.fYpYGfbRL5pzrKIw",
+      "name": "Wall of Fire",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Burning (d6, while in the flames).</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 60' Line | Reflex",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "3/Day, Focus",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OaTeYeRWHXrQ0b9q",
+      "_key": "!actors.items!hsgymwMbiLsXTelr.OaTeYeRWHXrQ0b9q",
+      "name": "Conjure Object",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>An Object no larger than 10'×10' is created. Objects made this way composed of metal or stone disappear after one day.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Reflex",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "3/Day",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jkhAnpoOIaivH925",
+      "_key": "!actors.items!hsgymwMbiLsXTelr.jkhAnpoOIaivH925",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Fist</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 2,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Qkrs85gznRyjrL6t",
+      "_key": "!actors.items!hsgymwMbiLsXTelr.Qkrs85gznRyjrL6t",
+      "name": "Fist",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gzCa61vRkmTD5XGE",
+      "_key": "!actors.items!hsgymwMbiLsXTelr.gzCa61vRkmTD5XGE",
+      "name": "Invisibility",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>Turns Invisible for the duration.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Touch | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Focus",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3MvO05TSBBI0SvpT",
+      "_key": "!actors.items!hsgymwMbiLsXTelr.3MvO05TSBBI0SvpT",
+      "name": "Regenerate II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Regains 9 (2d8) HP on each of its Turns.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "healing": true,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Efreeti",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "_id": "3H2x3UJo45kXbRRE",
+  "_key": "!actors!3H2x3UJo45kXbRRE",
+  "name": "Potead, Small",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.5,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 7,
+      "speed": {
+        "value": 15,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "2d6",
+      "senses": "",
+      "immune": "Fire, Poison",
+      "weak": "",
+      "statusImmunities": "Fatigued, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 122",
+      "description": "<p>A living pot, likely once held soup.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "yPbyYG9DKc9EgwaJ",
+      "_key": "!actors.items!3H2x3UJo45kXbRRE.yPbyYG9DKc9EgwaJ",
+      "name": "Slam",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZUdgDOUFvzM37ATV",
+      "_key": "!actors.items!3H2x3UJo45kXbRRE.ZUdgDOUFvzM37ATV",
+      "name": "Immutable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Potead, Small",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

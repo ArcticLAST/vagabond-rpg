@@ -1,0 +1,19 @@
+{
+  "_id": "oH20UAM6RfcKomot",
+  "_key": "!items!oH20UAM6RfcKomot",
+  "name": "Quality Assurance",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>If you spend Mana on a Casting and the Target is unaffected or the Cast Check fails, you regain half of the Mana that was spent.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Any"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

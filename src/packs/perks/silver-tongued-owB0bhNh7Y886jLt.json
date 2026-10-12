@@ -1,0 +1,19 @@
+{
+  "_id": "owB0bhNh7Y886jLt",
+  "_key": "!items!owB0bhNh7Y886jLt",
+  "name": "Silver Tongued",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>The roll required for you to Crit on social Influence Checks is reduced by 1. You can take this Perk up to 4 times.</p><p>Further, once per Scene, if you fail a social Influence Check, you can reroll it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: PRS 7 | Trained: Influence"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

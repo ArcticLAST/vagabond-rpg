@@ -1,0 +1,35 @@
+{
+  "_id": "CmBieMP1mMZtLspL",
+  "_key": "!items!CmBieMP1mMZtLspL",
+  "name": "Oil, Wyrmwound",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "system": {
+    "description": "<p>Acts as basic oil. However, while coated on a Weapon that is then ignited, its damage against scaled Beings can Explode and ignores 2 Armor.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 500.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "oil",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

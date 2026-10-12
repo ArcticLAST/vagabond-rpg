@@ -1,0 +1,46 @@
+{
+  "_id": "vNcd7Z9d9beH6zke",
+  "_key": "!items!vNcd7Z9d9beH6zke",
+  "name": "Sunder",
+  "type": "weapon",
+  "img": "icons/weapons/hammers/hammer-drilling-spiked.webp",
+  "system": {
+    "description": "<p><em>Lore: Fabled Relic Warhammer (Bound)</em></p><p>Warhammer that must be Bound to to access its Powers, which are as follows:</p><ul><li><strong>(+3) Bonus:</strong> Deals an extra +3 damage.</li><li><strong>Giants Bane:</strong> Deals an extra damage die to giants.</li><li><strong>Earth Shaker:</strong> (1/Day) Strike the earth to cause all Near foes to be Dazed (d4 Rounds).</li><li><strong>Loyalty:</strong> Can be thrown to attack. It then magically returns to the Wielder's hand after the attack.</li><li><strong>Sense Valuables:</strong> Senses gold and gems within Near.</li><li><strong>High Velocity:</strong> Deals an extra damage die with thrown attacks.</li></ul><p>Value: 13000g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 108",
+    "quantity": 1,
+    "slots": 2,
+    "value": 1300000,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": true,
+      "vicious": true
+    },
+    "range": "close",
+    "grip": "v",
+    "damage": "d8",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 3,
+    "crude": false,
+    "relic": true,
+    "damageType": "physical"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

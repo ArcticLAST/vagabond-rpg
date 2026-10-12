@@ -1,0 +1,19 @@
+{
+  "_id": "vizhtK2FrIL9jZKI",
+  "_key": "!items!vizhtK2FrIL9jZKI",
+  "name": "Poisoner",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can coat your Equipped Weapon with a poison when you attack with it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: DEX 4+ | Trained: Finesse"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

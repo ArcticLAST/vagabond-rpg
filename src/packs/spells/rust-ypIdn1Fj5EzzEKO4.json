@@ -1,0 +1,24 @@
+{
+  "_id": "ypIdn1Fj5EzzEKO4",
+  "_key": "!items!ypIdn1Fj5EzzEKO4",
+  "name": "Rust",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Non-Relic metal Objects within the area rust for the duration. Each Turn when you Focus on this Spell, roll a d6 for each Item. On a roll of 1, the Item breaks. If the Item that breaks is larger than Medium, this creates a 1' square hole that is 1' deep in it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "acid",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": false,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

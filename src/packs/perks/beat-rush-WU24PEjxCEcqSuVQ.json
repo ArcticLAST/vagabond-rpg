@@ -1,0 +1,19 @@
+{
+  "_id": "WU24PEjxCEcqSuVQ",
+  "_key": "!items!WU24PEjxCEcqSuVQ",
+  "name": "Beat Rush",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>If you take the Rush Action, you can also make one attack with a Brawl Weapon.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Brawl"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

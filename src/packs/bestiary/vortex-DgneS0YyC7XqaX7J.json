@@ -1,0 +1,130 @@
+{
+  "_id": "DgneS0YyC7XqaX7J",
+  "_key": "!actors!DgneS0YyC7XqaX7J",
+  "name": "Vortex",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 2,
+    "tl": 2.9,
+    "attributes": {
+      "hp": {
+        "value": 9,
+        "max": 9
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 12,
+      "speed": {
+        "value": 40,
+        "types": "Fly"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "primordial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d8",
+      "senses": "Blindsight",
+      "immune": "Poison, Shock; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Fatigued, Prone, Restrained, Sickened, Sufffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 175",
+      "description": "<p>A living whirlwind. Its true body is a small sphere that flutters in the center of the whirlwind.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "9Z0y0DiZnjjD3oDw",
+      "_key": "!actors.items!DgneS0YyC7XqaX7J.9Z0y0DiZnjjD3oDw",
+      "name": "Living Gale",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Gusts surround it out to Near, Hindering Enemy Ranged Attacks Targeting those within.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZXLSZTRkHbT0gBVj",
+      "_key": "!actors.items!DgneS0YyC7XqaX7J.ZXLSZTRkHbT0gBVj",
+      "name": "Whirlwind",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Medium or smaller Close Beings must pass [Endure] against being Restrained at the start of their Turns or be thrown 25 (d10×5)' in the air.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Vortex",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

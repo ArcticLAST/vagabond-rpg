@@ -1,0 +1,20 @@
+<section class="tab effects {{tab.cssClass}}" data-tab="effects" data-group="primary">
+  <p class="hint">{{localize "VAGABOND.Effect.ItemHint"}}</p>
+  <div class="item-section">
+    <div class="list-header"><span class="col-name">{{localize "VAGABOND.Tab.effects"}}</span>
+      <span class="col controls">{{#if editable}}<a data-action="createEffect" data-tooltip="VAGABOND.Sheet.Create"><i class="fa-solid fa-plus"></i></a>{{/if}}</span></div>
+    <ol class="item-list">
+      {{#each effects}}
+      <li class="item effect" data-effect-id="{{id}}">
+        <img class="item-img" src="{{img}}" alt="">
+        <div class="item-name"><a data-action="editEffect">{{name}}</a></div>
+        <span class="col controls">{{#if @root.editable}}
+          <a class="item-control" data-action="toggleEffect"><i class="fa-solid {{#if disabled}}fa-toggle-off{{else}}fa-toggle-on{{/if}}"></i></a>
+          <a class="item-control" data-action="editEffect"><i class="fa-solid fa-pen-to-square"></i></a>
+          <a class="item-control" data-action="deleteEffect"><i class="fa-solid fa-trash"></i></a>{{/if}}</span>
+      </li>
+      {{else}}<li class="empty">{{localize "VAGABOND.Sheet.Empty"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+</section>

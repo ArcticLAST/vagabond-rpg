@@ -1,0 +1,35 @@
+{
+  "_id": "U6BbxgqyEjD7EV4J",
+  "_key": "!items!U6BbxgqyEjD7EV4J",
+  "name": "Potion, Regeneration (III)",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>The consumer of the item regains HP equal to the roll of a countdown die. The size of the die is determined by its Rank, as shown below.</p><p><strong>Rank III:</strong> Cd8</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10000.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

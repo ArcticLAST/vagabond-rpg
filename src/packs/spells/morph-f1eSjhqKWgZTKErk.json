@@ -1,0 +1,24 @@
+{
+  "_id": "f1eSjhqKWgZTKErk",
+  "_key": "!items!f1eSjhqKWgZTKErk",
+  "name": "Morph",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>For the duration, the Target's body is altered in an illusionary manner. This magic is powerful enough to make them seem like a Being of the same Size and Being Type that has the same configuration of limbs and appendages (such as a Human appearing as a Dwarf, but not a horse).</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

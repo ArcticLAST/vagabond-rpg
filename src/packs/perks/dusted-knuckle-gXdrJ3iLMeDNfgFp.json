@@ -1,0 +1,19 @@
+{
+  "_id": "gXdrJ3iLMeDNfgFp",
+  "_key": "!items!gXdrJ3iLMeDNfgFp",
+  "name": "Dusted Knuckle",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can use a d4 for the the damage dice of Brawl Weapons, and they can Explode.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: MIT 4+ | Trained: Brawl"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,87 @@
+{
+  "_id": "ChXzUEV5uEj1Q3th",
+  "_key": "!items!ChXzUEV5uEj1Q3th",
+  "name": "Dwarf",
+  "type": "ancestry",
+  "img": "icons/environment/people/infantry-armored.webp",
+  "system": {
+    "description": "<p>Dwarves are built from sterner stuff, with some myths saying dwarves aren't born, they're forged. They are an industrious people who hail from some of the most extreme environments.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 24",
+    "beingType": "humanlike",
+    "size": "medium",
+    "trainings": [],
+    "traits": [
+      {
+        "level": 1,
+        "name": "Darksight",
+        "description": "<p>You are not Blinded by Dark.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Sturdy",
+        "description": "<p>You have Favor on Saves against being Frightened, Sickened, or Shoved.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Tough",
+        "description": "<p>You gain the Tough Perk.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [
+    {
+      "_id": "Y9ZJ5T9beqDbH4vH",
+      "_key": "!items.effects!ChXzUEV5uEj1Q3th.Y9ZJ5T9beqDbH4vH",
+      "name": "Tough",
+      "img": "icons/environment/people/infantry-armored.webp",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.hpPerLevel",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

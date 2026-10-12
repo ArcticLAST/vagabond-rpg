@@ -1,0 +1,194 @@
+{
+  "_id": "xOjxcUo9B8k7nMWJ",
+  "_key": "!actors!xOjxcUo9B8k7nMWJ",
+  "name": "Brollachan",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 2.2,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 4,
+      "armorTag": "as Plate plus Shield",
+      "morale": 10,
+      "speed": {
+        "value": 20,
+        "types": "Fly"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "fae",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "Berserk, Blinded, Charmed, Confused, Frightened, Prone, Restrained",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 153",
+      "description": "<p>A formless, writhing mass of dark black smoke. Its only distinguishing characteristic is a pair of bright red eyes in the center of the mass.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "9vDjYGQtnUx5zZAF",
+      "_key": "!actors.items!xOjxcUo9B8k7nMWJ.9vDjYGQtnUx5zZAF",
+      "name": "Tendril",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0wTpzL2DC4CmZUDI",
+      "_key": "!actors.items!xOjxcUo9B8k7nMWJ.0wTpzL2DC4CmZUDI",
+      "name": "Engulfer",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Other Beings in its space are Burning (2d6).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lhnEOmSqg8sW8euZ",
+      "_key": "!actors.items!xOjxcUo9B8k7nMWJ.lhnEOmSqg8sW8euZ",
+      "name": "Formless",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can Move into space occupied by Beings.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hMVa1Sf84ctyuJGD",
+      "_key": "!actors.items!xOjxcUo9B8k7nMWJ.hMVa1Sf84ctyuJGD",
+      "name": "Maddening I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Enemies that can hear it for the first time and at the start of their Turns must pass a [Will] Save or be Confused (until they pass this Check on a subsequent Turn, or for Cd4 Rounds afterwards).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Brollachan",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

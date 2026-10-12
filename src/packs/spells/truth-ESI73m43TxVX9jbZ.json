@@ -1,0 +1,24 @@
+{
+  "_id": "ESI73m43TxVX9jbZ",
+  "_key": "!items!ESI73m43TxVX9jbZ",
+  "name": "Truth",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Target can't lie for the duration.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "The Target is compelled to answer any questions when asked.",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "2WCKy4UYkSyGxoeb",
+  "_key": "!items!2WCKy4UYkSyGxoeb",
+  "name": "Conjurer",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can take the Cast Action to conjure a Summon, a Being with HD: (your Level or lower), spending Mana to do so equal to its HD. You must conduct a 10-minute Ritual to determine your Summon before doing so. The following rules apply to your Summon:</p><ul><li>You command it as an Action or by skipping your Move.</li><li>It uses your Cast Skill for Checks and Saves.</li><li>You must Focus on it, spending 1 Mana to do so each Turn. Otherwise, it is banished.</li><li>When it is reduced to 0 HP, it is banished.</li><li>Abilities that recharge or have limited uses do not recharge by banishing and resummoning the same statblock.</li></ul>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Trained: Arcana, Influence, or Mysticism"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

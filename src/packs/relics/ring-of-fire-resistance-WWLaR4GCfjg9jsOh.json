@@ -1,0 +1,35 @@
+{
+  "_id": "WWLaR4GCfjg9jsOh",
+  "_key": "!items!WWLaR4GCfjg9jsOh",
+  "name": "Ring of Fire Resistance",
+  "type": "gear",
+  "img": "icons/equipment/finger/ring-band-copper.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Ring</em></p><p>This red ruby ring has the following Powers:</p><ul><li><strong>Inured to Flame:</strong> The wearer is unharmed by non-magical Fire.</li><li><strong>Fire Resistance:</strong> The wearer has Favor on Saves against taking Fire-based damage, and reduces the Fire damage they take by 1 per damage die rolled (minimum 1 damage).</li></ul><p>Value: 2500g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 107",
+    "quantity": 1,
+    "slots": 1,
+    "value": 250000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

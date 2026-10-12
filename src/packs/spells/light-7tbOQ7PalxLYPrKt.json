@@ -1,0 +1,24 @@
+{
+  "_id": "7tbOQ7PalxLYPrKt",
+  "_key": "!items!7tbOQ7PalxLYPrKt",
+  "name": "Light",
+  "type": "spell",
+  "img": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
+  "system": {
+    "description": "<p>The Target sheds Light out to Near for the duration. You can choose to do so by creating a floating mote of light that follows the Target.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "fire",
+    "damageDie": 6,
+    "crit": "Beings of your choice within the Light when you Cast the Spell are Blinded (Cd4).",
+    "focus": false,
+    "noDamage": false,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

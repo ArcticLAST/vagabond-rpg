@@ -1,0 +1,130 @@
+{
+  "_id": "IfPlGqRzNUBnFf0W",
+  "_key": "!actors!IfPlGqRzNUBnFf0W",
+  "name": "Hippopotamus, Behemoth",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 10,
+    "tl": 4.9,
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 9,
+      "speed": {
+        "value": 30,
+        "types": "Swim 40'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "beast",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 127",
+      "description": "<p>Massive hippos, big enough for micro-ecosystems to develop on their backs. Uncontrollably territorial.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "na5FYm9tjCSxxvDC",
+      "_key": "!actors.items!IfPlGqRzNUBnFf0W.na5FYm9tjCSxxvDC",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (3d8) and Restrained if it is smaller. This always hits a Target Restrained this way.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d8",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0uJhargMcdnPDW8j",
+      "_key": "!actors.items!IfPlGqRzNUBnFf0W.0uJhargMcdnPDW8j",
+      "name": "Aggressor",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>The first time it Moves at least 10' toward an Enemy on a Turn, it regains that Speed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Hippopotamus, Behemoth",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

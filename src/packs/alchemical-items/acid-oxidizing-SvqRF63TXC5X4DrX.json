@@ -1,0 +1,36 @@
+{
+  "_id": "SvqRF63TXC5X4DrX",
+  "_key": "!items!SvqRF63TXC5X4DrX",
+  "name": "Acid, Oxidizing",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+  "system": {
+    "description": "<p>Rapidly rusting acid. A hit Target takes d6 damage, plus Burning (Cd6) if made of metal. If the Target is a non-Relic, the acid destroys a 1' circle of it down 1-inch deep, causing the following if it is Armor or a Weapon:</p><ul><li>Armor is reduced by 1, breaking at 0.</li><li>Weapons reduce their damage die by one size until repaired. If the damage die is a d4 when this happens, it is destroyed.</li></ul>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "acid",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "d6",
+      "type": "damage",
+      "save": "reflex",
+      "damageType": "acid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

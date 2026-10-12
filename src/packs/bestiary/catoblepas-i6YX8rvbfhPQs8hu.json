@@ -1,0 +1,195 @@
+{
+  "_id": "i6YX8rvbfhPQs8hu",
+  "_key": "!actors!i6YX8rvbfhPQs8hu",
+  "name": "Catoblepas",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 7,
+    "tl": 5.7,
+    "attributes": {
+      "hp": {
+        "value": 24,
+        "max": 24
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 8,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d3",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 136",
+      "description": "<p>The loathsome bog cow. It is a disgusting smelling, bovine-like wanderer of the bog capable of shooting lasers from its eyes and loosing a noxious gas from its gullet.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "DwqCazcr5Mggtxnp",
+      "_key": "!actors.items!i6YX8rvbfhPQs8hu.DwqCazcr5Mggtxnp",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Tail and 1×Death Ray</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "UPWDkEmKzHUevfQm",
+      "_key": "!actors.items!i6YX8rvbfhPQs8hu.UPWDkEmKzHUevfQm",
+      "name": "Death Ray",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>24 (8d6) and +1 Fatigue</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Endure",
+        "damage": "8d6",
+        "average": 24,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "Recharge Cd4",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sG0VE079AXWQh8WH",
+      "_key": "!actors.items!i6YX8rvbfhPQs8hu.sG0VE079AXWQh8WH",
+      "name": "Tail",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6) and pass an [Endure] Save or knocked Prone and be Dazed for 1 Round.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vqmqaF7FM2OytJb2",
+      "_key": "!actors.items!i6YX8rvbfhPQs8hu.vqmqaF7FM2OytJb2",
+      "name": "Stench",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Non-Catoblepas Beings that have to breathe are Sickened (Hinder on all Checks) while Near it.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Catoblepas",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

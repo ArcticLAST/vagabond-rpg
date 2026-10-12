@@ -1,0 +1,195 @@
+{
+  "_id": "T7AZ6RQIjtmk8wt3",
+  "_key": "!actors!T7AZ6RQIjtmk8wt3",
+  "name": "Purple Worm",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 15,
+    "tl": 5.5,
+    "attributes": {
+      "hp": {
+        "value": 67,
+        "max": 67
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 10,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "colossal",
+      "beingType": "cryptid",
+      "subtype": "Wyrm",
+      "zone": "frontline",
+      "appearing": "d2",
+      "senses": "Blindsight, Seismicsense 60'",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 146",
+      "description": "<p>Titanic worms with vicious teeth and a deadly stinger.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "d2Dhuw0CykdANitt",
+      "_key": "!actors.items!T7AZ6RQIjtmk8wt3.d2Dhuw0CykdANitt",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Bite and 1×Sting</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "kOBCcMkeg5h4GNPD",
+      "_key": "!actors.items!T7AZ6RQIjtmk8wt3.kOBCcMkeg5h4GNPD",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8) or half to all Targets Close to its mouth.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Cleave",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TXFDIQWPRbYRsznf",
+      "_key": "!actors.items!T7AZ6RQIjtmk8wt3.TXFDIQWPRbYRsznf",
+      "name": "Sting",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8) and pass [Endure] or become Sickened (+1 Fatigue for Cd12).</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near its tail",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vFQfUfU67Y1Vqw8z",
+      "_key": "!actors.items!T7AZ6RQIjtmk8wt3.vFQfUfU67Y1Vqw8z",
+      "name": "Sand Swimmer",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Can Move through sand and earth using its Speed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Purple Worm",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

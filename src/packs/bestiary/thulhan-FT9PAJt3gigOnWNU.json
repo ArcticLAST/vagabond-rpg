@@ -1,0 +1,259 @@
+{
+  "_id": "FT9PAJt3gigOnWNU",
+  "_key": "!actors!FT9PAJt3gigOnWNU",
+  "name": "Thulhan",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 8,
+    "tl": 3.8,
+    "attributes": {
+      "hp": {
+        "value": 36,
+        "max": 36
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 4,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "outer",
+      "subtype": "Beyonder",
+      "zone": "midline",
+      "appearing": "d4",
+      "senses": "Darksight, Telepathy",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 165",
+      "description": "<p>Humanoid aliens with cephalopod-like heads. Their tentacled faces hide a skull-piercing mouth that bores a hole into its victim's skull and drains its brain.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "uzdKJtSDHlGemL2z",
+      "_key": "!actors.items!FT9PAJt3gigOnWNU.uzdKJtSDHlGemL2z",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>4×Tentacle and 1×Flay</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3CClx3B2UFB7bzdy",
+      "_key": "!actors.items!FT9PAJt3gigOnWNU.3CClx3B2UFB7bzdy",
+      "name": "Flay",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (d8+1) Fatigue. If it dies to Fatigue this way, its brain is extracted.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Paralyzed Target",
+        "damage": "d8+1",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5EQrIOpxm1ESJ6zm",
+      "_key": "!actors.items!FT9PAJt3gigOnWNU.5EQrIOpxm1ESJ6zm",
+      "name": "Mind Blast",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Paralyzed (1 Round)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Cone Far | Will",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "magic",
+        "save": "will",
+        "recharge": "Recharge Cd4",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HD8Xgia1IHeV5lWI",
+      "_key": "!actors.items!FT9PAJt3gigOnWNU.HD8Xgia1IHeV5lWI",
+      "name": "Tentacle",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4) and Restrained if Medium or smaller</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Paralyzed Target",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "z1mC79LZDARa7jYH",
+      "_key": "!actors.items!FT9PAJt3gigOnWNU.z1mC79LZDARa7jYH",
+      "name": "Levitation (Focus)",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It has Fly.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QMJF9FH3nE8onLON",
+      "_key": "!actors.items!FT9PAJt3gigOnWNU.QMJF9FH3nE8onLON",
+      "name": "Magic Ward II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Thulhan",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

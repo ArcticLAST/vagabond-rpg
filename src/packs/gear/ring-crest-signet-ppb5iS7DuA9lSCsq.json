@@ -1,0 +1,35 @@
+{
+  "_id": "ppb5iS7DuA9lSCsq",
+  "_key": "!items!ppb5iS7DuA9lSCsq",
+  "name": "Ring, crest/signet",
+  "type": "gear",
+  "img": "icons/equipment/finger/ring-band-copper.webp",
+  "system": {
+    "description": "<p><em>Gems, Jewelry, &amp; Smithing</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 80",
+    "quantity": 1,
+    "slots": 0,
+    "value": 50.0,
+    "equipped": false,
+    "category": "treasure",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

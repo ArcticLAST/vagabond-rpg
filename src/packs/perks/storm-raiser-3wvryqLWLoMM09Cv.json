@@ -1,0 +1,19 @@
+{
+  "_id": "3wvryqLWLoMM09Cv",
+  "_key": "!items!3wvryqLWLoMM09Cv",
+  "name": "Storm Raiser",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can conduct a Ritual (p. 10) to cause or end storms out to 6 miles for Cd4 Shifts.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 4+ | Trained: Mysticism"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

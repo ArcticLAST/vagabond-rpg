@@ -1,0 +1,169 @@
+{
+  "_id": "YaDsez2mWHHDRSpv",
+  "_key": "!items!YaDsez2mWHHDRSpv",
+  "name": "Fighter",
+  "type": "class",
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "system": {
+    "description": "<p>Man takes up the sword in order to shield the small wound in his heart sustained in a far-off time beyond remembrance. —Kentaro Miura, Berserk Students of the art of violence, fighters are defined by their weapon skills, and variety of martial techniques.</p><p>The fighter is a mid-defense striker. In combat, get within effective distance for offense and prioritize the Attack Action.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Flexible</li><li><strong>Key Stat:</strong> Might/Awareness</li><li><strong>Complexity:</strong> HIIII</li><li><strong>Training:</strong> Melee, Ranged</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 39",
+    "keyStats": [
+      "mit",
+      "awr"
+    ],
+    "trainings": [
+      "melee",
+      "ranged"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Attack · Flexible",
+    "startingPacks": "<p>Gladiator, Knight, Warrior, or Watchman</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Fighting Style",
+        "description": "<p>You gain a Perk with either the Brawl, Finesse, Melee, or Ranged Training prerequisite (p. 64), ignoring other prerequisites.</p><p>You gain another Perk this way at 4th Level and every 4 Levels thereafter.</p><p><em>Fighter: 1st, 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 1,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": "1, 4, 8"
+        }
+      },
+      {
+        "level": 1,
+        "name": "Momentum",
+        "description": "<p>If you pass a Save against an Enemy's attack or reduce its damage to 0, your next attack before the end of your Turn is Favored.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Valor",
+        "description": "<p>The roll required for you to Crit on Attack Checks and Saves against attacks is reduced by 1 now, and again every 4 Levels hereafter.</p><p><em>Fighter: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Muster for Battle",
+        "description": "<p>You have two Actions on your first Turn.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Harrying",
+        "description": "<p>When you take the Attack Action, you can make one extra attack.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "IqY9928Ephhm8YlZ",
+  "_key": "!items!IqY9928Ephhm8YlZ",
+  "name": "Paper (1 sheet)",
+  "type": "gear",
+  "img": "icons/sundries/documents/paper-plain-white.webp",
+  "system": {
+    "description": "<p><em>Books &amp; Magic</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 79",
+    "quantity": 1,
+    "slots": 0,
+    "value": 2.0,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

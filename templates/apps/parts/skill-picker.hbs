@@ -1,0 +1,10 @@
+<ul class="skill-picker">
+  {{#each rows}}
+  <li class="pick-skill {{#if selected}}selected{{/if}} {{#if fixed}}fixed{{/if}} {{#if classOption}}class-option{{/if}}" data-kind="skills" data-key="{{key}}"
+    {{#unless fixed}}data-action="toggle"{{/unless}} {{#if fixed}}data-tooltip="VAGABOND.Builder.Granted"{{/if}}>
+    <i class="{{#if fixed}}fa-solid fa-lock{{else if selected}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i>
+    <span class="pick-skill-name">{{localize label}}</span>
+    <span class="pick-skill-stat">{{localize stat}}</span>
+  </li>
+  {{/each}}
+</ul>

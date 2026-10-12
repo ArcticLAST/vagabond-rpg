@@ -1,0 +1,24 @@
+{
+  "_id": "w5AjT9rFAiqF6vUy",
+  "_key": "!items!w5AjT9rFAiqF6vUy",
+  "name": "Bless",
+  "type": "spell",
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+  "system": {
+    "description": "<p>For the duration, Targeted Objects count as Silvered (p. 82), and Targeted Beings of your choice have a d4 bonus to Saves.</p><p>Further, if the Target is freestanding water, it permanently becomes holy water.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

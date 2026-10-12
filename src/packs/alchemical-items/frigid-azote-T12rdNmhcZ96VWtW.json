@@ -1,0 +1,36 @@
+{
+  "_id": "T12rdNmhcZ96VWtW",
+  "_key": "!items!T12rdNmhcZ96VWtW",
+  "name": "Frigid Azote",
+  "type": "gear",
+  "img": "icons/weapons/thrown/bomb-fuse-black.webp",
+  "system": {
+    "description": "<p>A Target who is hit with this Item takes d6 damage and its Speed is halved until the end of its next Turn.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "explosive",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "d6",
+      "type": "damage",
+      "save": "reflex",
+      "damageType": "cold"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

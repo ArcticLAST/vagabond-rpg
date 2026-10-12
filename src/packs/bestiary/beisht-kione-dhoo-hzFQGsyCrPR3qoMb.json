@@ -1,0 +1,259 @@
+{
+  "_id": "hzFQGsyCrPR3qoMb",
+  "_key": "!actors!hzFQGsyCrPR3qoMb",
+  "name": "Beisht Kione Dhoo",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 13,
+    "tl": 6.6,
+    "attributes": {
+      "hp": {
+        "value": 58,
+        "max": 58
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 11,
+      "speed": {
+        "value": 5,
+        "types": "Swim 50'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "fae",
+      "subtype": "Wyrm",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Cold",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 153",
+      "description": "<p>A bane of pirates, the serpentine beisht kione is a horrifying fae of the sea. Its jaws and mouth match the length of its nearly equine mane, and it can open these jaws to swallow most small boats whole. Stories say, if treasure is ever lost overboard, it now belongs to the beisht, as attempts to dredge it up will incur its greedy wrath.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "PPaUwfoCiVDU5nxs",
+      "_key": "!actors.items!hzFQGsyCrPR3qoMb.PPaUwfoCiVDU5nxs",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Bite and 1×Slam</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7sSVHTEcBZFMprfq",
+      "_key": "!actors.items!hzFQGsyCrPR3qoMb.7sSVHTEcBZFMprfq",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Restrained if it is Large or smaller. If this Being has a Target this way, it can only Bite the Restrained Target.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xTkouI9nLsJ4LR67",
+      "_key": "!actors.items!hzFQGsyCrPR3qoMb.xTkouI9nLsJ4LR67",
+      "name": "Slam",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>11 (2d10) and shoved Prone if Large or smaller than this Being.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d10",
+        "average": 11,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9sCPTiljUFqWyGcM",
+      "_key": "!actors.items!hzFQGsyCrPR3qoMb.9sCPTiljUFqWyGcM",
+      "name": "Amphibious",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Breathes air and water.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5yRX9HV4qsQs8tkj",
+      "_key": "!actors.items!hzFQGsyCrPR3qoMb.5yRX9HV4qsQs8tkj",
+      "name": "Dreadnought",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Deals double damage to vehicles.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LPcrBYrQixsiWwI5",
+      "_key": "!actors.items!hzFQGsyCrPR3qoMb.LPcrBYrQixsiWwI5",
+      "name": "Terror III",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Enemies that can see it for the first time and at the start of their Turns must pass a [Will] Save or be Frightened (until they pass this Check on a subsequent Turn, or for Cd8 Rounds afterwards).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Beisht Kione Dhoo",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

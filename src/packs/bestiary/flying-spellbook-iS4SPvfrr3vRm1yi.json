@@ -1,0 +1,194 @@
+{
+  "_id": "iS4SPvfrr3vRm1yi",
+  "_key": "!actors!iS4SPvfrr3vRm1yi",
+  "name": "Flying Spellbook",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.7,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": null,
+      "speed": {
+        "value": 0,
+        "types": "Fly 30'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "d6",
+      "senses": "Blindsight",
+      "immune": "Poison",
+      "weak": "Fire",
+      "statusImmunities": "Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 118",
+      "description": "<p>An animated spellbook that flies like a bird, capable of casting the magic written on its pages.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "q0UAYCTpUUbGVXMf",
+      "_key": "!actors.items!iS4SPvfrr3vRm1yi.q0UAYCTpUUbGVXMf",
+      "name": "Freeze",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>3 (d6) and its Speed is reduced by 10' (Cd4).</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Endure",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "cold",
+        "save": "endure",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KSzSyIfmi8iu3ZWO",
+      "_key": "!actors.items!iS4SPvfrr3vRm1yi.KSzSyIfmi8iu3ZWO",
+      "name": "Zap",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>3 (d6) and Dazed (Cd4)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Bolt | Reflex",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "h8k9YXeT3uP0LsEC",
+      "_key": "!actors.items!iS4SPvfrr3vRm1yi.h8k9YXeT3uP0LsEC",
+      "name": "Antimagic Vulnerability",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is Dazed for Cd4 if affected by the Dispel Spell or other antimagic.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TxZdMJnTuO0Dayvh",
+      "_key": "!actors.items!iS4SPvfrr3vRm1yi.TxZdMJnTuO0Dayvh",
+      "name": "Nimble",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Flying Spellbook",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "_id": "xSUuJ6M7PQPsBURv",
+  "_key": "!actors!xSUuJ6M7PQPsBURv",
+  "name": "Assassin Vine",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 4,
+    "tl": 2.0,
+    "attributes": {
+      "hp": {
+        "value": 18,
+        "max": 18
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 12,
+      "speed": {
+        "value": 5,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "primordial",
+      "subtype": "Plant",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "Blindsight",
+      "immune": "",
+      "weak": "Fire, Poison, Slash",
+      "statusImmunities": "Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 168",
+      "description": "<p>A mass of somewhat ambulatory vines that feeds on blood and carrion.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "SBh5lYkcoWyv5sDI",
+      "_key": "!actors.items!xSUuJ6M7PQPsBURv.SBh5lYkcoWyv5sDI",
+      "name": "Constrain",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Restrained Target",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bXRvXfjMc9OgQywC",
+      "_key": "!actors.items!xSUuJ6M7PQPsBURv.bXRvXfjMc9OgQywC",
+      "name": "Vine",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8) and Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Near",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Assassin Vine",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

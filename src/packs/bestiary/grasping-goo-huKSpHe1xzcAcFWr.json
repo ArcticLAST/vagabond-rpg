@@ -1,0 +1,226 @@
+{
+  "_id": "huKSpHe1xzcAcFWr",
+  "_key": "!actors!huKSpHe1xzcAcFWr",
+  "name": "Grasping Goo",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.7,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 12,
+      "speed": {
+        "value": 5,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "primordial",
+      "subtype": "Slime",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "Blindsight",
+      "immune": "Acid",
+      "weak": "Fire",
+      "statusImmunities": "Blinded, Fatigue, Prone",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 172",
+      "description": "<p>An otherwise immobile pile of sludge. It only attacks when another creature moves within reach of its pseudopods.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "o2XuA5Rr7N48fVoZ",
+      "_key": "!actors.items!huKSpHe1xzcAcFWr.o2XuA5Rr7N48fVoZ",
+      "name": "Pseudopod",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained, Corroding, and Burning (d6) while Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "pUdhwuXTtuOvEURl",
+      "_key": "!actors.items!huKSpHe1xzcAcFWr.pUdhwuXTtuOvEURl",
+      "name": "Amorphous",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can Move into occupied space as small as 1 inch without squeezing.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dmdEPfcQlJ3HYXqW",
+      "_key": "!actors.items!huKSpHe1xzcAcFWr.dmdEPfcQlJ3HYXqW",
+      "name": "Freeze Susceptability",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is Dazed (1 Round) after being harmed by cold.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "KWiXlNP2cIwiA1pG",
+      "_key": "!actors.items!huKSpHe1xzcAcFWr.KWiXlNP2cIwiA1pG",
+      "name": "Corroding",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Non-Relic metal Items that make contact with it corrode. When this happens, roll a d6 for each Item. On a roll of 1, the Item breaks. If the Item that breaks is larger than Medium, this destroys a 1-foot square hole that is 1-foot deep in it.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GLsDMHDCQ9HEklMm",
+      "_key": "!actors.items!huKSpHe1xzcAcFWr.GLsDMHDCQ9HEklMm",
+      "name": "Sticky",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Hinders attempts to end being Restrained by it. Beings that make physical contact with it must pass [Endure] or be Restrained.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 103,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Grasping Goo",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

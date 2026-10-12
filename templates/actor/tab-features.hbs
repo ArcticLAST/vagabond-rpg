@@ -1,0 +1,72 @@
+<section class="tab features {{tab.cssClass}}" data-tab="features" data-group="primary">
+  <div class="item-section">
+    <div class="list-header"><span class="col-name">{{#if classItem}}{{classItem.name}}{{else}}{{localize "TYPES.Item.class"}}{{/if}} — {{localize "VAGABOND.Sheet.ClassFeatures"}}</span></div>
+    <ol class="item-list feature-list">
+      {{#each classFeatures}}
+      <li class="feature {{#unless unlocked}}locked{{/unless}}">
+        <div class="feature-head">
+          <span class="feature-level">{{level}}</span>
+          <a class="feature-name" data-action="postFeature" data-source="class" data-index="{{index}}" data-tooltip="VAGABOND.Sheet.PostToChat">{{name}}</a>
+          {{#unless unlocked}}<i class="fa-solid fa-lock" data-tooltip="VAGABOND.Sheet.Locked"></i>{{/unless}}
+          {{#if now}}<span class="feature-now" data-tooltip="VAGABOND.FeatureNote.Hint"><i class="fa-solid fa-gears"></i> {{now}}</span>{{/if}}
+        </div>
+        {{#if unlocked}}<div class="feature-text">{{{html}}}</div>{{/if}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "VAGABOND.Sheet.DropClass"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+
+  <div class="item-section">
+    <div class="list-header"><span class="col-name">{{#if ancestryItem}}{{ancestryItem.name}}{{else}}{{localize "TYPES.Item.ancestry"}}{{/if}} — {{localize "VAGABOND.Sheet.Traits"}}</span></div>
+    <ol class="item-list feature-list">
+      {{#each ancestryTraits}}
+      <li class="feature">
+        <div class="feature-head"><a class="feature-name" data-action="postFeature" data-source="ancestry" data-index="{{index}}">{{name}}</a></div>
+        <div class="feature-text">{{{html}}}</div>
+      </li>
+      {{else}}
+      <li class="empty">{{localize "VAGABOND.Sheet.DropAncestry"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+
+  <div class="item-section">
+    <div class="list-header">
+      <span class="col-name">{{localize "TYPES.Item.perkPl"}}</span>
+      <span class="col controls">{{#if editable}}<a data-action="createItem" data-type="perk" data-tooltip="VAGABOND.Sheet.Create"><i class="fa-solid fa-plus"></i></a>{{/if}}</span>
+    </div>
+    <ol class="item-list">
+      {{#each perks}}
+      <li class="item draggable" data-item-id="{{id}}">
+        <img class="item-img rollable" src="{{img}}" alt="" data-action="useItem">
+        <div class="item-name"><a data-action="toggleDescription">{{name}}</a>{{#if system.prerequisites}}<span class="item-sub">{{system.prerequisites}}</span>{{/if}}</div>
+        <span class="col controls">{{> "systems/vagabond-rpg/templates/actor/parts/item-controls.hbs"}}</span>
+        {{> "systems/vagabond-rpg/templates/actor/parts/item-description.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "VAGABOND.Sheet.Empty"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+
+  <div class="item-section">
+    <div class="list-header">
+      <span class="col-name">{{localize "VAGABOND.Sheet.OtherFeatures"}}</span>
+      <span class="col controls">{{#if editable}}<a data-action="createItem" data-type="feature" data-tooltip="VAGABOND.Sheet.Create"><i class="fa-solid fa-plus"></i></a>{{/if}}</span>
+    </div>
+    <ol class="item-list">
+      {{#each extraFeatures}}
+      <li class="item draggable" data-item-id="{{id}}">
+        <img class="item-img rollable" src="{{img}}" alt="" data-action="useItem">
+        <div class="item-name"><a data-action="toggleDescription">{{name}}</a>{{#if tags.length}}<span class="item-sub">{{#each tags}}{{this}}{{#unless @last}} · {{/unless}}{{/each}}</span>{{/if}}</div>
+        <span class="col controls">{{> "systems/vagabond-rpg/templates/actor/parts/item-controls.hbs"}}</span>
+        {{> "systems/vagabond-rpg/templates/actor/parts/item-description.hbs"}}
+      </li>
+      {{else}}
+      <li class="empty">{{localize "VAGABOND.Sheet.Empty"}}</li>
+      {{/each}}
+    </ol>
+  </div>
+</section>

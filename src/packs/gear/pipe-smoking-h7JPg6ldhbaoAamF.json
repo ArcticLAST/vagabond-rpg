@@ -1,0 +1,35 @@
+{
+  "_id": "h7JPg6ldhbaoAamF",
+  "_key": "!items!h7JPg6ldhbaoAamF",
+  "name": "Pipe, smoking",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em>Personal Items</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 82",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10.0,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

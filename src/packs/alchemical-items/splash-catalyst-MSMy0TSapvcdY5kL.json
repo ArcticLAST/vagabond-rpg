@@ -1,0 +1,35 @@
+{
+  "_id": "MSMy0TSapvcdY5kL",
+  "_key": "!items!MSMy0TSapvcdY5kL",
+  "name": "Splash Catalyst",
+  "type": "gear",
+  "img": "icons/weapons/thrown/bomb-fuse-black.webp",
+  "system": {
+    "description": "<p>When combined with another alchemical item used to make attacks, the catalyst increases the item's volatility. If the item only Targets a single Being, you can instead Target a point within the same range. If you Pass, all Beings Close to the point are subjected to its effects as if they had been hit with it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 250.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "explosive",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

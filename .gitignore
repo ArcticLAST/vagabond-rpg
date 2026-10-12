@@ -1,0 +1,7 @@
+node_modules/
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+*.log
+.DS_Store
+Thumbs.db

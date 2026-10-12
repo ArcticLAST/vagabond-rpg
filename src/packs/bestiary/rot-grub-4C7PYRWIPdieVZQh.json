@@ -1,0 +1,130 @@
+{
+  "_id": "4C7PYRWIPdieVZQh",
+  "_key": "!actors!4C7PYRWIPdieVZQh",
+  "name": "Rot Grub",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 0.7,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 0,
+      "armorTag": "as Unarmored",
+      "morale": 12,
+      "speed": {
+        "value": 5,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "5d4",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "Fire",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 147",
+      "description": "<p>Flesh burrowing maggots that devour prey alive.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "gI8AApejeVm3Fql4",
+      "_key": "!actors.items!4C7PYRWIPdieVZQh.gI8AApejeVm3Fql4",
+      "name": "Flesh Burrow",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>This Being burrows itself into flesh that comes into contact with it, causing that Being to become Sickened (3 (d6) damage each Round).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "U0uKXTTdM7XNDj1a",
+      "_key": "!actors.items!4C7PYRWIPdieVZQh.U0uKXTTdM7XNDj1a",
+      "name": "Parasite",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If this Being or any Being it is burrowing into takes Fire damage or is the Target of an effect that ends the Sickened Status, this Being dies instantly.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Rot Grub",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "cgeRPXNtEGlP3mBA",
+  "_key": "!items!cgeRPXNtEGlP3mBA",
+  "name": "Marksmanship",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Your Ranged Weapon damage dice are one size larger.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 7 | Trained: Ranged"
+  },
+  "effects": [
+    {
+      "_id": "G4HusrhFkaPeoIPo",
+      "_key": "!items.effects!cgeRPXNtEGlP3mBA.G4HusrhFkaPeoIPo",
+      "name": "Marksmanship",
+      "img": "icons/svg/upgrade.svg",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.dieStep.ranged",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "HkG6hQueF1o3gmBX",
+  "_key": "!items!HkG6hQueF1o3gmBX",
+  "name": "Ungarmax",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Allies you cause to be Berserk with Apoplex have a +1 bonus to each damage die they deal.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Apoplex"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

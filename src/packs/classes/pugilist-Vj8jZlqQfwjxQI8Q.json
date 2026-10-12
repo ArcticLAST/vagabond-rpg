@@ -1,0 +1,168 @@
+{
+  "_id": "Vj8jZlqQfwjxQI8Q",
+  "_key": "!items!Vj8jZlqQfwjxQI8Q",
+  "name": "Pugilist",
+  "type": "class",
+  "img": "icons/svg/d20-black.svg",
+  "system": {
+    "description": "<p>I didn't hear no bell. —Rocky Balboa, Rocky V Pugilists are brawlers of swagger. While a monk may dedicate themself to a single focused blow, a pugilist will break their fingers and keep punching with the bloody stump.</p><p>Pugilists are frontline bruisers. Stay in the frontline, even while at low HP.</p><ul><li><strong>Action:</strong> Attack (Brawl)</li><li><strong>Move:</strong> Frontline</li><li><strong>Key Stat:</strong> Might</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Brawl, Influence</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 51",
+    "keyStats": [
+      "mit"
+    ],
+    "trainings": [
+      "brawl",
+      "influence"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Attack (Brawl) · Frontline",
+    "startingPacks": "<p>Brawler or Monk</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Fisticuffs",
+        "description": "<p>You have the Dusted Knuckle Perk (p. 68), and your Equipped Brawl Weapons have the Vicious property.</p><p>Further, when a damage die of your Brawl Weapon resolves, you can either:</p><ul><li>Increase your subsequent Brawl damage dice one size until the start of your Turn.</li><li>Grapple or Shove them if you viably could.</li></ul>",
+        "grants": {
+          "perks": "Dusted Knuckle",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Rope-a-Dope",
+        "description": "<p>If you don't take damage from a Close Enemy's attack, you can immediately make one attack or Move 5' without using Speed.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Haymaker",
+        "description": "<p>If the result of your Brawl Check for an attack exceeds your Difficulty by 15, the Target is Dazed until your next Turn. The number needed to exceed is reduced by 1 every 4 Levels hereafter.</p><p><em>Pugilist: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Moxie",
+        "description": "<p>You have Favor on Saves against being Dazed, Frightened, Grappled, or Restrained.</p><p>Further, being at 0 HP doesn't kill you for Cd4 Rounds. Each time you take damage during this time, also roll this countdown die. At 8th Level, this starts at Cd6.</p><p><em>Pugilist: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Title Holder",
+        "description": "<p>You use a d6 for the damage dice of your Brawl Weapons, and they can Explode on a roll of their two highest values. At 10th Level, this increases to a d8.</p><p><em>Pugilist: 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

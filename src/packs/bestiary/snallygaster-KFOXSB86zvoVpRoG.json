@@ -1,0 +1,227 @@
+{
+  "_id": "KFOXSB86zvoVpRoG",
+  "_key": "!actors!KFOXSB86zvoVpRoG",
+  "name": "Snallygaster",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 10,
+    "tl": 4.4,
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45
+      },
+      "armor": 2,
+      "armorTag": "as (+1) Leather",
+      "morale": 3,
+      "speed": {
+        "value": 20,
+        "types": "Fly 40'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "cryptid",
+      "subtype": "Wyrm",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "Shock",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 149",
+      "description": "<p>A one-eyed chimeria with a taste for booze. Other than its reptilian tail and claws, it otherwise resembles a plucked chicken... and there's an array of octopus-like tentacles writhing from its beak.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "M59A36xNsH2bXSrB",
+      "_key": "!actors.items!KFOXSB86zvoVpRoG.M59A36xNsH2bXSrB",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Talons and 1×Drain, or 2×Drain</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dS4LfWjAH5LkOiih",
+      "_key": "!actors.items!KFOXSB86zvoVpRoG.dS4LfWjAH5LkOiih",
+      "name": "Drain",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>5 (2d4) HP is drained from the Target</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Action, Restrained Being | Endure",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "endure",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "sBdcixjBAp41B7CO",
+      "_key": "!actors.items!KFOXSB86zvoVpRoG.sBdcixjBAp41B7CO",
+      "name": "Talon",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6) and Restrained if its this Being's second Talon to hit it this Turn</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dHFATpyAG6XDmNW6",
+      "_key": "!actors.items!KFOXSB86zvoVpRoG.dHFATpyAG6XDmNW6",
+      "name": "Booze Hound",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It takes half damage from poison-based damage and can sense alcohol within 1 mile as if by Allsight. It doesn't flee if it is sensing alcohol, except by its Divine-Averse Ability.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8LMhGxufqTF2dsHy",
+      "_key": "!actors.items!KFOXSB86zvoVpRoG.8LMhGxufqTF2dsHy",
+      "name": "Divine-Averse",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It makes Morale Checks if it can see a divine trinket.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Snallygaster",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_id": "cZXjBnJ63v6hcVVY",
+  "_key": "!items!cZXjBnJ63v6hcVVY",
+  "name": "Shade",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Target is surrounded by magic darkness out to Close for the duration, which snuffs out nonmagic lights.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

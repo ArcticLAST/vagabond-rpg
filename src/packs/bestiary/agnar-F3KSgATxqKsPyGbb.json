@@ -1,0 +1,226 @@
+{
+  "_id": "F3KSgATxqKsPyGbb",
+  "_key": "!actors!F3KSgATxqKsPyGbb",
+  "name": "Agnar",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 10,
+    "tl": 3.9,
+    "attributes": {
+      "hp": {
+        "value": 45,
+        "max": 45
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 10,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "outer",
+      "subtype": "Beyonder",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "",
+      "weak": "Fire",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 158",
+      "description": "<p>A jungle-dwelling monstrosity with a spherical torso and maw that surrounds its entire body. This sphere of horror is mounted atop four elephant-like legs, Its teeth enclose a donut-shaped gullet that forces any prey-paste through its abominable form.</p><p>The Agnar was originally created by Hankerin Ferinale for Index Card RPG.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "P5AuiiJzmZz7NfAo",
+      "_key": "!actors.items!F3KSgATxqKsPyGbb.P5AuiiJzmZz7NfAo",
+      "name": "Spin-Thrash",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>9 (2d8), deals half on a pass and heals this Being for the damage roll. It can only use this Action while at or below half HP.</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Aura Near | Endure",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "magic",
+        "save": "endure",
+        "recharge": "3/Day",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YemXkI7USODobcJg",
+      "_key": "!actors.items!F3KSgATxqKsPyGbb.YemXkI7USODobcJg",
+      "name": "Chomp",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Cleave",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "aHOe19EQvvzwfEJU",
+      "_key": "!actors.items!F3KSgATxqKsPyGbb.aHOe19EQvvzwfEJU",
+      "name": "Flame Anger",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it takes Fire damage or sees open flame, it goes Berserk (Cd4).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "6i4vlvp0UE7NT56t",
+      "_key": "!actors.items!F3KSgATxqKsPyGbb.6i4vlvp0UE7NT56t",
+      "name": "Lockjaw",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Hinders Checks to end being Restrained by it.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xWkokTxFUqEDiE8P",
+      "_key": "!actors.items!F3KSgATxqKsPyGbb.xWkokTxFUqEDiE8P",
+      "name": "Leap",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>If it uses its Move to Jump, any Being within 5' when it lands must pass a [Reflex] Save or take 10 (3d6) and be shoved Prone.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Agnar",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

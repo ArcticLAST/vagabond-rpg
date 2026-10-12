@@ -1,0 +1,162 @@
+{
+  "_id": "7Pew5OnxrBLGdK8i",
+  "_key": "!actors!7Pew5OnxrBLGdK8i",
+  "name": "Stirge",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 1.2,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 4,
+      "speed": {
+        "value": 5,
+        "types": "Fly 40'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "3d6",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 149",
+      "description": "<p>A blood-sucking pest that resembles a fleshy mosquito. They attack by latching onto a victim and penetrating their tissue with a barbed proboscis.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "8n6w0CTehu54khzM",
+      "_key": "!actors.items!7Pew5OnxrBLGdK8i.8n6w0CTehu54khzM",
+      "name": "Beak",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>1 (d3) and Restrained (d4 damage each Round while Restrained this way)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d3",
+        "average": 1,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "vvnsEB89JVZZmL0Z",
+      "_key": "!actors.items!7Pew5OnxrBLGdK8i.vvnsEB89JVZZmL0Z",
+      "name": "Leech",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Its Max HP increases by the amount of damage it deals with its Beak, which also heals it for the same amount. Max HP gained this way is lost after 1 minute.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lhBUfSN3oBdDnttL",
+      "_key": "!actors.items!7Pew5OnxrBLGdK8i.lhBUfSN3oBdDnttL",
+      "name": "Latcher",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Checks to end being Restrained by its Beak have a -3 penalty.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Stirge",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

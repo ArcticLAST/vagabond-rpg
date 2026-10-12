@@ -1,0 +1,16 @@
+{
+  "name": "vagabond-rpg",
+  "version": "0.6.7",
+  "private": true,
+  "description": "Unofficial Foundry VTT system for Vagabond (Alpha 3).",
+  "type": "module",
+  "scripts": {
+    "build:packs": "node tools/build-packs.mjs pack",
+    "unpack": "node tools/build-packs.mjs unpack",
+    "test": "node tools/test-rules.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.0",
+    "handlebars": "^4.7.8"
+  }
+}

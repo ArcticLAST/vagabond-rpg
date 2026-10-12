@@ -1,0 +1,182 @@
+{
+  "_id": "fKNZ1vFgEaJ9c8dG",
+  "_key": "!items!fKNZ1vFgEaJ9c8dG",
+  "name": "Barbarian",
+  "type": "class",
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "system": {
+    "description": "<p>Hatred outlives the hateful. —Brian Tinsman, Rancor flavor text (Magic the Gathering) Barbarians are primal warriors that fight with the power of unbridled anger. The legends speak of their kills almost as their own unique deeds, using the barbarian's name as a past-tense verb.</p><p>The barbarian is a mid-high-defense bruiser. Stick to an Enemy, and hit them very hard.</p><ul><li><strong>Action:</strong> Attack (Melee)</li><li><strong>Move:</strong> Frontline</li><li><strong>Key Stat:</strong> Might</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Melee, Survival</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 31",
+    "keyStats": [
+      "mit"
+    ],
+    "trainings": [
+      "melee",
+      "survival"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Attack (Melee) · Frontline",
+    "startingPacks": "<p>Gladiator or Warrior</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Rage",
+        "description": "<p>While Berserk, your attack damage dice are one size larger and you reduce damage you take by 1 per damage die if you are wearing Light or no Armor.</p><p>Further, you can go Berserk when you take damage or attack an Enemy. You remain Berserk this way for 1 minute, or until you end your Turn without attacking an Enemy or taking damage since your last Turn.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Wrath",
+        "description": "<p>You gain the Interceptor Perk (p. 69), and can make its attack against an Enemy that takes an Action.</p>",
+        "grants": {
+          "perks": "Interceptor",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Aggressor",
+        "description": "<p>You have a 5' bonus to Speed, which increases by 5' every 4 Levels hereafter. During the first Round of Combat, this bonus is doubled.</p><p><em>Barbarian: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Murder Mode",
+        "description": "<p>You can't be Charmed, Confused, Frightened, or compelled to act against your will. Further, while Berserk, your attack damage dice can Explode and they each have a +1 bonus. This increases by 1 every 4 Levels hereafter.</p><p><em>Barbarian: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Bloodthirsty",
+        "description": "<p>Your attacks against Beings that are missing any HP are Favored, and you can sense them within Far as if by Blindsight.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Rip and Tear",
+        "description": "<p>While Berserk, you reduce damage you take by 1 per damage die. This stacks with Rage.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

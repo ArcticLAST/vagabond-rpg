@@ -1,0 +1,132 @@
+{
+  "_id": "qihR549cEMHv60Zp",
+  "_key": "!actors!qihR549cEMHv60Zp",
+  "name": "Grim Reaper",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 0,
+    "tl": 0,
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "max": 0
+      },
+      "armor": 8,
+      "armorTag": "as (+5) Heavy",
+      "morale": 12,
+      "speed": {
+        "value": 60,
+        "types": "Fly, Phase"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "undead",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "Special",
+      "senses": "Allsight, Darksight",
+      "immune": "Cold, Fire, Poison, Shock",
+      "weak": "Physical from Silvered Weapons",
+      "statusImmunities": "Charmed, Confused, Frightened, Paralyzed, Restrained, Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 104",
+      "description": "<p>Summoned by the Skull card of the Deck of Many Things to attack the Being that drew it. If any other Being attempts to help them, another grim reaper appears and attacks that Being.</p><p>HP: half the summoner's. Set its HP when it appears.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "944UWzeRtq0Dehyg",
+      "_key": "!actors.items!qihR549cEMHv60Zp.944UWzeRtq0Dehyg",
+      "name": "Scythe",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "relic": 0,
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AXDLnBquayK62fbK",
+      "_key": "!actors.items!qihR549cEMHv60Zp.AXDLnBquayK62fbK",
+      "name": "Inevitable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Its attacks always hit.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "relic": 0,
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Grim Reaper",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

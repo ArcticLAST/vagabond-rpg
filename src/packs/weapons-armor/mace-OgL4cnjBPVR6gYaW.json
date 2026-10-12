@@ -1,0 +1,44 @@
+{
+  "_id": "OgL4cnjBPVR6gYaW",
+  "_key": "!items!OgL4cnjBPVR6gYaW",
+  "name": "Mace",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-flanged-steel.webp",
+  "system": {
+    "description": "",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 20.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "d6",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

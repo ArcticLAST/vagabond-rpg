@@ -1,0 +1,44 @@
+{
+  "_id": "qrqRBzb85M8CNzwR",
+  "_key": "!items!qrqRBzb85M8CNzwR",
+  "name": "Morningstar",
+  "type": "weapon",
+  "img": "icons/weapons/maces/mace-cube-spiked-steel.webp",
+  "system": {
+    "description": "<p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 2,
+    "value": 80.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": true
+    },
+    "range": "close",
+    "grip": "v",
+    "damage": "d8",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

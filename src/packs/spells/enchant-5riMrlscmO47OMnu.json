@@ -1,0 +1,24 @@
+{
+  "_id": "5riMrlscmO47OMnu",
+  "_key": "!items!5riMrlscmO47OMnu",
+  "name": "Enchant",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>An Item that is a Target or equipped by the Target is considered a Relic for the duration. Additionally, you can upcast this Spell to grant the Item the Relic Power of Bonus for this time per Item granted this Power when you Cast this Spell:</p><ul><li>+1 Bonus: 3 Mana per Item.</li><li>+2 Bonus: 6 Mana per Item.</li><li>+3 Bonus: 12 Mana per Item.</li></ul>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

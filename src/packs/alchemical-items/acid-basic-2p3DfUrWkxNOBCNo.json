@@ -1,0 +1,36 @@
+{
+  "_id": "2p3DfUrWkxNOBCNo",
+  "_key": "!items!2p3DfUrWkxNOBCNo",
+  "name": "Acid, Basic",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+  "system": {
+    "description": "<p>Corrosive liquid that eats away at matter. A Target hit with it takes d6 damage and is Burning (Cd4).</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "acid",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "d6",
+      "type": "damage",
+      "save": "reflex",
+      "damageType": "acid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

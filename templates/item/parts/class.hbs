@@ -1,0 +1,28 @@
+<fieldset><legend>{{localize "VAGABOND.Class.KeyStats"}}</legend>
+  <div class="checkbox-grid">{{#each statChecks}}<label class="checkbox"><input type="checkbox" name="system._keyStats.{{key}}" {{checked checked}}> {{localize label}}</label>{{/each}}</div>
+</fieldset>
+<fieldset><legend>{{localize "VAGABOND.Class.Trainings"}}</legend>
+  <div class="checkbox-grid">{{#each skillChecks}}<label class="checkbox"><input type="checkbox" name="system._trainings.{{key}}" {{checked checked}}> {{localize label}}</label>{{/each}}</div>
+</fieldset>
+<fieldset><legend>{{localize "VAGABOND.Class.TrainingChoices"}}</legend>
+  <div class="form-group"><label>{{localize "VAGABOND.Class.ChooseCount"}}</label><input type="number" name="system.trainingChoices.count" value="{{source.trainingChoices.count}}" min="0"></div>
+  <div class="checkbox-grid">{{#each skillChecks}}<label class="checkbox"><input type="checkbox" name="system._trainingOptions.{{key}}" {{checked option}}> {{localize label}}</label>{{/each}}</div>
+</fieldset>
+<fieldset><legend>{{localize "VAGABOND.Class.Magic"}}</legend>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.CastingSkill"}}</label><select name="system.castingSkill">{{selectOptions options.skills selected=source.castingSkill localize=true blank=""}}</select></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Class.ManaPerLevel"}}</label><input type="number" name="system.mana.perLevel" value="{{source.mana.perLevel}}" min="0"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.CastMax"}}</label><select name="system.castMax">{{selectOptions options.castMaxTypes selected=source.castMax localize=true}}</select></div>
+</div>
+<div class="form-row">
+  <div class="form-group"><label>{{localize "VAGABOND.Class.SpellsBase"}}</label><input type="number" name="system.spells.base" value="{{source.spells.base}}" min="0"></div>
+  <div class="form-group"><label>{{localize "VAGABOND.Class.SpellsEvery"}}</label><input type="number" name="system.spells.every" value="{{source.spells.every}}" min="0"></div>
+</div>
+</fieldset>
+<div class="form-group stacked"><label>{{localize "VAGABOND.Class.Playstyle"}}</label><input type="text" name="system.playstyle" value="{{source.playstyle}}"></div>
+<fieldset><legend>{{localize "VAGABOND.Class.StartingPacks"}}</legend>
+  <prose-mirror name="system.startingPacks" value="{{source.startingPacks}}" document-uuid="{{item.uuid}}" toggled>{{{source.startingPacks}}}</prose-mirror>
+</fieldset>
+<fieldset><legend>{{localize "VAGABOND.Sheet.ClassFeatures"}}</legend>
+  {{> "systems/vagabond-rpg/templates/item/parts/_rows.hbs" rows=featureRows list="features" withLevel=true}}
+</fieldset>

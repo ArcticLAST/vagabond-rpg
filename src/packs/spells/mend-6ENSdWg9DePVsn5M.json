@@ -1,0 +1,24 @@
+{
+  "_id": "6ENSdWg9DePVsn5M",
+  "_key": "!items!6ENSdWg9DePVsn5M",
+  "name": "Mend",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Targeted non-Relic Objects in the area are repaired on your Turns for the duration, if you can provide 5s of Material per d8 HP or 1 Slot of Items repaired. This Spell can reassemble a broken Item if the pieces of it are held together during the Casting. This Spell also functions as a Life Spell, but only for Artificials.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

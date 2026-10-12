@@ -1,0 +1,24 @@
+{
+  "_id": "8uMdLompuiD37MUH",
+  "_key": "!items!8uMdLompuiD37MUH",
+  "name": "Goop",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>A glob of acidic sludge coats the nearest surface to the Target (minumum 5' square) for the duration, causing it to be Difficult Terrain. If also Cast to deal damage, those in the area are Burning (d6).</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "acid",
+    "damageDie": 6,
+    "crit": "Targets in the area are also Restrained.",
+    "focus": false,
+    "noDamage": false,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

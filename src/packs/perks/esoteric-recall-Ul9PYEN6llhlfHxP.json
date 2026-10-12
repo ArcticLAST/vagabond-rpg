@@ -1,0 +1,19 @@
+{
+  "_id": "Ul9PYEN6llhlfHxP",
+  "_key": "!items!Ul9PYEN6llhlfHxP",
+  "name": "Esoteric Recall",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can use your Action or skip your Move to change one of your Spells Known. You can't use this Ability again until you Rest or take 1 Fatigue to use it again.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Any | Trained: Arcana or Mysticism"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

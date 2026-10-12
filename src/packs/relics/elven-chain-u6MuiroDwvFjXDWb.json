@@ -1,0 +1,27 @@
+{
+  "_id": "u6MuiroDwvFjXDWb",
+  "_key": "!items!u6MuiroDwvFjXDWb",
+  "name": "Elven Chain",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Medium Armor</em></p><p>Mithral Chain Armor that, while Equipped, grants the wearer the following Power:</p><ul><li><strong>(+1) Armor:</strong> Grants a +1 bonus to Armor.</li></ul><p>Value: 2100g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 105",
+    "quantity": 1,
+    "slots": 2,
+    "value": 210000,
+    "equipped": false,
+    "armorType": "medium",
+    "rating": 2,
+    "might": 4,
+    "metal": "mythral",
+    "bonus": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "U5EQ6I6AjhE8rsXU",
+  "_key": "!items!U5EQ6I6AjhE8rsXU",
+  "name": "Alchemist's Beaker",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Beaker (Bound)</em></p><p>A beaker with three separate layers, each with the following Power:</p><ul><li><strong>Prima Materia:</strong> When the Ritual to Bond with it is performed, the Being can provide up to three alchemical items and assign them to a layer. The beaker can be used to provide a use of that alchemical item, which replenishes automatically after 1 Day.</li></ul><p>Value: 3000g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 102",
+    "quantity": 1,
+    "slots": 1,
+    "value": 300000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,182 @@
+{
+  "_id": "pDRhjXyLcGVzKJTW",
+  "_key": "!items!pDRhjXyLcGVzKJTW",
+  "name": "Druid",
+  "type": "class",
+  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "system": {
+    "description": "<p>Why do birds suddenly appear, every time you are near? —Karen Carpenter, Close to You Keepers of the wilderness, druids are mystics of nature that are adopted into beast-kind.</p><p>The druid is a mid-defense, mixed support and control class with a focus on Casting Spells and shapechanging to powerful beasts.</p><ul><li><strong>Action:</strong> Cast or Beast Attacks</li><li><strong>Move:</strong> Midline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Mysticism, Survival</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 37",
+    "keyStats": [
+      "awr"
+    ],
+    "trainings": [
+      "mysticism",
+      "survival"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "survival",
+    "castMax": "half",
+    "mana": {
+      "perLevel": 2
+    },
+    "spells": {
+      "base": 2,
+      "every": 3
+    },
+    "playstyle": "Cast or Beast Attacks · Midline",
+    "startingPacks": "<p>Hermit</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Primal Mystic",
+        "description": "<p>You can Cast Spells using Survival.</p><p><strong>Spells:</strong> You learn 2 Spells, one of which must always be Polymorph. You learn 1 other Spell every 3 Levels hereafter.</p><p><strong>Mana:</strong> Your Max Mana is equal to (2 × your Level), and your Cast Max for Spells is equal to (1 + half your Level, round up).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "Polymorph",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Feral Shift",
+        "description": "<p>You get the Shapechanger Perk (p. 72) and, when you Cast Polymorph on yourself, you can also take an Action of the Beast.</p>",
+        "grants": {
+          "perks": "Shapechanger",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Savagery",
+        "description": "<p>The damage you deal with the attacks of Beasts and your effective Level for the purposes of the Polymorph Spell are both increased by 1 now and every 4 Levels hereafter.</p><p><em>Druid: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Tempest Within",
+        "description": "<p>You reduce Cold, Fire, and Shock damage you take by 1 per damage die. This reduction is increased by 1 every 4 Levels hereafter.</p><p><em>Druid: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Beast Mode",
+        "description": "<p>The attacks you make as Beasts ignore Immune to non-Relic damage.</p><p>Further, when you are the sole Target of a casting of your Polymorph Spell, you can make the duration continual (p. 10).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Force of Nature",
+        "description": "<p>Once per Shift, if you are reduced to 0 HP, you can polymorph into a Beast and regain HP equal to that shown in its Statblock.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

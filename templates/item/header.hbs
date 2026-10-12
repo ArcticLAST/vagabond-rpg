@@ -1,0 +1,10 @@
+<header class="vg-header item-header">
+  <img class="portrait" src="{{item.img}}" alt="{{item.name}}" {{#if editable}}data-action="editImage" data-edit="img"{{/if}}>
+  <div class="header-main">
+    <input class="item-name" type="text" name="name" value="{{item.name}}" {{disabled (not editable)}}>
+    <div class="identity">
+      <span class="pill">{{typeLabel}}</span>
+      {{#each tags}}<span class="pill quiet">{{this}}</span>{{/each}}
+    </div>
+  </div>
+</header>

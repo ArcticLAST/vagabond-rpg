@@ -1,0 +1,35 @@
+{
+  "_id": "UmVTNDWuBchWmgw4",
+  "_key": "!items!UmVTNDWuBchWmgw4",
+  "name": "Torch, Tindertwig",
+  "type": "gear",
+  "img": "icons/sundries/lights/torch-black.webp",
+  "system": {
+    "description": "<p>This small, wooden stick ignites when struck against a rough surface. Tindertwigs do not burn out over time, meaning it can be reused as often and for as long as the user desires.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "torch",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

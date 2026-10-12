@@ -1,0 +1,19 @@
+{
+  "_id": "de4ld4MO1lo5yFtT",
+  "_key": "!items!de4ld4MO1lo5yFtT",
+  "name": "Bravado",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>If a Close Target of your attack is not Close to any of its Allies, the Target is considered Flanked for your attacks.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Trained: Brawl, Finesse, or Melee"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

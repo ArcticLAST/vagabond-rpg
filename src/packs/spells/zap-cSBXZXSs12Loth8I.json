@@ -1,0 +1,24 @@
+{
+  "_id": "cSBXZXSs12Loth8I",
+  "_key": "!items!cSBXZXSs12Loth8I",
+  "name": "Zap",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Target is Dazed for the duration if it can be damaged by shocks.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "shock",
+    "damageDie": 6,
+    "crit": "The Target is Paralyzed, rather than Dazed, for the duration.",
+    "focus": false,
+    "noDamage": false,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

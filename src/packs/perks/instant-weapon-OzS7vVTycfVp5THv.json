@@ -1,0 +1,19 @@
+{
+  "_id": "OzS7vVTycfVp5THv",
+  "_key": "!items!OzS7vVTycfVp5THv",
+  "name": "Instant Weapon",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>When you create a Weapon with a Spell, you can make one attack as a part of the Action.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: any Object-creating Spell"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "i22C64iSKfsLOL5t",
+  "_key": "!items!i22C64iSKfsLOL5t",
+  "name": "Perfume (vial)",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+  "system": {
+    "description": "<p>A fragrant, pleasant spray.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "concoction",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

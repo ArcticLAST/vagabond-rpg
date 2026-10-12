@@ -1,0 +1,24 @@
+{
+  "_id": "lFubEdpr4iGi8BMw",
+  "_key": "!items!lFubEdpr4iGi8BMw",
+  "name": "Raise",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>Corpses in the area of non-Artificial or Undead Beings with cumulative HD no higher than your Level rise as an Undead under your control for the duration. Afterward, any Undead you raised this way die and can't be raised by this Spell again. You can command your raised Undead when you Focus on this Cast, using your Cast Skill for Checks they make. The Undead you raise this way use their original statblock with the following changes:</p><ul><li>It is an Undead</li><li>It has Darksight, is Immune to Poison, Weak to Silvered Weapons, and can't be Sickened.</li></ul>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

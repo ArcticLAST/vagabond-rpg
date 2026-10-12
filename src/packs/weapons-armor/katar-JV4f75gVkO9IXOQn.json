@@ -1,0 +1,44 @@
+{
+  "_id": "JV4f75gVkO9IXOQn",
+  "_key": "!items!JV4f75gVkO9IXOQn",
+  "name": "Katar",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 20.0,
+    "equipped": false,
+    "types": {
+      "melee": false,
+      "brawl": true,
+      "finesse": true,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "d4",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

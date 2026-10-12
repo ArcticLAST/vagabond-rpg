@@ -1,0 +1,35 @@
+{
+  "_id": "8McEgTk9dlA4V8jT",
+  "_key": "!items!8McEgTk9dlA4V8jT",
+  "name": "Decanter of Endless Water",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Vase</em></p><p>A flask that provides an endless supply of water in a manner of the wielder's choice. This can be fresh or salt water, and a command word must be spoken to detail the rate of flow:</p><ul><li><strong>Fountain:</strong> Medium-sized fountain at 5 gallons per Round.</li><li><strong>Geyser:</strong> Line out to Near of 30 gallons per Round. Wielder must pass an Endure Save against being Shoved or be knocked Prone.</li><li><strong>Stream:</strong> Trickle of 1 gallon per Round.</li></ul><p>Value: 1000g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 104",
+    "quantity": 1,
+    "slots": 1,
+    "value": 100000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

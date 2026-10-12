@@ -1,0 +1,44 @@
+{
+  "_id": "x5aWxAMpbesvdWmr",
+  "_key": "!items!x5aWxAMpbesvdWmr",
+  "name": "Shortsword",
+  "type": "weapon",
+  "img": "icons/weapons/swords/sword-guard-worn-purple.webp",
+  "system": {
+    "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 20.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": true,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "d6",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "LFiDv3LppoT1LkiS",
+  "_key": "!items!LFiDv3LppoT1LkiS",
+  "name": "Gish",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can use Weapons as Trinkets.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Any | Trained: Melee or Ranged"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

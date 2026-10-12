@@ -1,0 +1,35 @@
+{
+  "_id": "CsqFIzmupMMrHH2h",
+  "_key": "!items!CsqFIzmupMMrHH2h",
+  "name": "Spellbook",
+  "type": "gear",
+  "img": "icons/sundries/books/book-rounded-red.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Trinket Book</em></p><p>The reader can Cast a Spell within as if they knew it. Crafting a Spell Book requires that the crafter knows the Spell(s) when crafting it, and can be done with the Study activity.</p><p>Value: 30g and the Value is multiplied by 10 per additional Spell</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 107",
+    "quantity": 1,
+    "slots": 1,
+    "value": 3000,
+    "equipped": false,
+    "category": "relic",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

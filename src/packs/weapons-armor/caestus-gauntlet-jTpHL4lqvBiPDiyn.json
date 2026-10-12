@@ -1,0 +1,44 @@
+{
+  "_id": "jTpHL4lqvBiPDiyn",
+  "_key": "!items!jTpHL4lqvBiPDiyn",
+  "name": "Caestus/Gauntlet",
+  "type": "weapon",
+  "img": "icons/svg/sword.svg",
+  "system": {
+    "description": "<p><strong>Grapple:</strong> Can Grapple with the Attack Check.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 20.0,
+    "equipped": false,
+    "types": {
+      "melee": false,
+      "brawl": true,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": true,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "d4",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

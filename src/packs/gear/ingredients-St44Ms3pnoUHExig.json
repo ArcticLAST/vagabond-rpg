@@ -1,0 +1,35 @@
+{
+  "_id": "St44Ms3pnoUHExig",
+  "_key": "!items!St44Ms3pnoUHExig",
+  "name": "Ingredients",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Cooking ingredients, listed in the Cook Starting Pack as \"ingredients (1g)\". The price lists give no Slots for it; Slots set to 1.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 75",
+    "quantity": 1,
+    "slots": 1,
+    "value": 0,
+    "equipped": false,
+    "category": "adventuring",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

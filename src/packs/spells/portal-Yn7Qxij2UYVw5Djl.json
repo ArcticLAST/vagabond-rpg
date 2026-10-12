@@ -1,0 +1,24 @@
+{
+  "_id": "Yn7Qxij2UYVw5Djl",
+  "_key": "!items!Yn7Qxij2UYVw5Djl",
+  "name": "Portal",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>You create a portal on a surface that fits within the area (minimum 5' square), and a second portal of the same size on a surface Near that portal. The portals remain for the duration and can teleport anything smaller than it to an open Close space at the other portal's location. Unsecured Objects don't cost Mana to teleport, but Beings cost 1 Mana. If the Being is unwilling, it also requires a passed Cast Check to teleport it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,194 @@
+{
+  "_id": "0i0KbQpuEzCHi1oq",
+  "_key": "!actors!0i0KbQpuEzCHi1oq",
+  "name": "Pixie",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 1,
+    "tl": 2.0,
+    "attributes": {
+      "hp": {
+        "value": 1,
+        "max": 1
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": 7,
+      "speed": {
+        "value": 30,
+        "types": "Fly 60'"
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "fae",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "2d4",
+      "senses": "Telepathy (Near)",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 156",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "Y3l9NTaMIVLiUoQk",
+      "_key": "!actors.items!0i0KbQpuEzCHi1oq.Y3l9NTaMIVLiUoQk",
+      "name": "Dagger",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0Q2bwgsuc6IkhQzN",
+      "_key": "!actors.items!0i0KbQpuEzCHi1oq.0Q2bwgsuc6IkhQzN",
+      "name": "Magic Ward I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "hy7Yvp539ZxUVAKl",
+      "_key": "!actors.items!0i0KbQpuEzCHi1oq.hy7Yvp539ZxUVAKl",
+      "name": "Major Invisibility (Focus)",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can magically become Invisible during its Turn (no Action).</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J2YsVsa203cQdDM1",
+      "_key": "!actors.items!0i0KbQpuEzCHi1oq.J2YsVsa203cQdDM1",
+      "name": "Pixie Dust",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can produce one dose of Pixie Dust once per Day, which gives a Medium or smaller Being Fly for 1 Hour.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Item",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Pixie",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

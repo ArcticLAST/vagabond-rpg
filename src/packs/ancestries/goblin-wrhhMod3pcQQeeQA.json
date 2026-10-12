@@ -1,0 +1,87 @@
+{
+  "_id": "wrhhMod3pcQQeeQA",
+  "_key": "!items!wrhhMod3pcQQeeQA",
+  "name": "Goblin",
+  "type": "ancestry",
+  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "system": {
+    "description": "<p>Havoc-wagers known to delight in chaos, goblins are smaller humanoids of a typically green, yellow, grey, or bluish skin color.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 26",
+    "beingType": "cryptid",
+    "size": "medium",
+    "trainings": [],
+    "traits": [
+      {
+        "level": 1,
+        "name": "Darksight",
+        "description": "<p>You are not Blinded by Dark.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Nimble",
+        "description": "<p>You have a 5' bonus to Speed and ignore Hinder on Reflex Saves.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Scavenger",
+        "description": "<p>You have Favor on Endure Saves against being Sickened.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [
+    {
+      "_id": "iX5vTWoxKajsBFnT",
+      "_key": "!items.effects!wrhhMod3pcQQeeQA.iX5vTWoxKajsBFnT",
+      "name": "Nimble",
+      "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+      "transfer": true,
+      "disabled": false,
+      "changes": [
+        {
+          "key": "system.bonuses.speed",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "duration": {},
+      "flags": {},
+      "statuses": [],
+      "origin": null
+    }
+  ],
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

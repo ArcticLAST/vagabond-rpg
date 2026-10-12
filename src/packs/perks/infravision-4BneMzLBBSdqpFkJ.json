@@ -1,0 +1,19 @@
+{
+  "_id": "4BneMzLBBSdqpFkJ",
+  "_key": "!items!4BneMzLBBSdqpFkJ",
+  "name": "Infravision",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You gain Darksight (p. 9).</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 4+ | Trained: Detect"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

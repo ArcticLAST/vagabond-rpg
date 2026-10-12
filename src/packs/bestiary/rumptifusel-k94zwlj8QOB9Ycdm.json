@@ -1,0 +1,195 @@
+{
+  "_id": "k94zwlj8QOB9Ycdm",
+  "_key": "!actors!k94zwlj8QOB9Ycdm",
+  "name": "Rumptifusel",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 3,
+    "tl": 1.7,
+    "attributes": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "armor": 1,
+      "armorTag": "as Leather",
+      "morale": 3,
+      "speed": {
+        "value": 15,
+        "types": "Climb"
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "Darksight",
+      "immune": "",
+      "weak": "Poison",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 147",
+      "description": "<p>Vicious, opportunistic hunter covered in mink-like fur. It resembles a rug, bedroll, or blanket, but its underside contains hundreds of tiny, sucker-like mouths.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "M1Cw7hGVSJkguvSv",
+      "_key": "!actors.items!k94zwlj8QOB9Ycdm.M1Cw7hGVSJkguvSv",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Drain, or 1×Cloak and 1×Drain</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "9kDRlIJNKlUg9831",
+      "_key": "!actors.items!k94zwlj8QOB9Ycdm.9kDRlIJNKlUg9831",
+      "name": "Drain",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>2 (d4) and this Being is healed for the damage dealt</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack, Restrained Target",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LGoJQaVKfGCAAJi5",
+      "_key": "!actors.items!k94zwlj8QOB9Ycdm.LGoJQaVKfGCAAJi5",
+      "name": "Cloak",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rH1g0VFVkjaRwZDZ",
+      "_key": "!actors.items!k94zwlj8QOB9Ycdm.rH1g0VFVkjaRwZDZ",
+      "name": "Cloaking",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>While it has a Target Restrained, any damage dealt to it is halved and also dealt to the Target.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Rumptifusel",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

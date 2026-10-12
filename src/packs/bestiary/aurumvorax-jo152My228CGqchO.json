@@ -1,0 +1,163 @@
+{
+  "_id": "jo152My228CGqchO",
+  "_key": "!actors!jo152My228CGqchO",
+  "name": "Aurumvorax",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 6.3,
+    "attributes": {
+      "hp": {
+        "value": 6,
+        "max": 6
+      },
+      "armor": 3,
+      "armorTag": "as (+2) Leather",
+      "morale": 12,
+      "speed": {
+        "value": 15,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "small",
+      "beingType": "cryptid",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight, Seismicsense 60'",
+      "immune": "Fire, Poison",
+      "weak": "",
+      "statusImmunities": "Sickened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 135",
+      "description": "<p>The eight-legged golden gorger is a vicious gold- furred honeybadger-like creature with an appetite for metal.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "nQT10aFZfLWl1MLk",
+      "_key": "!actors.items!jo152My228CGqchO.nQT10aFZfLWl1MLk",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>8×Claw</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "a Restrained Being",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "YtFR1XjMyMtUL0R9",
+      "_key": "!actors.items!jo152My228CGqchO.YtFR1XjMyMtUL0R9",
+      "name": "Jaw Lock",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (2d4) and Restrained (Continual).</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d4",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "iOz2fFnpHlT9GqWf",
+      "_key": "!actors.items!jo152My228CGqchO.iOz2fFnpHlT9GqWf",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>3 (d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6",
+        "average": 3,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Aurumvorax",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

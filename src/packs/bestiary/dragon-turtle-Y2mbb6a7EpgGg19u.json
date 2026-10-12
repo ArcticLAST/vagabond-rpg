@@ -1,0 +1,195 @@
+{
+  "_id": "Y2mbb6a7EpgGg19u",
+  "_key": "!actors!Y2mbb6a7EpgGg19u",
+  "name": "Dragon Turtle",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 30,
+    "tl": 10.6,
+    "attributes": {
+      "hp": {
+        "value": 135,
+        "max": 135
+      },
+      "armor": 5,
+      "armorTag": "as (+2) Plate",
+      "morale": 10,
+      "speed": {
+        "value": 10,
+        "types": "Swim 30'"
+      }
+    },
+    "details": {
+      "size": "colossal",
+      "beingType": "cryptid",
+      "subtype": "Wyrm",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Fire",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 140",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "4DETO1kTUEwLxCRB",
+      "_key": "!actors.items!Y2mbb6a7EpgGg19u.4DETO1kTUEwLxCRB",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Steam Breath or 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "it3TRbfdZBHAMbZ1",
+      "_key": "!actors.items!Y2mbb6a7EpgGg19u.it3TRbfdZBHAMbZ1",
+      "name": "Steam Breath",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>28 (8d6), and Burning (Cd6) if failed</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack; Far Cone | Endure or Reflex",
+        "damage": "8d6",
+        "average": 28,
+        "damageType": "fire",
+        "save": "endureReflex",
+        "recharge": "Recharge Cd6",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mE0WvlBQLcVXLKvD",
+      "_key": "!actors.items!Y2mbb6a7EpgGg19u.mE0WvlBQLcVXLKvD",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7mJ4y4uzyWgbXFzZ",
+      "_key": "!actors.items!Y2mbb6a7EpgGg19u.7mJ4y4uzyWgbXFzZ",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>18 (4d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "4d8",
+        "average": 18,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Dragon Turtle",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 6,
+    "height": 6,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

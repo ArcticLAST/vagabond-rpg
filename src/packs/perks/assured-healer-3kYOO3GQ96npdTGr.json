@@ -1,0 +1,19 @@
+{
+  "_id": "3kYOO3GQ96npdTGr",
+  "_key": "!items!3kYOO3GQ96npdTGr",
+  "name": "Assured Healer",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Healing rolls of your Spells Explode on a 1.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Life"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,259 @@
+{
+  "_id": "FJqQgIuuriLmzwuE",
+  "_key": "!actors!FJqQgIuuriLmzwuE",
+  "name": "Sphinx",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 12,
+    "tl": 5.7,
+    "attributes": {
+      "hp": {
+        "value": 54,
+        "max": 54
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 10,
+      "speed": {
+        "value": 60,
+        "types": "Fly 120'"
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "outer",
+      "subtype": "Beyonder",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Allsight, Telepathy",
+      "immune": "Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Berserk, Charmed, Confused, Frightened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 164",
+      "description": "<p>Monsters with human faces, lion bodies, and the wings of eagles. Known to trade in knowledge and poetry, making riddles a valuable commodity to these creatures.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "pT5gMs06dUc3wGId",
+      "_key": "!actors.items!FJqQgIuuriLmzwuE.pT5gMs06dUc3wGId",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and either 1×Roar or 1×Cast of its choice</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "uS8r8ZqYXeP2wFNx",
+      "_key": "!actors.items!FJqQgIuuriLmzwuE.uS8r8ZqYXeP2wFNx",
+      "name": "Roar",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened (Cd4, and Dazed if within Near)</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Action, all Beings who hear it | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "2/Day",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "LQqueSl9K9oqFEIL",
+      "_key": "!actors.items!FJqQgIuuriLmzwuE.LQqueSl9K9oqFEIL",
+      "name": "Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>7 (2d6)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QkYbqxlYwAPTDNEG",
+      "_key": "!actors.items!FJqQgIuuriLmzwuE.QkYbqxlYwAPTDNEG",
+      "name": "Dispel Magic",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>A magic effect of its choice is dispelled or suspended for 2d6 hours if it is a Curse or Relic Power</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "2/Day",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "25gg6OilvSnbrnUB",
+      "_key": "!actors.items!FJqQgIuuriLmzwuE.25gg6OilvSnbrnUB",
+      "name": "Future Sight",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Hinders Saves against its Attacks.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XfxE7cEAiXTJev0e",
+      "_key": "!actors.items!FJqQgIuuriLmzwuE.XfxE7cEAiXTJev0e",
+      "name": "Magic Ward II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Sphinx",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

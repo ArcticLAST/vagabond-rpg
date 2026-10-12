@@ -1,0 +1,10 @@
+<section class="tab biography {{tab.cssClass}}" data-tab="biography" data-group="primary">
+  <h3>{{localize "VAGABOND.Biography"}}</h3>
+  {{#if editable}}
+  <prose-mirror name="system.details.biography" value="{{source.details.biography}}" document-uuid="{{actor.uuid}}" toggled>{{{biographyHTML}}}</prose-mirror>
+  {{else}}<div class="prose">{{{biographyHTML}}}</div>{{/if}}
+  <h3>{{localize "VAGABOND.Notes"}}</h3>
+  {{#if editable}}
+  <prose-mirror name="system.details.notes" value="{{source.details.notes}}" document-uuid="{{actor.uuid}}" toggled>{{{notesHTML}}}</prose-mirror>
+  {{else}}<div class="prose">{{{notesHTML}}}</div>{{/if}}
+</section>

@@ -1,0 +1,46 @@
+{
+  "_id": "YbT32pqM2XaLXsZ0",
+  "_key": "!items!YbT32pqM2XaLXsZ0",
+  "name": "Skyhowel",
+  "type": "weapon",
+  "img": "icons/sundries/survival/leather-strap-brown.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Chain Whip</em></p><p>Chain Whip that crackles with arcs of lightning as it swings. It has the following Powers:</p><ul><li><strong>(+1) Weapon:</strong> Deals an extra +1 damage.</li><li><strong>Shocktongue:</strong> Its damage is Shock.</li><li><strong>Crack the Sky:</strong> (1/Day) Strike the air, causing all Near foes who aren't Immune to Shock to become Dazed (d4 Rounds).</li></ul><p>Value: 1600g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 107",
+    "quantity": 1,
+    "slots": 2,
+    "value": 160000,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": true,
+      "keen": false,
+      "long": true,
+      "thrown": false,
+      "vicious": true
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "d6",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 1,
+    "crude": false,
+    "relic": true,
+    "damageType": "shock"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

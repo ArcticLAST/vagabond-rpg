@@ -1,0 +1,35 @@
+{
+  "_id": "WkP3Gnctkml5qRuS",
+  "_key": "!items!WkP3Gnctkml5qRuS",
+  "name": "Tanglefoot Bag",
+  "type": "gear",
+  "img": "icons/weapons/thrown/bomb-fuse-black.webp",
+  "system": {
+    "description": "<p>A bag filled with sticky black tar that bursts on impact. A Target who is hit with this Item is Restrained (Cd4 Rounds). This has no effect underwater.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 50.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "explosive",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

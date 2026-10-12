@@ -1,0 +1,19 @@
+{
+  "_id": "ZA0H69aEnvckwhbY",
+  "_key": "!items!ZA0H69aEnvckwhbY",
+  "name": "Quick Draw",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>When Combat occurs, you can make one Ranged or Thrown attack before the first Turn, which is Hindered if it is made with a 2H Weapon.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 7 | Trained: Detect & Ranged"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

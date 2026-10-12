@@ -1,0 +1,35 @@
+{
+  "_id": "rYDDsfJdwHBgN6eP",
+  "_key": "!items!rYDDsfJdwHBgN6eP",
+  "name": "Backpack",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Occupies 1 Slot when held. While worn (equipped) it grants +2 Slots. (Core Rulebook p. 79.)</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 79",
+    "quantity": 1,
+    "slots": 1,
+    "value": 5,
+    "equipped": false,
+    "category": "container",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 2,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

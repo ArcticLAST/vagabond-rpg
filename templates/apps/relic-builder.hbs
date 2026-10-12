@@ -1,0 +1,103 @@
+<div class="builder relic">
+  <section class="relic-layout">
+    <div class="relic-main">
+      <div class="relic-identity">
+        <label class="wide"><span>{{localize "VAGABOND.RelicBuilder.Base"}}</span>
+          <select data-field="base">
+            <option value="" {{#unless build.base}}selected{{/unless}}>{{localize "VAGABOND.RelicBuilder.NoBase"}}</option>
+            <optgroup label="{{localize "TYPES.Item.weaponPl"}}">{{#each bases.weapon}}<option value="{{uuid}}" {{#if selected}}selected{{/if}}>{{name}}</option>{{/each}}</optgroup>
+            <optgroup label="{{localize "TYPES.Item.armorPl"}}">{{#each bases.armor}}<option value="{{uuid}}" {{#if selected}}selected{{/if}}>{{name}}</option>{{/each}}</optgroup>
+            <optgroup label="{{localize "TYPES.Item.gearPl"}}">{{#each bases.gear}}<option value="{{uuid}}" {{#if selected}}selected{{/if}}>{{name}}</option>{{/each}}</optgroup>
+          </select>
+        </label>
+        <label><span>{{localize "Name"}}</span><input type="text" data-field="name" value="{{build.name}}" placeholder="{{plan.name}}"></label>
+        <label><span>{{localize "VAGABOND.RelicBuilder.LoreItem"}}</span><input type="text" data-field="loreItem" value="{{build.loreItem}}" placeholder="{{#if plan.base}}{{plan.base.name}}{{else}}{{localize "VAGABOND.RelicBuilder.LoreItemHint"}}{{/if}}"></label>
+        <div class="relic-flags">
+          <label class="checkbox"><input type="checkbox" data-field="bound" {{checked build.bound}}> {{localize "VAGABOND.RelicBuilder.Bound"}}</label>
+          <label class="checkbox"><input type="checkbox" data-field="consumable" {{checked build.consumable}}> {{localize "VAGABOND.RelicBuilder.Consumable"}}</label>
+          <label class="checkbox"><input type="checkbox" data-field="fabled" {{checked plan.fabled}} {{disabled plan.powers.fabled}}> {{localize "VAGABOND.RelicBuilder.Fabled"}}</label>
+          <label class="checkbox"><input type="checkbox" data-field="cursed" {{checked plan.cursed}} {{disabled plan.powers.cursed}}> {{localize "VAGABOND.RelicBuilder.Cursed"}}</label>
+        </div>
+        <label class="wide"><span>{{localize "VAGABOND.RelicBuilder.Flavour"}}</span><textarea data-field="flavour" rows="2" placeholder="{{localize "VAGABOND.RelicBuilder.FlavourHint"}}">{{build.flavour}}</textarea></label>
+      </div>
+
+      <h3>{{localize "VAGABOND.RelicBuilder.Powers"}}</h3>
+      <div class="relic-powers">
+        {{#each groups}}
+        <section class="power-group {{#if open}}open{{/if}}">
+          <header data-action="openGroup" data-group="{{id}}">
+            <i class="fa-solid {{#if open}}fa-chevron-down{{else}}fa-chevron-right{{/if}}"></i>
+            <strong>{{label}}</strong>{{#if count}} <span class="tag picked">{{count}}</span>{{/if}}
+            <span class="hint">{{hint}}</span>
+          </header>
+          {{#if open}}
+          <ul class="power-list">
+            {{#each powers}}
+            <li class="power {{#if picked}}picked{{/if}}">
+              <div class="power-head">
+                {{#if tiered}}
+                <span class="power-name">{{name}}</span>
+                <select data-field="pick.{{id}}.tier">
+                  <option value="">{{localize "VAGABOND.RelicBuilder.None"}}</option>
+                  {{#each tiers}}<option value="{{id}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}
+                </select>
+                {{else}}
+                <label class="checkbox power-name"><input type="checkbox" data-field="pick.{{id}}.on" {{checked picked}}> {{name}}</label>
+                <span class="power-value">{{#if special}}{{localize "VAGABOND.RelicBuilder.Special"}}{{else}}{{value}}{{/if}}{{#if rank}} {{localize "VAGABOND.RelicBuilder.Each"}}{{/if}}</span>
+                {{/if}}
+              </div>
+              <p class="power-text">{{#if tiered}}{{tierText}}{{else}}{{text}}{{/if}}</p>
+              {{#if picked}}
+              <div class="power-inputs">
+                {{#if target}}<label><span>{{localize targetLabel}}</span><input type="text" data-field="pick.{{id}}.target" value="{{pick.target}}"></label>{{/if}}
+                {{#if rank}}<label><span>{{localize rankLabel}}</span><input type="number" min="1" data-field="pick.{{id}}.rank" value="{{#if pick.rank}}{{pick.rank}}{{else}}1{{/if}}"></label>{{/if}}
+                {{#if special}}<label><span>{{localize "VAGABOND.RelicBuilder.ValueG"}}</span><input type="number" min="0" data-field="pick.{{id}}.value" value="{{pick.value}}"></label>{{/if}}
+              </div>
+              {{/if}}
+            </li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </section>
+        {{/each}}
+
+        <section class="power-group open custom">
+          <header><strong>{{localize "VAGABOND.RelicBuilder.Custom"}}</strong> <span class="hint">{{localize "VAGABOND.RelicBuilder.CustomHint"}}</span></header>
+          <ul class="power-list">
+            {{#each build.custom}}
+            <li class="power picked custom-row">
+              <input type="text" data-field="custom.{{@index}}.name" value="{{name}}" placeholder="{{localize "VAGABOND.RelicBuilder.PowerName"}}">
+              <input type="text" data-field="custom.{{@index}}.text" value="{{text}}" placeholder="{{localize "VAGABOND.RelicBuilder.PowerText"}}">
+              <input type="number" min="0" data-field="custom.{{@index}}.value" value="{{value}}" data-tooltip="VAGABOND.RelicBuilder.ValueG">
+              <a data-action="removeCustom" data-index="{{@index}}" data-tooltip="VAGABOND.Sheet.Delete"><i class="fa-solid fa-trash"></i></a>
+            </li>
+            {{/each}}
+          </ul>
+          <button type="button" data-action="addCustom"><i class="fa-solid fa-plus"></i> {{localize "VAGABOND.RelicBuilder.AddCustom"}}</button>
+        </section>
+      </div>
+    </div>
+
+    <aside class="relic-summary">
+      <h3>{{#if plan.name}}{{plan.name}}{{else}}{{localize "VAGABOND.RelicBuilder.Unnamed"}}{{/if}}</h3>
+      <p class="relic-lore"><em>{{localize "VAGABOND.RelicBuilder.Lore"}}: {{plan.lore}}</em></p>
+      {{#if plan.powers.lines.length}}
+      <ul class="relic-lines">{{#each plan.powers.lines}}<li><strong>{{name}}:</strong> {{text}}</li>{{/each}}</ul>
+      {{else}}<p class="hint">{{localize "VAGABOND.RelicBuilder.PickPowers"}}</p>{{/if}}
+      {{#if plan.effects.length}}
+      <div class="relic-applies"><strong>{{localize "VAGABOND.RelicBuilder.Automated"}}</strong><ul>{{#each plan.effects}}<li>{{this}}</li>{{/each}}</ul></div>
+      {{/if}}
+      {{#each plan.warnings}}<p class="warning">{{this}}</p>{{/each}}
+      <div class="relic-value">
+        <label><span>{{localize "VAGABOND.RelicBuilder.ValueLabel"}}</span>
+          <input type="number" min="0" step="any" data-field="value" value="{{#if valueOverridden}}{{build.value}}{{/if}}" placeholder="{{plan.suggested}}"> g</label>
+        <p class="hint">{{localize "VAGABOND.RelicBuilder.Suggested"}}: {{suggestedText}}{{#if build.consumable}} ({{localize "VAGABOND.RelicBuilder.ConsumableValue"}}){{/if}}</p>
+      </div>
+    </aside>
+  </section>
+
+  <footer class="builder-footer">
+    <span class="hint">{{localize "VAGABOND.RelicBuilder.FooterHint"}}</span>
+    <button type="button" class="bright" data-action="create" {{disabled (not canCreate)}}><i class="fa-solid fa-gem"></i> {{localize "VAGABOND.RelicBuilder.Create"}}</button>
+  </footer>
+</div>

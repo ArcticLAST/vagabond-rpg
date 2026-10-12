@@ -1,0 +1,24 @@
+{
+  "_id": "ViN558r8e1voOREg",
+  "_key": "!items!ViN558r8e1voOREg",
+  "name": "Sleep",
+  "type": "spell",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "system": {
+    "description": "<p>If the Targets have a cumulative HD total equal to (1 + your Level) or lower, they are knocked Unconscious for the duration, ending early if they take damage or are shaken awake. You can spend Mana to increase your effective Level for the Casting by 1 per Mana spent to do.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

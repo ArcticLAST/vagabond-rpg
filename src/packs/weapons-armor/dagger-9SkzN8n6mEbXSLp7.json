@@ -1,0 +1,44 @@
+{
+  "_id": "9SkzN8n6mEbXSLp7",
+  "_key": "!items!9SkzN8n6mEbXSLp7",
+  "name": "Dagger",
+  "type": "weapon",
+  "img": "icons/weapons/daggers/dagger-straight-blue.webp",
+  "system": {
+    "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p><p><strong>Thrown:</strong> Can throw attack to Near, or Far with Hinder. Can be drawn from the Inventory as a part of the attack. You can use this Property if you aren't Trained with it.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": true,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": true,
+      "long": false,
+      "thrown": true,
+      "vicious": false
+    },
+    "range": "close",
+    "grip": "1h",
+    "damage": "d4",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

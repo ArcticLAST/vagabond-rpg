@@ -1,0 +1,19 @@
+{
+  "_id": "DFdIAlA8y603zxKj",
+  "_key": "!items!DFdIAlA8y603zxKj",
+  "name": "Advancement",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Increase one of your Stats by 1, but no higher than 7. You can take this Perk multiple times.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: Chosen Stat <7"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

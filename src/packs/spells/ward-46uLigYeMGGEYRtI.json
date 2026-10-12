@@ -1,0 +1,24 @@
+{
+  "_id": "46uLigYeMGGEYRtI",
+  "_key": "!items!46uLigYeMGGEYRtI",
+  "name": "Ward",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>The Target has +1 Armor.</p><p>You must spend 1 Mana per Target to Focus on this Spell, even for willing Targets.</p><p><strong>Upcast:</strong> When the Target takes damage from an attack or Cast, you can upcast this Spell to make a Cast Check to reduce the damage taken by 1d6 per Mana spent on the upcast if you pass.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "E1M2q9aUeV1GXE3Y",
+  "_key": "!items!E1M2q9aUeV1GXE3Y",
+  "name": "Impersonator",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can unerringly imitate the voice of any Humanlike you have heard speak.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: PRS 4+ | Trained: Influence"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

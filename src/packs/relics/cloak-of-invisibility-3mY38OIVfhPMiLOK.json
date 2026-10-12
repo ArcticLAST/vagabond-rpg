@@ -1,0 +1,27 @@
+{
+  "_id": "3mY38OIVfhPMiLOK",
+  "_key": "!items!3mY38OIVfhPMiLOK",
+  "name": "Cloak of Invisibility",
+  "type": "armor",
+  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "system": {
+    "description": "<p><em>Lore: Relic Light Armor (Bound)</em></p><p>A cloak of shimmers that reflects light anomalously. The Bound wearer has the following Power:</p><ul><li><strong>Invisibility I:</strong> They use their Action or skip their Move to become Invisible until after they take an Action.</li></ul><p>Value: 5000g</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 103",
+    "quantity": 1,
+    "slots": 1,
+    "value": 500000,
+    "equipped": false,
+    "armorType": "light",
+    "rating": 1,
+    "might": 2,
+    "metal": "",
+    "bonus": 0
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

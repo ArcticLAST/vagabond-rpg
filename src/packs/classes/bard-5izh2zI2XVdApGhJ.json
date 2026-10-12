@@ -1,0 +1,183 @@
+{
+  "_id": "5izh2zI2XVdApGhJ",
+  "_key": "!items!5izh2zI2XVdApGhJ",
+  "name": "Bard",
+  "type": "class",
+  "img": "icons/tools/instruments/harp-yellow-teal.webp",
+  "system": {
+    "description": "<p>Bards were terrible at keeping secrets. They insisted on putting them to music. —Tanya Huff, Sing the Four Quarters Bard's are heralds of the awe-inspiring beauty of creation. While the painter and sculptor decorate space, a Bard decorates time.</p><p>The bard is a mid-defense, high-support class with a focus on optimizing your Group&#x27;s d20 rolls. It&#x27;s recommended that you avoid melee on most Bard builds.</p><ul><li><strong>Action:</strong> Virtuoso</li><li><strong>Move:</strong> Midline/Backline</li><li><strong>Key Stat:</strong> Presence</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Finesse, Influence, Performance</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 33",
+    "keyStats": [
+      "prs"
+    ],
+    "trainings": [
+      "finesse",
+      "influence",
+      "performance"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Virtuoso · Midline/Backline",
+    "startingPacks": "<p>Musician</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Virtuoso",
+        "description": "<p>You can use your Action or skip your Move to choose one of the following benefits and make a Performance Check. If you pass, your Group gains the benefit for that Round:</p><ul><li>Inspiration: d6 bonus to Healing rolls.</li><li>Resolve: Favor on Saves.</li><li>Valor: Favor on Attack and Cast Checks.</li></ul>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Well-Versed",
+        "description": "<p>You ignore Stat minimum Prerequisites for Perks, and gain a Perk of your choice.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 1,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Overtuned",
+        "description": "<p>If a d6 bonus you grant causes a d20 result to be 21 or higher, you gain 1 Luck. The result needed is reduced by 1 every 4 Levels hereafter.</p><p><em>Bard: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Audacity",
+        "description": "<p>When you pass a Performance Check or Crit on any Save, you can cause a Being that can hear you to become Berserk, Charmed, Confused, or Frightened for Cd4 Rounds. Once this ends, they are immune to this Ability for the Shift. This countdown die increases to a Cd6 at 8th Level.</p><p><em>Bard: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Enjoy the Silence",
+        "description": "<p>You ignore effects that rely on you hearing them to be affected (such as a banshee's scream), and you have Favor on Saves against being Berserk, Charmed, Confused, or Frightened.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Climax",
+        "description": "<p>Your bonus dice rolls and bonus dice rolls you grant can Explode.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

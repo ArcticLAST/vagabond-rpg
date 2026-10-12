@@ -1,0 +1,35 @@
+{
+  "_id": "AkHmYraFtIkxtr5b",
+  "_key": "!items!AkHmYraFtIkxtr5b",
+  "name": "Potion, Fire Resistance",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>For 1 Hour, the consumer gains these benefits:</p><ul><li>They aren't harmed by Sweltering Heat.</li><li>They gain a +2 bonus to Saves against Firebased attacks and magic.</li><li>They reduce any Fire damage they take by 1 per die used for the damage.</li></ul>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 2500.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

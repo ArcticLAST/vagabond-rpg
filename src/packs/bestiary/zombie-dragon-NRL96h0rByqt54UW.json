@@ -1,0 +1,292 @@
+{
+  "_id": "NRL96h0rByqt54UW",
+  "_key": "!actors!NRL96h0rByqt54UW",
+  "name": "Zombie Dragon",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 25,
+    "tl": 9.1,
+    "attributes": {
+      "hp": {
+        "value": 112,
+        "max": 112
+      },
+      "armor": 3,
+      "armorTag": "as (+2) Leather",
+      "morale": 12,
+      "speed": {
+        "value": 30,
+        "types": "Fly 60'"
+      }
+    },
+    "details": {
+      "size": "giant",
+      "beingType": "undead",
+      "subtype": "Cryptid, Wyrm",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Blindsight",
+      "immune": "Cold, Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Berserk, Charmed, Confused, Fatigued, Frightened, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 181",
+      "description": "<p>The animated husk of a living myth, dripping with rot and misery.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "zZknLopNl6BRt6Ut",
+      "_key": "!actors.items!NRL96h0rByqt54UW.zZknLopNl6BRt6Ut",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw, 1×Bite, and 1×Gore Spray</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Cr1fLO10RHspoUOT",
+      "_key": "!actors.items!NRL96h0rByqt54UW.Cr1fLO10RHspoUOT",
+      "name": "Gore Spray",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>7 (2d6) and Sickened (Cd6)</p>",
+        "source": "",
+        "actionType": "attack",
+        "tags": "Attack, Far Cone",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "Recharge Cd4",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "J3ZECMl3N6DX3snK",
+      "_key": "!actors.items!NRL96h0rByqt54UW.J3ZECMl3N6DX3snK",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d8)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d8",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "kcwVNOfXMMx8IlSx",
+      "_key": "!actors.items!NRL96h0rByqt54UW.kcwVNOfXMMx8IlSx",
+      "name": "(+1) Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d6+1)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d6+1",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "relic": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "D73CZtuEmJaIPE5o",
+      "_key": "!actors.items!NRL96h0rByqt54UW.D73CZtuEmJaIPE5o",
+      "name": "Grim Harvester",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Whenever a Being dies within Far, this Being regains HP equal to that Being's HD or Level.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "v1LVN9gfq1WNMv37",
+      "_key": "!actors.items!NRL96h0rByqt54UW.v1LVN9gfq1WNMv37",
+      "name": "Terror III",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened until they pass this Save on a subsequent Turn, or for Cd8 after.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Enemies' first time seeing it and on their Turns | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Chvzrl2QhyRILt7l",
+      "_key": "!actors.items!NRL96h0rByqt54UW.Chvzrl2QhyRILt7l",
+      "name": "Zombie",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be reduced below 1 HP unless dealt by a Crit, damage it is Weak to, or while in Sunlight.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Zombie Dragon",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 4,
+    "height": 4,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

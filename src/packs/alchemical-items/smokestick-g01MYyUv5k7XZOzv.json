@@ -1,0 +1,35 @@
+{
+  "_id": "g01MYyUv5k7XZOzv",
+  "_key": "!items!g01MYyUv5k7XZOzv",
+  "name": "Smokestick",
+  "type": "gear",
+  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "system": {
+    "description": "<p>A treated wooden stick that can produce a thick plume of opaque smoke. For Cd6, it creates a 10' wide column of thick smoke, visible out to one mile outdoors. If thrown indoors, the smoke instead fills up to a 60' sphere.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 10.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "concoction",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

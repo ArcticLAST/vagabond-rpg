@@ -1,0 +1,259 @@
+{
+  "_id": "yqVV7dFPXxu4Sqll",
+  "_key": "!actors!yqVV7dFPXxu4Sqll",
+  "name": "Golem, Iron",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 18,
+    "tl": 8.9,
+    "attributes": {
+      "hp": {
+        "value": 81,
+        "max": 81
+      },
+      "armor": 5,
+      "armorTag": "as (+2) Plate",
+      "morale": null,
+      "speed": {
+        "value": 15,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Darksight",
+      "immune": "Fire, Cold, Poison; Physical from non-Relics",
+      "weak": "Adamant Weapons",
+      "statusImmunities": "Charmed, Fatigued, Paralyzed, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 120",
+      "description": "<p>A massive warrior statue of iron or similar metal.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "lMPLOJnHgldmCZhb",
+      "_key": "!actors.items!yqVV7dFPXxu4Sqll.lMPLOJnHgldmCZhb",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Poison Breath and 1×Greatsword, or 2×Greatsword</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gZl5XDihns8vOhZc",
+      "_key": "!actors.items!yqVV7dFPXxu4Sqll.gZl5XDihns8vOhZc",
+      "name": "Poison Breath",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>2 (d4) Fatigue</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Close 10' Cube | Endure",
+        "damage": "d4",
+        "average": 2,
+        "damageType": "poison",
+        "save": "endure",
+        "recharge": "Recharge Cd8",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qJFaT0OpSi5VxGk1",
+      "_key": "!actors.items!yqVV7dFPXxu4Sqll.qJFaT0OpSi5VxGk1",
+      "name": "Greatsword",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>13 (2d12)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d12",
+        "average": 13,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FxAQCou0a7xDEAVo",
+      "_key": "!actors.items!yqVV7dFPXxu4Sqll.FxAQCou0a7xDEAVo",
+      "name": "Fire-Absorber",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Fire damage rolls heal it instead.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "MDy0OCBkWGTUd2up",
+      "_key": "!actors.items!yqVV7dFPXxu4Sqll.MDy0OCBkWGTUd2up",
+      "name": "Immutable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rJGrFjOSYV57Qteu",
+      "_key": "!actors.items!yqVV7dFPXxu4Sqll.rJGrFjOSYV57Qteu",
+      "name": "Magic Ward I",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Golem, Iron",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

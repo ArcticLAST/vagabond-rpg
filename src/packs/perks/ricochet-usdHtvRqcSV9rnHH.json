@@ -1,0 +1,19 @@
+{
+  "_id": "usdHtvRqcSV9rnHH",
+  "_key": "!items!usdHtvRqcSV9rnHH",
+  "name": "Ricochet",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Your attacks with Ranged and Thrown Weapons can Target around corners, provided you have at least seen or heard the Target in the last Round.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 4+ | Trained: Detect"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

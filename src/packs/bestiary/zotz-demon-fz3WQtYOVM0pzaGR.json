@@ -1,0 +1,293 @@
+{
+  "_id": "fz3WQtYOVM0pzaGR",
+  "_key": "!actors!fz3WQtYOVM0pzaGR",
+  "name": "Zotz Demon",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 14,
+    "tl": 9.2,
+    "attributes": {
+      "hp": {
+        "value": 63,
+        "max": 63
+      },
+      "armor": 4,
+      "armorTag": "as (+1) Plate",
+      "morale": 11,
+      "speed": {
+        "value": 20,
+        "types": "Fly 80'"
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "outer",
+      "subtype": "Hellspawn",
+      "zone": "frontline",
+      "appearing": "d4",
+      "senses": "Echolocation",
+      "immune": "Poison; Physical from non-Relics",
+      "weak": "",
+      "statusImmunities": "Fatigued, Frightened",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 167",
+      "description": "<p>Massive bats out of hell.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "6NZ4wyAjkCEVF5la",
+      "_key": "!actors.items!fz3WQtYOVM0pzaGR.6NZ4wyAjkCEVF5la",
+      "name": "Shriek",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Frightened (Cd6, it can't hear)</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Action, Far Aura | Will",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "will",
+        "recharge": "Recharge Cd4",
+        "sort": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "cvYOJxjMkLeGZLBk",
+      "_key": "!actors.items!fz3WQtYOVM0pzaGR.cvYOJxjMkLeGZLBk",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Claw and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 1,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "lfxouj1BMOfkWhHD",
+      "_key": "!actors.items!fz3WQtYOVM0pzaGR.lfxouj1BMOfkWhHD",
+      "name": "(+2) Claw",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>9 (2d6+2)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "2d6+2",
+        "average": 9,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "relic": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "W1sOnwmfWtOAMhW8",
+      "_key": "!actors.items!fz3WQtYOVM0pzaGR.W1sOnwmfWtOAMhW8",
+      "name": "(+2) Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>15 (3d8+2) and this Being is healed for the damage dealt</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "3d8+2",
+        "average": 15,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 3,
+        "relic": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jwtYVggvTCN6s2ZY",
+      "_key": "!actors.items!fz3WQtYOVM0pzaGR.jwtYVggvTCN6s2ZY",
+      "name": "Avatar of Death",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>No Being within Near can be revived.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "zhpLJK42xGrAb5QT",
+      "_key": "!actors.items!fz3WQtYOVM0pzaGR.zhpLJK42xGrAb5QT",
+      "name": "Magic Ward II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 101,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HfA4ByrEG2dGzw4J",
+      "_key": "!actors.items!fz3WQtYOVM0pzaGR.HfA4ByrEG2dGzw4J",
+      "name": "Nimble",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 102,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Zotz Demon",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "svGrbsW0IAxstPdQ",
+  "_key": "!items!svGrbsW0IAxstPdQ",
+  "name": "Candle, Calming",
+  "type": "gear",
+  "img": "icons/sundries/lights/candle-unlit-tan.webp",
+  "system": {
+    "description": "<p>Acts as a basic candle. The air in the Light is filled with a fresh, crisp odor. Those in its Light gain Favor on Saves against Berserk or Frightened.</p><p>ALCHEMIC Item Acid Basic Defoliator Green slime Oxidizing Adhesive Alchemist's fire Alkahest Antitoxin Candle Basic Calming Insectbane Restful Clearbreath Darksight powder Dwarfblind stone Frigid azote Gravebane Holy water Homunculus soup Ice skin Insect repellent Instant rope Instant wall Levin shell Longbreath Oil Basic Anointing Bladefire</p><p>Value 50s 50s 5g 50s 50s 50s 50s 50s 1c 2g 50s 1s 2g 50s 50s 50s 2g 50s 2g 50s 7g 50s 50s 50s 2g 5g 50s 50s</p><p>Candle, Insectbane</p><p>10s 50s 50s</p><p>Item</p><p>Bloodletter Crone's ire Ghostflame Wyrmwound Perfume Poisons Basic Deadly Nightsh Truth Serum Potions Anger I Anger II Anger III Clairaudience Clairvoyance Control Beast Control Person Control Monste ESP Diminution Flying Freedom Gaseous Form Giant Strength Growth Healing I Healing II Healing III Invisibility Invulnerability</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 250.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "torch",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

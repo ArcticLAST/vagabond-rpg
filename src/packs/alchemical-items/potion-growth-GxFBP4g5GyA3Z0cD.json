@@ -1,0 +1,35 @@
+{
+  "_id": "GxFBP4g5GyA3Z0cD",
+  "_key": "!items!GxFBP4g5GyA3Z0cD",
+  "name": "Potion, Growth",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>For 1 Hour, the consumer gains these benefits:</p><ul><li>Their size increases by one.</li><li>Their attacks deal an extra die of damage. A Being can benefit from no more than one of these potions at a time.</li></ul>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 17500.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

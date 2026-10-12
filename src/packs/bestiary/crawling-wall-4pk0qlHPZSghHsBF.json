@@ -1,0 +1,195 @@
+{
+  "_id": "4pk0qlHPZSghHsBF",
+  "_key": "!actors!4pk0qlHPZSghHsBF",
+  "name": "Crawling Wall",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 13,
+    "tl": 6.1,
+    "attributes": {
+      "hp": {
+        "value": 58,
+        "max": 58
+      },
+      "armor": 3,
+      "armorTag": "as Plate",
+      "morale": null,
+      "speed": {
+        "value": 20,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "huge",
+      "beingType": "artificial",
+      "subtype": "",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "",
+      "immune": "Poison",
+      "weak": "Blunt",
+      "statusImmunities": "Paralyzed, Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 118",
+      "description": "<p>A silent, moving wall that catches its prey by crushing it and soaking the pulp through its cracks. They may have arms and a mouth.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "KTLw92O6RJBbtx8R",
+      "_key": "!actors.items!4pk0qlHPZSghHsBF.KTLw92O6RJBbtx8R",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>1×Grasp and 1×Crush</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "U19EUhnldwyu9Y71",
+      "_key": "!actors.items!4pk0qlHPZSghHsBF.U19EUhnldwyu9Y71",
+      "name": "Grasp",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8) and Restrained</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XbYYF5z7PXhWdyU8",
+      "_key": "!actors.items!4pk0qlHPZSghHsBF.XbYYF5z7PXhWdyU8",
+      "name": "Crush",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Any Huge or smaller Being in its path is pushed in front of it for the Move. If there is no open space within Close for the Being to go when this happens, it takes 3 (d6) for every 5' of Speed this Being has remaining.</p>",
+        "source": "",
+        "actionType": "action",
+        "tags": "Rush",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "Mil4GbwictFOEjlI",
+      "_key": "!actors.items!4pk0qlHPZSghHsBF.Mil4GbwictFOEjlI",
+      "name": "Immutable",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It can't be transformed.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Crawling Wall",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 3,
+    "height": 3,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

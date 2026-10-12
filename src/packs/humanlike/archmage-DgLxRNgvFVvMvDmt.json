@@ -1,0 +1,323 @@
+{
+  "_id": "DgLxRNgvFVvMvDmt",
+  "_key": "!actors!DgLxRNgvFVvMvDmt",
+  "name": "Archmage",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 9,
+    "tl": 7.1,
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "max": 40
+      },
+      "armor": 2,
+      "armorTag": "as Chain",
+      "morale": 8,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "medium",
+      "beingType": "humanlike",
+      "subtype": "",
+      "zone": "backline",
+      "appearing": "",
+      "senses": "",
+      "immune": "",
+      "weak": "",
+      "statusImmunities": "",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 112",
+      "description": ""
+    }
+  },
+  "items": [
+    {
+      "_id": "yPTc0qwO7Dm1sEKn",
+      "_key": "!actors.items!DgLxRNgvFVvMvDmt.yPTc0qwO7Dm1sEKn",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2 of any Cast Actions it can take</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "imQblDCLAV6KNvdt",
+      "_key": "!actors.items!DgLxRNgvFVvMvDmt.imQblDCLAV6KNvdt",
+      "name": "Lightning Bolt",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 30-foot Line | Reflex",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "2/Day",
+        "sort": 1,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "dIr0vNGeNwwX2EB1",
+      "_key": "!actors.items!DgLxRNgvFVvMvDmt.dIr0vNGeNwwX2EB1",
+      "name": "Fireball",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 20-foot Sphere | Reflex",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "2/Day",
+        "sort": 2,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "a8IccBuUcaWzC2St",
+      "_key": "!actors.items!DgLxRNgvFVvMvDmt.a8IccBuUcaWzC2St",
+      "name": "Blizzard",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>10 (3d6) and filling the area with snow (Difficult Terrain)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, 20-foot Sphere | Endure",
+        "damage": "3d6",
+        "average": 10,
+        "damageType": "cold",
+        "save": "endure",
+        "recharge": "Focus, 2/Day",
+        "sort": 3,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "X2VYbNko6CAJ8XUU",
+      "_key": "!actors.items!DgLxRNgvFVvMvDmt.X2VYbNko6CAJ8XUU",
+      "name": "Firebolt",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>7 (2d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Remote | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "fire",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 4,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "QvUShNbtY5ejZW28",
+      "_key": "!actors.items!DgLxRNgvFVvMvDmt.QvUShNbtY5ejZW28",
+      "name": "Ice Knife",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>7 (2d6) and its Speed is reduced by half for the duration</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Bolt | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "cold",
+        "save": "reflex",
+        "recharge": "Focus",
+        "sort": 5,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "FTSp2oiN80647kGy",
+      "_key": "!actors.items!DgLxRNgvFVvMvDmt.FTSp2oiN80647kGy",
+      "name": "Zap",
+      "type": "action",
+      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "system": {
+        "description": "<p>7 (2d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
+        "source": "",
+        "actionType": "cast",
+        "tags": "Cast, Bolt | Reflex",
+        "damage": "2d6",
+        "average": 7,
+        "damageType": "shock",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 6,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NvyirxB2U67zZUUK",
+      "_key": "!actors.items!DgLxRNgvFVvMvDmt.NvyirxB2U67zZUUK",
+      "name": "Magic Ward II",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "Ability",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Archmage",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "_id": "qrF7zXYSFkMoTSHQ",
+  "_key": "!actors!qrF7zXYSFkMoTSHQ",
+  "name": "Otyugh",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "hd": 6,
+    "tl": 4.6,
+    "attributes": {
+      "hp": {
+        "value": 27,
+        "max": 27
+      },
+      "armor": 3,
+      "armorTag": "as (+1) Chain",
+      "morale": 8,
+      "speed": {
+        "value": 30,
+        "types": ""
+      }
+    },
+    "details": {
+      "size": "large",
+      "beingType": "outer",
+      "subtype": "Beyonder",
+      "zone": "frontline",
+      "appearing": "1",
+      "senses": "Telepathy",
+      "immune": "Poison",
+      "weak": "",
+      "statusImmunities": "Sickened, Suffocating",
+      "source": "Vagabond Core Rulebook (Alpha 3), p. 162",
+      "description": "<p>The loathsome dung-eaters that inhabit city sewers. They stamp around on three clawed legs, and use a set of tentacles to grasp prey, with a forehead tentacle used to see.</p>"
+    }
+  },
+  "items": [
+    {
+      "_id": "qoloN4xGmh20gsp4",
+      "_key": "!actors.items!qrF7zXYSFkMoTSHQ.qoloN4xGmh20gsp4",
+      "name": "Combo",
+      "type": "action",
+      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "system": {
+        "description": "<p>2×Tentacle and 1×Bite</p>",
+        "source": "",
+        "actionType": "combo",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "",
+        "recharge": "",
+        "sort": 0,
+        "relic": 0,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "WDSPX1BhAMsoGZ3f",
+      "_key": "!actors.items!qrF7zXYSFkMoTSHQ.WDSPX1BhAMsoGZ3f",
+      "name": "Bite",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>5 (d10) and pass [Endure] or become Sickened (until cured, Otyugh Disease)</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d10",
+        "average": 5,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 1,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "gPCv3wjgIxmeGMHA",
+      "_key": "!actors.items!qrF7zXYSFkMoTSHQ.gPCv3wjgIxmeGMHA",
+      "name": "Tentacle",
+      "type": "action",
+      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "system": {
+        "description": "<p>4 (d8) and Restrained. If the Target is already Restrained this way, it is instead slammed into something and takes 7 (2d6) and must pass an [Endure] Save or be Dazed for 1 Round.</p>",
+        "source": "",
+        "actionType": "melee",
+        "tags": "Melee Attack",
+        "damage": "d8",
+        "average": 4,
+        "damageType": "physical",
+        "save": "reflex",
+        "recharge": "",
+        "sort": 2,
+        "effectSaves": {
+          "endure": true,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "NhtEIyD1Irzds8pe",
+      "_key": "!actors.items!qrF7zXYSFkMoTSHQ.NhtEIyD1Irzds8pe",
+      "name": "Otyugh Disease",
+      "type": "action",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Beings that aren't otyughs that are Sickened this way must pass an an [Endure] Save every day or lose 3 (d6) from their Max HP. This reduction to their Max HP lasts while they are Sickened by this disease.</p>",
+        "source": "",
+        "actionType": "ability",
+        "tags": "",
+        "damage": "",
+        "average": null,
+        "damageType": "",
+        "save": "endure",
+        "recharge": "",
+        "sort": 100,
+        "effectSaves": {
+          "endure": false,
+          "reflex": false,
+          "will": false
+        },
+        "healing": false
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 10000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "prototypeToken": {
+    "name": "Otyugh",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    },
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "sight": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "CyjbYpiD7grS4dEL",
+  "_key": "!items!CyjbYpiD7grS4dEL",
+  "name": "Potion, Polymorph",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>The consumer is transformed as per the Polymorph Spell (p. 97) for 1 Hour. If the consumer isn't aware they are drinking the potion or does not choose a form, roll d66: d66 Beast</p><p>d66 Beast</p><p>1 1 Toad 2 Sheep 3 Chicken 4 Fox 5 Boar 6 Hawk 2 1 Goat 2 Rat 3 Badger 4 Octopus 5 Rabbit 6 Owl</p><p>3 1 Camel 5 1 Dolphin 2 Horse 2 Pidgeon 3 Llama 3 Tiger 4 Cat 4 Lion 5 Crocodile 5 Bull 6 Cow 6 Shark 4 1 Moose 6 1 Eagle 2 Elk 2 Bear 3 Giant Spider 3 Elephant 4 Viper 4 Crab 5 Wolf 5 El. Eel 6 Ape 6 T-rex</p><p>Potion, Regeneration</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 7000.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

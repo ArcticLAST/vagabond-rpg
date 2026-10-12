@@ -1,0 +1,35 @@
+{
+  "_id": "VV0SOysiPVKzjTbW",
+  "_key": "!items!VV0SOysiPVKzjTbW",
+  "name": "Potion, Healing (I)",
+  "type": "gear",
+  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "system": {
+    "description": "<p>The consumer regains HP equal to a number of d6 rolls determined by the Potion's Rank, plus a modifier equal to its Rank:</p><p><strong>Rank I:</strong> d6+1</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 84",
+    "quantity": 1,
+    "slots": 1,
+    "value": 250.0,
+    "equipped": false,
+    "category": "alchemical",
+    "alchemicalType": "potion",
+    "consumable": true,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "d6+1",
+      "type": "healing",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

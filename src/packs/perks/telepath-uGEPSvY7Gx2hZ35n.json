@@ -1,0 +1,19 @@
+{
+  "_id": "uGEPSvY7Gx2hZ35n",
+  "_key": "!items!uGEPSvY7Gx2hZ35n",
+  "name": "Telepath",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>You can use your Action or skip your Move to begin Focusing on this Ability to gain Telepathy (Far).</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: RSN 7"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,279 @@
+{
+  "id": "vagabond-rpg",
+  "title": "Vagabond (Alpha 3)",
+  "description": "An unofficial Foundry VTT game system for Vagabond, the pulp fantasy roleplaying game by Land of the Blind. Built against the Core Rulebook v3 Alpha 3 playtest material.",
+  "version": "0.6.7",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Arctic"
+    }
+  ],
+  "esmodules": [
+    "vagabond.mjs"
+  ],
+  "styles": [
+    "styles/vagabond.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": [
+          "details.biography",
+          "details.notes"
+        ]
+      },
+      "npc": {
+        "htmlFields": [
+          "details.description"
+        ]
+      },
+      "container": {
+        "htmlFields": [
+          "details.description"
+        ]
+      },
+      "vehicle": {
+        "htmlFields": [
+          "details.description"
+        ]
+      }
+    },
+    "Item": {
+      "weapon": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "armor": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "gear": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "spell": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "perk": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "feature": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "class": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "ancestry": {
+        "htmlFields": [
+          "description"
+        ]
+      },
+      "action": {
+        "htmlFields": [
+          "description"
+        ]
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ancestries",
+      "label": "Ancestries",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "perks",
+      "label": "Perks",
+      "path": "packs/perks",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weapons-armor",
+      "label": "Weapons & Armor",
+      "path": "packs/weapons-armor",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gear",
+      "label": "Gear",
+      "path": "packs/gear",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "alchemical-items",
+      "label": "Alchemical Items",
+      "path": "packs/alchemical-items",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiary",
+      "label": "Bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "relics",
+      "label": "Relics",
+      "path": "packs/relics",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "starting-packs",
+      "label": "Starting Packs",
+      "path": "packs/starting-packs",
+      "type": "Item",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "humanlike",
+      "label": "Humanlike NPCs",
+      "path": "packs/humanlike",
+      "type": "Actor",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "vehicles",
+      "label": "Vehicles",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "vagabond-rpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Vagabond",
+      "sorting": "m",
+      "color": "#5c1a12",
+      "packs": [
+        "classes",
+        "ancestries",
+        "perks",
+        "spells",
+        "weapons-armor",
+        "gear",
+        "starting-packs",
+        "alchemical-items",
+        "relics",
+        "bestiary",
+        "humanlike",
+        "vehicles"
+      ]
+    }
+  ],
+  "socket": true,
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "attributes.hp",
+  "secondaryTokenAttribute": "attributes.mana",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "styles",
+        "templates",
+        "lang"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_id": "Sc66Tv9ZvfF9p70J",
+  "_key": "!items!Sc66Tv9ZvfF9p70J",
+  "name": "Cryptozoologist",
+  "type": "perk",
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "description": "<p>Choose a Being Type. You can use an Action or skip your Move to spend a Studied die and make those Beings Weak to your next damage instance this Round. You can take this Perk multiple times to choose other Being Types.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Stat: AWR 4+ | Trained: Mysticism & Survival"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

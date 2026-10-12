@@ -1,0 +1,35 @@
+{
+  "_id": "N6o6dHir2kHyd3H7",
+  "_key": "!items!N6o6dHir2kHyd3H7",
+  "name": "Saddle & tack",
+  "type": "gear",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p><em>Beasts &amp; Husbandry</em></p><p>Adds 5 Slots (as a mount or vehicle).</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 78",
+    "quantity": 1,
+    "slots": 0,
+    "value": 250.0,
+    "equipped": false,
+    "category": "container",
+    "alchemicalType": "",
+    "consumable": false,
+    "slotsBonus": 0,
+    "uses": {
+      "value": 0,
+      "max": 0
+    },
+    "roll": {
+      "formula": "",
+      "type": "",
+      "save": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

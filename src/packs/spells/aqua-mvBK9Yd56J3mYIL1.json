@@ -1,0 +1,24 @@
+{
+  "_id": "mvBK9Yd56J3mYIL1",
+  "_key": "!items!mvBK9Yd56J3mYIL1",
+  "name": "Aqua",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<p>This Spell can create and destroy fresh water in the following ways:</p><p><strong>Area:</strong> The space within is emptied or filled with water. If the area is occupied by a Being, this requires a Cast Check. You choose if this water remains or dries up after the duration.</p><p><strong>Target:</strong> This can push an Item that occupies 1 or fewer Slots, or a Being with Level or HD 1 or lower. You can upcast this Spell to increase this number by 1 per Mana spent to do so.</p><p><strong>Distance:</strong> This pushes the Target 5', and you can upcast this Spell to increase the distance pushed by 5' per Mana spent to do so.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 92",
+    "damageBase": "",
+    "damageDie": 6,
+    "crit": "",
+    "focus": false,
+    "noDamage": true,
+    "delivery": "remote"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "0V3PZxgPYRhoZKrK",
+  "_key": "!items!0V3PZxgPYRhoZKrK",
+  "name": "Elf",
+  "type": "ancestry",
+  "img": "icons/environment/people/archer.webp",
+  "system": {
+    "description": "<p>Elves are known for their tall height, ethereal beauty, and inquisitive passion to witness awe. It is likely no other people lives as peacefully and permissively with the fae, fauna, and flora as elves.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 24",
+    "beingType": "fae",
+    "size": "medium",
+    "trainings": [
+      "detect"
+    ],
+    "traits": [
+      {
+        "level": 1,
+        "name": "Ascendancy",
+        "description": "<p>You are Trained in Detect and 1 other Skill.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 1,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Elven Eyes",
+        "description": "<p>You have Favor on sight-based Detect Checks.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Naturally Attuned",
+        "description": "<p>You know a Spell of your choice and can Cast it with a Skill of your choice. Further, once per Round, you can Cast it with a 1 Mana discount on its Delivery.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 1,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

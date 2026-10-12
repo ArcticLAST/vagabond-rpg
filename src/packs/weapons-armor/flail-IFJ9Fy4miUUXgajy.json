@@ -1,0 +1,44 @@
+{
+  "_id": "IFJ9Fy4miUUXgajy",
+  "_key": "!items!IFJ9Fy4miUUXgajy",
+  "name": "Flail",
+  "type": "weapon",
+  "img": "icons/weapons/maces/flail-ball-grey.webp",
+  "system": {
+    "description": "<p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 77",
+    "quantity": 1,
+    "slots": 1,
+    "value": 40.0,
+    "equipped": false,
+    "types": {
+      "melee": true,
+      "brawl": false,
+      "finesse": false,
+      "ranged": false
+    },
+    "properties": {
+      "cleave": false,
+      "defense": false,
+      "grapple": false,
+      "keen": false,
+      "long": false,
+      "thrown": false,
+      "vicious": true
+    },
+    "range": "close",
+    "grip": "v",
+    "damage": "d6",
+    "twoHanded": false,
+    "metal": "",
+    "bonus": 0,
+    "crude": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,183 @@
+{
+  "_id": "SSnB12ynLYiIJQ2z",
+  "_key": "!items!SSnB12ynLYiIJQ2z",
+  "name": "Hunter",
+  "type": "class",
+  "img": "icons/skills/ranged/arrows-triple-yellow-red.webp",
+  "system": {
+    "description": "<p>I will look for you, I will find you, and I will kill you. —Liam Neeson, Taken Keepers of the old way, hunters are survival experts that specialize in exploiting their enemies' weaknesses.</p><p>The hunter is a low defense, high-crit striker. They can be built for Melee or Ranged positions.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Midline/Backline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Melee, Ranged, Survival</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 43",
+    "keyStats": [
+      "awr"
+    ],
+    "trainings": [
+      "melee",
+      "ranged",
+      "survival"
+    ],
+    "trainingChoices": {
+      "count": 0,
+      "options": []
+    },
+    "castingSkill": "",
+    "castMax": "none",
+    "mana": {
+      "perLevel": 0
+    },
+    "spells": {
+      "base": 0,
+      "every": 0
+    },
+    "playstyle": "Attack · Midline/Backline",
+    "startingPacks": "<p>Scout or Warrior</p>",
+    "features": [
+      {
+        "level": 1,
+        "name": "Hunter's Mark",
+        "description": "<p>You can choose a Target when you attack it or by skipping your Move, declaring it as your Mark until you declare a new Mark. The following rules apply while you have a Mark:</p><ul><li>Your attacks against it with Weapons that have the Keen or Vicious property also have the other property, and Crit if a Bonus causes the result to exceed your Crit range.</li><li>You roll two d20s on Checks to track it, and use the higher result.</li></ul>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 1,
+        "name": "Survivalist",
+        "description": "<p>You gain a Perk with Survival Training as a Prerequisite, ignoring other prerequisites for it. Further, you have Favor on Checks to track, navigate, and against extreme temperatures, and you can Forage at a Normal Travel Pace.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 1,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 2,
+        "name": "Rover",
+        "description": "<p>Difficult Terrain doesn't impede your walking Speed, and you have Climb and Swim.</p><p>Further, you have a 5' bonus to Speed, which increases by 5' every 4 Levels hereafter.</p><p><em>Hunter: 2nd, 6th, 10th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 3,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 4,
+        "name": "Lethal Precision",
+        "description": "<p>When damage is dealt to your Mark by you or an Ally on your Turn, the Mark takes 1 extra damage. This extra damage increases by 1 every 4 Levels hereafter.</p><p><em>Hunter: 4th, 8th Level.</em></p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 5,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 6,
+        "name": "Killer Instinct",
+        "description": "<p>You can sense Beings within Far as if by Blindsight if they are missing any HP or are your Mark.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 7,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 9,
+        "name": "Perk",
+        "description": "<p>You gain a Perk (p. 64).</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      },
+      {
+        "level": 10,
+        "name": "Apex Predator",
+        "description": "<p>Your Mark is Weak to your attacks.</p>",
+        "grants": {
+          "perks": "",
+          "perkChoices": 0,
+          "trainingChoices": 0,
+          "spells": "",
+          "spellChoices": 0,
+          "statIncrease": 0,
+          "levels": ""
+        }
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

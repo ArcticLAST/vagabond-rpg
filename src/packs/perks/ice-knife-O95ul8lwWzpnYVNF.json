@@ -1,0 +1,19 @@
+{
+  "_id": "O95ul8lwWzpnYVNF",
+  "_key": "!items!O95ul8lwWzpnYVNF",
+  "name": "Ice Knife",
+  "type": "perk",
+  "img": "icons/magic/water/projectile-ice-shard.webp",
+  "system": {
+    "description": "<p>Ice Objects you create with Freeze last for up to 1 minute without requiring Focus.</p>",
+    "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
+    "prerequisites": "Spell: Freeze"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
