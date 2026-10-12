@@ -171,7 +171,7 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
    * @param {number|null} level   Only rows granting at this Level; null for every row.
    */
   static #sumGrants(rows, level) {
-    const g = { perks: [], perkChoices: 0, trainingChoices: 0, spells: [], spellChoices: 0, statIncrease: 0, sources: [] };
+    const g = { perks: [], perkChoices: 0, trainingChoices: 0, spells: [], spellChoices: 0, statIncrease: 0, sources: [], anySkill: [] };
     for ( const row of rows ) {
       if ( !row.grants ) continue;
       if ( (level !== null) && !grantLevels(row).includes(level) ) continue;
@@ -183,6 +183,10 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       g.perkChoices += r.perkChoices;
       g.trainingChoices += r.trainingChoices;
       g.spellChoices += r.spellChoices;
+      // "You know a Spell of your choice and can Cast it with a Skill of your choice" (Naturally Attuned).
+      if ( r.spellChoices && /skill of your choice/i.test(row.description ?? "") ) {
+        for ( let i = 0; i < r.spellChoices; i++ ) g.anySkill.push(row.name);
+      }
       g.statIncrease += r.statIncrease;
       g.sources.push(row.name);
     }
@@ -230,7 +234,12 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     const fixedSpellNames = grants.spells;
     const known = cls ? rules.spellsKnown(cls.system.spells.base, cls.system.spells.every, 1) : 0;
     const spellPicks = Math.max(0, known - fixedSpellNames.length) + grants.spellChoices;
-    const spellsDone = !!cls && (s.spells.size === spellPicks);
+    // Spells Cast with a Skill of the Hero's choice: which picked Spell, and which Skill.
+    s.anySkill = grants.anySkill.map((source, i) => ({ spell: "", skill: "", ...(s.anySkill?.[i] ?? {}), source }));
+    for ( const a of s.anySkill ) if ( a.spell && !s.spells.has(a.spell) ) a.spell = "";
+    const anySkillDone = s.anySkill.every(a => a.spell && a.skill)
+      && (new Set(s.anySkill.map(a => a.spell)).size === s.anySkill.length);
+    const spellsDone = !!cls && (s.spells.size === spellPicks) && anySkillDone;
 
     // Perks: one at creation (p. 20), plus any granted choices.
     const fixedPerkNames = grants.perks;
@@ -262,7 +271,7 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       perks: [...a.perks, ...b.perks], spells: [...a.spells, ...b.spells],
       perkChoices: a.perkChoices + b.perkChoices, trainingChoices: a.trainingChoices + b.trainingChoices,
       spellChoices: a.spellChoices + b.spellChoices, statIncrease: a.statIncrease + b.statIncrease,
-      sources: [...a.sources, ...b.sources]
+      sources: [...a.sources, ...b.sources], anySkill: [...(a.anySkill ?? []), ...(b.anySkill ?? [])]
     };
   }
 
@@ -379,6 +388,7 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       case "spells":
         context.spellCards = await this.#spellCards(plan.fixedSpellNames, []);
         context.spellsLeft = plan.spellPicks - s.spells.size;
+        context.anySkill = this.#anySkillRows();
         break;
       case "review":
         context.review = this.#review(plan);
@@ -464,6 +474,15 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
   }
 
   /** Names of the Spells chosen or granted in Hero creation. */
+  /** Rows for choosing which picked Spell is Cast with a Skill of the Hero's choice, and that Skill. */
+  #anySkillRows() {
+    const cfg = CONFIG.VAGABOND;
+    const s = this.build;
+    const picked = Object.fromEntries([...s.spells].map(u => [u, this.#find("spell", u)?.name]).filter(([, n]) => n));
+    const skills = Object.fromEntries(Object.entries(cfg.skills).map(([k, v]) => [k, v.label]));
+    return (s.anySkill ?? []).map((a, i) => ({ i, source: a.source, spell: a.spell, skill: a.skill, spells: picked, skills }));
+  }
+
   #chosenSpellNames(plan) {
     return [...plan.fixedSpellNames, ...[...this.build.spells].map(u => this.#find("spell", u)?.name).filter(Boolean)];
   }
@@ -575,7 +594,8 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
         return pick(this.#options.spell.filter(sp => !known.has(sp.name.toLowerCase()) && !taken.has(sp.uuid)).map(sp => [sp.uuid, sp.name]));
       }
       case "castSkill":
-        return pick(["arcana", "influence", "mysticism"].filter(k => ctx.trainedKeys.includes(k)).map(k => [k, cfg.skills[k].label]));
+        // Magical Secret: "Cast it using Arcana, Influence, or Mysticism" (p. 70).
+        return pick(["arcana", "influence", "mysticism"].map(k => [k, cfg.skills[k].label]));
       case "stat": {
         const raised = others("stat");
         return pick(Object.entries(cfg.stats).filter(([k]) => ((ctx.stats[k] ?? 0) + raised.filter(r => r === k).length) < ADVANCEMENT_CAP)
@@ -800,6 +820,14 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
         const { perkChoice, choiceField } = event.currentTarget.dataset;
         const choices = this.build.perkChoices[perkChoice] ??= {};
         choices[choiceField] = event.currentTarget.value;
+        this.render();
+      });
+    }
+    for ( const el of this.element.querySelectorAll("select[data-any-skill]") ) {
+      el.addEventListener("change", event => {
+        const { anySkill, anyField } = event.currentTarget.dataset;
+        const row = this.build.anySkill?.[Number(anySkill)];
+        if ( row ) row[anyField] = event.currentTarget.value;
         this.render();
       });
     }
@@ -1053,7 +1081,12 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     for ( const u of s.spells ) items.push(this.#find("spell", u));
     const toCreate = items.filter(Boolean).filter(i => ["class", "ancestry"].includes(i.type) || (i.type === "perk")
       || !owned.has(`${i.type}:${i.name.toLowerCase()}`));
-    await actor.createEmbeddedDocuments("Item", [...toCreate.map(HeroBuilder.#itemData), ...gains.items, ...gains.spells]
+    const created = toCreate.map(HeroBuilder.#itemData);
+    for ( const a of s.anySkill ?? [] ) {
+      const data = created.find(d => (d.type === "spell") && (d._stats?.compendiumSource === a.spell) && !d.system.castSkill);
+      if ( data && a.skill ) data.system.castSkill = a.skill;
+    }
+    await actor.createEmbeddedDocuments("Item", [...created, ...gains.items, ...gains.spells]
       .map(HeroBuilder.#mark), { vagabondLog: false });
     if ( missing.length ) ui.notifications.warn(game.i18n.format("VAGABOND.Builder.Missing", { names: missing.join(", ") }));
     const kit = (s.kit && (s.kit !== "gold")) ? this.#find("kit", s.kit) : null;

@@ -8,7 +8,7 @@
           <span class="feature-level">{{level}}</span>
           <a class="feature-name" data-action="postFeature" data-source="class" data-index="{{index}}" data-tooltip="VAGABOND.Sheet.PostToChat">{{name}}</a>
           {{#unless unlocked}}<i class="fa-solid fa-lock" data-tooltip="VAGABOND.Sheet.Locked"></i>{{/unless}}
-          {{#if now}}<span class="feature-now" data-tooltip="VAGABOND.FeatureNote.Hint"><i class="fa-solid fa-gears"></i> {{now}}</span>{{/if}}
+          {{#if now}}<span class="feature-now" data-tooltip="VAGABOND.FeatureNote.Hint">{{now}}</span>{{/if}}
         </div>
         {{#if unlocked}}<div class="feature-text">{{{html}}}</div>{{/if}}
       </li>

@@ -5,7 +5,7 @@
       <div class="bar"><div class="fill" style="width: {{slotsBar.pct}}%"></div><span class="values">{{slotsBar.value}} / {{slotsBar.max}}</span></div>
     </div>
     <div class="currency">
-      <label><i class="fa-solid fa-coins"></i> {{localize "VAGABOND.Currency.Label"}}</label>
+      <label>{{localize "VAGABOND.Currency.Label"}}</label>
       <span class="coin gold"><input type="number" name="system.currency.g" value="{{source.currency.g}}" min="0" {{disabled (not editable)}}><abbr>g</abbr></span>
       <span class="coin silver"><input type="number" name="system.currency.s" value="{{source.currency.s}}" min="0" {{disabled (not editable)}}><abbr>s</abbr></span>
       <span class="coin copper"><input type="number" name="system.currency.c" value="{{source.currency.c}}" min="0" {{disabled (not editable)}}><abbr>c</abbr></span>

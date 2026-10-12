@@ -717,7 +717,9 @@
       "KitIncludes": "This pack gives you",
       "Applying": "Applying…",
       "ApplyFailed": "The builder couldn't finish: {error}. Check the sheet before trying again.",
-      "AlreadyLevel": "{name} is already Level {level}."
+      "AlreadyLevel": "{name} is already Level {level}.",
+      "AnySkillSpell": "Spell (pick it below first)",
+      "AnySkillSkill": "Cast it with"
     },
     "Grants": {
       "Label": "Hero builder grants",

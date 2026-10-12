@@ -79,7 +79,8 @@ export default class VagabondItemSheet extends HandlebarsApplicationMixin(ItemSh
       alchemicalTypes: cfg.alchemicalTypes,
       rollTypes: cfg.rollTypes,
       damageBases: cfg.damageBases,
-      castSkills: { "": "VAGABOND.Spell.ClassSkill", arcana: cfg.skills.arcana.label, influence: cfg.skills.influence.label, mysticism: cfg.skills.mysticism.label },
+      // Any Skill: Magical Secret uses Arcana, Influence, or Mysticism; Naturally Attuned allows any Skill.
+      castSkills: { "": "VAGABOND.Spell.ClassSkill", ...Object.fromEntries(Object.entries(cfg.skills).map(([k, v]) => [k, v.label])) },
       weaponDamageTypes: cfg.damageTypes,
       actionDamageTypes: { "": "VAGABOND.DamageBase.none", ...cfg.damageTypes },
       deliveries: labels(cfg.deliveries),

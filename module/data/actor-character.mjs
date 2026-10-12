@@ -233,9 +233,11 @@ export default class CharacterData extends foundry.abstract.TypeDataModel {
     this.attributes.castMax = rules.castMax(cls?.castMax ?? "none", level) + this.bonuses.castMax;
     this.attributes.spellsKnown = {
       value: actor.itemTypes.spell?.length ?? 0,
-      // Magical Secret teaches a Spell beyond the Class's count.
+      // Spells beyond the Class's count: Magical Secret, and Ancestry Traits or Class Features that teach one
+      // (Naturally Attuned).
       max: (cls ? rules.spellsKnown(cls.spells.base, cls.spells.every, level) : 0)
         + (actor.itemTypes.perk?.filter(p => /^magical secret\b/i.test(p.name)).length ?? 0)
+        + grantedSpellChoices(actor, level)
     };
     this.attributes.isCaster = !!(cls?.mana.perLevel) || (this.attributes.spellsKnown.value > 0);
     const castKey = this.attributes.castingSkill || cls?.castingSkill || "arcana";
@@ -308,4 +310,22 @@ export default class CharacterData extends foundry.abstract.TypeDataModel {
     data.groupInit = 2;
     return data;
   }
+}
+
+/**
+ * Spells a Hero learns from Ancestry Traits and Class Features beyond their Class's count (e.g. Naturally Attuned).
+ * @param {Actor} actor
+ * @param {number} level
+ * @returns {number}
+ */
+function grantedSpellChoices(actor, level) {
+  let n = 0;
+  for ( const item of actor.items ) {
+    const rows = item.type === "ancestry" ? item.system.traits : (item.type === "class" ? item.system.features : null);
+    for ( const row of rows ?? [] ) {
+      if ( (item.type === "class") && ((row.level ?? 1) > level) ) continue;
+      n += Number(row.grants?.spellChoices) || 0;
+    }
+  }
+  return n;
 }

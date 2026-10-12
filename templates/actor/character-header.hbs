@@ -66,7 +66,7 @@
       </div>
       <div class="resource box armor" data-tooltip="VAGABOND.ArmorHint">
         <label>{{localize "VAGABOND.Armor"}}</label>
-        <div class="box-value"><i class="fa-solid fa-shield"></i> {{system.attributes.armor}}</div>
+        <div class="box-value">{{system.attributes.armor}}</div>
       </div>
       <div class="resource box speed" data-tooltip="{{localize 'VAGABOND.Speed.Crawl'}} {{system.attributes.speed.crawl}}' · {{localize 'VAGABOND.Speed.Travel'}} {{system.attributes.speed.travel}} mi">
         <label>{{localize "VAGABOND.Speed.Label"}}</label>
@@ -86,19 +86,19 @@
       <div class="roll-mode" role="radiogroup" aria-label="{{localize 'VAGABOND.Roll.Mode'}}" data-tooltip="VAGABOND.Roll.ModeHint">
         {{#each rollModes}}
         <button type="button" class="{{cssClass}} {{#if active}}active{{/if}}" data-action="setRollMode" data-favor="{{value}}"
-          aria-pressed="{{active}}" {{disabled (not @root.editable)}}><i class="{{icon}}"></i> {{localize label}}</button>
+          aria-pressed="{{active}}" {{disabled (not @root.editable)}}>{{localize label}}</button>
         {{/each}}
         <button type="button" class="luck-toggle studied-toggle {{#if system.attributes.studiedArmed}}active{{/if}}" data-action="toggleStudied"
           aria-pressed="{{system.attributes.studiedArmed}}" data-tooltip="VAGABOND.Studied.ArmHint"
-          {{disabled (or (not editable) (not system.attributes.studied))}}><i class="fa-solid fa-book-open"></i> {{localize "VAGABOND.Studied.Arm"}}</button>
+          {{disabled (or (not editable) (not system.attributes.studied))}}>{{localize "VAGABOND.Studied.Arm"}}</button>
       </div>
       {{#if editable}}
-      <button type="button" data-action="breather" data-tooltip="VAGABOND.Breather.Hint"><i class="fa-solid fa-mug-hot"></i> {{localize "VAGABOND.Breather.Title"}}</button>
-      <button type="button" data-action="rest" data-tooltip="VAGABOND.Rest.Hint"><i class="fa-solid fa-campground"></i> {{localize "VAGABOND.Rest.Title"}}</button>
-      {{#if classItem}}<button type="button" data-action="levelUp" data-tooltip="VAGABOND.Builder.LevelUpHint"><i class="fa-solid fa-angles-up"></i> {{localize "VAGABOND.Builder.LevelUp"}}</button>
-      {{else}}<button type="button" class="bright" data-action="openBuilder"><i class="fa-solid fa-hat-wizard"></i> {{localize "VAGABOND.Builder.Title"}}</button>{{/if}}
+      <button type="button" data-action="breather" data-tooltip="VAGABOND.Breather.Hint">{{localize "VAGABOND.Breather.Title"}}</button>
+      <button type="button" data-action="rest" data-tooltip="VAGABOND.Rest.Hint">{{localize "VAGABOND.Rest.Title"}}</button>
+      {{#if classItem}}<button type="button" data-action="levelUp" data-tooltip="VAGABOND.Builder.LevelUpHint">{{localize "VAGABOND.Builder.LevelUp"}}</button>
+      {{else}}<button type="button" class="bright" data-action="openBuilder">{{localize "VAGABOND.Builder.Title"}}</button>{{/if}}
       {{/if}}
-      {{#each warnings}}<span class="warning-pill"><i class="fa-solid fa-triangle-exclamation"></i> {{localize this}}</span>{{/each}}
+      {{#each warnings}}<span class="warning-pill">{{localize this}}</span>{{/each}}
     </div>
   </div>
 </header>

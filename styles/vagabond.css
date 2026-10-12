@@ -689,3 +689,7 @@
 .vagabond.chat-card .mana-line { margin: 2px 0; }
 .vagabond .item-control.ready-toggle.active { color: var(--vg-mana, #4a2a6b); }
 .vagabond .attacks .readied-spells .item-sub { color: var(--vg-ink-soft); }
+
+/* Hero Builder: a Spell Cast with a Skill of the Hero's choice (Naturally Attuned). */
+.hero-builder .any-skill-choice { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 4px 0 8px; padding: 6px 8px; border: 1px solid #7a6a55; border-radius: 6px; background: #ffffff55; }
+.hero-builder .any-skill-choice label { display: flex; align-items: center; gap: 6px; }

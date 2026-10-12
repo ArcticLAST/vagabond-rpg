@@ -115,6 +115,15 @@
     {{#if (eq step "spells")}}
     <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.spells"}}</p>
     <p class="counter {{#if (eq spellsLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=spellsLeft}}</p>
+    {{#each anySkill}}
+    <div class="any-skill-choice">
+      <strong>{{source}}</strong>
+      <label><span>{{localize "VAGABOND.Builder.AnySkillSpell"}}</span>
+        <select data-any-skill="{{i}}" data-any-field="spell"><option value="">—</option>{{selectOptions spells selected=spell}}</select></label>
+      <label><span>{{localize "VAGABOND.Builder.AnySkillSkill"}}</span>
+        <select data-any-skill="{{i}}" data-any-field="skill"><option value="">—</option>{{selectOptions skills selected=skill localize=true}}</select></label>
+    </div>
+    {{/each}}
     {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=spellCards kind="spells" search=state.search.spells}}
     {{/if}}
 

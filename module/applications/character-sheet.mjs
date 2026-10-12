@@ -52,12 +52,12 @@ export default class CharacterSheet extends BaseActorSheet {
   static TABS = {
     primary: {
       tabs: [
-        { id: "skills", icon: "fa-solid fa-dice-d20" },
-        { id: "inventory", icon: "fa-solid fa-backpack" },
-        { id: "magic", icon: "fa-solid fa-wand-sparkles" },
-        { id: "features", icon: "fa-solid fa-star" },
-        { id: "effects", icon: "fa-solid fa-bolt" },
-        { id: "biography", icon: "fa-solid fa-feather" }
+        { id: "skills" },
+        { id: "inventory" },
+        { id: "magic" },
+        { id: "features" },
+        { id: "effects" },
+        { id: "biography" }
       ],
       initial: "skills",
       labelPrefix: "VAGABOND.Tab"
