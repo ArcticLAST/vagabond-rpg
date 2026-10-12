@@ -254,7 +254,7 @@ export default class VagabondItem extends Item {
    * @param {boolean} [options.log=true]             Post sheet change notes.
    * @returns {Promise<Item[]>}
    */
-  async unpackKit(actor, { replaceWealth = false, log = true } = {}) {
+  async unpackKit(actor, { replaceWealth = false, log = true, flags } = {}) {
     const op = log ? { vagabondVia: this.name } : { vagabondLog: false };
     if ( !this.system.isKit ) return [];
     const toCreate = [];
@@ -268,6 +268,7 @@ export default class VagabondItem extends Item {
       } else data = { name: entry.name || game.i18n.localize("TYPES.Item.gear"), type: "gear", system: {} };
       data.system.quantity = entry.quantity;
       if ( Number.isFinite(entry.value) ) data.system.value = entry.value;
+      if ( flags ) data.flags = foundry.utils.mergeObject(data.flags ?? {}, flags);
       toCreate.push(data);
     }
     const created = await actor.createEmbeddedDocuments("Item", toCreate, op);

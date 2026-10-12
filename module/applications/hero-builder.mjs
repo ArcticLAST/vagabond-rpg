@@ -966,9 +966,26 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     this.render();
   }
 
-  static async #onFinish() {
-    if ( this.mode === "create" ) await this.#applyCreate();
-    else await this.#applyLevelUp();
+  /** Whether Finish is being applied; further clicks are ignored until it's done. */
+  #applying = false;
+
+  static async #onFinish(event, target) {
+    if ( this.#applying ) return;
+    this.#applying = true;
+    if ( target ) {
+      target.disabled = true;
+      target.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> ${game.i18n.localize("VAGABOND.Builder.Applying")}`;
+    }
+    try {
+      if ( this.mode === "create" ) await this.#applyCreate();
+      else await this.#applyLevelUp();
+    } catch(err) {
+      console.error(err);
+      ui.notifications.error(game.i18n.format("VAGABOND.Builder.ApplyFailed", { error: err.message }));
+    } finally {
+      this.#applying = false;
+      if ( this.rendered ) this.render();
+    }
   }
 
   /* -------------------------------------------- */
@@ -986,6 +1003,12 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     return data;
   }
 
+  /** Mark Item data as added by character creation, so creating again replaces it instead of doubling it. */
+  static #mark(data) {
+    foundry.utils.setProperty(data, "flags.vagabond-rpg.builder", "create");
+    return data;
+  }
+
   async #applyCreate() {
     const plan = this.#planCreate();
     if ( !plan.done.review ) return ui.notifications.warn(game.i18n.localize("VAGABOND.Builder.Incomplete"));
@@ -993,8 +1016,9 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     const cfg = CONFIG.VAGABOND;
     const s = this.build;
 
-    // Replace any existing Class and Ancestry.
-    const replace = actor.items.filter(i => ["class", "ancestry"].includes(i.type)).map(i => i.id);
+    // Replace any existing Class and Ancestry, and anything an earlier character creation added.
+    const replace = actor.items.filter(i => ["class", "ancestry"].includes(i.type)
+      || (i.getFlag("vagabond-rpg", "builder") === "create")).map(i => i.id);
     if ( replace.length ) await actor.deleteEmbeddedDocuments("Item", replace, { vagabondLog: false });
 
     const updates = {
@@ -1029,10 +1053,11 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     for ( const u of s.spells ) items.push(this.#find("spell", u));
     const toCreate = items.filter(Boolean).filter(i => ["class", "ancestry"].includes(i.type) || (i.type === "perk")
       || !owned.has(`${i.type}:${i.name.toLowerCase()}`));
-    await actor.createEmbeddedDocuments("Item", [...toCreate.map(HeroBuilder.#itemData), ...gains.items, ...gains.spells], { vagabondLog: false });
+    await actor.createEmbeddedDocuments("Item", [...toCreate.map(HeroBuilder.#itemData), ...gains.items, ...gains.spells]
+      .map(HeroBuilder.#mark), { vagabondLog: false });
     if ( missing.length ) ui.notifications.warn(game.i18n.format("VAGABOND.Builder.Missing", { names: missing.join(", ") }));
     const kit = (s.kit && (s.kit !== "gold")) ? this.#find("kit", s.kit) : null;
-    if ( kit ) await kit.unpackKit(actor, { replaceWealth: true, log: false });
+    if ( kit ) await kit.unpackKit(actor, { replaceWealth: true, log: false, flags: { "vagabond-rpg": { builder: "create" } } });
 
     // Fill HP and Mana now that the Class and Stats are in place.
     await actor.update({
@@ -1048,6 +1073,11 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     if ( !plan.done ) return ui.notifications.warn(game.i18n.localize("VAGABOND.Builder.Incomplete"));
     const actor = this.actor;
     const s = this.build;
+    // Never apply the same Level twice.
+    if ( (actor.system.details.level ?? 0) >= s.to ) {
+      ui.notifications.warn(game.i18n.format("VAGABOND.Builder.AlreadyLevel", { name: actor.name, level: actor.system.details.level }));
+      return this.close();
+    }
     const attrs = actor.system.attributes;
     const updates = {
       "system.details.level": s.to,

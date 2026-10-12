@@ -709,7 +709,10 @@
         "skill": "New Training",
         "beingType": "Being Type"
       },
-      "KitIncludes": "This pack gives you"
+      "KitIncludes": "This pack gives you",
+      "Applying": "Applying…",
+      "ApplyFailed": "The builder couldn't finish: {error}. Check the sheet before trying again.",
+      "AlreadyLevel": "{name} is already Level {level}."
     },
     "Grants": {
       "Label": "Hero builder grants",
