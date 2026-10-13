@@ -3,7 +3,7 @@
   "_key": "!items!J0bKoGDF5GphXGq5",
   "name": "Enflesh",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>Targeted, non-Relic fabric, stone, metal, or wood is turned to hair, tissue, and bone for the duration. Alternatively, if the Target is turned to stone through a curse or magic, the effect ends.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

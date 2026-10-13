@@ -3,7 +3,7 @@
   "_key": "!actors!tTPL2EL92XeFctg2",
   "name": "Ape, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 2.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!tTPL2EL92XeFctg2.cpCA6EdXRCFNEQFg",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!tTPL2EL92XeFctg2.zCssqMpyUUVbdjXG",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -116,7 +116,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!items!vbJjTxRR81GjD5RT",
   "name": "Smelling Salts",
   "type": "gear",
-  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>This pungent fluid can be administered by wafting the contents under a Being's nose. If the Being is Unconscious from sleep, it immediately wakes up.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

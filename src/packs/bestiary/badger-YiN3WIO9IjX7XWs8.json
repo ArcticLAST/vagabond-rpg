@@ -3,7 +3,7 @@
   "_key": "!actors!YiN3WIO9IjX7XWs8",
   "name": "Badger",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!YiN3WIO9IjX7XWs8.azQ1ntcgqnEmuaeb",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!YiN3WIO9IjX7XWs8.T5ASBY8G18ePRCpb",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1 (d3)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!YiN3WIO9IjX7XWs8.dbUCIMUwqHbrSuuV",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

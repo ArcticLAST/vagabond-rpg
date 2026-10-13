@@ -3,7 +3,7 @@
   "_key": "!actors!6kBnNa9dvoRtKZNt",
   "name": "Cockatrice",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 1.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!6kBnNa9dvoRtKZNt.jbnWiuxl78S21ZoT",
       "name": "Beak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and pass [Endure] or be Cursed (turned to stone for 1 Day)</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

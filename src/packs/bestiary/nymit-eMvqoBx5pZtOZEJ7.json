@@ -3,7 +3,7 @@
   "_key": "!actors!eMvqoBx5pZtOZEJ7",
   "name": "Nymit",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!eMvqoBx5pZtOZEJ7.XqGPYwENsMbE2qXC",
       "name": "Pick",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!eMvqoBx5pZtOZEJ7.xyowb7NDnbxHCSUk",
       "name": "Befuddling Defense",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>When it takes damage, all Near Enemies must pass [Will] or become Confused (Cd4 or until damaged).</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

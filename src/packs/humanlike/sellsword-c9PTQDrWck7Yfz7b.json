@@ -3,7 +3,7 @@
   "_key": "!actors!c9PTQDrWck7Yfz7b",
   "name": "Sellsword",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!c9PTQDrWck7Yfz7b.tKUzsAuIXUBrZMzh",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Longsword and 1×Buckler</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!c9PTQDrWck7Yfz7b.4G47IjDNKOlHLdEQ",
       "name": "Longsword",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8), or 9 (2d8) if failed on a 1.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!c9PTQDrWck7Yfz7b.sms2FHuYzeDjXusY",
       "name": "Buckler",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and pass [Endure] or be shoved Prone if Medium or smaller.</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

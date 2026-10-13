@@ -3,7 +3,7 @@
   "_key": "!items!AouAoGSP4DqW2zbw",
   "name": "Fluid Motion",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>During your Move, you can walk on liquid surfaces and along walls, sinking or falling if you end the Move off solid ground.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

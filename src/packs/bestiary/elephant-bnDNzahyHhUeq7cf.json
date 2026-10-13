@@ -3,7 +3,7 @@
   "_key": "!actors!bnDNzahyHhUeq7cf",
   "name": "Elephant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 5.0,
@@ -44,7 +44,7 @@
       "_key": "!actors.items!bnDNzahyHhUeq7cf.75fKHfqMKzFU5YqY",
       "name": "Trample",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>18 (4d8)</p>",
         "source": "",
@@ -76,7 +76,7 @@
       "_key": "!actors.items!bnDNzahyHhUeq7cf.Ipn7FiTLSCUc7aI5",
       "name": "Tusk",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d4)</p>",
         "source": "",
@@ -108,7 +108,7 @@
       "_key": "!actors.items!bnDNzahyHhUeq7cf.ljdQfdM7PcHEC73p",
       "name": "Charger",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it Moves at least 20' in a straight line before making a Tusk Attack, the damage is doubled.</p>",
         "source": "",
@@ -151,7 +151,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

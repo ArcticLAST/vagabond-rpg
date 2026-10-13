@@ -3,7 +3,7 @@
   "_key": "!actors!7XINPhDbI9bcCL96",
   "name": "Frog/Toad, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 0.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!7XINPhDbI9bcCL96.i6OMx2MHytwZaLhN",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Tongue and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!7XINPhDbI9bcCL96.s2IBVxeNbq3q1bEE",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!7XINPhDbI9bcCL96.pPRF3aSNqR8L1QNj",
       "name": "Tongue",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained and pulled Close</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!7XINPhDbI9bcCL96.SJCEcT0KGgqmplqi",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can breathe air or water.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

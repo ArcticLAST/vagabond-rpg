@@ -3,7 +3,7 @@
   "_key": "!actors!hsgymwMbiLsXTelr",
   "name": "Efreeti",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 5.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!hsgymwMbiLsXTelr.fYpYGfbRL5pzrKIw",
       "name": "Wall of Fire",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Burning (d6, while in the flames).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!hsgymwMbiLsXTelr.OaTeYeRWHXrQ0b9q",
       "name": "Conjure Object",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>An Object no larger than 10'×10' is created. Objects made this way composed of metal or stone disappear after one day.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!hsgymwMbiLsXTelr.jkhAnpoOIaivH925",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Fist</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!hsgymwMbiLsXTelr.Qkrs85gznRyjrL6t",
       "name": "Fist",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!hsgymwMbiLsXTelr.gzCa61vRkmTD5XGE",
       "name": "Invisibility",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Turns Invisible for the duration.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!hsgymwMbiLsXTelr.3MvO05TSBBI0SvpT",
       "name": "Regenerate II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 9 (2d8) HP on each of its Turns.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!7KvEmV6JKHQiyrvy",
   "name": "Assassin",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 2.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!7KvEmV6JKHQiyrvy.8QeFECBKRhHB6HGv",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Daggers</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!7KvEmV6JKHQiyrvy.jTohOApEbQGIim5t",
       "name": "Dagger",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Sneak Attack</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!7KvEmV6JKHQiyrvy.IHgMxO74fRK1IpJg",
       "name": "Sneak Attack",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It deals 2 (d4) additional damage with an attack against a Vulnerable Target. This attack ignores Armor and can Explode.</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

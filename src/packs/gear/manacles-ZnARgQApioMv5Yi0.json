@@ -3,7 +3,7 @@
   "_key": "!items!ZnARgQApioMv5Yi0",
   "name": "Manacles",
   "type": "gear",
-  "img": "icons/sundries/survival/cuffs-shackles-steel.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Hardware</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

@@ -3,7 +3,7 @@
   "_key": "!items!QFbZYYNfINkRpAzw",
   "name": "Adhesive",
   "type": "gear",
-  "img": "icons/creatures/slimes/slime-movement-dripping-pseudopods-green.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>A sticky substance used to adhere materials together. The adhesive can be used on an unsecured Object weighing 10 pounds or less to bond it to anything weighing 10 pounds or more, securing it.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

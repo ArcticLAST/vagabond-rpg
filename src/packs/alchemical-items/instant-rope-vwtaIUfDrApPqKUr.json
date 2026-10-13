@@ -3,7 +3,7 @@
   "_key": "!items!vwtaIUfDrApPqKUr",
   "name": "Instant Rope",
   "type": "gear",
-  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>When poured, the liquid in this flask instantly forms into a 50' rope for 1 Minute before crumbling to dust.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

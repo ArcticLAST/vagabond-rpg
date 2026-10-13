@@ -3,7 +3,7 @@
   "_key": "!items!p5viNjUcCOOhZn3k",
   "name": "Pottery Tools",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Containers &amp; Packs</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

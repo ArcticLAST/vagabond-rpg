@@ -3,7 +3,7 @@
   "_key": "!actors!KUbNYxhn6oBmlVjQ",
   "name": "Elemental, Air",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 12,
     "tl": 5.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!KUbNYxhn6oBmlVjQ.roGmy0hyFyLfTd6g",
       "name": "Gust",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) plus 4 (d8) if flying</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!KUbNYxhn6oBmlVjQ.N3vwWWJ4YYiWMEUh",
       "name": "Living Gale",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Gusts surround it out to Near, Hindering Enemy Ranged Attacks Targeting those within.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!KUbNYxhn6oBmlVjQ.Xyli1TpYb1GFhBxj",
       "name": "Seep",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

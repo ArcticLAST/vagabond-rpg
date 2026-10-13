@@ -3,7 +3,7 @@
   "_key": "!items!EYOki404GYnFKoOe",
   "name": "Bag of Holding",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Bag</em></p><p>A bag that contains its own pocket dimension, granting it the following Power:</p><ul><li><strong>Holding V:</strong> Occupies 1 Inventory Slot, but can hold 5 Slots of Items without counting against the carrier's Inventory Slots.</li></ul><p>Value: 1000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 103",

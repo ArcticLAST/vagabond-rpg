@@ -3,7 +3,7 @@
   "_key": "!items!X7tavAouPz5lV0qG",
   "name": "Egg, dozen",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Cooking &amp; Food</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

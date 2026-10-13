@@ -3,7 +3,7 @@
   "_key": "!items!zBqfqkxcxpYu9Zf0",
   "name": "Ambusher",
   "type": "perk",
-  "img": "icons/magic/nature/stealth-hide-eyes-green.webp",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You have Favor on attacks to initiate Combat and against Beings that haven't acted in that Combat.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

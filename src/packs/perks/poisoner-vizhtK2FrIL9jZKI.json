@@ -3,7 +3,7 @@
   "_key": "!items!vizhtK2FrIL9jZKI",
   "name": "Poisoner",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can coat your Equipped Weapon with a poison when you attack with it.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

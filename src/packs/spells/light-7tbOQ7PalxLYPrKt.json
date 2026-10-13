@@ -3,7 +3,7 @@
   "_key": "!items!7tbOQ7PalxLYPrKt",
   "name": "Light",
   "type": "spell",
-  "img": "icons/sundries/lights/candle-pillar-lit-yellow.webp",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target sheds Light out to Near for the duration. You can choose to do so by creating a floating mote of light that follows the Target.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

@@ -3,7 +3,7 @@
   "_key": "!actors!yw7jTvNNLa0Is91u",
   "name": "Ochre Jelly",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 1.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!yw7jTvNNLa0Is91u.uezPlgFHgMDTRFrv",
       "name": "Pseudopod",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!yw7jTvNNLa0Is91u.2gwWLkge8mubQ2aU",
       "name": "Amorphous",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can Move into occupied space as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!yw7jTvNNLa0Is91u.6b6JvwAThdVbB2oA",
       "name": "Pudding Split",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it is larger than Small and subjected to Shock or Slash, it splits into two Ochre Jellies that have half its current HP, round up, and are one size smaller. Their Pseudopod attacks deal 3 (d6) instead.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

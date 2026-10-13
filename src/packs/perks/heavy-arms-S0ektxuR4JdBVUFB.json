@@ -3,7 +3,7 @@
   "_key": "!items!S0ektxuR4JdBVUFB",
   "name": "Heavy Arms",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>The knight has made you vigilant. If you roll a 1 or 2 on the damage dice of a single Weapon held with both hands, you can reroll it. Further, when you make a 2H Melee attack and roll 15 above your Difficulty, you can also Shove the Target as part of the attack.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

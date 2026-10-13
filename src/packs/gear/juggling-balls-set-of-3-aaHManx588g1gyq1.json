@@ -3,7 +3,7 @@
   "_key": "!items!aaHManx588g1gyq1",
   "name": "Juggling balls, set of 3",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Games &amp; Toys</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

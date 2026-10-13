@@ -3,7 +3,7 @@
   "_key": "!items!bB4uHvOjggSNff0T",
   "name": "Wine, Fine, cup of",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Liquor &amp; Spirits</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

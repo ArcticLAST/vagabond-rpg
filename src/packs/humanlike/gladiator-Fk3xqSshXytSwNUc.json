@@ -3,7 +3,7 @@
   "_key": "!actors!Fk3xqSshXytSwNUc",
   "name": "Gladiator",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!Fk3xqSshXytSwNUc.vZ0aafHEJzr6XIdB",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d8+1) or (by Weapon)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!Fk3xqSshXytSwNUc.GwWBGxuBzvyrosBo",
       "name": "Prowess",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>+1 to attack damage it deals (already factored in).</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

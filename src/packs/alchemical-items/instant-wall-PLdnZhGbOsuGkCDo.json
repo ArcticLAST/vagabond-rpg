@@ -3,7 +3,7 @@
   "_key": "!items!PLdnZhGbOsuGkCDo",
   "name": "Instant Wall",
   "type": "gear",
-  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Creates a wall that is 10' in length and height, and 1' in width. The wall appears in the orientation of the user's choice. It has 20 HP and Armor: 2. The wall crumbles to dust after 1 Minute or if it is destroyed.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

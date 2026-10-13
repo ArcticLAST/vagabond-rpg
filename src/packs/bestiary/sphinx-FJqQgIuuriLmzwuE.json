@@ -3,7 +3,7 @@
   "_key": "!actors!FJqQgIuuriLmzwuE",
   "name": "Sphinx",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 12,
     "tl": 5.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!FJqQgIuuriLmzwuE.pT5gMs06dUc3wGId",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and either 1×Roar or 1×Cast of its choice</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!FJqQgIuuriLmzwuE.uS8r8ZqYXeP2wFNx",
       "name": "Roar",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4, and Dazed if within Near)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!FJqQgIuuriLmzwuE.LQqueSl9K9oqFEIL",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!FJqQgIuuriLmzwuE.QkYbqxlYwAPTDNEG",
       "name": "Dispel Magic",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>A magic effect of its choice is dispelled or suspended for 2d6 hours if it is a Curse or Relic Power</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!FJqQgIuuriLmzwuE.25gg6OilvSnbrnUB",
       "name": "Future Sight",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Hinders Saves against its Attacks.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!FJqQgIuuriLmzwuE.XfxE7cEAiXTJev0e",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

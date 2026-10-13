@@ -3,7 +3,7 @@
   "_key": "!actors!1oyB1Dca8jV3oXg1",
   "name": "Lich",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 11,
     "tl": 8.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.yIJfylK7J0RTkRwJ",
       "name": "Dominator",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 Actions as below (d6 to determine).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.BLzZ2ceoWJCpKOOA",
       "name": "Dominator 1: Anti-Life Drain",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and this Being is healed equal to the damage</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.h0TM4NEhNm3U7myz",
       "name": "Dominator 2: Disintegrate",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>21 (6d6) and disintegrated if killed this way</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.Iim8Kj06qvlvdmzR",
       "name": "Dominator 3: Raise",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Raised as a Zombie under this Being's control</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.v3umpfXcHqb2xaAR",
       "name": "Dominator 4: Death Touch",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10) and Paralyzed (Cd6)</p>",
         "source": "",
@@ -200,7 +200,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.tfOuH8XESEIApdkK",
       "name": "Dominator 5: Fear",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4)</p>",
         "source": "",
@@ -232,7 +232,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.dXImZdqtD9gp0bJM",
       "name": "Dominator 6: Life Disruption",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6, half on pass) and +1 Fatigue</p>",
         "source": "",
@@ -264,7 +264,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.MeQj9VaxA2yDjMMH",
       "name": "Fear Aura",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened until they pass this Check on a subsequent Turn, or Cd6 after.</p>",
         "source": "",
@@ -296,7 +296,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.yfzR5lSXcE7eMCDf",
       "name": "Indomitable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -328,7 +328,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.um23ICMOSOjThPxx",
       "name": "Grim Harvester",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Whenever a Being dies within Far, this Being regains HP equal to that Being's HD or Level.</p>",
         "source": "",
@@ -360,7 +360,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.zNhhT8CHzOJ5XO0u",
       "name": "Magic Ward V",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 5 or more.</p>",
         "source": "",
@@ -392,7 +392,7 @@
       "_key": "!actors.items!1oyB1Dca8jV3oXg1.bo85x6WiMlcSA8b7",
       "name": "Soul Jar",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't die if it has a Soul Jar intact.</p>",
         "source": "",
@@ -435,7 +435,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

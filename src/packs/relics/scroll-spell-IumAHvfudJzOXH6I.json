@@ -3,7 +3,7 @@
   "_key": "!items!IumAHvfudJzOXH6I",
   "name": "Scroll, Spell",
   "type": "gear",
-  "img": "icons/tools/scribal/ink-quill-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Parchment (Consumable)</em></p><p>Can be read to produce the Casting of a Spell, with the reader declaring the Target(s). Doing so costs no Mana, doesn't require a Check, and causes the scroll to vaporize.</p><p>Crafting a Spell Scroll requires that the crafter knows the Spell and would be able to perform that Casting of it when crafting it, and can be done with the Study activity.</p><table><thead><tr><th>Cast Mana</th><th>Value</th></tr></thead><tbody><tr><td>0</td><td>10g</td></tr><tr><td>1</td><td>25g</td></tr><tr><td>2</td><td>250g</td></tr><tr><td>3</td><td>500g</td></tr><tr><td>4</td><td>1000g</td></tr><tr><td>5</td><td>5000g</td></tr><tr><td>6</td><td>10000g</td></tr><tr><td>7+</td><td>+10000g per Mana</td></tr></tbody></table><p>Value: see table (10g for a 0 Mana Casting)</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 107",

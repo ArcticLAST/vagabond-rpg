@@ -3,7 +3,7 @@
   "_key": "!items!VIr6BVRcRzicsN7D",
   "name": "Shrink",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target's size and damage dice are reduced by one size for the duration.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

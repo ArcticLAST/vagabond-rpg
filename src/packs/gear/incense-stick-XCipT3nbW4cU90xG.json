@@ -3,7 +3,7 @@
   "_key": "!items!XCipT3nbW4cU90xG",
   "name": "Incense (stick)",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Books &amp; Magic</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

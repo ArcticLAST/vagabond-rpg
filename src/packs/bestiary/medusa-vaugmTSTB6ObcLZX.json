@@ -3,7 +3,7 @@
   "_key": "!actors!vaugmTSTB6ObcLZX",
   "name": "Medusa",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 1.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!vaugmTSTB6ObcLZX.wPmpHd7TDdKARBNl",
       "name": "Snakebite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and pass [Endure] or be Sickened (drops to 0 HP).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!vaugmTSTB6ObcLZX.OjtHVLN44x34aKvm",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!vaugmTSTB6ObcLZX.WLfGVs5SbmzILKgI",
       "name": "Petrifying Visage",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Beings that look at it for the first time on their Turns must pass [Endure] against Sickened or take 1 Fatigue. A Being with 3 or more Fatigue that gains another Fatigue this way is cursed (Continual, turned to stone).</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

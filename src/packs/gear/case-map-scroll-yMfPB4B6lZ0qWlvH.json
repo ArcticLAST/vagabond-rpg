@@ -3,7 +3,7 @@
   "_key": "!items!yMfPB4B6lZ0qWlvH",
   "name": "Case, map/scroll",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Astronomy &amp; Navigation</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 78",

@@ -3,7 +3,7 @@
   "_key": "!items!LGKEfHNv7E7S4edA",
   "name": "Caltrops, bag of 10",
   "type": "gear",
-  "img": "icons/weapons/thrown/bomb-spiked-purple.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Outdoors</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 82",

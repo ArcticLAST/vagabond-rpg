@@ -3,7 +3,7 @@
   "_key": "!items!AFXmYhBX7fEbAgQW",
   "name": "Trinket",
   "type": "gear",
-  "img": "icons/commodities/materials/hair-tuft-white.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Books &amp; Magic</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

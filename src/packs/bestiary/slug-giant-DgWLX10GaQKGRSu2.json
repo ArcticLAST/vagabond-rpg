@@ -3,7 +3,7 @@
   "_key": "!actors!DgWLX10GaQKGRSu2",
   "name": "Slug, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 12,
     "tl": 4.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!DgWLX10GaQKGRSu2.FAdpUyC9DX2eDnfD",
       "name": "Acid Spit",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Burning (Cd6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!DgWLX10GaQKGRSu2.qTY6jFocV3bdIJlC",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 4,
     "height": 4,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!FPOlqZdql1Ft16QW",
   "name": "Knight",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!FPOlqZdql1Ft16QW.x4IddM6ALMdpOWuL",
       "name": "Greatsword",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!FPOlqZdql1Ft16QW.nJibYDNDucXGBOct",
       "name": "Rally",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Grants its Allies who hear it a d4 bonus to their damage rolls and Will Saves for 1 Round.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!FPOlqZdql1Ft16QW.5HajXC2BjaWaKBU1",
       "name": "Leadership",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>While it is alive and in sight, its Allies always pass Morale Checks and can't be Frightened.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

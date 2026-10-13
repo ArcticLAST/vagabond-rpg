@@ -3,7 +3,7 @@
   "_key": "!items!wiZGitXkjVgVmaYn",
   "name": "Book, blank",
   "type": "gear",
-  "img": "icons/sundries/books/book-rounded-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Personal Items</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 82",

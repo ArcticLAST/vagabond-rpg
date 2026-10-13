@@ -3,7 +3,7 @@
   "_key": "!items!WjbtB8VTbP0rNWTl",
   "name": "Mage Slayer",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>When you damage a Focusing Being, the damage rolls can Explode, and if the result of your d20 roll on the Check is 15 or higher than your Difficulty, the Focus ends.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

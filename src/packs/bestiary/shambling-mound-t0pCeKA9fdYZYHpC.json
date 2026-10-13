@@ -3,7 +3,7 @@
   "_key": "!actors!t0pCeKA9fdYZYHpC",
   "name": "Shambling Mound",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 5.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!t0pCeKA9fdYZYHpC.08qZ4jeBZF7isXah",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Slam</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!t0pCeKA9fdYZYHpC.PU0gONczJpTy7xuX",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) and Restrained and Suffocating if it's this Being's second Slam attack to hit it this Turn, and the Target is this Being's size or smaller</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!t0pCeKA9fdYZYHpC.dXQ5TKTDak4fsSBr",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can breathe air and water.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!t0pCeKA9fdYZYHpC.BiLOCxAzRYC6xptw",
       "name": "Shock-Absorb",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It treats all Shock damage as healing.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

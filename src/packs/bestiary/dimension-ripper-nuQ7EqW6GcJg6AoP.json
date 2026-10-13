@@ -3,7 +3,7 @@
   "_key": "!actors!nuQ7EqW6GcJg6AoP",
   "name": "Dimension Ripper",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 6.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!nuQ7EqW6GcJg6AoP.eM6aakWnWfAWFgfR",
       "name": "Temporal Lock",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Paralyzed (Cd4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!nuQ7EqW6GcJg6AoP.zAfF8Jf8iSMsIGXy",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!nuQ7EqW6GcJg6AoP.n8M5xA357s8tUNGT",
       "name": "(+1) Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d8+1)</p>",
         "source": "",
@@ -138,7 +138,7 @@
       "_key": "!actors.items!nuQ7EqW6GcJg6AoP.dSf900RvYu9TSCfp",
       "name": "(+1) Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>8 (2d6+1)</p>",
         "source": "",
@@ -171,7 +171,7 @@
       "_key": "!actors.items!nuQ7EqW6GcJg6AoP.IUo5boqi9bPd8JFw",
       "name": "Maddening I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Enemies that can hear it for the first time and at the start of their Turns must pass [Will] or be Confused (Cd4).</p>",
         "source": "",
@@ -203,7 +203,7 @@
       "_key": "!actors.items!nuQ7EqW6GcJg6AoP.afbFTM0OMtS3Y4Wd",
       "name": "Terror I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Enemies that can see it for the first time and at the start of their Turns must pass [Will] or be Frightened (Cd4).</p>",
         "source": "",
@@ -246,7 +246,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

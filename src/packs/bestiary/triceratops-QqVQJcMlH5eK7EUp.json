@@ -3,7 +3,7 @@
   "_key": "!actors!QqVQJcMlH5eK7EUp",
   "name": "Triceratops",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 11,
     "tl": 4.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!QqVQJcMlH5eK7EUp.FrKyJH4dLxlK7hep",
       "name": "Horn",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!QqVQJcMlH5eK7EUp.EtPIfb3sSG0CrbUj",
       "name": "Stomp",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!QqVQJcMlH5eK7EUp.2yaHEQ9eZQcUSVcV",
       "name": "Rampant",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it Moves at least 20' in a straight line, it can automatically make one Horn Attack against anything in its path for the rest of the Turn (no Action).</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

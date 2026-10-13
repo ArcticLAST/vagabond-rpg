@@ -3,7 +3,7 @@
   "_key": "!items!FFKl7ALyUhYv7urY",
   "name": "Broom of Flying",
   "type": "gear",
-  "img": "icons/commodities/wood/wood-pole.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Broom (Bound)</em></p><p>An animated broom with a Fly Speed of 30'. Obeys the commands of the Being Bound to it.</p><p>Value: 1000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 103",

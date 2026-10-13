@@ -3,7 +3,7 @@
   "_key": "!items!cgeRPXNtEGlP3mBA",
   "name": "Marksmanship",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Your Ranged Weapon damage dice are one size larger.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
@@ -14,7 +14,7 @@
       "_id": "G4HusrhFkaPeoIPo",
       "_key": "!items.effects!cgeRPXNtEGlP3mBA.G4HusrhFkaPeoIPo",
       "name": "Marksmanship",
-      "img": "icons/svg/upgrade.svg",
+      "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
       "transfer": true,
       "disabled": false,
       "changes": [

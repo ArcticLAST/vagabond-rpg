@@ -3,7 +3,7 @@
   "_key": "!items!cZXjBnJ63v6hcVVY",
   "name": "Shade",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is surrounded by magic darkness out to Close for the duration, which snuffs out nonmagic lights.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

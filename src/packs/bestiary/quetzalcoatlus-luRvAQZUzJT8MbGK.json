@@ -3,7 +3,7 @@
   "_key": "!actors!luRvAQZUzJT8MbGK",
   "name": "Quetzalcoatlus",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!luRvAQZUzJT8MbGK.PLzWLeMBJJVAYZCm",
       "name": "Beak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6)</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

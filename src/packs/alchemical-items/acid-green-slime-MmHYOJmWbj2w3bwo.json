@@ -3,7 +3,7 @@
   "_key": "!items!MmHYOJmWbj2w3bwo",
   "name": "Acid, Green Slime",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Contains a green slime (p. 173).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

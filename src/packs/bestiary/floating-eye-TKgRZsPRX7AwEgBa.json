@@ -3,7 +3,7 @@
   "_key": "!actors!TKgRZsPRX7AwEgBa",
   "name": "Floating Eye",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!TKgRZsPRX7AwEgBa.chywJBezhNDqOUX5",
       "name": "Glare",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Transformed into a stone statue (Cd4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!TKgRZsPRX7AwEgBa.aivV1EfTS2Vge7kZ",
       "name": "Muddle",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Confused (Cd4)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!TKgRZsPRX7AwEgBa.wlNr3WjNPzBPYBGG",
       "name": "Enrage",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Berserk (Cd4)</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!TKgRZsPRX7AwEgBa.slrJRm6y1B9UjFnB",
       "name": "Antimagical Cone I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Cast Checks in a Near Cone from its central eye always fail, and any magic effect in the Cone is suspended while in the Cone.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!TKgRZsPRX7AwEgBa.IUsZRjJLoBFn3GAz",
       "name": "Ocular",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Checks to make it Blinded are Favored.</p>",
         "source": "",
@@ -211,7 +211,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

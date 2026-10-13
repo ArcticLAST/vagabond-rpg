@@ -3,7 +3,7 @@
   "_key": "!actors!BLgaIowHpCpmLFvM",
   "name": "Questing Beast",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 4.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!BLgaIowHpCpmLFvM.TJBXFRIzJP3C7t7S",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!BLgaIowHpCpmLFvM.dPfSfpms2VHuMjdn",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>6 (d12) and pass [Endure] or become Sickened (Cd6 damage)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!BLgaIowHpCpmLFvM.pfNqQuPDNJLgNNXS",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

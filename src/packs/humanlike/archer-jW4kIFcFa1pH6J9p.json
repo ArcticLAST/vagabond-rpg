@@ -3,7 +3,7 @@
   "_key": "!actors!jW4kIFcFa1pH6J9p",
   "name": "Archer",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 2.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!jW4kIFcFa1pH6J9p.F3UacxWtpPKmVpqs",
       "name": "Longbow",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!jW4kIFcFa1pH6J9p.iCL7J3GtvKmxGrSj",
       "name": "Dagger",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!jW4kIFcFa1pH6J9p.8DKzGjqMYBsXxn3B",
       "name": "Hunter's Mark",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It rolls an extra Attack damage die if failed as a 1 or 2.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

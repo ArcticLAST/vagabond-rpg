@@ -3,7 +3,7 @@
   "_key": "!items!pI3ezwxfgAetuy3w",
   "name": "Control",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>Targeted Objects can be manipulated in small ways, such as flipping a lever or tipping a glass over. This magic can't lift an Object. Targeted Beings become Charmed and obey your commands for the duration. This Spell automatically fails if the Target's Level or HD are equal to or higher than your Level, and it automatically ends if you command it to cause harm to itself.</p><p>You can spend Mana to increase your effective Level for the Casting by 1 per Mana spent to do.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

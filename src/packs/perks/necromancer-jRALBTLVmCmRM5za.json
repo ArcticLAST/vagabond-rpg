@@ -3,7 +3,7 @@
   "_key": "!items!jRALBTLVmCmRM5za",
   "name": "Necromancer",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>When you Focus on Raise, you can choose an Undead you control. The Target regains HP equal to (half your Level, round up).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

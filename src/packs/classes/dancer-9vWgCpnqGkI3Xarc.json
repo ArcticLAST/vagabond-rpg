@@ -3,7 +3,7 @@
   "_key": "!items!9vWgCpnqGkI3Xarc",
   "name": "Dancer",
   "type": "class",
-  "img": "icons/svg/d20-black.svg",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>She moves abstract just  like a shadow dancing on the edge, like a storm cloud passing overhead, hypnotizing me. —Dillinger Escape Plan, One of Us is the Killer Dancers are practitioners of the alluring art of dance. They have a flair for enlivening their audience and giving awe-inspiring shows.</p><p>The dancer is a low-defense support with a focus on action efficiency. Grant Actions through Step Up, as your main offenses will occur when you Crit on Reflex Saves.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Midline (Step Up)</li><li><strong>Key Stat:</strong> Dexterity</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Finesse, Performance</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 35",

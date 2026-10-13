@@ -3,7 +3,7 @@
   "_key": "!actors!caXqQ6OClQQt3GuW",
   "name": "Oni",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 7.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.qu7qPtbzsprEErar",
       "name": "Cone of Cold",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>36 (8d8)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.ulRkJuTV5P18MlBc",
       "name": "Charm Person",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Charmed</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.t2bhIc1odwbfhKrX",
       "name": "Darkness",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>The Area becomes magical darkness, and snuffs out any light sources.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.Oilj5aQfgX96DdhB",
       "name": "Sleep",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Unconscious (Cd4, or woken up)</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.hSJRo8inYiBcWGbv",
       "name": "Gaseous Form",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Turns into an incorporeal cloud of gas for the duration.</p>",
         "source": "",
@@ -200,7 +200,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.1bDux0qzmN6NCfsN",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw</p>",
         "source": "",
@@ -233,7 +233,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.AO73cS2y0ksJqjzj",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>6 (d8+2)</p>",
         "source": "",
@@ -265,7 +265,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.PsXpcfttXeNN1c1I",
       "name": "Invisibility",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Turns Invisible for the duration.</p>",
         "source": "",
@@ -297,7 +297,7 @@
       "_key": "!actors.items!caXqQ6OClQQt3GuW.A7JUVw7vSqXhRE00",
       "name": "Regenerate II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 9 (2d8) HP on its Turns.</p>",
         "source": "",
@@ -340,7 +340,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

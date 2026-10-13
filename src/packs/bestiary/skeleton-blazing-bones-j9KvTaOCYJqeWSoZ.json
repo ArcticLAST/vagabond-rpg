@@ -3,7 +3,7 @@
   "_key": "!actors!j9KvTaOCYJqeWSoZ",
   "name": "Skeleton, Blazing Bones",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!j9KvTaOCYJqeWSoZ.4GYXm0m9FHL7Ql3B",
       "name": "Hurl Fire",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and Burning (Cd4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!j9KvTaOCYJqeWSoZ.PDTYgQNBMrd6wFdI",
       "name": "Grapple",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!j9KvTaOCYJqeWSoZ.l2HAUIOgxZ15wJuU",
       "name": "Flame Aura",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Close Beings are Burning (d6).</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

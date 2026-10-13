@@ -3,7 +3,7 @@
   "_key": "!actors!16jP2xVExN9pmM0I",
   "name": "Nymph",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 0.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!16jP2xVExN9pmM0I.om7i0rj8PQ1h0Yc5",
       "name": "Nymph's Kiss",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Cursed (Cd8 Rounds, can only breathe water).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!16jP2xVExN9pmM0I.D6ub9pOR9etfkz5I",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can breathe air or water.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!16jP2xVExN9pmM0I.3vtrX4ZBKq9v8D3u",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

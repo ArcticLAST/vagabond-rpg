@@ -3,7 +3,7 @@
   "_key": "!actors!DHOK0tdcDAAu1uL5",
   "name": "Air Bubble",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 1.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!DHOK0tdcDAAu1uL5.yHROypqFE5KteJRD",
       "name": "Engulf",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!DHOK0tdcDAAu1uL5.9T70XjGss7qa0pXh",
       "name": "Seep",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!DHOK0tdcDAAu1uL5.STc1FhA9StnxIIMM",
       "name": "Engulfer",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Beings that share its space are Burning (2d4).</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!DHOK0tdcDAAu1uL5.pqlTIOw1uVIhc2rZ",
       "name": "Sticky",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Hinders attempts to end being Restrained by it. Beings that make physical contact with it must pass [Endure] or be Restrained.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

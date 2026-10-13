@@ -761,7 +761,7 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       try { entry = c.uuid ? fromUuidSync(c.uuid, { strict: false }) : null; } catch { entry = null; }
       const type = order.includes(entry?.type) ? entry.type : "gear";
       groups.get(type).push({
-        name: entry?.name ?? c.name, img: entry?.img ?? "icons/svg/item-bag.svg", quantity: c.quantity ?? 1,
+        name: entry?.name ?? c.name, img: entry?.img ?? CONFIG.VAGABOND.defaultIcons.gear, quantity: c.quantity ?? 1,
         worth: c.value ? HeroBuilder.coins(c.value) : ""
       });
     }

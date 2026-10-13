@@ -3,7 +3,7 @@
   "_key": "!actors!m64i16X6hnolLIwV",
   "name": "Commoner",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!m64i16X6hnolLIwV.iGCql1BloBzGjqup",
       "name": "Rock",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!items!lU5T4ZGZWW8NYqE1",
   "name": "Longsword",
   "type": "weapon",
-  "img": "icons/weapons/swords/greatsword-guard.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

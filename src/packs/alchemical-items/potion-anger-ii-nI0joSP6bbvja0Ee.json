@@ -3,7 +3,7 @@
   "_key": "!items!nI0joSP6bbvja0Ee",
   "name": "Potion, Anger (II)",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>The consumer becomes Berserk for a number of Rounds equal to the roll of a countdown die. The size of the die is determined by its Rank, as shown below.</p><p><strong>Rank II:</strong> Cd6</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

@@ -3,7 +3,7 @@
   "_key": "!items!k9WwACr2kA4ieOO3",
   "name": "Cloak of Displacement",
   "type": "armor",
-  "img": "icons/equipment/chest/breastplate-leather-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Light Armor</em></p><p>Coat made of the fur of an omlarcat. The wearer has the following Power:</p><ul><li><strong>Displacement:</strong> Attacks against them based on sight are made as if the attacker is Vulnerable.</li></ul><p>Value: 1000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 103",

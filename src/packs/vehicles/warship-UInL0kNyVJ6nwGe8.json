@@ -3,7 +3,7 @@
   "_key": "!actors!UInL0kNyVJ6nwGe8",
   "name": "Warship",
   "type": "vehicle",
-  "img": "icons/environment/settlement/ship.webp",
+  "img": "systems/vagabond-rpg/assets/icons/sailboat.svg",
   "system": {
     "capacity": 2500,
     "locked": false,
@@ -43,7 +43,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/environment/settlement/ship.webp"
+      "src": "systems/vagabond-rpg/assets/icons/sailboat.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

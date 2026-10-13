@@ -3,7 +3,7 @@
   "_key": "!actors!1XF5G0dkpkYVvAIX",
   "name": "Yeti",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 3.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!1XF5G0dkpkYVvAIX.vaqFzwLCEnYIHfpU",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!1XF5G0dkpkYVvAIX.uK3VZOwRN8k8Adat",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) plus 9 (2d8) if failed by 5 or more</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!1XF5G0dkpkYVvAIX.lskEUzbxN9YVz6HD",
       "name": "Terror Glare",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4, Paralyzed)</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

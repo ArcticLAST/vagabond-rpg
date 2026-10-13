@@ -3,7 +3,7 @@
   "_key": "!items!wD2EtvR22pIWlMqU",
   "name": "Animate",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>You animate up to 1 Slot of Items in the delivery or that are carried by the Target. For the duration, the Item gains a Speed of 30' (Fly), uses the Object Armor &amp; HP rules (p. 10), and uses your Cast Skill for Checks. These Items obey your commands, which you can issue when you Focus on this Spell. If you command an Item to take an Action, you must spend 1 Mana to do so for each Item.</p><p><strong>Upcast:</strong> You can animate one additional Slot's worth of Item(s) per Mana spent to do so.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

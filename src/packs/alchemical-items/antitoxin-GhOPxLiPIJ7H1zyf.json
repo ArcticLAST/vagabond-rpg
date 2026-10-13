@@ -3,7 +3,7 @@
   "_key": "!items!GhOPxLiPIJ7H1zyf",
   "name": "Antitoxin",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-conical-corked-green.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Removes the Sickened Status from the consumer.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

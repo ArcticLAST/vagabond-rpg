@@ -3,7 +3,7 @@
   "_key": "!actors!pbRw4iWRFaEzlbdw",
   "name": "Death Knight",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 11,
     "tl": 9.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!pbRw4iWRFaEzlbdw.dKrKbNi84xf5sONh",
       "name": "Stun",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Paralyzed (Cd6 Rounds)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!pbRw4iWRFaEzlbdw.GnGRsZwujWTppqr6",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3×(+2) Longsword</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!pbRw4iWRFaEzlbdw.x3tCvep1mldkNqGK",
       "name": "(+2) Longsword",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>6 (d8+2)</p>",
         "source": "",
@@ -138,7 +138,7 @@
       "_key": "!actors.items!pbRw4iWRFaEzlbdw.IMzRRVqZQT41D46k",
       "name": "Hellfire",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>35 (10d6) and Burning (Cd6)</p>",
         "source": "",
@@ -170,7 +170,7 @@
       "_key": "!actors.items!pbRw4iWRFaEzlbdw.fSVb1oS8UteGzeHU",
       "name": "Fear Aura",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened until they pass this Check on a subsequent Turn, or Cd6 after.</p>",
         "source": "",
@@ -202,7 +202,7 @@
       "_key": "!actors.items!pbRw4iWRFaEzlbdw.HnAt72s9L21RhgRs",
       "name": "Dispel",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can end a Spell affecting it at the start of its Turns.</p>",
         "source": "",
@@ -234,7 +234,7 @@
       "_key": "!actors.items!pbRw4iWRFaEzlbdw.ohQil9RWx0zsE7pT",
       "name": "Zombie",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be reduced below 1 HP unless damaged by a Crit, damage it is Weak to, or while in Sunlight.</p>",
         "source": "",
@@ -277,7 +277,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

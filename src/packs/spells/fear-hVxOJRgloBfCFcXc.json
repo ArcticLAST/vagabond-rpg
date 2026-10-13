@@ -3,7 +3,7 @@
   "_key": "!items!hVxOJRgloBfCFcXc",
   "name": "Fear",
   "type": "spell",
-  "img": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is Frightened of another visible Target you choose for the duration, ending early if you Cast this Spell again.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

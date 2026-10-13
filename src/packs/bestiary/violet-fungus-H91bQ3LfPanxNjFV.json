@@ -3,7 +3,7 @@
   "_key": "!actors!H91bQ3LfPanxNjFV",
   "name": "Violet Fungus",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 1.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!H91bQ3LfPanxNjFV.jESoi3LtvIljOPXe",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Tendril</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!H91bQ3LfPanxNjFV.48WU4C3CpXC45qLU",
       "name": "Tendril",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4) and pass [Endure] or become Sickened (Cd8, +1 Fatigue each Round)</p>",
         "source": "",
@@ -116,7 +116,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

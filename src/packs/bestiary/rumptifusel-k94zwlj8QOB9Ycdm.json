@@ -3,7 +3,7 @@
   "_key": "!actors!k94zwlj8QOB9Ycdm",
   "name": "Rumptifusel",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 1.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!k94zwlj8QOB9Ycdm.M1Cw7hGVSJkguvSv",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Drain, or 1×Cloak and 1×Drain</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!k94zwlj8QOB9Ycdm.9kDRlIJNKlUg9831",
       "name": "Drain",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and this Being is healed for the damage dealt</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!k94zwlj8QOB9Ycdm.LGoJQaVKfGCAAJi5",
       "name": "Cloak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!k94zwlj8QOB9Ycdm.rH1g0VFVkjaRwZDZ",
       "name": "Cloaking",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>While it has a Target Restrained, any damage dealt to it is halved and also dealt to the Target.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

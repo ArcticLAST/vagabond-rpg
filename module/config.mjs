@@ -288,17 +288,23 @@ VAGABOND.vulnerableStatuses = ["vulnerable", "blinded", "restrained", "incapacit
 /** Statuses that make a Being Incapacitated. */
 VAGABOND.incapacitatedStatuses = ["incapacitated", "paralyzed", "unconscious"];
 
-/** Default icons by document type. */
+/** Default icons by document type (game-icons.net, CC BY 3.0; see tools/make-icons.py). */
+const ICONS = "systems/vagabond-rpg/assets/icons";
 VAGABOND.defaultIcons = {
-  weapon: "icons/svg/sword.svg",
-  armor: "icons/svg/shield.svg",
-  gear: "icons/svg/item-bag.svg",
-  spell: "icons/svg/book.svg",
-  perk: "icons/svg/upgrade.svg",
-  feature: "icons/svg/aura.svg",
-  class: "icons/svg/d20-black.svg",
-  ancestry: "icons/svg/mystery-man.svg",
-  action: "icons/svg/sword.svg"
+  weapon: `${ICONS}/broadsword.svg`,
+  armor: `${ICONS}/breastplate.svg`,
+  gear: `${ICONS}/knapsack.svg`,
+  spell: `${ICONS}/spell-book.svg`,
+  perk: `${ICONS}/upgrade.svg`,
+  feature: `${ICONS}/sparkles.svg`,
+  class: `${ICONS}/scroll-quill.svg`,
+  ancestry: `${ICONS}/person.svg`,
+  action: `${ICONS}/sword-clash.svg`,
+  character: `${ICONS}/hood.svg`,
+  npc: `${ICONS}/dragon-head.svg`,
+  container: `${ICONS}/chest.svg`,
+  vehicle: `${ICONS}/sailboat.svg`,
+  relic: `${ICONS}/crystal-ball.svg`
 };
 
 /** Stat Arrays for Hero creation (p. 20). Assign the six values to the six Stats in any order. */

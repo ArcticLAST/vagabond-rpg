@@ -3,7 +3,7 @@
   "_key": "!actors!JoCedU5DBAYByCfx",
   "name": "Beetle, Bombardier",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 2.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!JoCedU5DBAYByCfx.L3bqDDCAPG5afLFU",
       "name": "Noxious Gas",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6), half on pass and not a Crit.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!JoCedU5DBAYByCfx.0QXsq7vwpBrzgiKo",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

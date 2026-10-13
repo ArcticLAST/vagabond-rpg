@@ -3,7 +3,7 @@
   "_key": "!items!yLiUzheAP2Z0UvBX",
   "name": "Familiar",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can conduct a Ritual (p. 10) to conjure a familiar that you control with your Action or by skipping your Move. The familiar can be any Small Being with HD: 1. It uses your Cast Skill for Checks, and you can Cast Spells from the familiar as if it were originating from you. The familiar is banished when it drops to 0 HP or if you conduct this Ritual again to create another familiar.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

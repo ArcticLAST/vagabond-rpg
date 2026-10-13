@@ -3,7 +3,7 @@
   "_key": "!actors!X8yXIljkmacjKk4X",
   "name": "Chicken",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!X8yXIljkmacjKk4X.bu6dyrNdHoDnx3G3",
       "name": "Beak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!X8yXIljkmacjKk4X.ZlvqllZvkPHrhUWX",
       "name": "Flutter",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't support itself in the air while flying at the end its Turn, but it does not take damage from falling if the distance was 30' or less.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

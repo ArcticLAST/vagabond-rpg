@@ -3,7 +3,7 @@
   "_key": "!actors!OtvuhylZZKuLdf88",
   "name": "Ghoul",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 2.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!OtvuhylZZKuLdf88.X945ydwWowzuwWE0",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claws and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!OtvuhylZZKuLdf88.DwRUyUVslWkfVcsP",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and pass [Endure] or be Paralyzed (Cd4)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!OtvuhylZZKuLdf88.FCcRqd2Rt1xKRDmk",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and pass [Endure] or be Paralyzed (Cd4)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!OtvuhylZZKuLdf88.MqWwi8SF7RHfu8TR",
       "name": "Zombie",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be reduced below 1 HP unless damaged by a Crit, damage it is Weak to, or while in Sunlight.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

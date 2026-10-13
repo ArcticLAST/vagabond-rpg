@@ -3,7 +3,7 @@
   "_key": "!items!GQalR6FyUhFXrxaR",
   "name": "Witch",
   "type": "class",
-  "img": "icons/svg/d20-black.svg",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>Wouldst thou like to live deliciously? —Robert Eggers, The VVitch Witches are mediaries of magical secrets. One may become a witch through the whispers of a familiar or the favor of a being from beyond.</p><p>The witch is a debuffer focused on Casting Spells to stack detriments. Stick to the shadows and pile on Statuses through Hex.</p><ul><li><strong>Action:</strong> Cast</li><li><strong>Move:</strong> Backline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Craft, Mysticism</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 61",

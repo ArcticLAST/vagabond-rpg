@@ -3,7 +3,7 @@
   "_key": "!items!cZOzcw3YtzAtxGjM",
   "name": "Net",
   "type": "gear",
-  "img": "icons/tools/fishing/net-simple-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Outdoors</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 82",

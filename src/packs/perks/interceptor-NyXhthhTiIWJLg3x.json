@@ -3,7 +3,7 @@
   "_key": "!items!NyXhthhTiIWJLg3x",
   "name": "Interceptor",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Once per Round, when an Enemy within your reach begins to Move, you can immediately make one Melee attack Targeting it.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

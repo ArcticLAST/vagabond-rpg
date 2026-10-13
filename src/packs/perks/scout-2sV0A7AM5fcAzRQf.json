@@ -3,7 +3,7 @@
   "_key": "!items!2sV0A7AM5fcAzRQf",
   "name": "Scout",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can Forage or Hunt while you spend a Shift to Travel can't get lost during Travel. Further, you gain a Studied die when you spend a Shift to Travel.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

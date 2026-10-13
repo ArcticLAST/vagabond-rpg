@@ -3,7 +3,7 @@
   "_key": "!items!TRYIYJYt3Ml5m0uR",
   "name": "Nails, iron (50)",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Hardware</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

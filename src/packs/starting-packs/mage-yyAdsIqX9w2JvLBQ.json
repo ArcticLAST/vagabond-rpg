@@ -3,7 +3,7 @@
   "_key": "!items!yyAdsIqX9w2JvLBQ",
   "name": "Starting Pack: Mage",
   "type": "gear",
-  "img": "icons/containers/bags/pack-leather-white-tan.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><strong>d66 4-2.</strong> Trinket (2), robe, blank book, scribe tools.</p><p>Also includes a backpack, bedroll, 5 days of rations, 2 torches, and a waterskin. Each pack spends the 3g of Starting Wealth; remaining Wealth: <strong>31s</strong>.</p><p>Drop this pack on a Hero to unpack its Items and Wealth.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 75",

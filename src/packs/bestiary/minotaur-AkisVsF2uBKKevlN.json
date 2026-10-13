@@ -3,7 +3,7 @@
   "_key": "!actors!AkisVsF2uBKKevlN",
   "name": "Minotaur",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 3.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!AkisVsF2uBKKevlN.uD9HnUsYz5bSZ5jm",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Gore and 1×Greataxe</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!AkisVsF2uBKKevlN.V17RtoKIE0hHMs9I",
       "name": "Gore",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (3d4) and Prone if failed by 10 or more.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!AkisVsF2uBKKevlN.FRp2tOIXWhs7BodB",
       "name": "Greataxe",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10) or half to two Targets</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

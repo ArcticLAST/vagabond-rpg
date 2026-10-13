@@ -3,7 +3,7 @@
   "_key": "!items!FKJURLOUtWVF7nbo",
   "name": "Lance",
   "type": "weapon",
-  "img": "icons/weapons/polearms/spear-simple-engraved.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Long:</strong> Its Range is doubled.</p><p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

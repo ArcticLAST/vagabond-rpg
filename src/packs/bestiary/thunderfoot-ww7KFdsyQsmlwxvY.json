@@ -3,7 +3,7 @@
   "_key": "!actors!ww7KFdsyQsmlwxvY",
   "name": "Thunderfoot",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 35,
     "tl": 10.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!ww7KFdsyQsmlwxvY.0KncZodDgtY3h8Q6",
       "name": "Stomp",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>25 (4d10+3)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!ww7KFdsyQsmlwxvY.3tUgD00UUc6b1W36",
       "name": "Tail",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>22 (5d8) and shoved Prone 30' away</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 6,
     "height": 6,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

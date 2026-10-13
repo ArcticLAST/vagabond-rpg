@@ -3,7 +3,7 @@
   "_key": "!items!GoK7srx2NRjcm0K9",
   "name": "Peacemaker",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Fabled Relic Revolver</em></p><p>Revolver which silvers all bullets fired from it. It has the following Powers:</p><ul><li><strong>(+2) Weapon:</strong> Deals an extra +2 damage.</li><li><strong>Silvering:</strong> Attacks with it count as Silvered.</li><li><strong>Personality:</strong> Will only fire at hostile foes.</li></ul><p>Value: 5000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 106",

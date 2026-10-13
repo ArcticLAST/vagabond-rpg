@@ -3,7 +3,7 @@
   "_key": "!actors!XSGwVxfrZGdQdhst",
   "name": "Rhinoceros",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!XSGwVxfrZGdQdhst.TZbB1vQPDHoR4EkF",
       "name": "Horn",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!XSGwVxfrZGdQdhst.hQ5rAUXFo7j2Q9lY",
       "name": "Stomp",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!XSGwVxfrZGdQdhst.Zrs1pVfS81avFtRy",
       "name": "Rampant",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it Moves at least 20' in a straight line, it can automatically make one Horn Attack against anything in its path for the rest of the Turn (no Action).</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

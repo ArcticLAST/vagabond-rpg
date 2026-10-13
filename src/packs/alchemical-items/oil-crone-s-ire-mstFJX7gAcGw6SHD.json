@@ -3,7 +3,7 @@
   "_key": "!items!mstFJX7gAcGw6SHD",
   "name": "Oil, Crone's Ire",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Acts as basic oil. However, when coated on a Weapon that is then ignited, attack damage with it can Explode on a 1 if the Target can Cast. If the Target is Focusing and any of the dice do Explode, its Focus ends.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

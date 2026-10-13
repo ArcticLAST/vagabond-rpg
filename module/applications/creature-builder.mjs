@@ -53,7 +53,7 @@ export default class CreatureBuilder extends HandlebarsApplicationMixin(Applicat
 
   static blank() {
     return {
-      source: "", name: "", img: "icons/svg/mystery-man.svg", size: "medium", beingType: "beast", subtype: "",
+      source: "", name: "", img: CONFIG.VAGABOND.defaultIcons.npc, size: "medium", beingType: "beast", subtype: "",
       hd: 1, hpCustom: null, tougher: false, speed: 30, speedTypes: "", zone: "frontline", morale: 7, appearing: "",
       senses: "", armorTag: "as Unarmored", armor: 0, immune: "", weak: "", statusImmunities: "", description: "",
       actions: [], dpr: null, targetTL: null, bookTL: null
@@ -340,9 +340,6 @@ export default class CreatureBuilder extends HandlebarsApplicationMixin(Applicat
   actorData() {
     const b = this.build;
     const plan = this.plan;
-    const icons = { melee: "icons/skills/melee/strike-slashes-red.webp", ranged: "icons/skills/ranged/arrow-flying-white.webp",
-      attack: "icons/skills/melee/strike-slashes-red.webp", cast: "icons/magic/symbols/runes-star-pentagon-orange.webp",
-      combo: "icons/skills/melee/maneuver-sword-katana-yellow.webp", ability: "icons/svg/aura.svg", action: "icons/svg/aura.svg" };
     let abilityN = 100;
     let actionN = 0;
     const items = b.actions.filter(r => r.name?.trim()).map(r => {
@@ -354,7 +351,7 @@ export default class CreatureBuilder extends HandlebarsApplicationMixin(Applicat
         : rules.actionSaves({ actionType: r.actionType, tags: r.tags, text: r.text ?? "" }).effect)
         .filter(s => !covered.includes(s));
       return {
-        name: r.name.trim(), type: "action", img: r.img || icons[r.actionType] || "icons/svg/aura.svg",
+        name: r.name.trim(), type: "action", img: r.img || CONFIG.VAGABOND.defaultIcons.action,
         system: {
           description: CreatureBuilder.actionHTML(r), actionType: r.actionType, tags: r.tags ?? "",
           damage: r.actionType === "combo" ? "" : (r.damage ?? ""),
@@ -369,7 +366,7 @@ export default class CreatureBuilder extends HandlebarsApplicationMixin(Applicat
     });
     const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;" })[c]);
     return {
-      name: b.name.trim(), type: "npc", img: b.img || "icons/svg/mystery-man.svg",
+      name: b.name.trim(), type: "npc", img: b.img || CONFIG.VAGABOND.defaultIcons.npc,
       system: {
         hd: b.hd, tl: plan.tl,
         attributes: {

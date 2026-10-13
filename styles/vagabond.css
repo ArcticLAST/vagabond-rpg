@@ -137,13 +137,12 @@
 .vagabond .vg-sidebar { background: var(--vg-paper-2); border-right: 2px solid var(--vg-line); padding: 6px 10px; overflow-y: auto; }
 .vagabond .stat-list, .vagabond .save-list { list-style: none; margin: 0; padding: 0; }
 .vagabond .stat {
-  display: grid; grid-template-columns: 52px 1fr; grid-template-rows: auto auto; align-items: center;
+  display: grid; grid-template-columns: 1fr auto; align-items: center;
   margin-bottom: 4px; padding: 3px 6px; border: 1px solid var(--vg-line); border-radius: var(--vg-radius); background: var(--vg-paper);
 }
-.vagabond .stat .stat-label { grid-row: 1 / span 2; font-weight: bold; font-size: 1.05em; color: var(--vg-accent); }
+.vagabond .stat .stat-label { font-weight: bold; font-size: 1.05em; color: var(--vg-accent); }
 .vagabond .stat .stat-value, .vagabond .stat input { font-size: 1.5em; font-weight: bold; text-align: right; }
 .vagabond .stat input { width: 54px; justify-self: end; height: 28px; }
-.vagabond .stat .stat-name { grid-column: 2; font-size: 0.75em; text-align: right; color: var(--vg-ink-soft); }
 .vagabond .save { display: flex; align-items: center; gap: 6px; padding: 4px 2px; border-bottom: 1px dotted var(--vg-line); }
 .vagabond .save > a { flex: 1; font-weight: bold; }
 .vagabond .difficulty {

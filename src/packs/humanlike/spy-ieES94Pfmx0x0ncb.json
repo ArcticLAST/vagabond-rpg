@@ -3,7 +3,7 @@
   "_key": "!actors!ieES94Pfmx0x0ncb",
   "name": "Spy",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!ieES94Pfmx0x0ncb.gIn1TtWybSfguVSt",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Garrote and 1×Dagger</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!ieES94Pfmx0x0ncb.7cEDbtem8OLzSWpG",
       "name": "Garrote",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Grappled and Suffocating</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!ieES94Pfmx0x0ncb.hI1MfQov6Abhd11q",
       "name": "Dagger",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Sneak Attack</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!ieES94Pfmx0x0ncb.1K8xnUkdarPgjfOo",
       "name": "Sneak Attack",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It deals 2 (d4) additional damage with an attack against a Vulnerable Target. This attack ignores Armor and can Explode.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

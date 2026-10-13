@@ -3,7 +3,7 @@
   "_key": "!items!WCBELFYLAR3DqRFL",
   "name": "Gunslinger",
   "type": "class",
-  "img": "icons/svg/d20-black.svg",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>This... is my BOOMSTICK! —Ash, Army of Darkness Attitude and tenacity are as core to the gunslinger as ammo. They stare down challenges through iron sights, fortified by their inner grit.</p><p>The gunslinger is a low-defense, highcrit striker. In combat, stay as far back as possible and keep the enemy under constant fire.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Backline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Detect, Ranged</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 41",

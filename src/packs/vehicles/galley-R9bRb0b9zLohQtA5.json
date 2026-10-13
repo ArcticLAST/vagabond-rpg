@@ -3,7 +3,7 @@
   "_key": "!actors!R9bRb0b9zLohQtA5",
   "name": "Galley",
   "type": "vehicle",
-  "img": "icons/environment/settlement/ship.webp",
+  "img": "systems/vagabond-rpg/assets/icons/sailboat.svg",
   "system": {
     "capacity": 3000,
     "locked": false,
@@ -43,7 +43,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/environment/settlement/ship.webp"
+      "src": "systems/vagabond-rpg/assets/icons/sailboat.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

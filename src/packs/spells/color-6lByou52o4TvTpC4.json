@@ -3,7 +3,7 @@
   "_key": "!items!6lByou52o4TvTpC4",
   "name": "Color",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>For the duration, Targeted Beings are Blinded and Objects are changed in color.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

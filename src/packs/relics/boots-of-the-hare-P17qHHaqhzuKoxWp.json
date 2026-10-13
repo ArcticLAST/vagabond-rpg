@@ -3,7 +3,7 @@
   "_key": "!items!P17qHHaqhzuKoxWp",
   "name": "Boots of the Hare",
   "type": "gear",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Boots</em></p><p>Boots adorned with mithral rabbit filigree. The wearer has the following Powers:</p><ul><li><strong>Lesser Speed:</strong> Their Speed becomes 30' if it was previously lower.</li><li><strong>Jumping II:</strong> Their horizontal jump distance is multiplied by 3.</li></ul><p>Value: 2500g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 103",
@@ -30,7 +30,7 @@
       "_id": "U9EbfL9Ju1oFTi8b",
       "_key": "!items.effects!P17qHHaqhzuKoxWp.U9EbfL9Ju1oFTi8b",
       "name": "Lesser Speed",
-      "img": "icons/svg/upgrade.svg",
+      "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
       "transfer": true,
       "disabled": false,
       "changes": [

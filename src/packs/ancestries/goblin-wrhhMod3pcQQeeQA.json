@@ -3,7 +3,7 @@
   "_key": "!items!wrhhMod3pcQQeeQA",
   "name": "Goblin",
   "type": "ancestry",
-  "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+  "img": "systems/vagabond-rpg/assets/icons/person.svg",
   "system": {
     "description": "<p>Havoc-wagers known to delight in chaos, goblins are smaller humanoids of a typically green, yellow, grey, or bluish skin color.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 26",
@@ -60,7 +60,7 @@
       "_id": "iX5vTWoxKajsBFnT",
       "_key": "!items.effects!wrhhMod3pcQQeeQA.iX5vTWoxKajsBFnT",
       "name": "Nimble",
-      "img": "icons/creatures/magical/humanoid-silhouette-green.webp",
+      "img": "systems/vagabond-rpg/assets/icons/person.svg",
       "transfer": true,
       "disabled": false,
       "changes": [

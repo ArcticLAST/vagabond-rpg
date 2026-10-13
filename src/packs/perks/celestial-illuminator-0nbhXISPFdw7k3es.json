@@ -3,7 +3,7 @@
   "_key": "!items!0nbhXISPFdw7k3es",
   "name": "Celestial Illuminator",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can cause the light shed by Spells you Cast to be Moonlight or Sunlight.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

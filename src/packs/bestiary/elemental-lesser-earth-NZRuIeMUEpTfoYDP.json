@@ -3,7 +3,7 @@
   "_key": "!actors!NZRuIeMUEpTfoYDP",
   "name": "Elemental, Lesser Earth",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!NZRuIeMUEpTfoYDP.O7M5WLzwccd2KG3y",
       "name": "Strike",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) plus 4 (d8) if on the ground</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!NZRuIeMUEpTfoYDP.ytVM265M6FF7SuPo",
       "name": "Burrower",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It ignores Difficult Terrain of sand, stone, and earth, and it can Move by quickly burrowing in them. However, it can't cross water deeper than its height.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

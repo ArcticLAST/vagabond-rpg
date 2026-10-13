@@ -3,7 +3,7 @@
   "_key": "!items!oc2FODjqFNEeuger",
   "name": "Tough",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You have a bonus to Max HP equal to your Level. You can take this Perk multiple times.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
@@ -14,7 +14,7 @@
       "_id": "3mnhsI4k6ChSL1WR",
       "_key": "!items.effects!oc2FODjqFNEeuger.3mnhsI4k6ChSL1WR",
       "name": "Tough",
-      "img": "icons/svg/upgrade.svg",
+      "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
       "transfer": true,
       "disabled": false,
       "changes": [

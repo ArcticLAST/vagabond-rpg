@@ -3,7 +3,7 @@
   "_key": "!actors!DgLxRNgvFVvMvDmt",
   "name": "Archmage",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 7.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!DgLxRNgvFVvMvDmt.yPTc0qwO7Dm1sEKn",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 of any Cast Actions it can take</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!DgLxRNgvFVvMvDmt.imQblDCLAV6KNvdt",
       "name": "Lightning Bolt",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!DgLxRNgvFVvMvDmt.dIr0vNGeNwwX2EB1",
       "name": "Fireball",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!DgLxRNgvFVvMvDmt.a8IccBuUcaWzC2St",
       "name": "Blizzard",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and filling the area with snow (Difficult Terrain)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!DgLxRNgvFVvMvDmt.X2VYbNko6CAJ8XUU",
       "name": "Firebolt",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!DgLxRNgvFVvMvDmt.QvUShNbtY5ejZW28",
       "name": "Ice Knife",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and its Speed is reduced by half for the duration</p>",
         "source": "",
@@ -233,7 +233,7 @@
       "_key": "!actors.items!DgLxRNgvFVvMvDmt.FTSp2oiN80647kGy",
       "name": "Zap",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
         "source": "",
@@ -265,7 +265,7 @@
       "_key": "!actors.items!DgLxRNgvFVvMvDmt.NvyirxB2U67zZUUK",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -308,7 +308,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

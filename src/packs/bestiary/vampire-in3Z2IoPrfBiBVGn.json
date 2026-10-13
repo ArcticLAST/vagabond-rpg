@@ -3,7 +3,7 @@
   "_key": "!actors!in3Z2IoPrfBiBVGn",
   "name": "Vampire",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 6.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!in3Z2IoPrfBiBVGn.0T6HAmzTTylIlevR",
       "name": "Enthrall",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Target is Charmed (Cd6) and must do all it can to defend this Being. A Target that passes the Save is immune to this for 1 Day.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!in3Z2IoPrfBiBVGn.H6108EEHm61o9YCr",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claws and 1×Bite</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!in3Z2IoPrfBiBVGn.4S0hqZfBpxWLoseu",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and this Being is healed for the damage dealt. A Being that takes damage from this attack must pass [Endure] or be Cursed with Vampirism.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!in3Z2IoPrfBiBVGn.5XO0iFImnD9QD0iF",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (3d4)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!in3Z2IoPrfBiBVGn.zbyMuPki8xqs2zPL",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!in3Z2IoPrfBiBVGn.h8zWqFMYfdUsJLgA",
       "name": "Shapeshift",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can use its Action to change into a bat, owl, rat, or wolf. It typically does so to retreat.</p>",
         "source": "",
@@ -233,7 +233,7 @@
       "_key": "!actors.items!in3Z2IoPrfBiBVGn.G1QaMhmQzIciKEZT",
       "name": "Sunlight Hypersensitivity",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is Burning (d8) while illuminated by Sunlight.</p>",
         "source": "",
@@ -265,7 +265,7 @@
       "_key": "!actors.items!in3Z2IoPrfBiBVGn.cyMAhcNfDCESioN9",
       "name": "Vampiric",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It regenerates 3 HP at the start of its Turn unless it is in Sunlight. If it is killed, it reforms in its resting place after 1 Day unless either: ◆ A wooden stake is stabbed through its heart. ◆ It dies in Sunlight or while doused in holy water. ◆ It consumes garlic.</p>",
         "source": "",
@@ -308,7 +308,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

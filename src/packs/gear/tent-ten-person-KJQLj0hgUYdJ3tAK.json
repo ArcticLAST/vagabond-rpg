@@ -3,7 +3,7 @@
   "_key": "!items!KJQLj0hgUYdJ3tAK",
   "name": "Tent, ten-person",
   "type": "gear",
-  "img": "icons/environment/settlement/tent.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Outdoors</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 82",

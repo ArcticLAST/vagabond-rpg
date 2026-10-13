@@ -3,7 +3,7 @@
   "_key": "!actors!esQNyrCF8uhfvZj0",
   "name": "Ripworm",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 3.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!esQNyrCF8uhfvZj0.NqmADwbHo1cBFxjT",
       "name": "Ripsaw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!esQNyrCF8uhfvZj0.N078b0nP8OMv8Tmt",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!esQNyrCF8uhfvZj0.HbVnFxoIPSUFpBKE",
       "name": "Tunneller",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can Move through solid rock and earth, leaving a 3-foot tunnel in its path.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

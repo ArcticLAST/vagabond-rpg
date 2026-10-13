@@ -3,7 +3,7 @@
   "_key": "!items!hXtcUUxCDrD5Xls1",
   "name": "Rifle",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

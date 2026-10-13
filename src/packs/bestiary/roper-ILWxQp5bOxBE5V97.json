@@ -3,7 +3,7 @@
   "_key": "!actors!ILWxQp5bOxBE5V97",
   "name": "Roper",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 12,
     "tl": 5.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!ILWxQp5bOxBE5V97.6iARhyVK3StOOvM3",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Tendril per (Tendrils) and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!ILWxQp5bOxBE5V97.XVBBQhyQKtTpuqU5",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>17 (5d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!ILWxQp5bOxBE5V97.fuIOeMNFY3rM098e",
       "name": "Tendril",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained and pulled Close</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!ILWxQp5bOxBE5V97.bzBYT5GdRKvtM6Rg",
       "name": "Tendrils",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Starts with 6. Targetting one causes a -4 penalty to the Check, but severs it if at least 4 damage is dealt.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

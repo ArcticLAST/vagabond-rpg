@@ -3,7 +3,7 @@
   "_key": "!items!yktzRw82IuSlmDIo",
   "name": "Adhere",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>Sticky slime covers the Target and surrounding Close spaces, causing them to be Difficult Terrain. Those affected by this Difficult Terrain are considered Vulnerable for the purpose of ending the Restrained Status.</p><p>This slime secures Objects to whatever they are in contact with or the next thing it contacts in the duration. A Being with Might or HD equal to or lower than your Level can't move it.</p><p>You can upcast this Spell to increase your effective Level for the casting by 1 per Mana spent to do so.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

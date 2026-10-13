@@ -3,7 +3,7 @@
   "_key": "!actors!N3ayOBlw8HJdbyZe",
   "name": "Brigand",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!N3ayOBlw8HJdbyZe.VWc25vAim7gZFdnF",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) or (by Weapon)</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

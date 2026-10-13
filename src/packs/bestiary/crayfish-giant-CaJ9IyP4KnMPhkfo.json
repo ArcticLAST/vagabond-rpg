@@ -3,7 +3,7 @@
   "_key": "!actors!CaJ9IyP4KnMPhkfo",
   "name": "Crayfish, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 4.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!CaJ9IyP4KnMPhkfo.hd3zntSTvJJp8eKA",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!CaJ9IyP4KnMPhkfo.Ckvf7Z9bzp2StVoo",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) and Restrained if smaller.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!CaJ9IyP4KnMPhkfo.9BuSOXqFkU73d18I",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can breathe air and water.</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

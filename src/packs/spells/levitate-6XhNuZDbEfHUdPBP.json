@@ -3,7 +3,7 @@
   "_key": "!items!6XhNuZDbEfHUdPBP",
   "name": "Levitate",
   "type": "spell",
-  "img": "icons/magic/light/orbs-firefly-hand-yellow.webp",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target flutters up to 1' in the air if they have solid ground below them for the duration. The Target can still Move in the air as if walking. If the Target is a secured Object or an Item that occupies more than 2 Slots, it is unaffected.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

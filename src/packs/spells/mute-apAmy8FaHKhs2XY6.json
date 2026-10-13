@@ -3,7 +3,7 @@
   "_key": "!items!apAmy8FaHKhs2XY6",
   "name": "Mute",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>Sound can't be heard from the Target for the duration, ending early if you Cast this again.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

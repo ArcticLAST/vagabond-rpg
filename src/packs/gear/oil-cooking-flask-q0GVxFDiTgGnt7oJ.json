@@ -3,7 +3,7 @@
   "_key": "!items!q0GVxFDiTgGnt7oJ",
   "name": "Oil, cooking (flask)",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Cooking &amp; Food</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

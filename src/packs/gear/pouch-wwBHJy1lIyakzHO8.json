@@ -3,7 +3,7 @@
   "_key": "!items!wwBHJy1lIyakzHO8",
   "name": "Pouch",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Hardware</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

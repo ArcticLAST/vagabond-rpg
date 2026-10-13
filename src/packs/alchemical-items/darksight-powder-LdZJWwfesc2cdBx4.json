@@ -3,7 +3,7 @@
   "_key": "!items!LdZJWwfesc2cdBx4",
   "name": "Darksight Powder",
   "type": "gear",
-  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Can't be seen with normal vision or beyond Close. When viewed with Darksight, the powder glows. A vial contains enough powder to write roughly 10 words.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

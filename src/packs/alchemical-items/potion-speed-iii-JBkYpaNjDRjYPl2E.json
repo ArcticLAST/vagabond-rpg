@@ -3,7 +3,7 @@
   "_key": "!items!JBkYpaNjDRjYPl2E",
   "name": "Potion, Speed (III)",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>This thin blue liquid tightens the consumer's muscles. For 1 Hour, the consumer's Speed is increased by 5' per Rank, as shown below:</p><p><strong>Rank III:</strong> +15'</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

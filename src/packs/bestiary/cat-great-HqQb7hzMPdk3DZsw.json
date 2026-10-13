@@ -3,7 +3,7 @@
   "_key": "!actors!HqQb7hzMPdk3DZsw",
   "name": "Cat, Great",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 3.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!HqQb7hzMPdk3DZsw.amFqVjYkRZnWK08s",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!HqQb7hzMPdk3DZsw.IUApFjL0xOn4xFie",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!HqQb7hzMPdk3DZsw.W1XoNkqUCdglOydB",
       "name": "Claws",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!HqQb7hzMPdk3DZsw.zZRZYLDHroOo07fx",
       "name": "Dense Muscled",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Grapples and Shoves as Large.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!HqQb7hzMPdk3DZsw.Dpdq8iGA28wgSqIW",
       "name": "Pack Hunter",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Targets within 5' of one of this Being's Allies are Vulnerable to its attacks.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!HqQb7hzMPdk3DZsw.3Rnkj05eYpfcHQOo",
       "name": "Pounce",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it moves at least 20' before an attack on the same Turn, the Target is also knocked Prone.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

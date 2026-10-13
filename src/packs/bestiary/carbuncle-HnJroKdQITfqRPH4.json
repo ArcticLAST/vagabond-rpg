@@ -3,7 +3,7 @@
   "_key": "!actors!HnJroKdQITfqRPH4",
   "name": "Carbuncle",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!HnJroKdQITfqRPH4.tTkfNMm95cjvt2Kn",
       "name": "Scare to Death",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it fails a Morale Check or becomes Frightened, it dies.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!HnJroKdQITfqRPH4.C1fvZigFsxt2gLaw",
       "name": "Shattering Death",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>When it dies, it shatters to dust.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

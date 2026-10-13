@@ -3,7 +3,7 @@
   "_key": "!actors!3pU1v8agBnjwG9Fz",
   "name": "Homunculus",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!3pU1v8agBnjwG9Fz.zhL4kVbZDdvmyKVN",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1 (d3) and (1/Day) pass [Endure] or become Sickened (Cd6 Rounds, Unconscious until it takes damage).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!3pU1v8agBnjwG9Fz.nxuJliip2nX54FX5",
       "name": "Spit Acid",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Burning (Cd4)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

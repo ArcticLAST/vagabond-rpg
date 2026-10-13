@@ -3,7 +3,7 @@
   "_key": "!items!MhgwQ5J1f1Gd08tF",
   "name": "Babble",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>When the Check passes, and each time you Focus on the Cast for the duration, you can cause the Target to loudly and coherently repeat everything you mentally command them to. They are otherwise mute.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

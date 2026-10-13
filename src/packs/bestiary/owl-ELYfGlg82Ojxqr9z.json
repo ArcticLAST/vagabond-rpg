@@ -3,7 +3,7 @@
   "_key": "!actors!ELYfGlg82Ojxqr9z",
   "name": "Owl",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!ELYfGlg82Ojxqr9z.Lk05ZMJwXza3puW8",
       "name": "Talon",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!ELYfGlg82Ojxqr9z.9cFqwsRAEDrLjLEQ",
       "name": "Nimble",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

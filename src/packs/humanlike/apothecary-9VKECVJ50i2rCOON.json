@@ -3,7 +3,7 @@
   "_key": "!actors!9VKECVJ50i2rCOON",
   "name": "Apothecary",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!9VKECVJ50i2rCOON.i37SPPkkoU1zVFIQ",
       "name": "Health Potion",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regain 4 (d6+1) HP</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!9VKECVJ50i2rCOON.p3oPVA60E2ahPCkX",
       "name": "Panacea",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Cured of Blinded or Sickened.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!9VKECVJ50i2rCOON.Kihc9Eei6Jbr9DBC",
       "name": "Crossbow",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!KFOXSB86zvoVpRoG",
   "name": "Snallygaster",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 4.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!KFOXSB86zvoVpRoG.M59A36xNsH2bXSrB",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Talons and 1×Drain, or 2×Drain</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!KFOXSB86zvoVpRoG.dS4LfWjAH5LkOiih",
       "name": "Drain",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4) HP is drained from the Target</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!KFOXSB86zvoVpRoG.sBdcixjBAp41B7CO",
       "name": "Talon",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and Restrained if its this Being's second Talon to hit it this Turn</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!KFOXSB86zvoVpRoG.dHFATpyAG6XDmNW6",
       "name": "Booze Hound",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It takes half damage from poison-based damage and can sense alcohol within 1 mile as if by Allsight. It doesn't flee if it is sensing alcohol, except by its Divine-Averse Ability.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!KFOXSB86zvoVpRoG.8LMhGxufqTF2dsHy",
       "name": "Divine-Averse",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It makes Morale Checks if it can see a divine trinket.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

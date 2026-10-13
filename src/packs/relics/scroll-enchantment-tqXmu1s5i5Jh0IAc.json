@@ -3,7 +3,7 @@
   "_key": "!items!tqXmu1s5i5Jh0IAc",
   "name": "Scroll, Enchantment",
   "type": "gear",
-  "img": "icons/tools/scribal/ink-quill-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Parchment (Consumable)</em></p><p>Can be read to grant one Item of the reader's choice that they are touching the Relic Power on the Scroll. The Scroll then vaporizes.</p><p>Value: equal to the Value of the Relic Power (recorded as 0)</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 107",

@@ -3,7 +3,7 @@
   "_key": "!actors!8NhJPcuBlNQluEqC",
   "name": "Golem, Flesh",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 4.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!8NhJPcuBlNQluEqC.kxseeNiIfi4804d0",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Slam</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!8NhJPcuBlNQluEqC.tbiRdI4yfxPT7k24",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) (+2 if this Being is Berserk)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!8NhJPcuBlNQluEqC.LRmFjB02Jq5t2IAq",
       "name": "Bloodied Rage",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>At 20 HP or less, it is Berserk.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!8NhJPcuBlNQluEqC.6Px4eBLIS30guihC",
       "name": "Flame-Averse",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it can see fire or takes damage from fire, it is Frightened (Cd4).</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!8NhJPcuBlNQluEqC.jjilwTmr6rIP5Mz1",
       "name": "Shock-Absorber",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Shock damage rolls heal it instead.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!YcvzUAi4RFmr8X4c",
   "name": "Orc",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!YcvzUAi4RFmr8X4c.5EnAPU4dpOs8R78Y",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) or (by Weapon).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!YcvzUAi4RFmr8X4c.sgWTKgNicD4tegiO",
       "name": "Hulking",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Counts as Large for Grapples and Shoves.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!NFNhQjvog7AFnxtg",
   "name": "Spider, Giant Tarantella",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 2.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!NFNhQjvog7AFnxtg.En4rdIjGOTT7KqXF",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) and pass [Endure] or become Sickened (Cd4, Vulnerable and must skip its Move to dance in place causing a -4 penalty to Attack Checks and giving them +1 Fatigue each Round. Anyone who witnesses this dancing must pass [Will] or also become Charmed this way for (Cd4)).</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

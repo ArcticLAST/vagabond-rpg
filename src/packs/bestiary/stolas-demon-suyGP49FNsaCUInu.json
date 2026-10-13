@@ -3,7 +3,7 @@
   "_key": "!actors!suyGP49FNsaCUInu",
   "name": "Stolas Demon",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 27,
     "tl": 11.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!suyGP49FNsaCUInu.ZNKoaZhBvGtSQvkn",
       "name": "Peer Beyond",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>21 (6d6) and Dazed (Cd6 Rounds)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!suyGP49FNsaCUInu.CHlgJe9VJGPq35rm",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Beak</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!suyGP49FNsaCUInu.1ePa4Vx5lhWZBFBC",
       "name": "Beak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>14 (4d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!suyGP49FNsaCUInu.pusXNNSH6JaAw1gT",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (3d8) and Restrained if failed by 5 or more.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!suyGP49FNsaCUInu.JPfQFZR9cv1wcNJK",
       "name": "Magic Ward IV",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 4 or more.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!suyGP49FNsaCUInu.eCEZ2bgpRVEQii5T",
       "name": "Regenerate III",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 13 (3d8) HP on each of its Turns.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 4,
     "height": 4,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

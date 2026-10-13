@@ -3,7 +3,7 @@
   "_key": "!actors!YmQ6ApCLd8TFTvzM",
   "name": "Magmot",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 6.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!YmQ6ApCLd8TFTvzM.iGdTKMpYVxuDnKfi",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Slams</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!YmQ6ApCLd8TFTvzM.UbEwUlKTn4pqbwRH",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and pass [Endure] or become Burning (Cd4)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!YmQ6ApCLd8TFTvzM.FsKnbJ84RjTclicT",
       "name": "Burrow Burst",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it breaches the ground after moving at least 20' on the same Turn, its first Slam deals 18 (4d8) instead.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!YmQ6ApCLd8TFTvzM.uJasqvGVxewMh9M5",
       "name": "Tunneler",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can Move by burrowing in the ground at 30' per Round.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

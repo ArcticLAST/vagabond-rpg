@@ -3,7 +3,7 @@
   "_key": "!items!vvmkqeEJTcEdlhWj",
   "name": "Limit Break",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>When you are reduced below half HP and aren't Fatigued, you can immediately take an Action and gain +1 Fatigue.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

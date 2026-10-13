@@ -3,7 +3,7 @@
   "_key": "!actors!FT9PAJt3gigOnWNU",
   "name": "Thulhan",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!FT9PAJt3gigOnWNU.uzdKJtSDHlGemL2z",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4×Tentacle and 1×Flay</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!FT9PAJt3gigOnWNU.3CClx3B2UFB7bzdy",
       "name": "Flay",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d8+1) Fatigue. If it dies to Fatigue this way, its brain is extracted.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!FT9PAJt3gigOnWNU.5EQrIOpxm1ESJ6zm",
       "name": "Mind Blast",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Paralyzed (1 Round)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!FT9PAJt3gigOnWNU.HD8Xgia1IHeV5lWI",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Restrained if Medium or smaller</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!FT9PAJt3gigOnWNU.z1mC79LZDARa7jYH",
       "name": "Levitation (Focus)",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It has Fly.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!FT9PAJt3gigOnWNU.QMJF9FH3nE8onLON",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

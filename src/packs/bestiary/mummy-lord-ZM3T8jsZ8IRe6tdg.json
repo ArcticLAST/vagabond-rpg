@@ -3,7 +3,7 @@
   "_key": "!actors!ZM3T8jsZ8IRe6tdg",
   "name": "Mummy Lord",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 13,
     "tl": 7.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!ZM3T8jsZ8IRe6tdg.qcXgXFuzAZzGJ3Z7",
       "name": "Glare",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4, Paralyzed)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!ZM3T8jsZ8IRe6tdg.A4FGmOYl536RGWlR",
       "name": "Cursed Touch",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and pass an [Endure] Save or be Cursed (can't regain HP, and it loses 10 (3d6) HP every day)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!ZM3T8jsZ8IRe6tdg.tdWUkQxi29gbt6ht",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!ZM3T8jsZ8IRe6tdg.QEZ2EseSxexCs5j5",
       "name": "Doom Magnet",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Near Enemies can't gain Favor.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!ZM3T8jsZ8IRe6tdg.8T8ERNZQqR3a9Ky0",
       "name": "Zombie",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be reduced below 1 HP unless damaged by a Crit, damage it is Weak to, or while in Sunlight.</p>",
         "source": "",
@@ -211,7 +211,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

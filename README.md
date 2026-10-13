@@ -291,3 +291,5 @@ Code layout:
 ## License note
 
 The code is yours to license as you like. The compendium text is reproduced from the Vagabond alpha playtest for personal use. Check with Land of the Blind before distributing it publicly.
+
+Icons are from [game-icons.net](https://game-icons.net/) (Lorc, Delapouite, and contributors), used under CC BY 3.0. See `LICENSE-ICONS.md`.

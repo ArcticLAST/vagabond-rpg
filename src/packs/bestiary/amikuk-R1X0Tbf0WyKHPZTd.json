@@ -3,7 +3,7 @@
   "_key": "!actors!R1X0Tbf0WyKHPZTd",
   "name": "Amikuk",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 3.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!R1X0Tbf0WyKHPZTd.1b46FX6PEgGo3qhi",
       "name": "Drown",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained and pulled Close</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!R1X0Tbf0WyKHPZTd.YSrJKpPpTg2bXxZu",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!R1X0Tbf0WyKHPZTd.YMCit1cN9m1n70Mu",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!R1X0Tbf0WyKHPZTd.ALBETGzH5wRptAp0",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!R1X0Tbf0WyKHPZTd.mPMb0sZVsBEZ0YHx",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Breathes air and water.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

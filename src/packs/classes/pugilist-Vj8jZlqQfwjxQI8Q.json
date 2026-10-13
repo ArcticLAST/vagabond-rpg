@@ -3,7 +3,7 @@
   "_key": "!items!Vj8jZlqQfwjxQI8Q",
   "name": "Pugilist",
   "type": "class",
-  "img": "icons/svg/d20-black.svg",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>I didn't hear no bell. —Rocky Balboa, Rocky V Pugilists are brawlers of swagger. While a monk may dedicate themself to a single focused blow, a pugilist will break their fingers and keep punching with the bloody stump.</p><p>Pugilists are frontline bruisers. Stay in the frontline, even while at low HP.</p><ul><li><strong>Action:</strong> Attack (Brawl)</li><li><strong>Move:</strong> Frontline</li><li><strong>Key Stat:</strong> Might</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Brawl, Influence</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 51",

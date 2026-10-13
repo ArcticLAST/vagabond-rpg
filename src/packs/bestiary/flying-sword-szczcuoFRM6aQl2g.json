@@ -3,7 +3,7 @@
   "_key": "!actors!szczcuoFRM6aQl2g",
   "name": "Flying Sword",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 2.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!szczcuoFRM6aQl2g.A3xNFsLItxtN76Jc",
       "name": "Slash",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!szczcuoFRM6aQl2g.eO1C2m7AKui5uqlE",
       "name": "Antimagic Vulnerability",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is Dazed (Cd4) if affected by the Dispel Spell or other antimagic.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!szczcuoFRM6aQl2g.eL2fvws1rfOpOQcQ",
       "name": "Nimble",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

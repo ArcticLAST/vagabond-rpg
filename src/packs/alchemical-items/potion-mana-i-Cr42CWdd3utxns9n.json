@@ -3,7 +3,7 @@
   "_key": "!items!Cr42CWdd3utxns9n",
   "name": "Potion, Mana (I)",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>The consumer regains Mana equal to a number of d6 rolls determined by the Potion's Rank, plus a modifier equal to its Rank:</p><p>Once it regains Mana with one of these</p><p><strong>Rank I:</strong> d6+1</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

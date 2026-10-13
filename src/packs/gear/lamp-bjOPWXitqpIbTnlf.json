@@ -3,7 +3,7 @@
   "_key": "!items!bjOPWXitqpIbTnlf",
   "name": "Lamp",
   "type": "gear",
-  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Outdoors</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 82",

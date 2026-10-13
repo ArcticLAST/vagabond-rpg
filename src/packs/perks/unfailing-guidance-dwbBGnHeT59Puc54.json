@@ -3,7 +3,7 @@
   "_key": "!items!dwbBGnHeT59Puc54",
   "name": "Unfailing Guidance",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Your Allies ignore Hinder on Saves caused by the Target of your Guide Spell.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

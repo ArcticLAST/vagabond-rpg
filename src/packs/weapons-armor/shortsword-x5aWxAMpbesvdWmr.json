@@ -3,7 +3,7 @@
   "_key": "!items!x5aWxAMpbesvdWmr",
   "name": "Shortsword",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-guard-worn-purple.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

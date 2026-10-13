@@ -3,7 +3,7 @@
   "_key": "!actors!qxhnhWZvLA2Oy5Dy",
   "name": "Octopus, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 4.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.pnH17YPCKTKT6ZqH",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Tentacle per Tentacle it has, up to 4.</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.7NBAQoV5YCvc21di",
       "name": "Beak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.f6M3dLg3tZXlKzaB",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Restrained if Medium or smaller</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.dk2cEIk7rj3TNoDx",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can breathe air or water.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.xrufTH3wHiRWtbxZ",
       "name": "Ink Cloud",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it retreats, the surrounding 20' of water becomes obscured by ink for 1 minute.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!qxhnhWZvLA2Oy5Dy.tfACwtIieQpdjfpg",
       "name": "Tentacles",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Starts with 8. Targetting a Tentacle causes a -3 penalty to the Attack Check, but severs it if at least 6 damage is dealt with the attack.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

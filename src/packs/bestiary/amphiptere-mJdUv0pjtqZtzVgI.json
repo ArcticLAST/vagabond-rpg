@@ -3,7 +3,7 @@
   "_key": "!actors!mJdUv0pjtqZtzVgI",
   "name": "Amphiptere",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 1.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!mJdUv0pjtqZtzVgI.FBN6CqtoV3zxvdTW",
       "name": "Fireball",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and Burning (Cd4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!mJdUv0pjtqZtzVgI.DymDNIgxvo6JipVj",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

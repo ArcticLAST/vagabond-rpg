@@ -3,7 +3,7 @@
   "_key": "!items!TB8OU9AcPKGWBxwA",
   "name": "Erupt",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>Magma coats the nearest surface to the Target for the duration (minumum 5' square), causing it to be Difficult Terrain that deals d6 the first time a Being enters the area on a Turn and when it ends its Turn in the area.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

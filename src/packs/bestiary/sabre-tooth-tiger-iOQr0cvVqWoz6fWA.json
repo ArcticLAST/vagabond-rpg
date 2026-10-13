@@ -3,7 +3,7 @@
   "_key": "!actors!iOQr0cvVqWoz6fWA",
   "name": "Sabre-tooth Tiger",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!iOQr0cvVqWoz6fWA.exekoQgV4N6RqqnI",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!iOQr0cvVqWoz6fWA.7tolnYqgG5JAzGPJ",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!iOQr0cvVqWoz6fWA.0DYqFhCMGtgOhHOw",
       "name": "Claws",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!iOQr0cvVqWoz6fWA.dJh7Dfyqj6TFiCAM",
       "name": "Pack Hunter",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Targets within 5' of one of this Being's Allies are Vulnerable to its attacks.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!iOQr0cvVqWoz6fWA.JRVjXkUjARbmUs7v",
       "name": "Pounce",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it moves at least 20' before an attack on the same Turn, the Target is also knocked Prone.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

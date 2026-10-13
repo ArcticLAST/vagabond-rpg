@@ -3,7 +3,7 @@
   "_key": "!items!bSXmKRrPhEWr8tlK",
   "name": "Whip, chain",
   "type": "weapon",
-  "img": "icons/sundries/survival/leather-strap-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Grapple:</strong> Can Grapple with the Attack Check.</p><p><strong>Long:</strong> Its Range is doubled.</p><p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

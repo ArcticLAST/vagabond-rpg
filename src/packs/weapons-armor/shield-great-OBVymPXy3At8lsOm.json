@@ -3,7 +3,7 @@
   "_key": "!items!OBVymPXy3At8lsOm",
   "name": "Shield, great",
   "type": "weapon",
-  "img": "icons/equipment/shield/oval-wooden-boss-steel.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Cleave:</strong> Ignores Flanked for attacks. You can reduce its die one size to hit another Target within reach per size reduction.</p><p><strong>Defense:</strong> When you make a Reflex Save, you can make an Attack Check instead. If you pass, you reduce the damage by each equipped Defense Weapons' damage dice.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

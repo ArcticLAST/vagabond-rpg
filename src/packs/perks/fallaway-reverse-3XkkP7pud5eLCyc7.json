@@ -3,7 +3,7 @@
   "_key": "!items!3XkkP7pud5eLCyc7",
   "name": "Fallaway Reverse",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>If you Crit on a Save against a Melee attack, the attacker falls Prone.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

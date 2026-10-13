@@ -3,7 +3,7 @@
   "_key": "!items!Fwq3Zvo3Zqqrbho5",
   "name": "Merchant",
   "type": "class",
-  "img": "icons/svg/d20-black.svg",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>Lamp oil? Rope? Bombs? You want it? It's yours my friend, as long as you have enough rubies. —Morshu, Link: The Faces of Evil May they be an appraiser of rare magic items, peddler of illicit substances, or bookkeeper for the court, merchants are masters of exchange.</p><p>The merchant is a low-defense and damage character, who provides high-support through a wider inventory pool and optimizing your party&#x27;s resources. In combat, you should look out for allies in need of assistance and strategize what items to use.</p><ul><li><strong>Action:</strong> Use</li><li><strong>Move:</strong> Flexible (skip to Use)</li><li><strong>Key Stat:</strong> Luck/Reason</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Craft, Finesse, Influence</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 49",

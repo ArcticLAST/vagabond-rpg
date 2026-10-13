@@ -3,7 +3,7 @@
   "_key": "!items!RbbHeKZZOsWucPOs",
   "name": "Vorpal Blade",
   "type": "weapon",
-  "img": "icons/weapons/daggers/dagger-straight-blue.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Fabled Relic Dagger</em></p><p>Dagger with the following Powers:</p><ul><li><strong>(+3) Weapon:</strong> Deals an extra +3 damage.</li><li><strong>Vorpal:</strong> Beheads its Target on a Crit if the Target takes the damage.</li></ul><p>Value: 55000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 108",

@@ -3,7 +3,7 @@
   "_key": "!actors!HIIWyZJpEI4xXAKv",
   "name": "Kelpie",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 2.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!HIIWyZJpEI4xXAKv.2av39Ivt2efIkGHj",
       "name": "Entangle",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!HIIWyZJpEI4xXAKv.tsByRPuafuQIW5qt",
       "name": "Enlure",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Charmed (Cd6, it must Move closer to this Being)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!HIIWyZJpEI4xXAKv.H51EwJU5InfSTGiv",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can breathe air and water.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!HIIWyZJpEI4xXAKv.ZMUXkv0E4HCLelPH",
       "name": "Shapechange",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can skip its Move to turn into a green woman, or an aquatic horse (use the hippocampus statblock). It maintains its HP in these forms.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

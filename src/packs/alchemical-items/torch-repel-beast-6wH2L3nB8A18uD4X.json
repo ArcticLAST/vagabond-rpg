@@ -3,7 +3,7 @@
   "_key": "!items!6wH2L3nB8A18uD4X",
   "name": "Torch, Repel Beast",
   "type": "gear",
-  "img": "icons/sundries/lights/torch-black.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>A torch that burns with an unnaturally crimson flame that unsettles Beasts. While burning, Beasts in the Light it sheds are Frightened until they take damage. Afterwards, it can't be Frightened this way for 1 Day.</p><p>Torch, Sentry</p><p>While burning, effects that cause Invisibility are suspended while in its Light.</p><p>Torch, Tindertwig</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

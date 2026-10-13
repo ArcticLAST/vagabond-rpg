@@ -3,7 +3,7 @@
   "_key": "!actors!UFxmgvGlCDCyeTsZ",
   "name": "Troglodyte",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 2.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!UFxmgvGlCDCyeTsZ.xUqGmvkcgeA30ehU",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!UFxmgvGlCDCyeTsZ.KDMKbq93WzCHvBRF",
       "name": "Claws",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!UFxmgvGlCDCyeTsZ.d5cPHvKksde839Dz",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!UFxmgvGlCDCyeTsZ.gSdNN8ULMjCgJNwZ",
       "name": "Chameleon Skin",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Detect Checks to find it based on sight are Hindered.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!UFxmgvGlCDCyeTsZ.orlajrNaNrezq3ME",
       "name": "Stench",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>At the start of each of this Being's Turns, pass [Endure] or be Sickened (-2 to Attack Checks while in the Area). On a pass, it is immune to this Ability for 1 day.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!UFxmgvGlCDCyeTsZ.TDOzWBOSvFC2oc0W",
       "name": "Sun-Averse",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Is Blinded (Cd4) by Sunlight.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

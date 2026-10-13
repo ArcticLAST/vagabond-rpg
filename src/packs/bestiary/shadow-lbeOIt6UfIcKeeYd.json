@@ -3,7 +3,7 @@
   "_key": "!actors!lbeOIt6UfIcKeeYd",
   "name": "Shadow",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!lbeOIt6UfIcKeeYd.ir78B3yYgELLVOqb",
       "name": "Life Drain",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4) and pass [Endure] or +1 Fatigue. If this kills it, it rises as a Shadow.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!lbeOIt6UfIcKeeYd.RaibvIo4CyhqcWpx",
       "name": "Nightwalker",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!lbeOIt6UfIcKeeYd.QLJbbePZCalHwhmH",
       "name": "Shadow Stealth",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is Invisible in the Dark.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

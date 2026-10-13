@@ -3,7 +3,7 @@
   "_key": "!items!NSPaNDLlMibD71cF",
   "name": "Staff",
   "type": "weapon",
-  "img": "icons/weapons/staves/staff-simple-spiral-grey.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Cleave:</strong> Ignores Flanked for attacks. You can reduce its die one size to hit another Target within reach per size reduction.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

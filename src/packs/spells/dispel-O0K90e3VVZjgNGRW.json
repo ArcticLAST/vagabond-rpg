@@ -3,7 +3,7 @@
   "_key": "!items!O0K90e3VVZjgNGRW",
   "name": "Dispel",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>You suspend a magic effect for the duration, treating it as an unwilling Target (p. 91).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

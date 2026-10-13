@@ -3,7 +3,7 @@
   "_key": "!items!oimDU5Byv6OYtkGq",
   "name": "Ladder (10')",
   "type": "gear",
-  "img": "icons/sundries/misc/ladder-improvised.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Hardware</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

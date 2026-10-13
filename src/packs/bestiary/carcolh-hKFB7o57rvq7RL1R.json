@@ -3,7 +3,7 @@
   "_key": "!actors!hKFB7o57rvq7RL1R",
   "name": "Carcolh",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 15,
     "tl": 7.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!hKFB7o57rvq7RL1R.p2cg9DrzTpBWXczc",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Tentacle per (Tentacles) and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!hKFB7o57rvq7RL1R.NdtjvZO8mRJAW85S",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>16 (3d10) and Burning (Cd6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!hKFB7o57rvq7RL1R.7uPdRDhj9DAtjwSo",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained and pulled Close.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!hKFB7o57rvq7RL1R.k7uNS8n6UcDw2CEQ",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!hKFB7o57rvq7RL1R.NBr7acKTpqD9jlsw",
       "name": "Tentacles",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Starts with 6 Tentacles. Targetting a Tentacle causes a -4 penalty to the Attack Check, but severs it if at least 16 damage is dealt with the attack.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

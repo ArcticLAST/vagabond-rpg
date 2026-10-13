@@ -3,7 +3,7 @@
   "_key": "!actors!SoESQP2OzsZCLOUC",
   "name": "Grey Ooze",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 1.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!SoESQP2OzsZCLOUC.1YyHnH58ZooyFJWo",
       "name": "Pseudopod",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) and Corroding</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!SoESQP2OzsZCLOUC.oJJEVrRBTdz92TXZ",
       "name": "Amorphous",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can Move into occupied space as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!SoESQP2OzsZCLOUC.meqjLg0N6G6FxYjO",
       "name": "Corroding",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Non-Relic metal Items that make contact with it corrode. When this happens, roll a d6 for each Item. On a roll of 1, the Item breaks. If the Item that breaks is larger than Medium, this destroys a 1-foot square hole that is 1-foot deep in it.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

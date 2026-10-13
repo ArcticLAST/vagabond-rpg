@@ -3,7 +3,7 @@
   "_key": "!items!D100o3Sne86Ryi4h",
   "name": "Mithridatism",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Your Saves against Sickened are Favored, and you reduce Poison-based damage you take by 2 per die of the effect.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

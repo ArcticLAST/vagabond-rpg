@@ -3,7 +3,7 @@
   "_key": "!actors!tffSl09FrULK6GSK",
   "name": "Golem, Clay",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 12,
     "tl": 4.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!tffSl09FrULK6GSK.90qAmNjGgLmj11t1",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Slam</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!tffSl09FrULK6GSK.GxTVTvL4JmdHYMv8",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!tffSl09FrULK6GSK.jkaohhxNKV0beCKG",
       "name": "Acid Bather",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Acid damage rolls affect it as healing rolls.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!tffSl09FrULK6GSK.eEdJvwTooP7YVqmr",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!tffSl09FrULK6GSK.biJ1iLRblullqe3h",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!tffSl09FrULK6GSK.9Ok3sVw6GAKVTY5P",
       "name": "Unbaked",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it takes 5 or more Fire damage at once, it is Dazed (Cd4).</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!t7LAMEqgNctmX2Il",
   "name": "Chimera",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 7.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!t7LAMEqgNctmX2Il.Cjc6pm7hCAYiCkws",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw, 1×Horn, 1×Lion's Bite, and 1×Breath or 1×Dragon's Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!t7LAMEqgNctmX2Il.kUxO5NJq4v09980E",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!t7LAMEqgNctmX2Il.PNtqgidyyFkrqdgB",
       "name": "Horn",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!t7LAMEqgNctmX2Il.Uf8pQ6NfYN6Lrqlu",
       "name": "Lion's Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!t7LAMEqgNctmX2Il.y0D6rn6AMEg7BFmX",
       "name": "Breath",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6)</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!t7LAMEqgNctmX2Il.nsClGNCgMli929Ri",
       "name": "Dragon's Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>(3d4)</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

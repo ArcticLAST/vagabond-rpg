@@ -3,7 +3,7 @@
   "_key": "!items!wVs2yEVbtednEKl8",
   "name": "Moon",
   "type": "spell",
-  "img": "icons/magic/nature/symbol-moon-stars-white.webp",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target sheds Moonlight out to Near for the duration. Shapechangers are Burning (d6) while illuminated by this Moonlight.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

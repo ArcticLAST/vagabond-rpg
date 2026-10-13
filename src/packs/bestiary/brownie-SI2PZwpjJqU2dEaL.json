@@ -3,7 +3,7 @@
   "_key": "!actors!SI2PZwpjJqU2dEaL",
   "name": "Brownie",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 2.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!SI2PZwpjJqU2dEaL.Iv8FJ8aylWtIg4l5",
       "name": "Dagger",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!SI2PZwpjJqU2dEaL.yla9Mw234zJqaEVH",
       "name": "Dancing Lights",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Causes dancing lights of any shape no larger than Medium within Near</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!SI2PZwpjJqU2dEaL.5f53uFbprqapwkAL",
       "name": "Dimension Door",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Teleports to an open Area it is aware of within 360'</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!SI2PZwpjJqU2dEaL.Om9Tbxinyxs5f1KU",
       "name": "Ambush Innured",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be surprised, and can take an Action and Move before the first Turn of Combat.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!SI2PZwpjJqU2dEaL.SXnH8DUrU2JPCwlr",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -211,7 +211,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

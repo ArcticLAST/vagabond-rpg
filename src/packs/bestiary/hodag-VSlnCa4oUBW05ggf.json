@@ -3,7 +3,7 @@
   "_key": "!actors!VSlnCa4oUBW05ggf",
   "name": "Hodag",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 3.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!VSlnCa4oUBW05ggf.EwfBPAOHOav01jFs",
       "name": "Fire Breath",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!VSlnCa4oUBW05ggf.JOYDPNEu3Gz5uYO9",
       "name": "Spike",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!VSlnCa4oUBW05ggf.WSeA7R5A46srR3Hl",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d6)</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!VSlnCa4oUBW05ggf.1URCYdFzjbNAgc4K",
       "name": "Bloodlust",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it is missing at least half its HP, it is Berserk. Whenever it is Berserk, it can make 2 Attacks on its Turn instead of 1.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!VSlnCa4oUBW05ggf.uZmHyAwVUvid4jP6",
       "name": "Lemoniphobic",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4) after seeing a lemon.</p>",
         "source": "",
@@ -200,7 +200,7 @@
       "_key": "!actors.items!VSlnCa4oUBW05ggf.9aj2KeYRmA1GYnwX",
       "name": "Stench",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>All Near non-hodags that have to breathe are Sickened (while Near this Being).</p>",
         "source": "",
@@ -243,7 +243,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

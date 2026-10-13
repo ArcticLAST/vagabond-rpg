@@ -3,7 +3,7 @@
   "_key": "!actors!jsxL276cKuXMMYge",
   "name": "Wolf in Sheep's Clothing",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 2.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!jsxL276cKuXMMYge.50f7a4bgBBPe1FfR",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!jsxL276cKuXMMYge.qBWdryDhKY5kofJN",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

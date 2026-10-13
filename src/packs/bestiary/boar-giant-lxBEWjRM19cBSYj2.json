@@ -3,7 +3,7 @@
   "_key": "!actors!lxBEWjRM19cBSYj2",
   "name": "Boar, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!lxBEWjRM19cBSYj2.1pOzPDq2JuT4pPNY",
       "name": "Tusk",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!lxBEWjRM19cBSYj2.E40367SxEg4eTmqD",
       "name": "Relentless",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Once per Day, if it is reduced to 0 HP, it instead regains 2d4 HP.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

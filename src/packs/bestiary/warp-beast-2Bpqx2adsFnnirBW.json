@@ -3,7 +3,7 @@
   "_key": "!actors!2Bpqx2adsFnnirBW",
   "name": "Warp Beast",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 3.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!2Bpqx2adsFnnirBW.Nd38RmJqR5ycFx8d",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Tentacle</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!2Bpqx2adsFnnirBW.p6JFMslcF6mCR5yA",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!2Bpqx2adsFnnirBW.4EwiJXeCVi8c0TGn",
       "name": "Displacement I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Attack and Cast Checks that directly Target it have a d4 penalty.</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

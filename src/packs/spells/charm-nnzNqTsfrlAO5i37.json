@@ -3,7 +3,7 @@
   "_key": "!items!nnzNqTsfrlAO5i37",
   "name": "Charm",
   "type": "spell",
-  "img": "icons/magic/air/wind-tornado-spiral-pink-purple.webp",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>Enthrallment keeps the Target Charmed for the duration, ending early if it takes damage or if you Cast this Spell again.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

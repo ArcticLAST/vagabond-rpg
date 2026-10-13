@@ -3,7 +3,7 @@
   "_key": "!actors!dEEzmkwsxkzWqKZ6",
   "name": "Potead, Large",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!dEEzmkwsxkzWqKZ6.cLltg2znyHtUG3Ey",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!dEEzmkwsxkzWqKZ6.HFa4tvJKQKZv7Cpj",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

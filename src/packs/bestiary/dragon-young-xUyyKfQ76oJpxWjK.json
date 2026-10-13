@@ -3,7 +3,7 @@
   "_key": "!actors!xUyyKfQ76oJpxWjK",
   "name": "Dragon, Young",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 5.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.rb6z83VYgWERxnOI",
       "name": "Breath Attack",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Begins this Attack, which occurs on its next Turn. Pick the breath for its color from the Breath Actions below.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.X9pcZEkejcWILLs7",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.ONeDfAaqRdPONObb",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.1peo2PHmOY64mX7e",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.sBdcmPUIEL1PDQ5q",
       "name": "Tail",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d8) and shoved Prone 10' away</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.S6B1X9LBKere8Cfg",
       "name": "Red Breath",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>14 (4d6), and Burning (Cd4) if failed. Red dragons are Immune to Fire.</p>",
         "source": "",
@@ -233,7 +233,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.KudMwxDtrU29HXqa",
       "name": "Blue Breath",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (2d12), and Dazed (Cd4) if failed. Blue dragons are Immune to Shock.</p>",
         "source": "",
@@ -265,7 +265,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.pMrW8l6ERzt4PWAO",
       "name": "Green Breath",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6), and Sickened (Cd4 dmg) if failed. Green dragons are Immune to Poison.</p>",
         "source": "",
@@ -297,7 +297,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.pPjniyVMOsbJ4IiL",
       "name": "White Breath",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6), and Dazed (Cd4, Speed reduced by 15') if failed. White dragons are Immune to Cold.</p>",
         "source": "",
@@ -329,7 +329,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.9kpwhP69Ay4yPboZ",
       "name": "Black Breath",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and Burning (Cd4) if failed. Black dragons are Immune to Acid.</p>",
         "source": "",
@@ -361,7 +361,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.q1D029VxSbbzl1Dm",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -393,7 +393,7 @@
       "_key": "!actors.items!xUyyKfQ76oJpxWjK.R8tuXuKu4N5WJJsg",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -436,7 +436,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

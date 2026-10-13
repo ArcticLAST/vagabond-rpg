@@ -3,7 +3,7 @@
   "_key": "!items!0pivoHrwdLPbYsxf",
   "name": "Chicanery",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>If you fail a Check, it doesn't alert Beings to your presence, or advance Progress Clocks.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

@@ -3,7 +3,7 @@
   "_key": "!actors!WX6tIoP2UAXPTF0R",
   "name": "Spider, Giant Black Widow",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!WX6tIoP2UAXPTF0R.4l9sMf2R7TNlKTRy",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and pass [Endure] or become Sickened (Cd4, +1 Fatigue each Round).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!WX6tIoP2UAXPTF0R.IKzQskTM6tq1Z0Hr",
       "name": "Webs",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Its web is an Object with 4 HP and Armor: 5.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!WX6tIoP2UAXPTF0R.PYVeTSx2xI0msE8e",
       "name": "Web Walker",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can sense any Being on the same web as it as if by Blindsight, and is not impeded by web as Difficult Terrain.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

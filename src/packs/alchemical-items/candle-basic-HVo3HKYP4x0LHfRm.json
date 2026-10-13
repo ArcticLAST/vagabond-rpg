@@ -3,7 +3,7 @@
   "_key": "!items!HVo3HKYP4x0LHfRm",
   "name": "Candle, Basic",
   "type": "gear",
-  "img": "icons/sundries/lights/candle-unlit-tan.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Acts as a torch, but its Light only sheds out to Close.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

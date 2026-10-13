@@ -3,7 +3,7 @@
   "_key": "!items!BLMMiTfYBQ7XHZ13",
   "name": "Infesting Burst",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>When you create an Undead with Raise, you can choose to raise them up as a Boomer (p. 181).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

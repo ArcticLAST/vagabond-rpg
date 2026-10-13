@@ -3,7 +3,7 @@
   "_key": "!items!YMDpnowf3K43DkxC",
   "name": "Wagon",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Beasts &amp; Husbandry</em></p><p>Adds 150 Slots (as a mount or vehicle).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 78",

@@ -3,7 +3,7 @@
   "_key": "!items!Xp8qUBGWi6qwCt9q",
   "name": "Rations (1 day)",
   "type": "gear",
-  "img": "icons/consumables/grains/bread-loaf-boule-rustic-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Cooking &amp; Food</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

@@ -3,7 +3,7 @@
   "_key": "!items!TerKBYpXhR8d80eO",
   "name": "Fishing tackle",
   "type": "gear",
-  "img": "icons/tools/fishing/rod-brown-gold.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Outdoors</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 82",

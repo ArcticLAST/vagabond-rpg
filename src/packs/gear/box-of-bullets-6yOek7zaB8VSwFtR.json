@@ -3,7 +3,7 @@
   "_key": "!items!6yOek7zaB8VSwFtR",
   "name": "Box of bullets",
   "type": "gear",
-  "img": "icons/weapons/ammunition/shot-round-blue.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Ammunition container. You don't track every piece of mundane ammo: if you have a container (quiver, box, etc.), you have ammunition.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 76",

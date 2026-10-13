@@ -3,7 +3,7 @@
   "_key": "!items!4BneMzLBBSdqpFkJ",
   "name": "Infravision",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You gain Darksight (p. 9).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

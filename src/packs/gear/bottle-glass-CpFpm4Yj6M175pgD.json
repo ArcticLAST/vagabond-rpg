@@ -3,7 +3,7 @@
   "_key": "!items!CpFpm4Yj6M175pgD",
   "name": "Bottle, glass",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Alchemy &amp; Medicine</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 78",

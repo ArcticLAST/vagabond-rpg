@@ -3,7 +3,7 @@
   "_key": "!items!EwtISNAcnhI1csyG",
   "name": "Salt (1 lb. bag)",
   "type": "gear",
-  "img": "icons/consumables/food/bowl-stew-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Cooking &amp; Food</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

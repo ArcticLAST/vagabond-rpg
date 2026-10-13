@@ -3,7 +3,7 @@
   "_key": "!actors!CfOhDt38VNiHwpWc",
   "name": "Bugbear",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 1.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!CfOhDt38VNiHwpWc.EVWxtonJUp94Jbei",
       "name": "Morningstar",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!CfOhDt38VNiHwpWc.VVvPxzRgvvatj2Hd",
       "name": "Ambusher",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it attacks a Being that has not acted in the Combat, it deals an extra die of damage.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

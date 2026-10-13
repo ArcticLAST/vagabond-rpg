@@ -3,7 +3,7 @@
   "_key": "!actors!FnfLGaC23UZkizXQ",
   "name": "Viskyd",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!FnfLGaC23UZkizXQ.EJR7cxuoA42ljayp",
       "name": "Pop",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6). Further, all Close Viskyd Allies also Pop</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!FnfLGaC23UZkizXQ.9ibf4Ovga5Js30lL",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Restrained if Medium or smaller</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!FnfLGaC23UZkizXQ.Pqi7ApO1tf1mRkMP",
       "name": "Amorphous",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!FnfLGaC23UZkizXQ.5INZcrNj3KI5tpYt",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!FnfLGaC23UZkizXQ.GUmSLcFOHnd8NXD4",
       "name": "Sticky",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Hinders attempts to end being Restrained by it. Beings that make physical contact with it must pass [Endure] or be Restrained.</p>",
         "source": "",
@@ -211,7 +211,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!6AyWCJSbJQgfoj3h",
   "name": "Snake, Cobra",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!6AyWCJSbJQgfoj3h.wtynwWIrhBxcn7Pn",
       "name": "Venom Spit",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>0 and, if failed by 5 or more, Blinded</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!6AyWCJSbJQgfoj3h.LgpQBCOvrNjQ6FRw",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1 (d3) and pass [Endure] or become Sickened (Cd6 damage each minute)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

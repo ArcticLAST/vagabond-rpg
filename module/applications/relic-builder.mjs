@@ -202,7 +202,7 @@ export default class RelicBuilder extends HandlebarsApplicationMixin(Application
     const b = this.build;
     const plan = this.plan;
     const base = plan.base;
-    const data = base ? base.toObject() : { type: "gear", img: "icons/svg/item-bag.svg", system: {} };
+    const data = base ? base.toObject() : { type: "gear", img: CONFIG.VAGABOND.defaultIcons.relic, system: {} };
     delete data._id;
     delete data.folder;
     delete data.sort;

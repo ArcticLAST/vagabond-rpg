@@ -3,7 +3,7 @@
   "_key": "!actors!TqksoilfZCYTGqfF",
   "name": "Hydra",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 9.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!TqksoilfZCYTGqfF.dzJPEbdGbVbhf4hE",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Bite per Head (Multi-Headed)</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!TqksoilfZCYTGqfF.NnWloxG8we1WTS8Q",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10) and Restrained if smaller.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!TqksoilfZCYTGqfF.eXC3e0WZLDp3Jmkl",
       "name": "Multi-Headed",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It starts with 8 (d8+4) Heads. Targetting an area that could behead it causes a -3 penalty to the Check, but severs it if at least 10 damage is dealt in a single damage instance.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!TqksoilfZCYTGqfF.o2vbvZ32qqOy4g44",
       "name": "Hydra Regrowth",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 9 HP at the start of its Turns. If it is missing one of its heads when this happens, two Heads sprout. This Ability doesn't work if it took damage from Fire since its last Turn.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 4,
     "height": 4,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!sd8p6IxwezIZvecM",
   "name": "Golem, Bone",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 4.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!sd8p6IxwezIZvecM.WRze6WXR5bgI2iSJ",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4×Cutlass</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!sd8p6IxwezIZvecM.30J8pPfdcd3RuHlx",
       "name": "Cutlass",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!sd8p6IxwezIZvecM.Hfiy0DAVtm2BMjzi",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!sd8p6IxwezIZvecM.Erm1fq5WxYAVZkcM",
       "name": "Limbs",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is encountered with 5 (d6 + 2) limbs, and loses a limb each time it takes at least 4 damage.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!sd8p6IxwezIZvecM.Nwsf0EgmixRo4CJ1",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

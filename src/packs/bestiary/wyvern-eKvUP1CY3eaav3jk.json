@@ -3,7 +3,7 @@
   "_key": "!actors!eKvUP1CY3eaav3jk",
   "name": "Wyvern",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 14,
     "tl": 5.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!eKvUP1CY3eaav3jk.oL7M5T4ZUFXujsbk",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Stinger and 1×Bite; or 2×Claw and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!eKvUP1CY3eaav3jk.xrqGqk6RA2CZpmRe",
       "name": "Stinger",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and Sickened (Cd4, +1 Fatigue each Round)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!eKvUP1CY3eaav3jk.3cKTZPeaoSEQ2xVj",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!eKvUP1CY3eaav3jk.9TOUs2Is1KbFCCGy",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

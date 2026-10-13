@@ -3,7 +3,7 @@
   "_key": "!items!yTvgOJznz0QEYGib",
   "name": "Potion, Diminution",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>For 1 Hour, the consumer becomes Small. During this time, their damage dice are reduced by one size (minimum d4).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

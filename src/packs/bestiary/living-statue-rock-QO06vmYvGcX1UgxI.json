@@ -3,7 +3,7 @@
   "_key": "!actors!QO06vmYvGcX1UgxI",
   "name": "Living Statue, Rock",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 5.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!QO06vmYvGcX1UgxI.ua7yRe08fKNjpDU0",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Magma Jet</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!QO06vmYvGcX1UgxI.9dh2vf5zlJ8ONtbB",
       "name": "Magma Jet",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and Burning (Cd6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!QO06vmYvGcX1UgxI.2b5yVjSUrgHH3OX0",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!items!rYDDsfJdwHBgN6eP",
   "name": "Backpack",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Occupies 1 Slot when held. While worn (equipped) it grants +2 Slots. (Core Rulebook p. 79.)</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

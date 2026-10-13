@@ -3,7 +3,7 @@
   "_key": "!items!iiWzQ25fr08ebdSY",
   "name": "Fade",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is Invisible for the duration, ending early if they use an Action.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

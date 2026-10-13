@@ -3,7 +3,7 @@
   "_key": "!actors!rxIglTYVH87DRKUX",
   "name": "Zombie, Drowner",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 0.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!rxIglTYVH87DRKUX.ayKVONsRfsMVh53e",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!rxIglTYVH87DRKUX.o66syN2Hi9IHAtTn",
       "name": "Grasp",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!rxIglTYVH87DRKUX.qIskBdBhdI3QOsrr",
       "name": "Zombie",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be reduced below 1 HP unless dealt by a Crit, damage it is Weak to, or while in Sunlight.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

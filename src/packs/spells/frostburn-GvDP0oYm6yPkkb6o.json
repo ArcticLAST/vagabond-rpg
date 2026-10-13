@@ -3,7 +3,7 @@
   "_key": "!items!GvDP0oYm6yPkkb6o",
   "name": "Frostburn",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>If the Target isn't Immune to Cold, they are Burning (d4, Speed reduced by 10') for the duration, ending early in extreme heat.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

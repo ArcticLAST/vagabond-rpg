@@ -3,7 +3,7 @@
   "_key": "!actors!sSsbazjzKGXKBCSC",
   "name": "Pit Fiend",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 13,
     "tl": 7.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.aHflUw4qOmx3Xn6p",
       "name": "Symbol of Pain",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Cursed (Cd6 Rounds, -4 penalty to Attack Checks and a -2 to [Reflex] Saves)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.Az46BqOyy1GFZqH0",
       "name": "Fireball",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>21 (6d6) and Burning (Cd4)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.MbfnvmI0TSbJr8bv",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Pit Mace, 1×Bite, and 1×Tail</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.dNNYoIOq5WUVrGF8",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and pass [Endure] with a -1 penalty or become Sickened (Cd6 damage)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.o8gvo46xmQls8RJ7",
       "name": "(+2) Mace",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d6+2) and Burning (Cd6)</p>",
         "source": "",
@@ -202,7 +202,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.Sqs2jRIk2sqbUoiC",
       "name": "Wall of Fire",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Burning (2d6)</p>",
         "source": "",
@@ -234,7 +234,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.vz9XJ6hrUuIiHfUP",
       "name": "Hold",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Paralyzed (Cd4)</p>",
         "source": "",
@@ -266,7 +266,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.7XSES0Jp26a4935Q",
       "name": "Tail",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4) and Restrained, taking 5 (2d4) at the start of this Being's Turns while Restrained this way</p>",
         "source": "",
@@ -298,7 +298,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.SkqtVKTmxzcq3F1R",
       "name": "Regenerate III",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 13 (3d8) HP on its Turns.</p>",
         "source": "",
@@ -330,7 +330,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.qLTf6v4JK2EvOGPo",
       "name": "Magic Ward III",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 3 or more.</p>",
         "source": "",
@@ -362,7 +362,7 @@
       "_key": "!actors.items!sSsbazjzKGXKBCSC.ZntPB1DWt5EiDl1w",
       "name": "Terror II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Enemies that can see it for the first time and at the start of their Turns thereafter must pass [Will] or be Frightened (Cd6 Rounds).</p>",
         "source": "",
@@ -405,7 +405,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

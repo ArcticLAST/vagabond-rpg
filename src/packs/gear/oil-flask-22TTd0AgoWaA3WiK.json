@@ -3,7 +3,7 @@
   "_key": "!items!22TTd0AgoWaA3WiK",
   "name": "Oil, flask",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Alchemy &amp; Medicine</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 78",

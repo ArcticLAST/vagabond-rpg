@@ -3,7 +3,7 @@
   "_key": "!items!260GGq3NTsib2GY1",
   "name": "Spyglass",
   "type": "gear",
-  "img": "icons/tools/navigation/spyglass-telescope-brass.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Astronomy &amp; Navigation</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 78",

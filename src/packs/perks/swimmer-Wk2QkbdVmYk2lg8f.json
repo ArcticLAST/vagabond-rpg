@@ -3,7 +3,7 @@
   "_key": "!items!Wk2QkbdVmYk2lg8f",
   "name": "Swimmer",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You gain Swim. If you already have Swim, you do not begin Suffocating unless you have been without air for an entire Scene. You can take this Perk twice.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

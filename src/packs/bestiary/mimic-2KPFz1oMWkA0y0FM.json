@@ -3,7 +3,7 @@
   "_key": "!actors!2KPFz1oMWkA0y0FM",
   "name": "Mimic",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 2.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!2KPFz1oMWkA0y0FM.A5wLLCe7reWt6Rey",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) and Restrained if smaller</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!2KPFz1oMWkA0y0FM.vVCzOLYvsimMvpxX",
       "name": "Mimic",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It takes on the appearance of an Object that is its size or smaller for the Duration.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!2KPFz1oMWkA0y0FM.dqnIz0DWmtO85rba",
       "name": "Pseudopod",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (3d4)</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!2KPFz1oMWkA0y0FM.1ZSUNxUEHYkVRvEv",
       "name": "Adhere",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Hinders Checks to end being Restrained by it.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

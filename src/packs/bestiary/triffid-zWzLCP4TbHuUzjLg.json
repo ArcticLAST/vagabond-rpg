@@ -3,7 +3,7 @@
   "_key": "!actors!zWzLCP4TbHuUzjLg",
   "name": "Triffid",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!zWzLCP4TbHuUzjLg.fTy35UUkVDEHXyBV",
       "name": "Whorl",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Sickened (Cd4 damage)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!zWzLCP4TbHuUzjLg.Vy0jj0e4AIK8Y8Hi",
       "name": "Blinded",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Blinded without its Echolocation.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

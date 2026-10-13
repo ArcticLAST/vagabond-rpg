@@ -3,7 +3,7 @@
   "_key": "!items!1VRLIoyrtVpeQihC",
   "name": "Briar Healer",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>If the Target of a Life Spell you are Focusing on is damaged by a Melee attack, the attacker takes d6 damage.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

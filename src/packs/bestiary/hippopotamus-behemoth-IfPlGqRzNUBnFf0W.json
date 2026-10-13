@@ -3,7 +3,7 @@
   "_key": "!actors!IfPlGqRzNUBnFf0W",
   "name": "Hippopotamus, Behemoth",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 4.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!IfPlGqRzNUBnFf0W.na5FYm9tjCSxxvDC",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (3d8) and Restrained if it is smaller. This always hits a Target Restrained this way.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!IfPlGqRzNUBnFf0W.0uJhargMcdnPDW8j",
       "name": "Aggressor",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>The first time it Moves at least 10' toward an Enemy on a Turn, it regains that Speed.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

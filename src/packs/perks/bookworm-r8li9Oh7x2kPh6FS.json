@@ -3,7 +3,7 @@
   "_key": "!items!r8li9Oh7x2kPh6FS",
   "name": "Bookworm",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You gain an extra Studied die when you Study (p. 19). You can take this Perk multiple times.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

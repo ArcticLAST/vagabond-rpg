@@ -3,7 +3,7 @@
   "_key": "!items!xuVVnkHH0eJ2eSEr",
   "name": "Gas",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>You create a cloud of gas in an area equal to the size of the delivery (minimum 5' cube) and causing those within to be Sickened (Vulnerable) while in the area. This effect is dispersed by strong winds.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

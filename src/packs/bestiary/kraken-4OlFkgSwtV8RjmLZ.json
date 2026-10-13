@@ -3,7 +3,7 @@
   "_key": "!actors!4OlFkgSwtV8RjmLZ",
   "name": "Kraken",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 20,
     "tl": 22.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!4OlFkgSwtV8RjmLZ.2qdo3QoK64HcX6P1",
       "name": "Lightning Bolt",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>21 (6d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!4OlFkgSwtV8RjmLZ.kFm4vWfChltmsqSF",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Tentacle per (Tentacles)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!4OlFkgSwtV8RjmLZ.BMyyhgZVU6v0C1aq",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (3d8) and Restrained if smaller</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!4OlFkgSwtV8RjmLZ.Kfu8EEG9V3RwCWSa",
       "name": "Tentacles",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Starts with 8. Targetting one causes a -4 penalty to the Check, but severs it if at least 16 damage is dealt.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 6,
     "height": 6,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

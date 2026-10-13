@@ -3,7 +3,7 @@
   "_key": "!items!cHH7VRQz6wNfD8dW",
   "name": "Unarmed",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Grapple:</strong> Can Grapple with the Attack Check.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

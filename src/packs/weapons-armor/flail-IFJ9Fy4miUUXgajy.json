@@ -3,7 +3,7 @@
   "_key": "!items!IFJ9Fy4miUUXgajy",
   "name": "Flail",
   "type": "weapon",
-  "img": "icons/weapons/maces/flail-ball-grey.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

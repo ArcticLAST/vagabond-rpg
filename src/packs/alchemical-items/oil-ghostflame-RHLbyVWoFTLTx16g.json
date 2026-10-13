@@ -3,7 +3,7 @@
   "_key": "!items!RHLbyVWoFTLTx16g",
   "name": "Oil, Ghostflame",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Acts as basic oil. However, while coated on a Weapon that is then ignited, its attacks can hit incorporeal Beings (like ghosts).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

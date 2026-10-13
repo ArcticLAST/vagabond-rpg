@@ -3,7 +3,7 @@
   "_key": "!items!mzVbBj4TXTYnk9G5",
   "name": "Jug, clay",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Alchemy &amp; Medicine</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 78",

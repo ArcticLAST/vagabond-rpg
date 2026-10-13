@@ -3,7 +3,7 @@
   "_key": "!actors!yqVV7dFPXxu4Sqll",
   "name": "Golem, Iron",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 18,
     "tl": 8.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!yqVV7dFPXxu4Sqll.lMPLOJnHgldmCZhb",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Poison Breath and 1×Greatsword, or 2×Greatsword</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!yqVV7dFPXxu4Sqll.gZl5XDihns8vOhZc",
       "name": "Poison Breath",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) Fatigue</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!yqVV7dFPXxu4Sqll.qJFaT0OpSi5VxGk1",
       "name": "Greatsword",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (2d12)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!yqVV7dFPXxu4Sqll.FxAQCou0a7xDEAVo",
       "name": "Fire-Absorber",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Fire damage rolls heal it instead.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!yqVV7dFPXxu4Sqll.MDy0OCBkWGTUd2up",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!yqVV7dFPXxu4Sqll.rJGrFjOSYV57Qteu",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!3M2VdVTNLrXsoOMa",
   "name": "Snakeman",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 3.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!3M2VdVTNLrXsoOMa.bjUglpRsRw1zpjDk",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Bite and 1×Weapon</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!3M2VdVTNLrXsoOMa.e7CVk9tg0Ea2BwM7",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10) and pass [Endure] or be Sickened (Cd4, +1 Fatigue each Round)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!3M2VdVTNLrXsoOMa.v8spE0j6mB7kh62p",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) or (by Weapon)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!3M2VdVTNLrXsoOMa.yTpBEJyPAejwOCLv",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

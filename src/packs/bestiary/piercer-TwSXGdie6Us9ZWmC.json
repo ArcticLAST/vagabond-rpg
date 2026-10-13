@@ -3,7 +3,7 @@
   "_key": "!actors!TwSXGdie6Us9ZWmC",
   "name": "Piercer",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 3.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!TwSXGdie6Us9ZWmC.JqYd0EFlRtCzpeek",
       "name": "Drop",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!TwSXGdie6Us9ZWmC.matuwAQaHmx4Wcn3",
       "name": "Falling Ambush",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Does not take falling damage from heights of 30' or shorter.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

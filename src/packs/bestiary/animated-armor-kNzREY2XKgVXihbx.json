@@ -3,7 +3,7 @@
   "_key": "!actors!kNzREY2XKgVXihbx",
   "name": "Animated Armor",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 2.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!kNzREY2XKgVXihbx.GYtTYE5JrIvWKGgO",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) or (by Weapon)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!kNzREY2XKgVXihbx.dlaApQzRx1A2nY9F",
       "name": "Antimagic Vulnerability",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is Dazed for Cd4 if affected by the Dispel Spell or other antimagic.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!kNzREY2XKgVXihbx.e99asyB5xBBzN6sm",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!items!8jioOXtZ4wX39hdC",
   "name": "Provoker",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can use your Action to intimidate or otherwise goad an Enemy that can see or hear you. When you do, your Allies make all Saves</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

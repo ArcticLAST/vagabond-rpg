@@ -3,7 +3,7 @@
   "_key": "!actors!9mWqUOKuWpc6nZS6",
   "name": "Elemental, Lesser Water",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!9mWqUOKuWpc6nZS6.Zjnr1Eg5WErWcmmO",
       "name": "Strike",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) plus 4 (d8) if in water</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!9mWqUOKuWpc6nZS6.D6pDAhEuZRQ7FkDN",
       "name": "Waterbound",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Must stay Near a body of water.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!G75xpBhekyz51rCf",
   "name": "Rust Monster",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 2.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!G75xpBhekyz51rCf.VI6EFiMFwNVP74ee",
       "name": "Antenna",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Rust Touch</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!G75xpBhekyz51rCf.EkgpRcFZhfWP3F3q",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!G75xpBhekyz51rCf.RdeK0puq06e1Oc5O",
       "name": "Rust Touch",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Non-Relic metal Items that make contact with it corrode. When this happens, roll a d6 for each Item. On a roll of 1, the Item breaks. If the Item that breaks is larger than Medium, this destroys a 1-foot square hole that is 1-foot deep in it.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

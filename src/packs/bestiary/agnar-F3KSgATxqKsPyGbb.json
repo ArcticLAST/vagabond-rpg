@@ -3,7 +3,7 @@
   "_key": "!actors!F3KSgATxqKsPyGbb",
   "name": "Agnar",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 3.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!F3KSgATxqKsPyGbb.P5AuiiJzmZz7NfAo",
       "name": "Spin-Thrash",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8), deals half on a pass and heals this Being for the damage roll. It can only use this Action while at or below half HP.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!F3KSgATxqKsPyGbb.YemXkI7USODobcJg",
       "name": "Chomp",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Restrained</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!F3KSgATxqKsPyGbb.aHOe19EQvvzwfEJU",
       "name": "Flame Anger",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it takes Fire damage or sees open flame, it goes Berserk (Cd4).</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!F3KSgATxqKsPyGbb.6i4vlvp0UE7NT56t",
       "name": "Lockjaw",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Hinders Checks to end being Restrained by it.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!F3KSgATxqKsPyGbb.xWkokTxFUqEDiE8P",
       "name": "Leap",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it uses its Move to Jump, any Being within 5' when it lands must pass a [Reflex] Save or take 10 (3d6) and be shoved Prone.</p>",
         "source": "",
@@ -211,7 +211,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!aGrehROfucZ7HknN",
   "name": "Mastodon",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 13,
     "tl": 8.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!aGrehROfucZ7HknN.wX1HZAZe3t8QZPr2",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Tusk and 1×Stomp</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!aGrehROfucZ7HknN.ZEwV1k2Xou8T3hVf",
       "name": "Stomp",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>18 (4d8)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!aGrehROfucZ7HknN.Nofpwh1alJCSYkk6",
       "name": "Tusk",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!aGrehROfucZ7HknN.yYrXZCOSRsnXjGoD",
       "name": "Charger",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Tusks deal double damage that Turn if it Moves at least 20' before the attack.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

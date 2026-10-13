@@ -3,7 +3,7 @@
   "_key": "!actors!Ai2l6KnCK3BcGyyO",
   "name": "Deer",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!Ai2l6KnCK3BcGyyO.TlhEIQkNyGuyq3Yu",
       "name": "Hooves",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

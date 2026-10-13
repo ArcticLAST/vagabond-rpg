@@ -3,7 +3,7 @@
   "_key": "!items!AUGui8P5yTLmVMxY",
   "name": "Vanguard",
   "type": "class",
-  "img": "icons/svg/d20-black.svg",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>Move, bitch. Get out the way. —Ludacris, Move Bitch Vanguards are terrifying sentinels of heavy metal armor that use shields to devastate their foes, standing tall as mobile bastions of fortitude and might.</p><p>The vanguard is a high-defense tank, trading off raw damage output for control. Actively defend through the Rush Action and Shoves.</p><ul><li><strong>Action:</strong> Shove (Attack)</li><li><strong>Move:</strong> Frontline</li><li><strong>Key Stat:</strong> Might</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Brawl, Melee</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 59",

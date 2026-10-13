@@ -3,7 +3,7 @@
   "_key": "!actors!NanW4WWlVlvgU7PM",
   "name": "Cave Fisher",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!NanW4WWlVlvgU7PM.LWvL5AvwzLA9nP5v",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Fish and 1×Claw, or 2×Claw</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!NanW4WWlVlvgU7PM.folhJ2O1hZHQ5W06",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!NanW4WWlVlvgU7PM.X2hSwGiHOiD5N9kt",
       "name": "Fish",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained by Filament and pulled Close.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!NanW4WWlVlvgU7PM.cXdyWTgVrsWlLzY8",
       "name": "Filament",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>As rope with 1 HD (4 HP)</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

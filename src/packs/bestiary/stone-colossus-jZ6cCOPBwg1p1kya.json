@@ -3,7 +3,7 @@
   "_key": "!actors!jZ6cCOPBwg1p1kya",
   "name": "Stone Colossus",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 25,
     "tl": 11.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!jZ6cCOPBwg1p1kya.UPPNDfdzs4BVF3dB",
       "name": "Combo (A)",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Laser and 1×Slam</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!jZ6cCOPBwg1p1kya.XY5QurWWFrm9tzMU",
       "name": "Combo (B)",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Slams</p>",
         "source": "",
@@ -106,7 +106,7 @@
       "_key": "!actors.items!jZ6cCOPBwg1p1kya.IpQxlfZQAvtdDUda",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>21 (6d6) and Prone</p>",
         "source": "",
@@ -138,7 +138,7 @@
       "_key": "!actors.items!jZ6cCOPBwg1p1kya.ULnSjohvDUwsAun1",
       "name": "Laser",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>14 (4d6)</p>",
         "source": "",
@@ -170,7 +170,7 @@
       "_key": "!actors.items!jZ6cCOPBwg1p1kya.3aOMliu3gW2875Az",
       "name": "Besieger",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Deals double damage to Structures.</p>",
         "source": "",
@@ -202,7 +202,7 @@
       "_key": "!actors.items!jZ6cCOPBwg1p1kya.1NG7aNMqzookywjg",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -234,7 +234,7 @@
       "_key": "!actors.items!jZ6cCOPBwg1p1kya.dq7agff5P2vO0eOU",
       "name": "Magic Ward IV",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 4 or more.</p>",
         "source": "",
@@ -266,7 +266,7 @@
       "_key": "!actors.items!jZ6cCOPBwg1p1kya.PoFTeuylPN4Txp71",
       "name": "Self-Destruct",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it is at or below half its HP, its core begins self-destructing. This core goes off in 1 minute, and the sonic boom deals 200 damage to everything within 1 mile.</p>",
         "source": "",
@@ -309,7 +309,7 @@
     "width": 6,
     "height": 6,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

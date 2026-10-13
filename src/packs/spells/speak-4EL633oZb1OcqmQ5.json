@@ -3,7 +3,7 @@
   "_key": "!items!4EL633oZb1OcqmQ5",
   "name": "Speak",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is able to speak, understand, and be understood by you. If the Target was not previously capable of speech before gaining the ability to from this Spell, it can't speak through this Spell again after the Cast ends.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

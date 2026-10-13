@@ -3,7 +3,7 @@
   "_key": "!items!Fy8pjPXpXE5xmn4A",
   "name": "Book, sheet music",
   "type": "gear",
-  "img": "icons/sundries/books/book-rounded-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Musical</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

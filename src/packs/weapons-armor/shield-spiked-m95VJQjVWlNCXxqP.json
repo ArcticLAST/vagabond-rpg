@@ -3,7 +3,7 @@
   "_key": "!items!m95VJQjVWlNCXxqP",
   "name": "Shield, spiked",
   "type": "weapon",
-  "img": "icons/equipment/shield/oval-wooden-boss-steel.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Defense:</strong> When you make a Reflex Save, you can make an Attack Check instead. If you pass, you reduce the damage by each equipped Defense Weapons' damage dice.</p><p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

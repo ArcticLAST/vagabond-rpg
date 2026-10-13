@@ -3,7 +3,7 @@
   "_key": "!actors!3M4O7BgLyhEdaGfH",
   "name": "Bounty Hunter",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 2.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!3M4O7BgLyhEdaGfH.1IkH2f3tBXBQ2Xxe",
       "name": "Rifle",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!3M4O7BgLyhEdaGfH.5FaQr4PjuumVhKy1",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) or (by Weapon)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!3M4O7BgLyhEdaGfH.5gjKKm8Soa3oBazb",
       "name": "Hunter's Mark",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It rolls an extra damage die if the Save is failed as a 1 or 2.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

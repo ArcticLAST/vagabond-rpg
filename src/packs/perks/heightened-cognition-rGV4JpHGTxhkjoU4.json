@@ -3,7 +3,7 @@
   "_key": "!items!rGV4JpHGTxhkjoU4",
   "name": "Heightened Cognition",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can spend a Studied die to pass a Detect, Mysticism, or Survival Check you fail.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

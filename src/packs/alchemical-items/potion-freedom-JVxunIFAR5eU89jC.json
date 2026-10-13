@@ -3,7 +3,7 @@
   "_key": "!items!JVxunIFAR5eU89jC",
   "name": "Potion, Freedom",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>For 1 Hour, the consumer is Immune to the Restrained and Paralyzed Statuses.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

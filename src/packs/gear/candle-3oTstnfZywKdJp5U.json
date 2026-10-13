@@ -3,7 +3,7 @@
   "_key": "!items!3oTstnfZywKdJp5U",
   "name": "Candle",
   "type": "gear",
-  "img": "icons/sundries/lights/candle-unlit-tan.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Books &amp; Magic</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

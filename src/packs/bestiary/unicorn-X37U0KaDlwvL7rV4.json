@@ -3,7 +3,7 @@
   "_key": "!actors!X37U0KaDlwvL7rV4",
   "name": "Unicorn",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 4.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!X37U0KaDlwvL7rV4.LGd8y4YJLd7O9MGD",
       "name": "Heal",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 7 (2d6) HP and removes the Blinded, Confused, Paralyzed, or Sickened Status</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!X37U0KaDlwvL7rV4.xIYNQE7JM5PwiDxo",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Hoof and 1×Horn</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!X37U0KaDlwvL7rV4.jTVr517xfT1vRiz2",
       "name": "Hoof",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!X37U0KaDlwvL7rV4.VZ0ywKfhkf6geitR",
       "name": "Horn",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!X37U0KaDlwvL7rV4.bxrj31It0cJTaMiT",
       "name": "Teleport",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Teleports itself and any Being mounting it up to Far</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!X37U0KaDlwvL7rV4.lDbW4pUXc9Suf7sZ",
       "name": "Magic Ward III",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 3 or more.</p>",
         "source": "",
@@ -233,7 +233,7 @@
       "_key": "!actors.items!X37U0KaDlwvL7rV4.ZPfeZUqIxok6sfGf",
       "name": "Regenerate I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 4 (d8) HP on each of its Turns.</p>",
         "source": "",
@@ -276,7 +276,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

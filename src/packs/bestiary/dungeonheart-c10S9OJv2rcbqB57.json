@@ -3,7 +3,7 @@
   "_key": "!actors!c10S9OJv2rcbqB57",
   "name": "Dungeonheart",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 1.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!c10S9OJv2rcbqB57.IluYdEbKMYLPFjKh",
       "name": "Spawn",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>At the start of its Turn, roll d4. On a roll of 2 to 4, this Being spawns an Ally Being (d6, roll two and take the highest if this Being is at half HP or lower), which appears in the nearest open space: 1 Giant Spider (p. 132); 2 Basilisk (p. 135); 3 Owl Bear (p. 145); 4 Rust Monster (p. 147); 5 Warp Beast (p. 151); 6 Gelatinous Cube (p. 172)</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!Hbyswu5tAtui8V6m",
   "name": "False Hydra",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 3.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!Hbyswu5tAtui8V6m.VdJuwx4uKd65L3Va",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Bite for each Head (Multiple Heads)</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!Hbyswu5tAtui8V6m.sDwoxvSLGJYUyaMG",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!Hbyswu5tAtui8V6m.9RcxXqQlxCjLQZNa",
       "name": "Song of Discord",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Charmed (until the song ends, it acts as if it can't see or hear this Being and creates false memories of illogical events).</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!Hbyswu5tAtui8V6m.RT8Z93UQW8XVQP87",
       "name": "Tunneler",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can Move through loose earth using its Speed.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!Hbyswu5tAtui8V6m.j7b4XQEiOPXtVHHS",
       "name": "Multiple Heads",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It starts with one head, but grows another as it consumes humanoid Beings. Each time it grows a new head, it gains 3 HD (13 HP), and its stats change as shown below (Beings consumed: heads, Size, TL): 3: 2 heads, Medium, TL 4.1; 6: 3 heads, Large, TL 5.6; 9: 4 heads, Large, TL 6.9; 15: 5 heads, Huge, TL 8.2; 24: 6 heads, Huge, TL 9.4.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

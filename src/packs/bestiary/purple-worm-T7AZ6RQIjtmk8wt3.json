@@ -3,7 +3,7 @@
   "_key": "!actors!T7AZ6RQIjtmk8wt3",
   "name": "Purple Worm",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 15,
     "tl": 5.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!T7AZ6RQIjtmk8wt3.d2Dhuw0CykdANitt",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Bite and 1×Sting</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!T7AZ6RQIjtmk8wt3.kOBCcMkeg5h4GNPD",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) or half to all Targets Close to its mouth.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!T7AZ6RQIjtmk8wt3.TXFDIQWPRbYRsznf",
       "name": "Sting",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) and pass [Endure] or become Sickened (+1 Fatigue for Cd12).</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!T7AZ6RQIjtmk8wt3.vFQfUfU67Y1Vqw8z",
       "name": "Sand Swimmer",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can Move through sand and earth using its Speed.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 6,
     "height": 6,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

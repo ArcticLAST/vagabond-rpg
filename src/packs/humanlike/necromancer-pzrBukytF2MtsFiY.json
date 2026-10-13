@@ -3,7 +3,7 @@
   "_key": "!actors!pzrBukytF2MtsFiY",
   "name": "Necromancer",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 2.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!pzrBukytF2MtsFiY.5jJv65YQLoj634eO",
       "name": "Command",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Commands them to Attack the nearest Being.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!pzrBukytF2MtsFiY.8ICqdXYEODPoprLn",
       "name": "Animate",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Raised as a Zombie under its control.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!pzrBukytF2MtsFiY.Urgy8svQB6JUGHXR",
       "name": "Necrotic Blast",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and pass [Endure] or become Sickened (Cd4 damage, Blinded and deafened).</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

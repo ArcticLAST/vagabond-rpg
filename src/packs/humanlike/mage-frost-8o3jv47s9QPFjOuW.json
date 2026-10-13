@@ -3,7 +3,7 @@
   "_key": "!actors!8o3jv47s9QPFjOuW",
   "name": "Mage, Frost",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!8o3jv47s9QPFjOuW.0L4OgXjJuVWja74u",
       "name": "Blizzard",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and filling the area with snow (Difficult Terrain)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!8o3jv47s9QPFjOuW.3GBLgGH2lmMQcu1Q",
       "name": "Ice Knife",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and its Speed is reduced by half for the duration</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

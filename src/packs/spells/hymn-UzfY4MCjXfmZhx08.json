@@ -3,7 +3,7 @@
   "_key": "!items!UzfY4MCjXfmZhx08",
   "name": "Hymn",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>If the Target is Berserk, Charmed, Confused, or Frightened, the Status ends and they are Immune to these Statuses for the duration.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

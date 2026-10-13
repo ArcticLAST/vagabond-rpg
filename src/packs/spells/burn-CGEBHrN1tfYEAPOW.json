@@ -3,7 +3,7 @@
   "_key": "!items!CGEBHrN1tfYEAPOW",
   "name": "Burn",
   "type": "spell",
-  "img": "icons/magic/fire/blast-jet-stream-splash.webp",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>If the Target isn't immune to Fire, they are Burning (Cd4, or until it is doused). This Burning Status does not require Focus.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

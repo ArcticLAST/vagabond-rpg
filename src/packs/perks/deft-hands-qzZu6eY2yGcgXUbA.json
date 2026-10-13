@@ -3,7 +3,7 @@
   "_key": "!items!qzZu6eY2yGcgXUbA",
   "name": "Deft Hands",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can skip your Move to take the Use Action.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

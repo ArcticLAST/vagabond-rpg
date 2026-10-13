@@ -3,7 +3,7 @@
   "_key": "!actors!5UUVKZeNEByCxW92",
   "name": "Ogler",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 12,
     "tl": 11.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.ZsIh31fxdZVSgfka",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)×Eyebeam and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.PBtwbZtCi3TYDDMm",
       "name": "Eyebeam",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Roll d8 for each:</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.xpACdzgyuUaAack3",
       "name": "Eyebeam 1: Charm",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Charmed (Cd4, or until damaged)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.hmYad6vZYGCdSPA4",
       "name": "Eyebeam 2: Sleep",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Unconscious (Cd6, or woken up)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.ZGDZl9VJMj1yWECQ",
       "name": "Eyebeam 3: Kinesis",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained (1 Round)</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.IUEzhhvRWMCBCAl7",
       "name": "Eyebeam 4: Petrify",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Transformed into a stone statue</p>",
         "source": "",
@@ -233,7 +233,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.SC2wzWi37tQGST59",
       "name": "Eyebeam 5: Death",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>14 (4d6)</p>",
         "source": "",
@@ -265,7 +265,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.hqsNZbMCq50wBMdT",
       "name": "Eyebeam 6: Fear",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4)</p>",
         "source": "",
@@ -297,7 +297,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.h8VTSkDNCD8J4aBL",
       "name": "Eyebeam 7: Slow",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Speed reduced to 10' for (Cd4)</p>",
         "source": "",
@@ -329,7 +329,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.mi6cRaDRo9iNlXsm",
       "name": "Eyebeam 8: Paralysis",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Paralyzed (Cd4)</p>",
         "source": "",
@@ -361,7 +361,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.ACAwSquzbbvIbfKA",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -393,7 +393,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.sahOqmgQjAH6Yc1W",
       "name": "Antimagical Cone II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Cast Checks in a Far Cone from its central eye always fail, and any magic effect in the Cone is suspended while in the Cone.</p>",
         "source": "",
@@ -425,7 +425,7 @@
       "_key": "!actors.items!5UUVKZeNEByCxW92.OywtbgR3GFGwXJdz",
       "name": "Mind of Madness",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can Cast while Berserk.</p>",
         "source": "",
@@ -468,7 +468,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

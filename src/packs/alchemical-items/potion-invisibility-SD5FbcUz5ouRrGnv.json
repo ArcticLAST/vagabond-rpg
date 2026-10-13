@@ -3,7 +3,7 @@
   "_key": "!items!SD5FbcUz5ouRrGnv",
   "name": "Potion, Invisibility",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>For 1 Hour, the consumer and everything they are wearing and carrying become Invisible until they attempt to harm another Being.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

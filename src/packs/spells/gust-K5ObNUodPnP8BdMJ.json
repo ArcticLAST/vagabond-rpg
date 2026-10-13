@@ -3,7 +3,7 @@
   "_key": "!items!K5ObNUodPnP8BdMJ",
   "name": "Gust",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is blasted with a wind shear in the following ways:</p><p><strong>Feather:</strong> If Cast on a falling Target, this blast can slow the descent of a falling Medium or smaller Target to a safe Speed for the duration.</p><p><strong>Target:</strong> This can push an Item that occupies 1 or less Slots, or a Being with Level or HD 1 or lower. You can increase this number by spending additional Mana on the Cast, increasing it by 1 per Mana spent to do so.</p><p><strong>Distance:</strong> This pushes the Target 5', and you can increase the distance pushed by spending Mana, increasing the distance by 5' per Mana spent to do so.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

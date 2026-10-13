@@ -3,7 +3,7 @@
   "_key": "!actors!AdtZInmz859tKmPX",
   "name": "Horse, Riding",
   "type": "npc",
-  "img": "icons/environment/creatures/horse-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.6,
@@ -44,7 +44,7 @@
       "_key": "!actors.items!AdtZInmz859tKmPX.4mQjKFWdQMEKoMXB",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Hoof</p>",
         "source": "",
@@ -77,7 +77,7 @@
       "_key": "!actors.items!AdtZInmz859tKmPX.vxlHmeqoYz6M4Gcf",
       "name": "Hoof",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -120,7 +120,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/environment/creatures/horse-brown.webp"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

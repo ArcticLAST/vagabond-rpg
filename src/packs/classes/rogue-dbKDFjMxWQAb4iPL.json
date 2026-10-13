@@ -3,7 +3,7 @@
   "_key": "!items!dbKDFjMxWQAb4iPL",
   "name": "Rogue",
   "type": "class",
-  "img": "icons/skills/melee/strike-sword-stabbed-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>I may be a burglar... but I'm an honest one, I hope, more or less. —Bilbo Baggins, The Hobbit Rogues are the back-alley urchins, gutterborn scum, and shadowed assassins. To hammers, every problem looks like a nail. Rogues are blades, and every problem is a throat.</p><p>Rogues are low-defense, midline harassers that focus on one single, deadly shot. They are given Features that reinforce attempting to gain Favor on their Attacks.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Midline</li><li><strong>Key Stat:</strong> Dexterity/Awareness, Luck</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Ranged, Finesse, Sneak</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 55",

@@ -3,7 +3,7 @@
   "_key": "!items!2ZxzUrDV0MViiPwr",
   "name": "Sunrod",
   "type": "gear",
-  "img": "icons/sundries/lights/torch-brown-lit.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>This gold-tipped, iron rod glows brightly when struck. When you do, it sheds Light out to Near for a Shift, and the Light it sheds within Close is Sunlight.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

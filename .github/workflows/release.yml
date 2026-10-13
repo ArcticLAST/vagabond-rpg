@@ -31,7 +31,7 @@ jobs:
       - name: Build the zip
         run: |
           mkdir -p dist/vagabond-rpg
-          cp -r system.json vagabond.mjs README.md lang module packs styles templates dist/vagabond-rpg/
+          cp -r system.json vagabond.mjs README.md LICENSE-ICONS.md assets lang module packs styles templates dist/vagabond-rpg/
           find dist -name LOCK -delete
           cd dist && zip -qr vagabond-rpg.zip vagabond-rpg
 

@@ -3,7 +3,7 @@
   "_key": "!actors!E8jRJTTSVjthVsgl",
   "name": "Angel",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 12,
     "tl": 10.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.gnDpx07iJfjKpT7C",
       "name": "Dominator",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 Actions as below (d6 to determine).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.V8E1y1LA4dsQNxoV",
       "name": "Dominator 1: (+3) Flaming Sword",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>17 (4d6+3) and Burning (Cd6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.rP6l46h6iallKhgw",
       "name": "Dominator 2: Burning Slash",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (3d6+3) and Burning (Cd6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.qWPSHUrY6WGEpwGz",
       "name": "Dominator 3: Banish",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is returned to its normal realm of existence, or ends another Being's possession of the Target.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.FFbaKnETyhCCvRwk",
       "name": "Dominator 4: Command",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d6+1) or obey the command issued by this Being.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.7hnObUX2fy8JkHM4",
       "name": "Dominator 5: Heal",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it is a mortal Being, its HP is restored to maximum, and is cured of the Blinded, Paralyzed, or Sickened Status.</p>",
         "source": "",
@@ -233,7 +233,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.0MZyHGjeGGc0qigq",
       "name": "Dominator 6: Radiance",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>The area within the Aura is Sunlight, which moves with this Being.</p>",
         "source": "",
@@ -265,7 +265,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.bU1Rb4rlpKfe0YqY",
       "name": "Fall from Grace",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it ever acts against divine ordainment, it loses Grace, Fly Speed, Allsight, Immune, and Status Immunities.</p>",
         "source": "",
@@ -297,7 +297,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.gqXoI8PKh1ZLd2MD",
       "name": "Grace",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be reduced below 1 HP. If its body is destroyed, it immediately appears in its plane of origin at full HP.</p>",
         "source": "",
@@ -329,7 +329,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.xs5f2IXEtOtA8fbT",
       "name": "Illuminator",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Sheds Sunlight in Near.</p>",
         "source": "",
@@ -361,7 +361,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.CI7lMm0dzvRN1uMs",
       "name": "Magic Ward III",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 3 or more.</p>",
         "source": "",
@@ -393,7 +393,7 @@
       "_key": "!actors.items!E8jRJTTSVjthVsgl.SnLdRH5MsuMdnjLk",
       "name": "Flaming Sword",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Has the Loyalty Power.</p>",
         "source": "",
@@ -436,7 +436,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

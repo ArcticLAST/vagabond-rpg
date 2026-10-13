@@ -3,7 +3,7 @@
   "_key": "!items!uw9Fkb2R8Gh8xWDJ",
   "name": "Tempo",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target's Speed increases or decreases by 5' for the duration. The Caster can increase or decrease this amount by 5' by spending additional Mana on the Cast for every 1 Mana spent to do so.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

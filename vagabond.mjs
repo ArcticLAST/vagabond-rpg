@@ -19,6 +19,7 @@ import { registerChatListeners } from "./module/chat.mjs";
 import * as transfer from "./module/transfer.mjs";
 import * as dice from "./module/dice/rolls.mjs";
 import * as vision from "./module/vision.mjs";
+import { migrateIcons } from "./module/migrate-icons.mjs";
 
 const SYSTEM_ID = "vagabond-rpg";
 
@@ -111,6 +112,7 @@ function registerSettings() {
     scope: "world", config: true, type: Boolean, default: true,
     onChange: value => { if ( value ) vision.syncAll(); }
   });
+  game.settings.register(SYSTEM_ID, "iconsVersion", { scope: "world", config: false, type: Number, default: 0 });
   game.settings.register(SYSTEM_ID, "burningReminder", {
     name: "VAGABOND.Settings.Burning.Name",
     hint: "VAGABOND.Settings.Burning.Hint",
@@ -154,6 +156,8 @@ Hooks.once("ready", () => {
   for ( const actor of game.actors ) if ( actor.system.attributes?.mount ) actor.reset();
   // Token vision follows Senses; catch up Actors made before this existed or changed while it was off.
   vision.syncAll();
+  // Worlds made before the system had its own icons pick them up once.
+  migrateIcons().catch(err => console.error(`${SYSTEM_ID} | Icon update failed`, err));
 });
 
 /* -------------------------------------------- */

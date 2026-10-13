@@ -3,7 +3,7 @@
   "_key": "!actors!MzxqBTVrgXq3vZvz",
   "name": "Noble",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!MzxqBTVrgXq3vZvz.ZpE5wNUfuEj5sSet",
       "name": "Rapier",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6), or 7 (2d6) if failed on a 1.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!MzxqBTVrgXq3vZvz.AkAi39TUJL5LYvg9",
       "name": "Rally",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Grants its Allies who hear it a d4 bonus to their damage rolls and Will Saves for 1 Round.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

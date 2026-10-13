@@ -3,7 +3,7 @@
   "_key": "!items!2poEif6upqLghtJB",
   "name": "Rapier",
   "type": "weapon",
-  "img": "icons/weapons/swords/sword-guard-bronze.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p><p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

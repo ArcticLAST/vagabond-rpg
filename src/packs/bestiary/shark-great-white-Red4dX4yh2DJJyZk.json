@@ -3,7 +3,7 @@
   "_key": "!actors!Red4dX4yh2DJJyZk",
   "name": "Shark, Great White",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!Red4dX4yh2DJJyZk.9iW3bGOKyWHw9hLw",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>11 (2d10) and Restrained if smaller</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!Red4dX4yh2DJJyZk.ePrftYkz50JMx51e",
       "name": "Aquatic",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can only breathe water.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!Red4dX4yh2DJJyZk.8DJTHyhIRj782c3o",
       "name": "Blood Sense",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can sense Beings that are missing any HP within 1 mile as if by Blindsight.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

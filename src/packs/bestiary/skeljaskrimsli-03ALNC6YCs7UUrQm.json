@@ -3,7 +3,7 @@
   "_key": "!actors!03ALNC6YCs7UUrQm",
   "name": "Skeljaskrimsli",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 6.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!03ALNC6YCs7UUrQm.5V6ATSPUNMKaPn6k",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claws and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!03ALNC6YCs7UUrQm.KDGaZcQQMXKJlpqA",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!03ALNC6YCs7UUrQm.8CqmYMhz1KzIPC7Z",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!03ALNC6YCs7UUrQm.4evz0De5uRyxilfJ",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and Prone if this Being moved at least 20' straight toward the Target before the attack.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!03ALNC6YCs7UUrQm.NMC3uT6nqmnGG2wy",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can breathe air and water.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!03ALNC6YCs7UUrQm.LgSnhu7nAgdHgxEa",
       "name": "Dreadnought",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Deals double damage to vehicles.</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

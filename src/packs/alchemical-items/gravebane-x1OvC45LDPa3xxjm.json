@@ -3,7 +3,7 @@
   "_key": "!items!x1OvC45LDPa3xxjm",
   "name": "Gravebane",
   "type": "gear",
-  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Once used, smoke fills the area out to Near for 1 Minute, or until disbursed by strong wind. Undead are Dazed while in the smoke, ignoring Immunities.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

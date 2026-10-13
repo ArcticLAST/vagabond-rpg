@@ -3,7 +3,7 @@
   "_key": "!items!pxTWg71dBgwdsELM",
   "name": "Dyrnwyn",
   "type": "weapon",
-  "img": "icons/weapons/swords/greatsword-guard.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Fabled Relic Longsword</em></p><p>Longsword with a pure white blade and jewel-studded hilt. It has the following Powers:</p><ul><li><strong>(+2) Weapon:</strong> Deals an extra +2 damage.</li><li><strong>Evil's Bane:</strong> Deals an extra damage die to Hellspawn and Undead.</li><li><strong>Silvering:</strong> Attacks with it count as Silvered.</li><li><strong>Smite I:</strong> Targets that take damage from it are also Burning (Cd4) with holy flame that ignores Immune.</li></ul><p>Value: 25000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 105",

@@ -3,7 +3,7 @@
   "_key": "!actors!kWB7QwPI1ejQ3WZC",
   "name": "Darkmantle",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!kWB7QwPI1ejQ3WZC.RiRVuc9JpDD7rDPH",
       "name": "Cloak of Darkness",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Extinguishes all light sources, and the Area becomes magic darkness. If the light source was Magic, it is dispelled.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!kWB7QwPI1ejQ3WZC.l5awiIHcJ3T2QCaR",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

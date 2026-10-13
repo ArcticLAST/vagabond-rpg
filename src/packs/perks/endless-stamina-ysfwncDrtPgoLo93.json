@@ -3,7 +3,7 @@
   "_key": "!items!ysfwncDrtPgoLo93",
   "name": "Endless Stamina",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Fatigue doesn't prevent you from taking the Rush Action and, once per Day, you can remove 1 Fatigue during a Breather.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

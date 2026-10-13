@@ -3,7 +3,7 @@
   "_key": "!items!hzJE074W7BKfn1y1",
   "name": "Block and tackle",
   "type": "gear",
-  "img": "icons/sundries/survival/climbing-anchor-steel-grey.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Hardware</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

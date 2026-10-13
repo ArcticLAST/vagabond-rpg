@@ -3,7 +3,7 @@
   "_key": "!items!vlefpj16o0cazbYI",
   "name": "Beast",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>You call forth Beasts that can fit in the area or nearest open space to the Target for the duration. They can have a cumulative HD no higher than half your Level (minimum 1). You must spend 1 Mana each Turn you Focus on this Spell after the Casting. You can choose to let the Beasts act independently, or to command them when you Focus. They use your Cast Skill for any Check they make.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

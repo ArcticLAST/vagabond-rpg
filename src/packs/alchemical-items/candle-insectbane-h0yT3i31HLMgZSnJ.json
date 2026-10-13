@@ -3,7 +3,7 @@
   "_key": "!items!h0yT3i31HLMgZSnJ",
   "name": "Candle, Insectbane",
   "type": "gear",
-  "img": "icons/sundries/lights/candle-unlit-tan.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Acts as a basic candle. Insects act as Frightened while within the light it sheds.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

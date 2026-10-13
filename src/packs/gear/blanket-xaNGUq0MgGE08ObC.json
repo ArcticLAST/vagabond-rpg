@@ -3,7 +3,7 @@
   "_key": "!items!xaNGUq0MgGE08ObC",
   "name": "Blanket",
   "type": "gear",
-  "img": "icons/commodities/cloth/cloth-bolt-gold-orange.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Clothing, Hygiene, &amp; Textiles</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

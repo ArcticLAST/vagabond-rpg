@@ -3,7 +3,7 @@
   "_key": "!items!hGPWEua7oXZIH6Yx",
   "name": "Cardistry",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can use a deck of cards as a Trinket and can make attacks with the cards using your Cast Skill. The cards attack as Daggers, and they are magically replenished when used.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

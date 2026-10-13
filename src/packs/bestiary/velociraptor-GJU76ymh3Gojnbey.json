@@ -3,7 +3,7 @@
   "_key": "!actors!GJU76ymh3Gojnbey",
   "name": "Velociraptor",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 1.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!GJU76ymh3Gojnbey.JRVPCoQBzVyDLygs",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!GJU76ymh3Gojnbey.WtavGV2GOag0mvRV",
       "name": "Pack Hunter",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Targets within 5' of one of this Being's Allies are Vulnerable to its attacks.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

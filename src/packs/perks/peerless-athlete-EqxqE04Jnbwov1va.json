@@ -3,7 +3,7 @@
   "_key": "!items!EqxqE04Jnbwov1va",
   "name": "Peerless Athlete",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can stand from Prone at the start of your Turn (no Action), and you can skip your Move to Jump.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

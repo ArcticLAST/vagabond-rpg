@@ -3,7 +3,7 @@
   "_key": "!items!0NnObLey7QspJe4N",
   "name": "Ink, enchanted (1 oz)",
   "type": "gear",
-  "img": "icons/tools/scribal/ink-quill-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Books &amp; Magic</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

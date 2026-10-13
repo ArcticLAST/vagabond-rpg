@@ -3,7 +3,7 @@
   "_key": "!actors!LSYEwXDlDfq11dsz",
   "name": "Snake, Giant Constrictor",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 7,
     "tl": 3.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!LSYEwXDlDfq11dsz.qhGp2Pz271kijIkB",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Bite and 1×Constrict</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!LSYEwXDlDfq11dsz.8HaowEI2gysWo3jY",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!LSYEwXDlDfq11dsz.MhSqPN0dpg69wH27",
       "name": "Constrict",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) and Restrained</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

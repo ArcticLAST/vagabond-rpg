@@ -3,7 +3,7 @@
   "_key": "!items!0vesGx7qZFNr5Jdz",
   "name": "Treads Lightly",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Your Speed increases by 5', and isn't impeded by nonmagical Difficult Terrain that isn't water or a vertical surface.</p><p>Further, you don't trigger traps by walking on them. You can take this Perk multiple times.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",
@@ -14,7 +14,7 @@
       "_id": "7tHs1AVpFnnCcq4P",
       "_key": "!items.effects!0vesGx7qZFNr5Jdz.7tHs1AVpFnnCcq4P",
       "name": "Treads Lightly",
-      "img": "icons/svg/upgrade.svg",
+      "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
       "transfer": true,
       "disabled": false,
       "changes": [

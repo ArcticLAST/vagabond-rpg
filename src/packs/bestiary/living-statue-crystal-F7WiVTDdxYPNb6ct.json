@@ -3,7 +3,7 @@
   "_key": "!actors!F7WiVTDdxYPNb6ct",
   "name": "Living Statue, Crystal",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!F7WiVTDdxYPNb6ct.faY29KqAYVCL3iAL",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) or (by Weapon)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!F7WiVTDdxYPNb6ct.qMCDALKrCBlGns3w",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

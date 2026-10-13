@@ -3,7 +3,7 @@
   "_key": "!items!Li02Ne2YmvSXjZfK",
   "name": "Potion, Flying",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>For 1 Hour, the consumer has a 120' Fly Speed.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

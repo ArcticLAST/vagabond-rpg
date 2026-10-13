@@ -3,7 +3,7 @@
   "_key": "!items!BtJeRuFLfVxFic5u",
   "name": "Oil, Anointing",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-bulb-empty-glass.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Acts as basic oil. However, when coated on a Weapon that is then ignited, the Weapon counts as Silvered (p. 79).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

@@ -3,7 +3,7 @@
   "_key": "!items!fQqWlPkLw182cb1S",
   "name": "Potion, Clairaudience",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>For 1 Hour, the consumer can hear what other Beings of their choice within Far hear. This sense is obstructed by dense stone and metal.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

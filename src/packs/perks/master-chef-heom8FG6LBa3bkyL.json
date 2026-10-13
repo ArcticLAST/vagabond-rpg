@@ -3,7 +3,7 @@
   "_key": "!items!heom8FG6LBa3bkyL",
   "name": "Master Chef",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>During a Scene, you can cook meals using 5s of Materials to make d6+1 rations which restore d6 HP to the consumer as part of a Breather. They function as normal rations after a Shift.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

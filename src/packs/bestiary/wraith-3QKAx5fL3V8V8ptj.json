@@ -3,7 +3,7 @@
   "_key": "!actors!3QKAx5fL3V8V8ptj",
   "name": "Wraith",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 2.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!3QKAx5fL3V8V8ptj.JiZC7dEJzqf2TnQT",
       "name": "Energy Drain",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6), which also reduces its Maximum HP until it spends 1 Shift in Sunlight</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!3QKAx5fL3V8V8ptj.wnOfz8jaaDp4WFlg",
       "name": "Nightwalker",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!3QKAx5fL3V8V8ptj.M3NvAzrRPpSecgKs",
       "name": "Incorporeal",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can Move into occupied space.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!3QKAx5fL3V8V8ptj.iAVHUjdNt55kTyJp",
       "name": "Shadow Stealth",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is Invisible in the Dark.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

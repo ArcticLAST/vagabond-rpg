@@ -3,7 +3,7 @@
   "_key": "!items!4TRbZrbZW7CZVYjS",
   "name": "Clearbreath",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>A Being that inhales it gains Favor on Saves against foul smells and gases for 1 Hour.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

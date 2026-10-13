@@ -3,7 +3,7 @@
   "_key": "!items!UmVTNDWuBchWmgw4",
   "name": "Torch, Tindertwig",
   "type": "gear",
-  "img": "icons/sundries/lights/torch-black.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>This small, wooden stick ignites when struck against a rough surface. Tindertwigs do not burn out over time, meaning it can be reused as often and for as long as the user desires.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

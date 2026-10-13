@@ -3,7 +3,7 @@
   "_key": "!items!Yp8TyGS4cIsgghNy",
   "name": "Armor, Medium",
   "type": "armor",
-  "img": "icons/equipment/chest/breastplate-scale-grey.webp",
+  "img": "systems/vagabond-rpg/assets/icons/breastplate.svg",
   "system": {
     "description": "<p>Worn Armor grants its Armor Rating. You can only benefit from one set of worn Armor. If your Might is lower than 4, you are Restrained while wearing it. Wearing Armor gives a penalty to Reflex Saves equal to the Slots it occupies. Equipping or unequipping Armor takes a Scene.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 76",

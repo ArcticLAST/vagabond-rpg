@@ -3,7 +3,7 @@
   "_key": "!items!VpMCh8MbUjT4q9Bp",
   "name": "Guardian Angel",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Once per Round, if one of your Allies is Targeted by an Enemy, you can spend 1 Luck to make an attack against that Enemy. If you hit, your Ally has Favor on the Save.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

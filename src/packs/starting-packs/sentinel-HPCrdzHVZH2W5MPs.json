@@ -3,7 +3,7 @@
   "_key": "!items!HPCrdzHVZH2W5MPs",
   "name": "Starting Pack: Sentinel",
   "type": "gear",
-  "img": "icons/containers/bags/pack-leather-white-tan.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><strong>d66 6-1.</strong> Greatshield, h. armor.</p><p>Also includes a backpack, bedroll, 5 days of rations, 2 torches, and a waterskin. Each pack spends the 3g of Starting Wealth; remaining Wealth: <strong>35s</strong>.</p><p>Drop this pack on a Hero to unpack its Items and Wealth.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 75",

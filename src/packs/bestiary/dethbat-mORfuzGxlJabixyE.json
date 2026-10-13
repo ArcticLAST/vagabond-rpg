@@ -3,7 +3,7 @@
   "_key": "!actors!mORfuzGxlJabixyE",
   "name": "Dethbat",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!mORfuzGxlJabixyE.W7jllzHnsSLB4Zy6",
       "name": "Kiss",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Dethbat's Curse (Continual, until removed)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!mORfuzGxlJabixyE.bLkbzUHEz2Okkw0Z",
       "name": "Shriek",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4, Paralyzed)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!mORfuzGxlJabixyE.GO1jKSRJ1PDazeZi",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!mORfuzGxlJabixyE.wumpR7NmGmHhsdim",
       "name": "Dethbat's Curse",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Every hour while cursed and not in Sunlight, the victim rolls a d6, progressing the curse by 1 stage on a roll of 1: 1 Their hair falls out. 2 Their ears transform into wings and their teeth become fangs. 3 They gain 1 Fatigue. If they die due to this, their head rips from their body and becomes a Dethbat.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

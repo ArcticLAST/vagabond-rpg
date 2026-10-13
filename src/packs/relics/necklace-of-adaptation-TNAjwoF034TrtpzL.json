@@ -3,7 +3,7 @@
   "_key": "!items!TNAjwoF034TrtpzL",
   "name": "Necklace of Adaptation",
   "type": "gear",
-  "img": "icons/svg/aura.svg",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Necklace</em></p><p>Necklace of heavy chain which grants the wearer the following Powers:</p><ul><li><strong>Eternal Breath:</strong> They don't need to breathe.</li><li><strong>Extremes Inured:</strong> They are not affected by extreme pressure or vacuums.</li></ul><p>Value: 10000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 106",

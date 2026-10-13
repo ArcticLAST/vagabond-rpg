@@ -3,7 +3,7 @@
   "_key": "!items!E2ARXXJDVbNPWoDC",
   "name": "Sealing wax",
   "type": "gear",
-  "img": "icons/sundries/lights/candle-unlit-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Books &amp; Magic</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

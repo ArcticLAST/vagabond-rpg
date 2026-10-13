@@ -3,7 +3,7 @@
   "_key": "!items!53c8VwcUhWIpZaf8",
   "name": "Crossbow",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

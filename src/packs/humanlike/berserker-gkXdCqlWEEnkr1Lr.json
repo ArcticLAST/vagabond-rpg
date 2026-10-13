@@ -3,7 +3,7 @@
   "_key": "!actors!gkXdCqlWEEnkr1Lr",
   "name": "Berserker",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 2.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!gkXdCqlWEEnkr1Lr.WsajI0hmz0NoDL3M",
       "name": "Greataxe",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>6 (d12) or 13 (2d12!) if this Being is Berserk</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!gkXdCqlWEEnkr1Lr.cQhzk6EMOUp4ldhw",
       "name": "Rage",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Goes Berserk when it takes damage or when attacking. While Berserk, it reduces damage by 1 per die.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

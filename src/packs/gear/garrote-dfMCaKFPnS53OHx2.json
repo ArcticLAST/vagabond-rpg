@@ -3,7 +3,7 @@
   "_key": "!items!dfMCaKFPnS53OHx2",
   "name": "Garrote",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Listed in the Spy Starting Pack. The price lists give no Cost or Slots for it; Slots set to 1 (carried in one hand).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 75",

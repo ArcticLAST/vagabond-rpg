@@ -3,7 +3,7 @@
   "_key": "!actors!ltfnsKBtC33alUod",
   "name": "Will o' Wisp",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 3.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!ltfnsKBtC33alUod.S3HCpuhe9TSpVQwi",
       "name": "Life Zap",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10), healing this Being for the damage dealt</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!ltfnsKBtC33alUod.5ZVwR4xFMgAiw5Yc",
       "name": "Dissipate",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Invisible for the duration.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!ltfnsKBtC33alUod.0DD1IntQznYu15A3",
       "name": "Wyrd Ward",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Cast Checks Targeting it are Hindered, as are attacks made with Magically-enhanced Weapons.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!ltfnsKBtC33alUod.Wgq3zbLXj0Jjqf0Q",
       "name": "Illuminating",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Sheds Light out to 30'.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

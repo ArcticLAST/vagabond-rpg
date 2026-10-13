@@ -3,7 +3,7 @@
   "_key": "!actors!EBHJV43A1fBFqw6R",
   "name": "Kobold",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!EBHJV43A1fBFqw6R.z813tKFybTz36tP0",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) or (by Weapon)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!EBHJV43A1fBFqw6R.kAMKBWnejV9Wqge2",
       "name": "Sling (Normal)",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!EBHJV43A1fBFqw6R.aHdfjlj2BP7OMvMY",
       "name": "Dagger (Normal)",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!EBHJV43A1fBFqw6R.O7KCqnkb5XmaEJpX",
       "name": "Alchemist's Fire (Alchemist)",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and Burning (Cd6)</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!EBHJV43A1fBFqw6R.hXK9Z0akxaTRuRJt",
       "name": "Dagger (Alchemist)",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -200,7 +200,7 @@
       "_key": "!actors.items!EBHJV43A1fBFqw6R.S31qIOlDtVgDpY9G",
       "name": "Spear (Warrior)",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -232,7 +232,7 @@
       "_key": "!actors.items!EBHJV43A1fBFqw6R.sSG6qKQHZuPeqRJm",
       "name": "Pack Instincts",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If one of its Allies is within 5' of a Target of this Being's Attack, that Target is Vulnerable against the Attack.</p>",
         "source": "",
@@ -264,7 +264,7 @@
       "_key": "!actors.items!EBHJV43A1fBFqw6R.LPIirNEPPaofd8YI",
       "name": "Types",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Normal, Alchemist, or Warrior; each type's Actions are named in brackets. Warrior: Armor 2 [as Leather plus Shield].</p>",
         "source": "",
@@ -307,7 +307,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

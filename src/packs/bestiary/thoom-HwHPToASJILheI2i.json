@@ -3,7 +3,7 @@
   "_key": "!actors!HwHPToASJILheI2i",
   "name": "Thoom",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 2.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!HwHPToASJILheI2i.ymLe2ljYcjAIA5Lr",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Tentacle and 1×Cannon</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!HwHPToASJILheI2i.rBJroOyjasoQ3jvY",
       "name": "Cannon",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!HwHPToASJILheI2i.Aa5CIV8iCbdA5b16",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!HwHPToASJILheI2i.T2NizSIe0Dk7DkLW",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Breathes air and water.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!HwHPToASJILheI2i.f4j3nyXRKXFjHH3t",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Starts with 4. Targetting one causes a -1 penalty to the Check, but severs it if at least 2 damage is dealt.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

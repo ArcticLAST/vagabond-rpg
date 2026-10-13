@@ -3,7 +3,7 @@
   "_key": "!items!7cah6u5ZJ8XJsUDT",
   "name": "Black Wing",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Light Crossbow (Bound)</em></p><p>Crossbow of dark-stained wood, adorned in pitch black feathers. The crossbow grants the user the following powers while equipped:</p><ul><li><strong>Nightvision:</strong> They have Darksight.</li></ul><p>Further, the crossbow can also be activated to grant the following Power for 1 Minute:</p><ul><li><strong>Darkness II:</strong> Darkens non-magical light within Near while Equipped.</li></ul><p>Value: not listed in the rulebook (recorded as 0)</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 103",

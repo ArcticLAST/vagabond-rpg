@@ -3,7 +3,7 @@
   "_key": "!items!c1ilU34VPxCRzjw6",
   "name": "Climber",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You gain Climb.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

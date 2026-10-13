@@ -3,7 +3,7 @@
   "_key": "!actors!f1amXQ94AuA8xbWB",
   "name": "Wererat",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!f1amXQ94AuA8xbWB.violCC0v6mhftGHv",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Cutlass and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!f1amXQ94AuA8xbWB.Flyxesrnp4ipHqNU",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and pass [Will] or be cursed with Wererat Lycanthropy.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!f1amXQ94AuA8xbWB.uXfW7CkuqjeZkp0T",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) or (by Weapon)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!f1amXQ94AuA8xbWB.Kg7kjdYl9JR1kkQr",
       "name": "Effectively Immune",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Damage only kills it if it is Weak to the damage.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!f1amXQ94AuA8xbWB.2eEYuRe1fqlVnxMy",
       "name": "Shapechanger",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>This is a form that a Humanlike cursed with lycanthropy can become when the curse takes hold. They revert automatically if they die.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

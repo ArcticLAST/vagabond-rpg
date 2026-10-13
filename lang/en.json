@@ -1035,6 +1035,9 @@
       "blindsight": "Blindsight",
       "echolocation": "Echolocation",
       "telepathy": "Telepathy"
+    },
+    "Icons": {
+      "Migrated": "Updated the art on {n} Actors and Items to the system's new icons."
     }
   }
 }

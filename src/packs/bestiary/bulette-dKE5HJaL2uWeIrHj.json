@@ -3,7 +3,7 @@
   "_key": "!actors!dKE5HJaL2uWeIrHj",
   "name": "Bulette",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 10.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!dKE5HJaL2uWeIrHj.DmJHbnuYiOala44X",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!dKE5HJaL2uWeIrHj.PHk3ZbVVspngFtwx",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>26 (4d12)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!dKE5HJaL2uWeIrHj.yauWensgBFetZOqI",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!dKE5HJaL2uWeIrHj.ZrLnwmAajYtplXTF",
       "name": "Soft Underbelly",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Its Armor is 0 while it is Prone.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

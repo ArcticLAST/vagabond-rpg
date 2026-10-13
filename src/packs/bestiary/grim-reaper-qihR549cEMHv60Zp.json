@@ -3,7 +3,7 @@
   "_key": "!actors!qihR549cEMHv60Zp",
   "name": "Grim Reaper",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 0,
     "tl": 0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!qihR549cEMHv60Zp.944UWzeRtq0Dehyg",
       "name": "Scythe",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!qihR549cEMHv60Zp.AXDLnBquayK62fbK",
       "name": "Inevitable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Its attacks always hit.</p>",
         "source": "",
@@ -117,7 +117,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

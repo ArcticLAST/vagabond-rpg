@@ -3,7 +3,7 @@
   "_key": "!actors!DUno47ougxPdInAr",
   "name": "Lindworm",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 7,
     "tl": 5.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!DUno47ougxPdInAr.RiULphXdkgOeDz2H",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claws and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!DUno47ougxPdInAr.Gi4MmWPxwgD9rUc9",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (3d8)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!DUno47ougxPdInAr.edsxMpprcINFiRfK",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!DUno47ougxPdInAr.46QUb8hUA0dh5InI",
       "name": "Caustic Venom",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6), and Burning (Cd6) and Sickened (Cd4 damage)</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!DUno47ougxPdInAr.mqI3VmDbCkKoD8lF",
       "name": "Regenerate I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 9 (2d8) HP on its Turns.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

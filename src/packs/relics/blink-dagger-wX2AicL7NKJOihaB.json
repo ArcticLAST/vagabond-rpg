@@ -3,7 +3,7 @@
   "_key": "!items!wX2AicL7NKJOihaB",
   "name": "Blink Dagger",
   "type": "weapon",
-  "img": "icons/weapons/daggers/dagger-straight-blue.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Dagger (Bound)</em></p><p>Dagger that a Being must Bind themselves to access its Powers, which are as follows:</p><ul><li><strong>Blinking:</strong> They can use their Action or skip their Move to teleport to the Item if it is within Far.</li><li><strong>Loyalty:</strong> They can will it to return to their hand (no Action).</li></ul><p>Value: 3000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 103",

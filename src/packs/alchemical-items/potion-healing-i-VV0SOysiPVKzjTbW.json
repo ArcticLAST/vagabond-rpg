@@ -3,7 +3,7 @@
   "_key": "!items!VV0SOysiPVKzjTbW",
   "name": "Potion, Healing (I)",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>The consumer regains HP equal to a number of d6 rolls determined by the Potion's Rank, plus a modifier equal to its Rank:</p><p><strong>Rank I:</strong> d6+1</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

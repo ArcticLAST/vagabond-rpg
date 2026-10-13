@@ -3,7 +3,7 @@
   "_key": "!items!XE3bF5rnlQRjlun7",
   "name": "Blink",
   "type": "spell",
-  "img": "icons/magic/unholy/hand-marked-pink.webp",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target can skip their Move to teleport to an empty space they can see within Near. They can teleport through space occupied by other Beings, but can't teleport through spaces they couldn't otherwise Move through.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

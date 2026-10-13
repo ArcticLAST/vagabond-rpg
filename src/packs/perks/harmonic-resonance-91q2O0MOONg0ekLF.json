@@ -3,7 +3,7 @@
   "_key": "!items!91q2O0MOONg0ekLF",
   "name": "Harmonic Resonance",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can use a Musical Instrument as a Trinket. When you do, you have a 1 Mana discount on Aura and Cone deliveries if the Spell isn't Cast to deal damage.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

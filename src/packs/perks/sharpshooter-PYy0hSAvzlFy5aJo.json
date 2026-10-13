@@ -3,7 +3,7 @@
   "_key": "!items!PYy0hSAvzlFy5aJo",
   "name": "Sharpshooter",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can skip your Move and begin Focusing on this Ability to reduce the roll you need to Crit on Ranged attacks by 1 until you Move.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

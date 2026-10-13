@@ -3,7 +3,7 @@
   "_key": "!items!YaDsez2mWHHDRSpv",
   "name": "Fighter",
   "type": "class",
-  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>Man takes up the sword in order to shield the small wound in his heart sustained in a far-off time beyond remembrance. —Kentaro Miura, Berserk Students of the art of violence, fighters are defined by their weapon skills, and variety of martial techniques.</p><p>The fighter is a mid-defense striker. In combat, get within effective distance for offense and prioritize the Attack Action.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Flexible</li><li><strong>Key Stat:</strong> Might/Awareness</li><li><strong>Complexity:</strong> HIIII</li><li><strong>Training:</strong> Melee, Ranged</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 39",

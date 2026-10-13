@@ -17,11 +17,15 @@ export default class VagabondActor extends Actor {
     });
     // Shared storage is visible to every player so anyone can put Items in or take them out.
     const changes = {};
-    if ( ["container", "vehicle"].includes(this.type) ) {
-      if ( !data.img || (data.img === this.constructor.DEFAULT_ICON) ) {
-        changes.img = (this.type === "vehicle") ? "icons/environment/settlement/ship.webp" : "icons/containers/chest/chest-reinforced-box-brown.webp";
-        prototypeToken.texture = { src: changes.img };
+    // Our own art for new Actors that have none (game-icons.net, in the same style as the compendiums).
+    const icon = CONFIG.VAGABOND.defaultIcons[this.type];
+    if ( icon && (!data.img || (data.img === this.constructor.DEFAULT_ICON)) ) {
+      changes.img = icon;
+      if ( !data.prototypeToken?.texture?.src || (data.prototypeToken.texture.src === this.constructor.DEFAULT_ICON) ) {
+        prototypeToken.texture = { src: icon };
       }
+    }
+    if ( ["container", "vehicle"].includes(this.type) ) {
       Object.assign(prototypeToken, { actorLink: true, disposition: CONST.TOKEN_DISPOSITIONS.NEUTRAL });
       if ( !("default" in (data.ownership ?? {})) ) changes["ownership.default"] = CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER;
     }

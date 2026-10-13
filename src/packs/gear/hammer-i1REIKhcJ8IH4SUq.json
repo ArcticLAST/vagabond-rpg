@@ -3,7 +3,7 @@
   "_key": "!items!i1REIKhcJ8IH4SUq",
   "name": "Hammer",
   "type": "gear",
-  "img": "icons/tools/hand/hammer-cobbler-steel.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Hardware</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

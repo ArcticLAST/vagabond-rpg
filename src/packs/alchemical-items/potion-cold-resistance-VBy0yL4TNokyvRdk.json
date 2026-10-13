@@ -3,7 +3,7 @@
   "_key": "!items!VBy0yL4TNokyvRdk",
   "name": "Potion, Cold Resistance",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>For 1 Hour, the consumer gains these benefits:</p><ul><li>They aren't harmed by Blistering Cold.</li><li>They gain a +2 bonus to Saves against Cold-based attacks and magic.</li><li>They reduce any Cold damage they take by 1 per die used for the damage.</li></ul>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

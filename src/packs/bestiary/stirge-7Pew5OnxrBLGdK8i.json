@@ -3,7 +3,7 @@
   "_key": "!actors!7Pew5OnxrBLGdK8i",
   "name": "Stirge",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!7Pew5OnxrBLGdK8i.8n6w0CTehu54khzM",
       "name": "Beak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1 (d3) and Restrained (d4 damage each Round while Restrained this way)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!7Pew5OnxrBLGdK8i.vvnsEB89JVZZmL0Z",
       "name": "Leech",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Its Max HP increases by the amount of damage it deals with its Beak, which also heals it for the same amount. Max HP gained this way is lost after 1 minute.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!7Pew5OnxrBLGdK8i.lhBUfSN3oBdDnttL",
       "name": "Latcher",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Checks to end being Restrained by its Beak have a -3 penalty.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

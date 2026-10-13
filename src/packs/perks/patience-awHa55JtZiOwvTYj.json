@@ -3,7 +3,7 @@
   "_key": "!items!awHa55JtZiOwvTYj",
   "name": "Patience",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>If you end your Turn with a Brawl, Finesse, or Melee Weapon Equipped that you did not attack or Cast with, it has the Defense property until your next Turn or until you roll its damage die.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

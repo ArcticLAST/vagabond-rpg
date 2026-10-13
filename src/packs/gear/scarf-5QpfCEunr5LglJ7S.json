@@ -3,7 +3,7 @@
   "_key": "!items!5QpfCEunr5LglJ7S",
   "name": "Scarf",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Clothing, Hygiene, &amp; Textiles</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

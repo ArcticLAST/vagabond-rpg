@@ -3,7 +3,7 @@
   "_key": "!items!cSBXZXSs12Loth8I",
   "name": "Zap",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is Dazed for the duration if it can be damaged by shocks.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

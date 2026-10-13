@@ -3,7 +3,7 @@
   "_key": "!items!JxntFyqUJY0ZW7Qg",
   "name": "Heightened Magnetism",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can spend a Luck to pass an Influence, Leadership, or Performance Check you fail.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

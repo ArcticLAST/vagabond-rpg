@@ -3,7 +3,7 @@
   "_key": "!actors!fz3WQtYOVM0pzaGR",
   "name": "Zotz Demon",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 14,
     "tl": 9.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!fz3WQtYOVM0pzaGR.6NZ4wyAjkCEVF5la",
       "name": "Shriek",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd6, it can't hear)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!fz3WQtYOVM0pzaGR.cvYOJxjMkLeGZLBk",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!fz3WQtYOVM0pzaGR.lfxouj1BMOfkWhHD",
       "name": "(+2) Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d6+2)</p>",
         "source": "",
@@ -138,7 +138,7 @@
       "_key": "!actors.items!fz3WQtYOVM0pzaGR.W1sOnwmfWtOAMhW8",
       "name": "(+2) Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>15 (3d8+2) and this Being is healed for the damage dealt</p>",
         "source": "",
@@ -171,7 +171,7 @@
       "_key": "!actors.items!fz3WQtYOVM0pzaGR.jwtYVggvTCN6s2ZY",
       "name": "Avatar of Death",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>No Being within Near can be revived.</p>",
         "source": "",
@@ -203,7 +203,7 @@
       "_key": "!actors.items!fz3WQtYOVM0pzaGR.zhpLJK42xGrAb5QT",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -235,7 +235,7 @@
       "_key": "!actors.items!fz3WQtYOVM0pzaGR.HfA4ByrEG2dGzw4J",
       "name": "Nimble",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
         "source": "",
@@ -278,7 +278,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

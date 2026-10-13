@@ -3,7 +3,7 @@
   "_key": "!items!U3HhABBNfdBBF5XS",
   "name": "Apoplex",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is Berserk for the duration.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

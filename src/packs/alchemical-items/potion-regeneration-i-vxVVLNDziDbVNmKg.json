@@ -3,7 +3,7 @@
   "_key": "!items!vxVVLNDziDbVNmKg",
   "name": "Potion, Regeneration (I)",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>The consumer of the item regains HP equal to the roll of a countdown die. The size of the die is determined by its Rank, as shown below.</p><p><strong>Rank I:</strong> Cd4</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

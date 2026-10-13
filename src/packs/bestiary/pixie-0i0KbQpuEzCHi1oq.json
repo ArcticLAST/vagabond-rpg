@@ -3,7 +3,7 @@
   "_key": "!actors!0i0KbQpuEzCHi1oq",
   "name": "Pixie",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 2.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!0i0KbQpuEzCHi1oq.Y3l9NTaMIVLiUoQk",
       "name": "Dagger",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!0i0KbQpuEzCHi1oq.0Q2bwgsuc6IkhQzN",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!0i0KbQpuEzCHi1oq.hy7Yvp539ZxUVAKl",
       "name": "Major Invisibility (Focus)",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can magically become Invisible during its Turn (no Action).</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!0i0KbQpuEzCHi1oq.J2YsVsa203cQdDM1",
       "name": "Pixie Dust",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can produce one dose of Pixie Dust once per Day, which gives a Medium or smaller Being Fly for 1 Hour.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

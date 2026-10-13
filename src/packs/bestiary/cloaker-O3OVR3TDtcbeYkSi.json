@@ -3,7 +3,7 @@
   "_key": "!actors!O3OVR3TDtcbeYkSi",
   "name": "Cloaker",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 2.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!O3OVR3TDtcbeYkSi.q7uWravukEg5DYvc",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Cloak and 2×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!O3OVR3TDtcbeYkSi.W1gC0pre4qxm1eq0",
       "name": "Cloak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!O3OVR3TDtcbeYkSi.aEz2pf7BgS6Nh4yw",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!O3OVR3TDtcbeYkSi.KB9ELPxMh4y4rRyu",
       "name": "Cloaking",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>While it has a Target Restrained, attack damage dealt to it is halved and also dealt to the Target.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

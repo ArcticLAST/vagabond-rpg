@@ -3,7 +3,7 @@
   "_key": "!actors!4C7PYRWIPdieVZQh",
   "name": "Rot Grub",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!4C7PYRWIPdieVZQh.gI8AApejeVm3Fql4",
       "name": "Flesh Burrow",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>This Being burrows itself into flesh that comes into contact with it, causing that Being to become Sickened (3 (d6) damage each Round).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!4C7PYRWIPdieVZQh.U0uKXTTdM7XNDj1a",
       "name": "Parasite",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If this Being or any Being it is burrowing into takes Fire damage or is the Target of an effect that ends the Sickened Status, this Being dies instantly.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!items!Esmp55mG3hnvvZxQ",
   "name": "Mounted Combatant",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Checks you make to avoid falling off a mount are Favored, and you can wield Melee Weapons with the 2H or Versatile Grip as 1H while riding and get the benefits of them being wielded 2H.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

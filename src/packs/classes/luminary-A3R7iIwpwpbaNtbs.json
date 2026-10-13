@@ -3,7 +3,7 @@
   "_key": "!items!A3R7iIwpwpbaNtbs",
   "name": "Luminary",
   "type": "class",
-  "img": "icons/svg/d20-black.svg",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>Faith is about what you do. It's about aspiring to be better and nobler and kinder than you are. —Jim Butcher, Changes Channelers of the magic of creation, luminaries are philosophers, muses, and healers.</p><p>Luminary is a high-support healer. It&#x27;s recommended that you avoid direct melee.</p><ul><li><strong>Action:</strong> Cast</li><li><strong>Move:</strong> Midline/Backline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Influence, Mysticism</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 45",

@@ -3,7 +3,7 @@
   "_key": "!items!SSnB12ynLYiIJQ2z",
   "name": "Hunter",
   "type": "class",
-  "img": "icons/skills/ranged/arrows-triple-yellow-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>I will look for you, I will find you, and I will kill you. —Liam Neeson, Taken Keepers of the old way, hunters are survival experts that specialize in exploiting their enemies' weaknesses.</p><p>The hunter is a low defense, high-crit striker. They can be built for Melee or Ranged positions.</p><ul><li><strong>Action:</strong> Attack</li><li><strong>Move:</strong> Midline/Backline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Melee, Ranged, Survival</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 43",

@@ -3,7 +3,7 @@
   "_key": "!items!TDlwQyAk4uzHyTu4",
   "name": "Chicken, rooster",
   "type": "gear",
-  "img": "icons/commodities/bones/beak-orange-green.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Beasts &amp; Husbandry</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 78",

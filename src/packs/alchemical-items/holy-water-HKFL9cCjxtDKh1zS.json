@@ -3,7 +3,7 @@
   "_key": "!items!HKFL9cCjxtDKh1zS",
   "name": "Holy Water",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-empty-glass.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Undead and Hellspawn hit with it take d6 damage and are Burning (Cd4).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

@@ -3,7 +3,7 @@
   "_key": "!actors!i6YX8rvbfhPQs8hu",
   "name": "Catoblepas",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 7,
     "tl": 5.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!i6YX8rvbfhPQs8hu.DwqCazcr5Mggtxnp",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Tail and 1×Death Ray</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!i6YX8rvbfhPQs8hu.UPWDkEmKzHUevfQm",
       "name": "Death Ray",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>24 (8d6) and +1 Fatigue</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!i6YX8rvbfhPQs8hu.sG0VE079AXWQh8WH",
       "name": "Tail",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and pass an [Endure] Save or knocked Prone and be Dazed for 1 Round.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!i6YX8rvbfhPQs8hu.vqmqaF7FM2OytJb2",
       "name": "Stench",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Non-Catoblepas Beings that have to breathe are Sickened (Hinder on all Checks) while Near it.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

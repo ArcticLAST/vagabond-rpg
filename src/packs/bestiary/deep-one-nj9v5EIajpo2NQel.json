@@ -3,7 +3,7 @@
   "_key": "!actors!nj9v5EIajpo2NQel",
   "name": "Deep One",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!nj9v5EIajpo2NQel.ZxZ53fDi2ecXYfjC",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!nj9v5EIajpo2NQel.eyn9oH0ctFPSe6tL",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!nj9v5EIajpo2NQel.MbC2uEQplxd8zy88",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) or (by Weapon)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!nj9v5EIajpo2NQel.3PDTyLN3TpY4R1GD",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can breathe air and water.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!nj9v5EIajpo2NQel.ltwbcW7XSlibu4BI",
       "name": "Sunblinded",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Blinded by Sunlight.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!items!Sh0zWOhe32BjyjKS",
   "name": "Poleblade",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Cleave:</strong> Ignores Flanked for attacks. You can reduce its die one size to hit another Target within reach per size reduction.</p><p><strong>Long:</strong> Its Range is doubled.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

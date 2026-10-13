@@ -3,7 +3,7 @@
   "_key": "!items!EzzbyXJXVJp0tnbt",
   "name": "Transvection",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>If you Cast Levitate on an Item, it gains 30' Fly Speed. This Casting is continual, but ends early if you use this Ability again.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

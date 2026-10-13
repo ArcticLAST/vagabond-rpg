@@ -3,7 +3,7 @@
   "_key": "!items!OENV4IEc4Ucw2hfU",
   "name": "Leech",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is Sickened for the duration. While Sickened this way, any healing that affects it instead heals you. Any subsequent Castings of this Spell that damage the Sickened Target also heals you for the damage dealt.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

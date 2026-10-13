@@ -3,7 +3,7 @@
   "_key": "!actors!aqAdfbVFoaFm7O8u",
   "name": "Goblin",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!aqAdfbVFoaFm7O8u.KbweVPPQzw6wCYIl",
       "name": "Shortbow (Archer)",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!aqAdfbVFoaFm7O8u.YlhnRLEc3xLnVL36",
       "name": "Apoplex (Mage)",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Berserk (Cd4)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!aqAdfbVFoaFm7O8u.7fIk6NA7VjVrVel0",
       "name": "Flare (Mage)",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!aqAdfbVFoaFm7O8u.QFr39cls8mIc5M6l",
       "name": "Staff (Mage)",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!aqAdfbVFoaFm7O8u.8O6RVYt7SL2SKfvx",
       "name": "Dagger (Warrior)",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -200,7 +200,7 @@
       "_key": "!actors.items!aqAdfbVFoaFm7O8u.SWyT0NyN1KObr9Xe",
       "name": "Sun-Averse",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Is Vulnerable while in Sunlight</p>",
         "source": "",
@@ -232,7 +232,7 @@
       "_key": "!actors.items!aqAdfbVFoaFm7O8u.yC1PmhTDsblhZhio",
       "name": "Types",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Its Actions are determined by its type: Archer, Mage, or Warrior (named in brackets).</p>",
         "source": "",
@@ -275,7 +275,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

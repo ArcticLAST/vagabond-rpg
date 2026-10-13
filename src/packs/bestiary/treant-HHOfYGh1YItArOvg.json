@@ -3,7 +3,7 @@
   "_key": "!actors!HHOfYGh1YItArOvg",
   "name": "Treant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 5.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!HHOfYGh1YItArOvg.WdTWeVkemHvh1DAH",
       "name": "Animate Trees",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>The tree acts as a Treant, though it has a Speed of 10' and doesn't have this Animate Trees Action.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!HHOfYGh1YItArOvg.oww1V1J9OV5ZAsCF",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Slams</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!HHOfYGh1YItArOvg.AWzTPuliqYifwrH2",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

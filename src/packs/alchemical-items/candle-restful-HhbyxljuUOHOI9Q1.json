@@ -3,7 +3,7 @@
   "_key": "!items!HhbyxljuUOHOI9Q1",
   "name": "Candle, Restful",
   "type": "gear",
-  "img": "icons/sundries/lights/candle-unlit-tan.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Acts as a basic candle, and fills the air within Near with a cozy odor. Once per Shift, a Being that takes a Breather in this area gains Favor on its next Will Save that Shift.</p><p>CAL ITEMS Value 5g 5g 5g 5g 50s</p><p>hade</p><p>er</p><p>I II</p><p>20s 2g 2g 2g 50s 25g 250g 50g 125g 25g 250g 1250g 250g 25g 1250g 250g 250g 250g 175g 2g 50s 25g 250g 50g 20g 500g</p><p>Item</p><p>Value</p><p>Invulnerability III Levitation Mana I Mana II Mana III Polymorph Regeneration I Regeneration II Regeneration III Resistance, Cold Resistance, Fire Resistance, Shock Speed I Speed II Speed III Shriek paste Smelling salts Smoke stick Soap Splash catalyst Sunrod Tanglefoot bag Thunderstone Toothpaste Torch Basic Frigidflame Repel Beast Sentry Tindertwig</p><p>12500g 40g 7g 50s 15g 50g 70g 5g 10g 100g 25g 25g 25g 2g 50s 7g 50s 25g 50s 5s 10s 2c 2g 50s 50s 50s 50s 5s</p><p>Clearbreath</p><p>1s 2g 2g 5g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

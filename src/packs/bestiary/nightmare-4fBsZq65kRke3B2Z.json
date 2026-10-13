@@ -3,7 +3,7 @@
   "_key": "!actors!4fBsZq65kRke3B2Z",
   "name": "Nightmare",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 5.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!4fBsZq65kRke3B2Z.GP1LhnApJy0q9aeR",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Bite and 1×Stomp</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!4fBsZq65kRke3B2Z.yt22IqLXFT7q6Di8",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!4fBsZq65kRke3B2Z.qRO3zhTtQh5czWlC",
       "name": "Stomp",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) plus 3 (d6 if Prone)) and Burning (Cd4)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!4fBsZq65kRke3B2Z.IoaVNuQkFBFKHiVr",
       "name": "Fire Rider",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Allies mounted on it are Immune to Fire.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!4fBsZq65kRke3B2Z.4I22maAsP84LDyIt",
       "name": "Illuminating",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Sheds Light out to Near.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

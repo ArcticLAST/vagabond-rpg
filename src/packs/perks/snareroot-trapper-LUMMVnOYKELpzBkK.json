@@ -3,7 +3,7 @@
   "_key": "!items!LUMMVnOYKELpzBkK",
   "name": "Snareroot Trapper",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can have one Casting of Sprout with a Glyph Delivery active without Focusing. This Casting costs no Mana for the Delivery.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

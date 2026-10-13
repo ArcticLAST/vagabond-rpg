@@ -3,7 +3,7 @@
   "_key": "!items!JJjvnYFZ270EHrCL",
   "name": "Orc",
   "type": "ancestry",
-  "img": "icons/environment/people/charge.webp",
+  "img": "systems/vagabond-rpg/assets/icons/person.svg",
   "system": {
     "description": "<p>Orcs are mutant nightkin that take on a variety of appearances. They typically settle in close-knit tribes where \"might is right\".</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 26",
@@ -60,7 +60,7 @@
       "_id": "91lXTPxngm88JGDH",
       "_key": "!items.effects!JJjvnYFZ270EHrCL.91lXTPxngm88JGDH",
       "name": "Hulking",
-      "img": "icons/environment/people/charge.webp",
+      "img": "systems/vagabond-rpg/assets/icons/person.svg",
       "transfer": true,
       "disabled": false,
       "changes": [

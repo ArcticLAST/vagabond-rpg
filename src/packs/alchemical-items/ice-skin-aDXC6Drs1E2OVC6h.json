@@ -3,7 +3,7 @@
   "_key": "!items!aDXC6Drs1E2OVC6h",
   "name": "Ice Skin",
   "type": "gear",
-  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>One dose can cover a Medium or smaller Being for a Shift. During that Shift, that Being is protected against Bitter Cold.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

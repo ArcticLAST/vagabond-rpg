@@ -3,7 +3,7 @@
   "_key": "!actors!e60xb06U4nUgwLxI",
   "name": "Byakhee",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 15,
     "tl": 10.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!e60xb06U4nUgwLxI.JdadEVDjllUMiS6h",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!e60xb06U4nUgwLxI.nJUxLoYXXxQTuyIz",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and pass [Endure] or Sickened (Cd6 per Round, Dazed for Cd4 after the Status ends).</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!e60xb06U4nUgwLxI.8jxC31GhWMlIVt9E",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (3d8)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!e60xb06U4nUgwLxI.39ODJf9FOTI8SSos",
       "name": "Instant Transmission",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it is in space, it can use its Action to teleport itself and any Beings in physical contact with it at lightspeed to anywhere within the nearby star system.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!e60xb06U4nUgwLxI.SMM0eRHPV286197s",
       "name": "Interstellar",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can freely move in the vacuum of space.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

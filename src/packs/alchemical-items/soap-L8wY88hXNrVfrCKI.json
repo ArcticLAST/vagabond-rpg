@@ -3,7 +3,7 @@
   "_key": "!items!L8wY88hXNrVfrCKI",
   "name": "Soap",
   "type": "gear",
-  "img": "icons/sundries/survival/soap.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Fragrant bar of fat and oil, used for bathing.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

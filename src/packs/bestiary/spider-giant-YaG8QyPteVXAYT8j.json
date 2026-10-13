@@ -3,7 +3,7 @@
   "_key": "!actors!YaG8QyPteVXAYT8j",
   "name": "Spider, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 2.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!YaG8QyPteVXAYT8j.0zdPkNuVbCMs3u7z",
       "name": "Web Shot",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained by Webs.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!YaG8QyPteVXAYT8j.kTYTrhOb9Kq1NufQ",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) and pass [Endure] against Sickened or take another 4 (d8) damage and be Sickened (Cd8, Paralyzed).</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!YaG8QyPteVXAYT8j.OelHeWcvhE1344f0",
       "name": "Webs",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Its web is an Object with 4 HP and Armor: 1.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!YaG8QyPteVXAYT8j.cbpKa1myUyFWbUNA",
       "name": "Web Walker",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can sense any Being on the same web as it as if by Blindsight, and is not impeded by web as Difficult Terrain.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!items!f2UQHQWr50jYBxUg",
   "name": "Light hammer",
   "type": "weapon",
-  "img": "icons/weapons/hammers/shorthammer-double-stone-engraved.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Thrown:</strong> Can throw attack to Near, or Far with Hinder. Can be drawn from the Inventory as a part of the attack. You can use this Property if you aren't Trained with it.</p><p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

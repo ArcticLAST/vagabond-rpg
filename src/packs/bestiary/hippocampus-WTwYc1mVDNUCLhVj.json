@@ -3,7 +3,7 @@
   "_key": "!actors!WTwYc1mVDNUCLhVj",
   "name": "Hippocampus",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 2.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!WTwYc1mVDNUCLhVj.5693onowDhY4usFE",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Hoof</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!WTwYc1mVDNUCLhVj.DEB3dBhMNJ1BDLne",
       "name": "Hoof",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -116,7 +116,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!items!tYMBjaX72424BZPW",
   "name": "Confuse",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target is Confused for the duration.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

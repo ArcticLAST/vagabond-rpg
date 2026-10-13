@@ -3,7 +3,7 @@
   "_key": "!actors!hzFQGsyCrPR3qoMb",
   "name": "Beisht Kione Dhoo",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 13,
     "tl": 6.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!hzFQGsyCrPR3qoMb.PPaUwfoCiVDU5nxs",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Bite and 1×Slam</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!hzFQGsyCrPR3qoMb.7sSVHTEcBZFMprfq",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Restrained if it is Large or smaller. If this Being has a Target this way, it can only Bite the Restrained Target.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!hzFQGsyCrPR3qoMb.xTkouI9nLsJ4LR67",
       "name": "Slam",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>11 (2d10) and shoved Prone if Large or smaller than this Being.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!hzFQGsyCrPR3qoMb.9sCPTiljUFqWyGcM",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Breathes air and water.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!hzFQGsyCrPR3qoMb.5yRX9HV4qsQs8tkj",
       "name": "Dreadnought",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Deals double damage to vehicles.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!hzFQGsyCrPR3qoMb.LPcrBYrQixsiWwI5",
       "name": "Terror III",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Enemies that can see it for the first time and at the start of their Turns must pass a [Will] Save or be Frightened (until they pass this Check on a subsequent Turn, or for Cd8 Rounds afterwards).</p>",
         "source": "",
@@ -244,7 +244,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

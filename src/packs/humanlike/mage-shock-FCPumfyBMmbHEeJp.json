@@ -3,7 +3,7 @@
   "_key": "!actors!FCPumfyBMmbHEeJp",
   "name": "Mage, Shock",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!FCPumfyBMmbHEeJp.ye7XIahPiQsYebF4",
       "name": "Lightning Bolt",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!FCPumfyBMmbHEeJp.ceWBbFfpU1ZJMcrv",
       "name": "Zap",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and Dazed (Cd4, or Cd6 if failed as a 1)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!g3Jkj5ogIWBvVHiS",
   "name": "Church Grim",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 4.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!g3Jkj5ogIWBvVHiS.Z9rC6TWiKOkbFF1e",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claws and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!g3Jkj5ogIWBvVHiS.H3XskbH6ijZNvC61",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!g3Jkj5ogIWBvVHiS.YHutXEth5eDuuGlY",
       "name": "Claws",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!g3Jkj5ogIWBvVHiS.rA13Njp0fLWgrqW5",
       "name": "Bloodthirst",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is Berserk and Beings at or below half HP make Checks against it as if Vulnerable.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!g3Jkj5ogIWBvVHiS.UELLuWjvs02Gvy0C",
       "name": "Grim Resurrection",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It dies instantly if its original corpse is destroyed. If it drops to 0 HP and its original corpse is not destroyed, it vanishes in a puff of smoke and reapparates in its church of origin in the next Scene at full HP.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

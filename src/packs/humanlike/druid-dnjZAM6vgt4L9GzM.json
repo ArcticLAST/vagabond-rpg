@@ -3,7 +3,7 @@
   "_key": "!actors!dnjZAM6vgt4L9GzM",
   "name": "Druid",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!dnjZAM6vgt4L9GzM.f6NjFsoMZoczerzZ",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Feral Shift and 1 Action of the Beast it turns into</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!dnjZAM6vgt4L9GzM.HhLyDdyTQIEQA79r",
       "name": "Feral Shift",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It turns into a HD 2 or lower Beast.</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!dnjZAM6vgt4L9GzM.4G0KlCa7ms741ES1",
       "name": "Cure Wounds",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regain 3 (d6) HP</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!dnjZAM6vgt4L9GzM.Kkui716tuQuzHNm9",
       "name": "Polymorph",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It becomes a Beast of this Being's choice with HD 2 or lower.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

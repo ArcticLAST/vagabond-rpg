@@ -3,7 +3,7 @@
   "_key": "!items!LqkoFJDOdDxlyT7R",
   "name": "Guide",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>Checks that rely on sight made against the Target have Favor for the duration.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

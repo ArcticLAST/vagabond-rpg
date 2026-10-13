@@ -3,7 +3,7 @@
   "_key": "!actors!aF2xIhYd5aeuPu0W",
   "name": "Flail Snail",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 6.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!aF2xIhYd5aeuPu0W.5nQpj3I7PAfVx1S2",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5×Flail</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!aF2xIhYd5aeuPu0W.yn9C4aK8rUKJmiS7",
       "name": "Flail",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!aF2xIhYd5aeuPu0W.rJxVNTCX43RS3IWM",
       "name": "Flails",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Starts with 5 Flails. Targetting a Flail causes a -4 penalty to the Attack Check, but severs it if at least 4 damage is dealt with the attack.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!aF2xIhYd5aeuPu0W.SdZMQH36vL8mNI6J",
       "name": "Reflective Shell",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>When Targeted with a Spell, roll d6. On a 1, the Spell is reflected back at its source. On a 2 or 3, the Spell is dispelled. On a 4 to 6, the Spell works as normal.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

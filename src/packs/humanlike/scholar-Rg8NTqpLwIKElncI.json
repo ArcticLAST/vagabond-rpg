@@ -3,7 +3,7 @@
   "_key": "!actors!Rg8NTqpLwIKElncI",
   "name": "Scholar",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!Rg8NTqpLwIKElncI.mHSIs6gVNH4DtpV4",
       "name": "Advise",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It grants a Studied die to the Ally.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!Rg8NTqpLwIKElncI.nBeTssSltJO1K7Ht",
       "name": "Crossbow",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!Rg8NTqpLwIKElncI.JWGgVdsmzxh8m8o2",
       "name": "Dagger",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

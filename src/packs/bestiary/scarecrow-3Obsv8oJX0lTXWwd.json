@@ -3,7 +3,7 @@
   "_key": "!actors!3Obsv8oJX0lTXWwd",
   "name": "Scarecrow",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 5,
     "tl": 2.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!3Obsv8oJX0lTXWwd.QRjNv7IFF0U6iHl1",
       "name": "Scream",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4, Paralyzed if failed by 5 or more)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!3Obsv8oJX0lTXWwd.xATGrxaeKipgKkDe",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!3Obsv8oJX0lTXWwd.aZ2UCjYc08SDw7HF",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!3Obsv8oJX0lTXWwd.LzQbejDJmZzW3ZUJ",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

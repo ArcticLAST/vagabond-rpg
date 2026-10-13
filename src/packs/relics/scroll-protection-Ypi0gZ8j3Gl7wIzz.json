@@ -3,7 +3,7 @@
   "_key": "!items!Ypi0gZ8j3Gl7wIzz",
   "name": "Scroll, Protection",
   "type": "gear",
-  "img": "icons/tools/scribal/ink-quill-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Parchment (Consumable)</em></p><p>Can be read to create an Aura out to 10' from the reader for 1 Hour that moves with them. Doing so causes the Scroll to vaporize. Those in the Aura have Favor on Saves forced by Beings designated by the scroll's name:</p><ul><li><strong>Protection from Evil:</strong> Hellspawn, Undead</li><li><strong>Protection from Good:</strong> Divines, Fae</li></ul><p>Value: 10g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 107",

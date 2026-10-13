@@ -1,0 +1,18 @@
+{
+  "defaults": {
+    "weapon": "broadsword",
+    "armor": "breastplate",
+    "gear": "knapsack",
+    "spell": "spell-book",
+    "perk": "upgrade",
+    "feature": "sparkles",
+    "class": "scroll-quill",
+    "ancestry": "person",
+    "action": "sword-clash",
+    "character": "hood",
+    "npc": "dragon-head",
+    "container": "chest",
+    "vehicle": "sailboat",
+    "relic": "crystal-ball"
+  }
+}

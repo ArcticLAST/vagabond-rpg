@@ -3,7 +3,7 @@
   "_key": "!items!JW9Y1Dc0jsJwaK8g",
   "name": "Torch, Frigidflame",
   "type": "gear",
-  "img": "icons/sundries/lights/torch-black.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>While burning, it sheds Moonlight and counts as a source of ice rather than fire.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

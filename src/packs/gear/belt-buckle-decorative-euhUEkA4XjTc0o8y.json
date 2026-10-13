@@ -3,7 +3,7 @@
   "_key": "!items!euhUEkA4XjTc0o8y",
   "name": "Belt buckle, decorative",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Gems, Jewelry, &amp; Smithing</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

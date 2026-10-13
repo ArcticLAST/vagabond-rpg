@@ -3,7 +3,7 @@
   "_key": "!actors!0O329mq4UsCxFcwQ",
   "name": "Ghost",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 3.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!0O329mq4UsCxFcwQ.7V0wuAEYzO6sQpS0",
       "name": "Chill Touch",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and +1 Fatigue</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!0O329mq4UsCxFcwQ.bdZ2XLCpDKp9H0Pz",
       "name": "Posession",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>This Being gains control of the Target while it is alive, unless forced out by an effect that turns Undead or dispells magic</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!0O329mq4UsCxFcwQ.q64K5IWfG1Sop9jt",
       "name": "Aging Terror II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd6) and aged 10 (d20) years.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!0O329mq4UsCxFcwQ.YQjPyiNMlStItN0D",
       "name": "Nightwalker",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

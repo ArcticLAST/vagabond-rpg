@@ -3,7 +3,7 @@
   "_key": "!actors!na0SjNBDe4fkZJcq",
   "name": "Snake, Giant Poisonous",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 2.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!na0SjNBDe4fkZJcq.0Ve3s6ct5L9Oomn9",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) and pass [Endure] or become Sickened (Cd6 damage each Minute).</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

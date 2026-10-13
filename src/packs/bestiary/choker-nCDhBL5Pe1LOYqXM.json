@@ -3,7 +3,7 @@
   "_key": "!actors!nCDhBL5Pe1LOYqXM",
   "name": "Choker",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 1.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!nCDhBL5Pe1LOYqXM.Y9OWicbhNzOdrjSj",
       "name": "Choke",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Restrained (Suffocating)</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

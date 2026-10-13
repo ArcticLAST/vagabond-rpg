@@ -3,7 +3,7 @@
   "_key": "!items!i22C64iSKfsLOL5t",
   "name": "Perfume (vial)",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-bulb-corked-purple.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>A fragrant, pleasant spray.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

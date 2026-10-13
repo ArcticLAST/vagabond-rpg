@@ -3,7 +3,7 @@
   "_key": "!items!B4Tlj87wXWyADuNr",
   "name": "Ritualist",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Once per Shift, you can conduct a 10-minute Ritual as an Action.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

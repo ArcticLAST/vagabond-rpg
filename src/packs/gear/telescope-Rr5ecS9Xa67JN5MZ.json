@@ -3,7 +3,7 @@
   "_key": "!items!Rr5ecS9Xa67JN5MZ",
   "name": "Telescope",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Astronomy &amp; Navigation</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 78",

@@ -3,7 +3,7 @@
   "_key": "!items!2KKE6hnIPEnrHk66",
   "name": "Abjurer",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>While Focusing on Ward with another Being as the Target, you also gain the benefits of Ward.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

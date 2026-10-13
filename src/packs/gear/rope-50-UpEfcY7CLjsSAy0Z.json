@@ -3,7 +3,7 @@
   "_key": "!items!UpEfcY7CLjsSAy0Z",
   "name": "Rope (50')",
   "type": "gear",
-  "img": "icons/sundries/survival/rope-wrapped-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Hardware</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

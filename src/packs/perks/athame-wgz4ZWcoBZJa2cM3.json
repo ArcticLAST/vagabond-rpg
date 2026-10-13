@@ -3,7 +3,7 @@
   "_key": "!items!wgz4ZWcoBZJa2cM3",
   "name": "Athame",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can conduct a Ritual (p. 10) with a Dagger, making it your athame until you conduct this ritual again. Your athame is a Relic with the Loyalty Power, and it can be used as a Trinket.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

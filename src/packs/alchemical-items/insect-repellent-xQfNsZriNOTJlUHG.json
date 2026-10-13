@@ -3,7 +3,7 @@
   "_key": "!items!xQfNsZriNOTJlUHG",
   "name": "Insect Repellent",
   "type": "gear",
-  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Covers a Medium or Smaller Being for a Shift, during which, insects Near it act as Frightened.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

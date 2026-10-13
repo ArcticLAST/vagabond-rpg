@@ -3,7 +3,7 @@
   "_key": "!items!yI7kdt5qIlDrbniL",
   "name": "Torch, Sentry",
   "type": "gear",
-  "img": "icons/sundries/lights/torch-black.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>While burning, effects that cause Invisibility are suspended while in its Light.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

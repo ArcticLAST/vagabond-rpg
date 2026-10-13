@@ -3,7 +3,7 @@
   "_key": "!items!ESI73m43TxVX9jbZ",
   "name": "Truth",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>The Target can't lie for the duration.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

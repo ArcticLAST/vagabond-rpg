@@ -3,7 +3,7 @@
   "_key": "!items!moGBgSoNJ5g71R3g",
   "name": "Alkahest",
   "type": "gear",
-  "img": "icons/consumables/potions/vial-cork-empty.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>When poured on or within an Alchemical Item, the item is reduced back to its raw materials after 1 Minute.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

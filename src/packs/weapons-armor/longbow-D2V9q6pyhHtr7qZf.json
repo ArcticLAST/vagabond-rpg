@@ -3,7 +3,7 @@
   "_key": "!items!D2V9q6pyhHtr7qZf",
   "name": "Longbow",
   "type": "weapon",
-  "img": "icons/weapons/bows/longbow-recurve-leather-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Keen:</strong> Crits 1 lower on the Attack Check.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

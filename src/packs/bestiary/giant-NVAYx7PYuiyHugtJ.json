@@ -3,7 +3,7 @@
   "_key": "!actors!NVAYx7PYuiyHugtJ",
   "name": "Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 8,
     "tl": 3.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!NVAYx7PYuiyHugtJ.lkn8awgaTw5RDMIc",
       "name": "Greatclub",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!NVAYx7PYuiyHugtJ.Q3rGw92xhxvO3rMW",
       "name": "Rock",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d6)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!NVAYx7PYuiyHugtJ.4pzsZ8NlKMq4x0LA",
       "name": "Types",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Cyclops, Hill, or Stone.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!NVAYx7PYuiyHugtJ.VuBqlJwHH5AExe55",
       "name": "One-Eyed (Cyclops)",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Attacks as if Vulnerable against Targets further than Near.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!NVAYx7PYuiyHugtJ.0qUzdxtkN8tVZUAw",
       "name": "Armor (Stone)",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Armor 3 [as (+1) Chain].</p>",
         "source": "",
@@ -211,7 +211,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

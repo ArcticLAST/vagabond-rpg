@@ -3,7 +3,7 @@
   "_key": "!items!n5mreC9bG4yrVYOT",
   "name": "Ball bearings, bag",
   "type": "gear",
-  "img": "icons/weapons/ammunition/shot-round-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Hardware</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

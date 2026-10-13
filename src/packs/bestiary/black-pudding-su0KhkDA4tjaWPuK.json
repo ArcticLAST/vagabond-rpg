@@ -3,7 +3,7 @@
   "_key": "!actors!su0KhkDA4tjaWPuK",
   "name": "Black Pudding",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 10,
     "tl": 8.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!su0KhkDA4tjaWPuK.0a7HIpE7lxdZNbNv",
       "name": "Pseudopod",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (3d8) and Restrained</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!su0KhkDA4tjaWPuK.cBweNrZSEHcS3KnF",
       "name": "Pudding Nature",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Is Dazed (1 Round) after being subjected to Cold.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!su0KhkDA4tjaWPuK.bkVrYAY52TwWbxk6",
       "name": "Seep",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!su0KhkDA4tjaWPuK.hosmC3roVNfEfjGV",
       "name": "Engulfer",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Beings that share a space with it are Burning 13 (3d8).</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!su0KhkDA4tjaWPuK.4Qj2ijpOdxb2GY59",
       "name": "Pudding Split",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it is larger than Small when subjected to Shock or Slash, it splits into two Black Puddings with half its current HP, round up, and are one size smaller. These deal 1 less d8 with its Pseudopod Action and Engulfer Ability.</p>",
         "source": "",
@@ -200,7 +200,7 @@
       "_key": "!actors.items!su0KhkDA4tjaWPuK.tVo3YhQEVvmyA46A",
       "name": "Sticky",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Hinders attempts to end being Restrained by it. Beings that make physical contact with it must pass [Endure] or be Restrained.</p>",
         "source": "",
@@ -243,7 +243,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!4n1nWiefCueQGr95",
   "name": "Sea Serpent",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 14,
     "tl": 6.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!4n1nWiefCueQGr95.QHVzsYNGMxTmFP6v",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1×Bite or 1×Constrict</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!4n1nWiefCueQGr95.mcsnJXB4lbNQCR4f",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Restrained if smaller</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!4n1nWiefCueQGr95.FvZRBQX8jhn6VnHg",
       "name": "Constrict",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>11 (2d10) and Restrained</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!4n1nWiefCueQGr95.lhd48d9LIIjhFraP",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can breathe air and water.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!4n1nWiefCueQGr95.hpUXnTSTp8ICRxjJ",
       "name": "Dreadnought",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Deals double damage to vehicles.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

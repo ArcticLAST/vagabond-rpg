@@ -3,7 +3,7 @@
   "_key": "!items!cDjgV3S22eQ6I7Te",
   "name": "Alchemist's Fire",
   "type": "gear",
-  "img": "icons/consumables/potions/potion-flask-corked-orange.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>A flammable, tar-like fluid that ignites when exposed to oxygen, dealing d6 damage and Burning (Cd4) a hit Target.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

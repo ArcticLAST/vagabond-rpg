@@ -3,7 +3,7 @@
   "_key": "!items!YfzRvbJkM9dvaiei",
   "name": "Panache",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>If you hit an Enemy within your reach with an attack the next Save you make against an attack before your next Turn is Favored.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

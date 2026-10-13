@@ -3,7 +3,7 @@
   "_key": "!items!1I35UOtusHeC6QZe",
   "name": "Waterskin",
   "type": "gear",
-  "img": "icons/sundries/survival/wetskin-leather-purple.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Cooking &amp; Food</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

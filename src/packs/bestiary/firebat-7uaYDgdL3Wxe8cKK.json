@@ -3,7 +3,7 @@
   "_key": "!actors!7uaYDgdL3Wxe8cKK",
   "name": "Firebat",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!7uaYDgdL3Wxe8cKK.TyUnhmsJZzBM6kcj",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!7uaYDgdL3Wxe8cKK.fTUWYMzqO7T1inbe",
       "name": "Living Fire",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Close Beings are Burning (d4). It is Burning (d8) while in water.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!7uaYDgdL3Wxe8cKK.hH30CyRhG95smu5d",
       "name": "Illuminating",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Sheds Light out to Near.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

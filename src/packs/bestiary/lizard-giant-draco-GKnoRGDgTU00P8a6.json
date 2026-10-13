@@ -3,7 +3,7 @@
   "_key": "!actors!GKnoRGDgTU00P8a6",
   "name": "Lizard, Giant Draco",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 2.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!GKnoRGDgTU00P8a6.fgiWxdGANlqR2Xy1",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10)</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

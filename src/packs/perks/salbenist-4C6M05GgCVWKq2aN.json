@@ -3,7 +3,7 @@
   "_key": "!items!4C6M05GgCVWKq2aN",
   "name": "Salbenist",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can conduct a Ritual (p. 10) with a Weapon and an oil. After the Ritual, the following rules apply until you perform it again:</p><ul><li>You can use Craft to attack with the Weapon.</li><li>You can will the oil to coat the Weapon on your Turn (no Action) which doesn't consume it. It remains coated until you dismiss it or when it is coated with another oil.</li></ul>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

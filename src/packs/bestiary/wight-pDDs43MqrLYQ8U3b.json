@@ -3,7 +3,7 @@
   "_key": "!actors!pDDs43MqrLYQ8U3b",
   "name": "Wight",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 2.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!pDDs43MqrLYQ8U3b.RdmV8ICcp0YWLp2L",
       "name": "Energy Drain",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and +1 Fatigue, healing this Being for the damage dealt</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!pDDs43MqrLYQ8U3b.RJgnZpxWGaP7jzEI",
       "name": "Longsword",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!pDDs43MqrLYQ8U3b.dMNZcfQNlNWPXfFo",
       "name": "Nightwalker",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

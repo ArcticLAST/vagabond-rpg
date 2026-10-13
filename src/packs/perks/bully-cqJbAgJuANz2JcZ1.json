@@ -3,7 +3,7 @@
   "_key": "!items!cqJbAgJuANz2JcZ1",
   "name": "Bully",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Your Checks to Grapple or Shove Targets that are smaller than you are Favored, and you can use Beings that are your size or smaller as a 2H Grip d4 Brawl Weapon with the Defense property that deals its damage to both the Target and itself on a hit. If you reduce damage with a Being this way, it still takes the full damage. Your attacks with it maintain the grapple.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

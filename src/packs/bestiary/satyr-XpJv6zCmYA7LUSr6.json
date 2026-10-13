@@ -3,7 +3,7 @@
   "_key": "!actors!XpJv6zCmYA7LUSr6",
   "name": "Satyr",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 2.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!XpJv6zCmYA7LUSr6.fkSjO6EFL9yEpbYO",
       "name": "Sleep",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Unconscious (Cd6 or until awoken)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!XpJv6zCmYA7LUSr6.k3T916k66tzJMpAG",
       "name": "Charm",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Charmed (until this Being drops Focus). Those Charmed this way must Move toward this Being and use their Action to obey its commands.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!XpJv6zCmYA7LUSr6.IG1QEk2SYadjhpq5",
       "name": "Horns",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (2d4)</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!XpJv6zCmYA7LUSr6.9mbgkrlhQv4WEUSh",
       "name": "Fear",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4)</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!XpJv6zCmYA7LUSr6.1obhYIxlUrQ4HY5H",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -200,7 +200,7 @@
       "_key": "!actors.items!XpJv6zCmYA7LUSr6.wM4e9Tq7bYDSxVdZ",
       "name": "Panpipes",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It casn't use Sleep, Charm, or Fear without its panpipes.</p>",
         "source": "",
@@ -243,7 +243,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

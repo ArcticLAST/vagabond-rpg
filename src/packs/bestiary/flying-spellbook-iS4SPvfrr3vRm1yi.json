@@ -3,7 +3,7 @@
   "_key": "!actors!iS4SPvfrr3vRm1yi",
   "name": "Flying Spellbook",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!iS4SPvfrr3vRm1yi.q0UAYCTpUUbGVXMf",
       "name": "Freeze",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and its Speed is reduced by 10' (Cd4).</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!iS4SPvfrr3vRm1yi.KSzSyIfmi8iu3ZWO",
       "name": "Zap",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and Dazed (Cd4)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!iS4SPvfrr3vRm1yi.h8k9YXeT3uP0LsEC",
       "name": "Antimagic Vulnerability",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is Dazed for Cd4 if affected by the Dispel Spell or other antimagic.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!iS4SPvfrr3vRm1yi.TxZdMJnTuO0Dayvh",
       "name": "Nimble",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

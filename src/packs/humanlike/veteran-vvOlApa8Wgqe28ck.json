@@ -3,7 +3,7 @@
   "_key": "!actors!vvOlApa8Wgqe28ck",
   "name": "Veteran",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 2.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!vvOlApa8Wgqe28ck.7ZCDkaPdaevu7lkI",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Weapon</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!vvOlApa8Wgqe28ck.jbFEaHikcw6DdxQd",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6 or (by Weapon)</p>",
         "source": "",
@@ -116,7 +116,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

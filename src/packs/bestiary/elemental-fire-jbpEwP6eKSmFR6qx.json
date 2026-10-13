@@ -3,7 +3,7 @@
   "_key": "!actors!jbpEwP6eKSmFR6qx",
   "name": "Elemental, Fire",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 12,
     "tl": 5.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!jbpEwP6eKSmFR6qx.nf7H8yaIFUVZPGBt",
       "name": "Flame",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>9 (2d8) and Burning (Cd6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!jbpEwP6eKSmFR6qx.fVXm2j99ywGqVz43",
       "name": "Living Fire",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Close Beings are Burning (d8).</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!jbpEwP6eKSmFR6qx.wFIAD533xAQSQOE6",
       "name": "Illuminating",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Sheds Light out to Near.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!jbpEwP6eKSmFR6qx.nDXxp8nhdDhfiZaK",
       "name": "Seep",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can enter the space of other Beings and openings as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

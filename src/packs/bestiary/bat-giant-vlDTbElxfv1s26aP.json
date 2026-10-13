@@ -3,7 +3,7 @@
   "_key": "!actors!vlDTbElxfv1s26aP",
   "name": "Bat, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!vlDTbElxfv1s26aP.xcG3Aht9dYsAyu56",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and pass [Endure] or become Sickened (Cd6 days)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!vlDTbElxfv1s26aP.XilqimTo8D1JQ1Tq",
       "name": "Nimble",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

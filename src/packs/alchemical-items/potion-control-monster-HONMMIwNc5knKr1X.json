@@ -3,7 +3,7 @@
   "_key": "!items!HONMMIwNc5knKr1X",
   "name": "Potion, Control Monster",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>The consumer gains the ability to control a type of Being they can see for 1 Hour, which requires their Focus. The type of Being is determined by the name of the potion.</p><p>Once a Being is chosen, the consumer must make a Will Save. On a pass, the Being is Charmed and under their control for the duration. A Being controlled this way will not obey commands that clearly cause harm to itself. After this time, the Being becomes Hostile.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

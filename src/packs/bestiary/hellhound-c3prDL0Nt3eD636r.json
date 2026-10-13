@@ -3,7 +3,7 @@
   "_key": "!actors!c3prDL0Nt3eD636r",
   "name": "Hellhound",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 4.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!c3prDL0Nt3eD636r.Zle9vrYJ2oQ5f0CD",
       "name": "Hellfire",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Burning (Cd6)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!c3prDL0Nt3eD636r.77Il1ilFJNgQUuuR",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

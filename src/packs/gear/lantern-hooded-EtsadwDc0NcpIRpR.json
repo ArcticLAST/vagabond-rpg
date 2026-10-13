@@ -3,7 +3,7 @@
   "_key": "!items!EtsadwDc0NcpIRpR",
   "name": "Lantern, hooded",
   "type": "gear",
-  "img": "icons/sundries/lights/lantern-steel.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Outdoors</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 82",

@@ -3,7 +3,7 @@
   "_key": "!items!jTpHL4lqvBiPDiyn",
   "name": "Caestus/Gauntlet",
   "type": "weapon",
-  "img": "icons/svg/sword.svg",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Grapple:</strong> Can Grapple with the Attack Check.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

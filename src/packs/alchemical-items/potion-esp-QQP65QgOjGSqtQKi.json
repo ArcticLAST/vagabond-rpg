@@ -3,7 +3,7 @@
   "_key": "!items!QQP65QgOjGSqtQKi",
   "name": "Potion, ESP",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>For 1 Hour, the consumer gains Telepathy (Far). Using this sense requires Focus, and it is obstructed by dense stone and metal.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

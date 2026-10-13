@@ -3,7 +3,7 @@
   "_key": "!actors!dncfSi6Q4X8r5rPq",
   "name": "Mage, Fire",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 2.3,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!dncfSi6Q4X8r5rPq.NkI8exUP4Zt9BoEF",
       "name": "Fireball",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>10 (3d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!dncfSi6Q4X8r5rPq.ZF7qKMGmk2ciTdy5",
       "name": "Firebolt",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6) and Burning (Cd4, or Cd6 if failed as a 1)</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

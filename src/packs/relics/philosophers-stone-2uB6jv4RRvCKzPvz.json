@@ -3,7 +3,7 @@
   "_key": "!items!2uB6jv4RRvCKzPvz",
   "name": "Philosopher's Stone",
   "type": "gear",
-  "img": "icons/commodities/gems/gem-cut-faceted-princess-purple.webp",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Fabled Relic Alchemical Item (Bound)</em></p><p>The philosopher's stone is a mystical object made from the essence of creation itself. It can form all materials when used by an alchemist.</p><p>While within 1 mile of the stone, the bound Being does not age and can't be Sickened.</p><p>The stone is an alchemical item that can be used with the Use Action in the following ways, which consumes the Philosopher's Stone in the process:</p><ul><li>If it touches a corpse, it is revived, and heals, creates, or regenerates their body to its original form if the Fates allow.</li><li>It provides up to 50g of raw materials suitable for making an alchemical item. These raw materials disappear after 1 week of their creation.</li></ul><p>Value: not listed in the rulebook (recorded as 0)</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 106",

@@ -3,7 +3,7 @@
   "_key": "!items!GxFBP4g5GyA3Z0cD",
   "name": "Potion, Growth",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-red.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>For 1 Hour, the consumer gains these benefits:</p><ul><li>Their size increases by one.</li><li>Their attacks deal an extra die of damage. A Being can benefit from no more than one of these potions at a time.</li></ul>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

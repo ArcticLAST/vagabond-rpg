@@ -3,7 +3,7 @@
   "_key": "!actors!qg9aMcrCYIzvMJST",
   "name": "Hobgoblin",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!qg9aMcrCYIzvMJST.OaKYkJPPfju8vv5C",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) or (by Weapon)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!qg9aMcrCYIzvMJST.ow80VhItCg9aWsIF",
       "name": "Tactical",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Targets Save against its attacks as if Vulnerable if at least one of this Being's Allies are within 5' of the Target.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

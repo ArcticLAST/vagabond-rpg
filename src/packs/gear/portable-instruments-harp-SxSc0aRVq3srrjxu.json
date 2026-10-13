@@ -3,7 +3,7 @@
   "_key": "!items!SxSc0aRVq3srrjxu",
   "name": "Portable Instruments, Harp",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Musical</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 81",

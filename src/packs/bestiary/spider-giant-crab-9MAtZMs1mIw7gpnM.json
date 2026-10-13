@@ -3,7 +3,7 @@
   "_key": "!actors!9MAtZMs1mIw7gpnM",
   "name": "Spider, Giant Crab",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!9MAtZMs1mIw7gpnM.vPWIlDEctCA0LSsn",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) and pass [Endure] with a +2 bonus or become Sickened (Cd4, +1 Fatigue each Round).</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

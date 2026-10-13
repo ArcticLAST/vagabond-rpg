@@ -3,7 +3,7 @@
   "_key": "!items!UKdn6XOeWxbbOhku",
   "name": "Draken",
   "type": "ancestry",
-  "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+  "img": "systems/vagabond-rpg/assets/icons/person.svg",
   "system": {
     "description": "<p>Resembling humanoid dragons, Draken are relatives of the terrifying dragons of legend.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 25",
@@ -60,7 +60,7 @@
       "_id": "TkkS9NkbUtDzoece",
       "_key": "!items.effects!UKdn6XOeWxbbOhku.TkkS9NkbUtDzoece",
       "name": "Scale",
-      "img": "icons/creatures/reptiles/dragon-horned-blue.webp",
+      "img": "systems/vagabond-rpg/assets/icons/person.svg",
       "transfer": true,
       "disabled": false,
       "changes": [

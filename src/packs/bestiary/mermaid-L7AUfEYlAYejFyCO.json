@@ -3,7 +3,7 @@
   "_key": "!actors!L7AUfEYlAYejFyCO",
   "name": "Mermaid",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
     "tl": 2.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.Dh4F0BkZwIwhcNpk",
       "name": "Call Terror",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Terror-Bound Being arrives in Cd4.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.RNHtBVFJFFfuZwHN",
       "name": "Enchanting Song",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Enchanting Song</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.xsaB3jevfmXiLh23",
       "name": "Trident",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.7BbiPpIk4CzKvPKR",
       "name": "Storm Bringer",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>A storm stirs out to 1 mile from it, and lasts for Cd4 hours.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.HoQb7V09CNqOwfdl",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Breathes air and water.</p>",
         "source": "",
@@ -200,7 +200,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.fM6K0qRBryZ87d4h",
       "name": "Magic Ward I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 1 or more.</p>",
         "source": "",
@@ -232,7 +232,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.sMYgkoFjcRqOYDnj",
       "name": "Enchanting Song",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Enemies that can hear it for the first time and at the start of their Turns must pass [Will] or be Charmed (Cd4). While Charmed this way, they can only Move directly toward this Being.</p>",
         "source": "",
@@ -264,7 +264,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.T3BKWdmGQ2n6agVN",
       "name": "Immortal of the Sea",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be reduced below 1 HP while in contact with a body of water.</p>",
         "source": "",
@@ -296,7 +296,7 @@
       "_key": "!actors.items!L7AUfEYlAYejFyCO.i0LSBlUpJX9wMpS5",
       "name": "Terror-Bound",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is bound to a terror of the sea, such as a beisht kione dhoo, kraken, or sea serpent.</p>",
         "source": "",
@@ -339,7 +339,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

@@ -3,7 +3,7 @@
   "_key": "!actors!FFLbvs7vPp9L1DB1",
   "name": "Green Slime",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 1.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!FFLbvs7vPp9L1DB1.rJwdmwS66GFQZHNg",
       "name": "Amorphous",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can Move into occupied space as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!FFLbvs7vPp9L1DB1.KoOqI6vbdUvdQuZ0",
       "name": "Consume",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Beings in its space are Burning (2d8). A Being that dies this way is dissolved, and becomes another green slime.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!FFLbvs7vPp9L1DB1.T3kVd6EtHxn0Gr5s",
       "name": "Living Sick",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Sunlight and any effect that ends the Sickened Status or kills bacteria kills this Being.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

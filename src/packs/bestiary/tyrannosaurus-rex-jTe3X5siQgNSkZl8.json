@@ -3,7 +3,7 @@
   "_key": "!actors!jTe3X5siQgNSkZl8",
   "name": "Tyrannosaurus Rex",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 20,
     "tl": 6.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!jTe3X5siQgNSkZl8.p2FUZevG9s00JHOC",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>21 (6d6) and Restrained</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

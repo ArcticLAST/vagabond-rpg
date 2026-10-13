@@ -3,7 +3,7 @@
   "_key": "!actors!huKSpHe1xzcAcFWr",
   "name": "Grasping Goo",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!huKSpHe1xzcAcFWr.o2XuA5Rr7N48fVoZ",
       "name": "Pseudopod",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained, Corroding, and Burning (d6) while Restrained</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!huKSpHe1xzcAcFWr.pUdhwuXTtuOvEURl",
       "name": "Amorphous",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can Move into occupied space as small as 1 inch without squeezing.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!huKSpHe1xzcAcFWr.dmdEPfcQlJ3HYXqW",
       "name": "Freeze Susceptability",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is Dazed (1 Round) after being harmed by cold.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!huKSpHe1xzcAcFWr.KWiXlNP2cIwiA1pG",
       "name": "Corroding",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Non-Relic metal Items that make contact with it corrode. When this happens, roll a d6 for each Item. On a roll of 1, the Item breaks. If the Item that breaks is larger than Medium, this destroys a 1-foot square hole that is 1-foot deep in it.</p>",
         "source": "",
@@ -168,7 +168,7 @@
       "_key": "!actors.items!huKSpHe1xzcAcFWr.GLsDMHDCQ9HEklMm",
       "name": "Sticky",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Hinders attempts to end being Restrained by it. Beings that make physical contact with it must pass [Endure] or be Restrained.</p>",
         "source": "",
@@ -211,7 +211,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

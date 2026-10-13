@@ -3,7 +3,7 @@
   "_key": "!actors!FIbf6InitKunWYlW",
   "name": "Cultist",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!FIbf6InitKunWYlW.jabpNhC1sc26hSCq",
       "name": "Dagger",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!FIbf6InitKunWYlW.tQO91yBIK6ouSjl3",
       "name": "Zealot",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can't be Charmed or Frightened.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

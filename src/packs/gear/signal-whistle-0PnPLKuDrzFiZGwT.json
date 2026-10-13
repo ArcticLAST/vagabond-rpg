@@ -3,7 +3,7 @@
   "_key": "!items!0PnPLKuDrzFiZGwT",
   "name": "Signal whistle",
   "type": "gear",
-  "img": "icons/tools/instruments/pipe-flute-brown.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Outdoors</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 82",

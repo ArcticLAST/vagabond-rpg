@@ -3,7 +3,7 @@
   "_key": "!items!Y6G3I3N3DSkzzpjv",
   "name": "Maul",
   "type": "weapon",
-  "img": "icons/weapons/hammers/hammer-double-stone-worn.webp",
+  "img": "systems/vagabond-rpg/assets/icons/broadsword.svg",
   "system": {
     "description": "<p><strong>Vicious:</strong> Crits with it deal 1 extra damage die.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 77",

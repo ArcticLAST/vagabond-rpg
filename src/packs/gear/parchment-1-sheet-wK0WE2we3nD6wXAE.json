@@ -3,7 +3,7 @@
   "_key": "!items!wK0WE2we3nD6wXAE",
   "name": "Parchment (1 sheet)",
   "type": "gear",
-  "img": "icons/sundries/scrolls/scroll-plain-tan.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Books &amp; Magic</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 79",

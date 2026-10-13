@@ -3,7 +3,7 @@
   "_key": "!actors!Y2mbb6a7EpgGg19u",
   "name": "Dragon Turtle",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 30,
     "tl": 10.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!Y2mbb6a7EpgGg19u.4DETO1kTUEwLxCRB",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw and 1×Steam Breath or 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!Y2mbb6a7EpgGg19u.it3TRbfdZBHAMbZ1",
       "name": "Steam Breath",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>28 (8d6), and Burning (Cd6) if failed</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!Y2mbb6a7EpgGg19u.mE0WvlBQLcVXLKvD",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!Y2mbb6a7EpgGg19u.7mJ4y4uzyWgbXFzZ",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>18 (4d8)</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 6,
     "height": 6,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

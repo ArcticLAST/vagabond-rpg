@@ -3,7 +3,7 @@
   "_key": "!items!aybbZ1YTK5kL9LDw",
   "name": "Wizard",
   "type": "class",
-  "img": "icons/magic/air/wind-tornado-wall-blue.webp",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>In a way, we are magicians. We are alchemists, sorcerers and wizards. We are a very strange bunch. But there is great fun in being a wizard. And great power, too. —Billy Joel, Berklee College of Music Commencement 1993 Wizards are students of the arcane arts who research and develop spells as academic pursuit.</p><p>The wizard is a squishy blaster focused on Casting Spells. Stay in safety to Cast your Spells and discover Enemy weaknesses.</p><ul><li><strong>Action:</strong> Cast</li><li><strong>Move:</strong> Backline</li><li><strong>Key Stat:</strong> Reason</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Arcana, Craft, Mysticism</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 63",

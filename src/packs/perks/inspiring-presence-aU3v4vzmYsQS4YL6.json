@@ -3,7 +3,7 @@
   "_key": "!items!aU3v4vzmYsQS4YL6",
   "name": "Inspiring Presence",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can use your Action or skip your Move to allow any Allies that are Berserk, Charmed, Confused, or Frightened to attempt the Save against those Statuses again with Favor if they can see or hear you.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

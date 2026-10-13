@@ -3,7 +3,7 @@
   "_key": "!items!jN2J7D5e7USFSl9x",
   "name": "Witchsight",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can use your Action or skip your Move to begin Focusing on this Ability to gain Allsight.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

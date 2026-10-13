@@ -3,7 +3,7 @@
   "_key": "!actors!LxH0md5CGioVxcPj",
   "name": "Froghemoth",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 16,
     "tl": 7.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!LxH0md5CGioVxcPj.LnILfqXsbylGvBo7",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>16 (3d10)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!LxH0md5CGioVxcPj.Y87Zrq0sa4XhuHm6",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Tentacle</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!LxH0md5CGioVxcPj.AUcLJxwfofL9UrLC",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>13 (3d8) and Restrained if smaller. It can't Restrain more than one Target at a time with the same Tentacle.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!LxH0md5CGioVxcPj.baIi62yP8zALu4ee",
       "name": "Tongue",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Restrained if smaller. If Restrained, it is pulled to Close, and this Being can make a Bite Attack against it.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!LxH0md5CGioVxcPj.VpK77m4rbMjkcEVx",
       "name": "Tentacles",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Starts with 4 Tentacles. Targetting one causes a -4 penalty to the Attack Check, but severs it if at least 15 damage is dealt with the attack.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 3,
     "height": 3,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

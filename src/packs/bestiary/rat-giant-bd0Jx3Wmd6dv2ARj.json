@@ -3,7 +3,7 @@
   "_key": "!actors!bd0Jx3Wmd6dv2ARj",
   "name": "Rat, Giant",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 1.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!bd0Jx3Wmd6dv2ARj.0tmRRQ6XHj3SfT1C",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>1 (d3) and pass [Endure] or become Sickened (Cd6 days)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!bd0Jx3Wmd6dv2ARj.DoOZjd6AfKSvE2p2",
       "name": "Nimble",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Attacks against it can't be Favored if it can Move.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!bd0Jx3Wmd6dv2ARj.yOQ9CMRmuwk43p7n",
       "name": "Pack Hunter",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Targets within 5' of one of this Being's Allies are Vulnerable to its attacks.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

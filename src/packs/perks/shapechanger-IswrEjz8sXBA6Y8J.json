@@ -3,7 +3,7 @@
   "_key": "!items!IswrEjz8sXBA6Y8J",
   "name": "Shapechanger",
   "type": "perk",
-  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>When you are a Target of your Polymorph Spell, you use your Cast Skill for its Actions, and it doesn't cost you Mana to Focus on it as per the Spell's description.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

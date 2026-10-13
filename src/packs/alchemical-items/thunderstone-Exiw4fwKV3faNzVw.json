@@ -3,7 +3,7 @@
   "_key": "!items!Exiw4fwKV3faNzVw",
   "name": "Thunderstone",
   "type": "gear",
-  "img": "icons/weapons/thrown/bomb-fuse-black.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>The stone is known to create an ear-shattering bang, and can be thrown at a Being or a point. Anything Near the Target can't hear until the end of its next Turn.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

@@ -3,7 +3,7 @@
   "_key": "!items!2p3DfUrWkxNOBCNo",
   "name": "Acid, Basic",
   "type": "gear",
-  "img": "icons/consumables/potions/bottle-round-corked-green.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>Corrosive liquid that eats away at matter. A Target hit with it takes d6 damage and is Burning (Cd4).</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

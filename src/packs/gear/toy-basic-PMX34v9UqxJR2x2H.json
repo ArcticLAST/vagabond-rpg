@@ -3,7 +3,7 @@
   "_key": "!items!PMX34v9UqxJR2x2H",
   "name": "Toy, basic",
   "type": "gear",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Games &amp; Toys</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

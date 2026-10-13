@@ -3,7 +3,7 @@
   "_key": "!items!b10AIxRdojaBBLiK",
   "name": "Protector",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>When a Close Ally would be dealt damage due to a failed Reflex Save while you have a Defense Weapon Equipped, you can use the Defense property for them.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

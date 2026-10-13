@@ -3,7 +3,7 @@
   "_key": "!items!pDRhjXyLcGVzKJTW",
   "name": "Druid",
   "type": "class",
-  "img": "icons/creatures/mammals/elk-moose-marked-green.webp",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>Why do birds suddenly appear, every time you are near? —Karen Carpenter, Close to You Keepers of the wilderness, druids are mystics of nature that are adopted into beast-kind.</p><p>The druid is a mid-defense, mixed support and control class with a focus on Casting Spells and shapechanging to powerful beasts.</p><ul><li><strong>Action:</strong> Cast or Beast Attacks</li><li><strong>Move:</strong> Midline</li><li><strong>Key Stat:</strong> Awareness</li><li><strong>Complexity:</strong> HHHII</li><li><strong>Training:</strong> Mysticism, Survival</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 37",

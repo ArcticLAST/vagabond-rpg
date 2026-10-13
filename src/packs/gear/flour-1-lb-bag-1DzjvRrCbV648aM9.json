@@ -3,7 +3,7 @@
   "_key": "!items!1DzjvRrCbV648aM9",
   "name": "Flour (1 lb. bag)",
   "type": "gear",
-  "img": "icons/consumables/food/soup-broth-bowl-wooden-yellow.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p><em>Cooking &amp; Food</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 80",

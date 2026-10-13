@@ -3,7 +3,7 @@
   "_key": "!items!na6rTtHyt8iLRykX",
   "name": "Poison, Basic",
   "type": "gear",
-  "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+  "img": "systems/vagabond-rpg/assets/icons/knapsack.svg",
   "system": {
     "description": "<p>The Target is Sickened (Cd4 damage).</p><p><strong>Consumed:</strong> Affects Targets who consume it.</p><p><strong>Injury:</strong> Affects Targets who are injured with Weapons coated with it.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 84",

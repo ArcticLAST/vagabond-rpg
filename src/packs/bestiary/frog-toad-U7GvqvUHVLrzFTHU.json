@@ -3,7 +3,7 @@
   "_key": "!actors!U7GvqvUHVLrzFTHU",
   "name": "Frog/Toad",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!U7GvqvUHVLrzFTHU.fXmc5vGgnMCp3v5C",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>0</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!U7GvqvUHVLrzFTHU.6BB8l72AZRvcsqWZ",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can breathe air or water.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

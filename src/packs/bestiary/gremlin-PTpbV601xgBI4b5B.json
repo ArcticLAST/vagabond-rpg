@@ -3,7 +3,7 @@
   "_key": "!actors!PTpbV601xgBI4b5B",
   "name": "Gremlin",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
     "tl": 0.5,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!PTpbV601xgBI4b5B.dhA76TGqEQFi4oNk",
       "name": "Sabotage",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Breaks into materials.</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!PTpbV601xgBI4b5B.FNv5yerrx78KX5lT",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!PTpbV601xgBI4b5B.ZitSgd87OhUHp3Xv",
       "name": "Doom Magnet",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Near Enemies can't gain Favor.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!PTpbV601xgBI4b5B.sjZciauF1QN5x0Pm",
       "name": "Magic Resistance I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If Targeted with Magic, roll a d4. On a roll of 1, it ignores the effect.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

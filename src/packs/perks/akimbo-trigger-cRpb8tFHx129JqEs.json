@@ -3,7 +3,7 @@
   "_key": "!items!cRpb8tFHx129JqEs",
   "name": "Akimbo Trigger",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>Your Ranged attacks don't have Hinder due to Close Targets while you are dual wielding 1H Ranged Weapons.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

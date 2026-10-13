@@ -3,7 +3,7 @@
   "_key": "!actors!qrF7zXYSFkMoTSHQ",
   "name": "Otyugh",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 4.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!qrF7zXYSFkMoTSHQ.qoloN4xGmh20gsp4",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Tentacle and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!qrF7zXYSFkMoTSHQ.WDSPX1BhAMsoGZ3f",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10) and pass [Endure] or become Sickened (until cured, Otyugh Disease)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!qrF7zXYSFkMoTSHQ.gPCv3wjgIxmeGMHA",
       "name": "Tentacle",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) and Restrained. If the Target is already Restrained this way, it is instead slammed into something and takes 7 (2d6) and must pass an [Endure] Save or be Dazed for 1 Round.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!qrF7zXYSFkMoTSHQ.NhtEIyD1Irzds8pe",
       "name": "Otyugh Disease",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Beings that aren't otyughs that are Sickened this way must pass an an [Endure] Save every day or lose 3 (d6) from their Max HP. This reduction to their Max HP lasts while they are Sickened by this disease.</p>",
         "source": "",
@@ -180,7 +180,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

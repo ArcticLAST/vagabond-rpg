@@ -3,7 +3,7 @@
   "_key": "!items!7HLQFDQB6hSydHuJ",
   "name": "Sprout",
   "type": "spell",
-  "img": "icons/svg/book.svg",
+  "img": "systems/vagabond-rpg/assets/icons/spell-book.svg",
   "system": {
     "description": "<p>You create growing plants on the Target, causing Difficult Terrain out to Close from it.</p><p>Alternatively, you can cause up to a 5' square patch of plants or fungus to magically grow to optimal harvesting and foraging.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 92",

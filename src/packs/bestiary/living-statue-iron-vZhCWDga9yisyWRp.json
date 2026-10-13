@@ -3,7 +3,7 @@
   "_key": "!actors!vZhCWDga9yisyWRp",
   "name": "Living Statue, Iron",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 2.7,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!vZhCWDga9yisyWRp.OdxeKEcFqEEcfLNc",
       "name": "Weapon",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) or (by Weapon)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!vZhCWDga9yisyWRp.ec8KvsOReNU2gPhh",
       "name": "Immutable",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can't be transformed.</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!vZhCWDga9yisyWRp.yZrJncs1V09g0gLp",
       "name": "Iron Absorption",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>When hit with a metal Weapon that isn't a Relic, the attacker must pass [Will] or the Weapon becomes stuck in this Being's body, and can only be removed if this Being is killed.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

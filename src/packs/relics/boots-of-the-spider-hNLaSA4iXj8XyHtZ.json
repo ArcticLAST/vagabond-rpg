@@ -3,7 +3,7 @@
   "_key": "!items!hNLaSA4iXj8XyHtZ",
   "name": "Boots of the Spider",
   "type": "gear",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/crystal-ball.svg",
   "system": {
     "description": "<p><em>Lore: Relic Boots</em></p><p>The boots have the following Powers:</p><ul><li><strong>Clinging:</strong> The wearer has Cling.</li><li><strong>Webwalking:</strong> The wearer ignores Difficult Terrain made of webs, and can't be Restrained by webs and filament.</li></ul><p>Value: 3000g</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 103",

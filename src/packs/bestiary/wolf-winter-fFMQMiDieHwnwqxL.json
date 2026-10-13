@@ -3,7 +3,7 @@
   "_key": "!actors!fFMQMiDieHwnwqxL",
   "name": "Wolf, Winter",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 6,
     "tl": 4.2,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!fFMQMiDieHwnwqxL.Yyqkxmte22VY0YtU",
       "name": "Frost Breath",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>15 (6d4)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!fFMQMiDieHwnwqxL.TEqHXiDA1jlAbCIO",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>7 (2d6)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!fFMQMiDieHwnwqxL.liFC9lxTZb8nDOvK",
       "name": "Pack Hunter",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Targets within 5' of one of this Being's Allies are Vulnerable to its attacks.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!fFMQMiDieHwnwqxL.wxXU3t9w1l0QqmID",
       "name": "Pounce",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>If it moves at least 20' before an attack on the same Turn, the Target is also knocked Prone if it is Large or smaller.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

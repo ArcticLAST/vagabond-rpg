@@ -4,13 +4,12 @@
     <ul class="stat-list">
       {{#each stats}}
       <li class="stat" data-stat="{{key}}">
-        <a class="stat-label rollable" data-action="rollStat" data-tooltip="{{hint}}">{{localize abbr}}</a>
+        <a class="stat-label rollable" data-action="rollStat" data-tooltip="{{hint}}">{{localize label}}</a>
         {{#if @root.editMode}}
         <input type="number" name="{{name}}" value="{{value}}" min="0" max="12" step="1">
         {{else}}
         <span class="stat-value">{{value}}</span>
         {{/if}}
-        <span class="stat-name">{{localize label}}</span>
       </li>
       {{/each}}
     </ul>

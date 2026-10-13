@@ -3,7 +3,7 @@
   "_key": "!actors!z69TKaNJ5hO5G5mj",
   "name": "Hag, Green",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 4.0,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!z69TKaNJ5hO5G5mj.C2XZr5BOXrnqf02P",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claw</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!z69TKaNJ5hO5G5mj.GEXWFoxzogOMt8C5",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8) and Restrained if it's this Being's second Claw to hit it this Turn</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!z69TKaNJ5hO5G5mj.HjvVKNP2SPU7NJRS",
       "name": "Shapeshift",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Takes on the appearance of a Medium Humanlike.</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!z69TKaNJ5hO5G5mj.AYxZzraEoS2Oh02h",
       "name": "Amphibious",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It can breathe air and water.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!z69TKaNJ5hO5G5mj.diQDWAHGHexHaPy4",
       "name": "Fade Out",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>When it Moves, it turns itself and anything it is carrying Invisible for the duration (Focus). If it has a Being Restrained, it turns them Invisible for the duration as well.</p>",
         "source": "",
@@ -201,7 +201,7 @@
       "_key": "!actors.items!z69TKaNJ5hO5G5mj.C6F2mykxFL3BxhSD",
       "name": "Magic Ward II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>It is not affected by Casts it is unwillingly subjected to unless the Caster's Check exceeds their difficulty by 2 or more.</p>",
         "source": "",
@@ -233,7 +233,7 @@
       "_key": "!actors.items!z69TKaNJ5hO5G5mj.W0D9Nk9dNffVZRiD",
       "name": "Terror I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Enemies that can see it for the first time and at the start of their Turns must pass [Will] or be Frightened (Cd4).</p>",
         "source": "",
@@ -276,7 +276,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

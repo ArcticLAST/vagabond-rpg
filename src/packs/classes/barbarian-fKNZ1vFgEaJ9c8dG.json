@@ -3,7 +3,7 @@
   "_key": "!items!fKNZ1vFgEaJ9c8dG",
   "name": "Barbarian",
   "type": "class",
-  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>Hatred outlives the hateful. —Brian Tinsman, Rancor flavor text (Magic the Gathering) Barbarians are primal warriors that fight with the power of unbridled anger. The legends speak of their kills almost as their own unique deeds, using the barbarian's name as a past-tense verb.</p><p>The barbarian is a mid-high-defense bruiser. Stick to an Enemy, and hit them very hard.</p><ul><li><strong>Action:</strong> Attack (Melee)</li><li><strong>Move:</strong> Frontline</li><li><strong>Key Stat:</strong> Might</li><li><strong>Complexity:</strong> HHIII</li><li><strong>Training:</strong> Melee, Survival</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 31",

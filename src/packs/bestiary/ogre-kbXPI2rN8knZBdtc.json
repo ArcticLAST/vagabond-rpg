@@ -3,7 +3,7 @@
   "_key": "!actors!kbXPI2rN8knZBdtc",
   "name": "Ogre",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 2.4,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!kbXPI2rN8knZBdtc.LBMF0AwSDAK6Kmv6",
       "name": "Greatclub",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!kbXPI2rN8knZBdtc.nOo1qz9zKFyQzPx4",
       "name": "Hulking",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Counts as Large for Grapples and Shoves.</p>",
         "source": "",
@@ -115,7 +115,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

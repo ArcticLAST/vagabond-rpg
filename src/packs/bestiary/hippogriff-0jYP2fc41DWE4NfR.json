@@ -3,7 +3,7 @@
   "_key": "!actors!0jYP2fc41DWE4NfR",
   "name": "Hippogriff",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
     "tl": 3.1,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!0jYP2fc41DWE4NfR.iKyJosAeCZO2ckpI",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claws and 1×Beak</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!0jYP2fc41DWE4NfR.zGNUpAIyDMmlQxQd",
       "name": "Beak",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!0jYP2fc41DWE4NfR.1QPwa4z5kuOZ5LKG",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -148,7 +148,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

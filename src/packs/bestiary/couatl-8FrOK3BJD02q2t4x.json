@@ -3,7 +3,7 @@
   "_key": "!actors!8FrOK3BJD02q2t4x",
   "name": "Couatl",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
     "tl": 3.8,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!8FrOK3BJD02q2t4x.BJcH63xlnBO1bkBI",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2 (d4) and Sickened (Cd4, Unconscious and +1 Fatigue each Round). If failed by 5 or more, it is also Restrained (5 (2d4) each Round)</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!8FrOK3BJD02q2t4x.fu2mM1t2qcnEhy6u",
       "name": "Restoration",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regain 10 (3d6) HP</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!8FrOK3BJD02q2t4x.wPV6vkUTiItZzO7x",
       "name": "Shapechange",
       "type": "action",
-      "img": "icons/magic/symbols/runes-star-orange.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Polymorphs into a Medium or smaller Being. It uses its own Statblock.</p>",
         "source": "",
@@ -147,7 +147,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

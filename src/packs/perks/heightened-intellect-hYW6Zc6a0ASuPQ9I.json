@@ -3,7 +3,7 @@
   "_key": "!items!hYW6Zc6a0ASuPQ9I",
   "name": "Heightened Intellect",
   "type": "perk",
-  "img": "icons/svg/upgrade.svg",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>You can spend a Studied die to pass an Arcana, Craft, or Medicine Check you fail.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

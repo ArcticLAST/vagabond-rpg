@@ -3,7 +3,7 @@
   "_key": "!actors!rAZpZmsLNAQjGQfY",
   "name": "Carrion Clump",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
     "tl": 0.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!rAZpZmsLNAQjGQfY.siA4zAxbsrLlcvm3",
       "name": "Viscera Sling",
       "type": "action",
-      "img": "icons/skills/ranged/arrow-flying-white.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6) and pass [Endure] or become Sickened (Cd6, stinks and can't speak from retching).</p>",
         "source": "",
@@ -83,7 +83,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

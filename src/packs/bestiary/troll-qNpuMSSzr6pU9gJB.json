@@ -3,7 +3,7 @@
   "_key": "!actors!qNpuMSSzr6pU9gJB",
   "name": "Troll",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 7,
     "tl": 3.9,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!qNpuMSSzr6pU9gJB.zpBqlrr06mfZgsRo",
       "name": "Combo",
       "type": "action",
-      "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>2×Claws and 1×Bite</p>",
         "source": "",
@@ -73,7 +73,7 @@
       "_key": "!actors.items!qNpuMSSzr6pU9gJB.zdeimBtngNkJFNcr",
       "name": "Bite",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>5 (d10)</p>",
         "source": "",
@@ -105,7 +105,7 @@
       "_key": "!actors.items!qNpuMSSzr6pU9gJB.yl9z4LQuZk5AbpqC",
       "name": "Claw",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>3 (d6)</p>",
         "source": "",
@@ -137,7 +137,7 @@
       "_key": "!actors.items!qNpuMSSzr6pU9gJB.ZcPQVz4VCOt6lEqo",
       "name": "Lesser Regenerate I",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Regains 4 (d8) HP on each of its Turns unless it took damage it was Weak to in the last Round. It can't be reduced below 1 HP except by damage it is Weak to.</p>",
         "source": "",
@@ -169,7 +169,7 @@
       "_key": "!actors.items!qNpuMSSzr6pU9gJB.BfZTg5lGwzpf7BCe",
       "name": "Sunlight Aversion",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>The troll's Armor and Lesser Regenerate trait are suspended while it is in sunlight, and it is Burning (d6). If the troll dies within sunlight, it is turned to stone.</p>",
         "source": "",
@@ -212,7 +212,7 @@
     "width": 2,
     "height": 2,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"

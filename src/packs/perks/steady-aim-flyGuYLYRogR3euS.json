@@ -3,7 +3,7 @@
   "_key": "!items!flyGuYLYRogR3euS",
   "name": "Steady Aim",
   "type": "perk",
-  "img": "icons/skills/ranged/arrow-flying-spiral-blue.webp",
+  "img": "systems/vagabond-rpg/assets/icons/upgrade.svg",
   "system": {
     "description": "<p>On your Turn, your Ranged attacks do +2 damage to Targets who haven't Moved since your last Turn.</p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 64",

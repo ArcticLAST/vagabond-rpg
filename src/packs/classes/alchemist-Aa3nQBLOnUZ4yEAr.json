@@ -3,7 +3,7 @@
   "_key": "!items!Aa3nQBLOnUZ4yEAr",
   "name": "Alchemist",
   "type": "class",
-  "img": "icons/svg/d20-black.svg",
+  "img": "systems/vagabond-rpg/assets/icons/scroll-quill.svg",
   "system": {
     "description": "<p>Why respect knights when my potions can do anything that you can? —Justin Kuritzkes, Potion Seller Often sequestered in a lab, alchemists study the essence of creation. They are as curious as they are resourceful, and always have \"just the thing for this.\"</p><p>The alchemist is a low-defense, high-damageand-utility blaster. It&#x27;s recommended you stay Far from Enemies to use Alchemical Items.</p><ul><li><strong>Action:</strong> Use (Craft &amp; Attack)</li><li><strong>Move:</strong> Backline</li><li><strong>Key Stat:</strong> Reason</li><li><strong>Complexity:</strong> HHHHI</li><li><strong>Training:</strong> Arcana, Craft, Medicine</li></ul><p><em>Trainings at Level 1: the Class's Trainings, plus a number of additional Trainings equal to half your Reason (round up).</em></p>",
     "source": "Vagabond Core Rulebook (Alpha 3), p. 29",

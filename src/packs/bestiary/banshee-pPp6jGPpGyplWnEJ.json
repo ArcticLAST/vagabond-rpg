@@ -3,7 +3,7 @@
   "_key": "!actors!pPp6jGPpGyplWnEJ",
   "name": "Banshee",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 7,
     "tl": 3.6,
@@ -40,7 +40,7 @@
       "_key": "!actors.items!pPp6jGPpGyplWnEJ.HVf4Pxil41aCREiI",
       "name": "Wail",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened (Cd4) or immediate death if failed by 5 or more</p>",
         "source": "",
@@ -72,7 +72,7 @@
       "_key": "!actors.items!pPp6jGPpGyplWnEJ.Y3ErdpsCCSKSG95L",
       "name": "Chill Touch",
       "type": "action",
-      "img": "icons/skills/melee/strike-slashes-red.webp",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>4 (d8)</p>",
         "source": "",
@@ -104,7 +104,7 @@
       "_key": "!actors.items!pPp6jGPpGyplWnEJ.tQx1bx4xEUyhBzq8",
       "name": "Nightwalker",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Can't Move or Target over lines of salt or in areas illuminated by Sunlight. It is Incapacitated and Burning (d8) while in Sunlight.</p>",
         "source": "",
@@ -136,7 +136,7 @@
       "_key": "!actors.items!pPp6jGPpGyplWnEJ.nRGIY4hNyl014Eay",
       "name": "Terror II",
       "type": "action",
-      "img": "icons/svg/aura.svg",
+      "img": "systems/vagabond-rpg/assets/icons/sword-clash.svg",
       "system": {
         "description": "<p>Frightened until they pass this Check on a subsequent Turn, or for Cd6 after.</p>",
         "source": "",
@@ -179,7 +179,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "icons/svg/mystery-man.svg"
+      "src": "systems/vagabond-rpg/assets/icons/dragon-head.svg"
     },
     "bar1": {
       "attribute": "attributes.hp"
