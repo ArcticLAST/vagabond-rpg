@@ -269,6 +269,13 @@ export default class VagabondActor extends Actor {
         if ( response === "immune" ) return 0;
         ignoreArmor = true;
       }
+      // Draconic Resilience: half damage of the chosen type.
+      const resilient = (this.type === "character") && (this.getFlag("vagabond-rpg", "resilience") === damage.type);
+      if ( resilient && (response !== "weak") ) {
+        multiplier *= 0.5;
+        const type = game.i18n.localize(CONFIG.VAGABOND.damageTypes[damage.type] ?? damage.type);
+        ui.notifications.info(game.i18n.format("VAGABOND.Damage.Resilient", { name: this.name, type }));
+      }
     }
     let delta;
     if ( multiplier < 0 ) {

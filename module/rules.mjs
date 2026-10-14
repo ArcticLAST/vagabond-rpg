@@ -92,6 +92,24 @@ export function spellsKnown(base, every, level) {
 }
 
 /**
+ * Alchemical Items an Alchemist can Craft (Alchemy, p. 29): 4, and 1 more every 3 Levels.
+ * @param {number} level
+ * @returns {number}
+ */
+export function formulasKnown(level) {
+  return spellsKnown(4, 3, level);
+}
+
+/**
+ * Highest value of Alchemical Item an Alchemist can learn at a Level, in silver (Level × 50s).
+ * @param {number} level
+ * @returns {number}
+ */
+export function formulaMaxValue(level) {
+  return Math.max(1, Number(level) || 0) * 50;
+}
+
+/**
  * Step a die size up or down. Sizes run d4 to d12; steps above d12 become +1 each, and stepping below
  * d4 makes the die a flat 1 that can't explode (p. 7).
  * @param {number} faces    Starting faces (4-12). Use 1 for a flat 1-damage weapon.

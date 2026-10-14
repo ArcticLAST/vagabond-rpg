@@ -331,7 +331,16 @@ VAGABOND.builderPacks = {
   class: "vagabond-rpg.classes",
   perk: "vagabond-rpg.perks",
   spell: "vagabond-rpg.spells",
-  kit: "vagabond-rpg.starting-packs"
+  kit: "vagabond-rpg.starting-packs",
+  alchemical: "vagabond-rpg.alchemical-items"
+};
+
+/**
+ * Ancestry Traits that ask for a choice: the actor flag that stores it, and the damage types offered.
+ * Draconic Resilience (p. 22): "half damage from a source of your choice from either Acid, Cold, Fire, or Shock".
+ */
+VAGABOND.traitChoices = {
+  "draconic resilience": { flag: "resilience", options: ["acid", "cold", "fire", "shock"] }
 };
 
 /**

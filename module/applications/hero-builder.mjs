@@ -22,6 +22,9 @@ const PERK_FEATURE_RULES = {
   occultist: { trainings: ["mysticism"] }
 };
 
+/** Spellcasting Features whose Spells must include one with a damage base (Magus, Revelator). */
+const NEEDS_DAMAGE_SPELL = /must always have a damage base/i;
+
 /** A Perk's name without the choice added when it was taken: "Advancement (Might)" -> "advancement". */
 const perkBase = name => String(name ?? "").toLowerCase().replace(/\s*\(.*\)\s*$/, "");
 
@@ -31,9 +34,9 @@ const ADVANCEMENT_CAP = 7;
 /**
  * Guided Hero creation (p. 20) and leveling (p. 27).
  *
- * Create mode walks through Ancestry, Class, Stats, Trainings, Perks, and Spells, then writes the Hero.
+ * Create mode walks through Ancestry, Class, Stats, Trainings, Spells, Alchemy formulas, and Perks, then writes the Hero.
  * Level-up mode shows what the next Level brings and asks only for the choices it needs:
- * a Stat on even Levels, a Perk on odd Levels, a Training if Reason grew, and new Spells.
+ * a Stat on even Levels, a Perk on odd Levels, a Training if Reason grew, new Spells, and new Alchemy formulas.
  *
  * Choices granted by Class Features and Ancestry Traits come from each row's `grants` data.
  */
@@ -73,7 +76,7 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
   };
 
   /** Steps of Hero creation, in order. */
-  static CREATE_STEPS = ["ancestry", "class", "stats", "skills", "spells", "perks", "review"];
+  static CREATE_STEPS = ["ancestry", "class", "stats", "skills", "spells", "formulas", "perks", "review"];
 
   /** @override */
   get title() {
@@ -103,9 +106,11 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       perks: new Set(),
       perkChoices: {},
       spells: new Set(),
+      formulas: new Set(),
+      traitChoices: {},
       name: this.actor.name,
       kit: "gold",
-      search: { perks: "", spells: "" },
+      search: { perks: "", spells: "", formulas: "" },
       level: sys.details.level || 1
     };
   }
@@ -120,7 +125,8 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       perks: new Set(),
       perkChoices: {},
       spells: new Set(),
-      search: { perks: "", spells: "" }
+      formulas: new Set(),
+      search: { perks: "", spells: "", formulas: "" }
     };
   }
 
@@ -134,7 +140,11 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     for ( const [type, packId] of Object.entries(CONFIG.VAGABOND.builderPacks) ) {
       const pack = game.packs.get(packId);
       const docs = pack ? await pack.getDocuments() : [];
-      const world = game.items.filter(i => (type === "kit") ? i.system.isKit : (i.type === type));
+      const world = game.items.filter(i => {
+        if ( type === "kit" ) return i.system.isKit;
+        if ( type === "alchemical" ) return (i.type === "gear") && (i.system.category === "alchemical");
+        return i.type === type;
+      });
       out[type] = [...docs, ...world].sort((a, b) => a.name.localeCompare(b.name, game.i18n.lang));
     }
     return this.#options = out;
@@ -239,7 +249,19 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     for ( const a of s.anySkill ) if ( a.spell && !s.spells.has(a.spell) ) a.spell = "";
     const anySkillDone = s.anySkill.every(a => a.spell && a.skill)
       && (new Set(s.anySkill.map(a => a.spell)).size === s.anySkill.length);
-    const spellsDone = !!cls && (s.spells.size === spellPicks) && anySkillDone;
+    // Magus and Revelator: one Spell must have a damage base.
+    const needsDamageSpell = (cls?.system.features ?? []).some(f => (f.level === 1) && NEEDS_DAMAGE_SPELL.test(f.description ?? ""));
+    const hasDamageSpell = [...fixedSpellNames.map(n => this.#findByName("spell", n)), ...[...s.spells].map(u => this.#find("spell", u))]
+      .some(sp => sp?.system.damageBase);
+    const spellsDone = !!cls && (s.spells.size === spellPicks) && anySkillDone && (!needsDamageSpell || hasDamageSpell);
+
+    // Alchemy formulas (Alchemist).
+    const formulas = this.#formulaPlan(cls, 0, 1);
+    const formulasDone = formulas.picks === s.formulas.size;
+
+    // Ancestry Traits that ask for a choice (Draconic Resilience).
+    const traitChoices = HeroBuilder.#traitChoices(anc);
+    const ancestryDone = !!anc && traitChoices.every(t => !!s.traitChoices[t.flag]);
 
     // Perks: one at creation (p. 20), plus any granted choices.
     const fixedPerkNames = grants.perks;
@@ -256,11 +278,13 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       anc, cls, grants, array, stats, statsComplete, statsDone, boostNeeded,
       fixedSkills, classChoice, reason, skillPicks, chosenSkills, skillsDone,
       fixedPerkNames, perkPicks, perksDone, perkCtx,
-      fixedSpellNames, known, spellPicks, spellsDone,
+      fixedSpellNames, known, spellPicks, spellsDone, needsDamageSpell, hasDamageSpell,
+      formulas, formulasDone, traitChoices,
       trained,
       done: {
-        ancestry: !!anc, class: !!cls, stats: statsDone, skills: skillsDone,
-        perks: perksDone, spells: spellsDone, review: !!anc && !!cls && statsDone && skillsDone && perksDone && spellsDone
+        ancestry: ancestryDone, class: !!cls, stats: statsDone, skills: skillsDone,
+        perks: perksDone, spells: spellsDone, formulas: formulasDone,
+        review: ancestryDone && !!cls && statsDone && skillsDone && perksDone && spellsDone && formulasDone
       }
     };
   }
@@ -273,6 +297,34 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       spellChoices: a.spellChoices + b.spellChoices, statIncrease: a.statIncrease + b.statIncrease,
       sources: [...a.sources, ...b.sources], anySkill: [...(a.anySkill ?? []), ...(b.anySkill ?? [])]
     };
+  }
+
+  /**
+   * How many Alchemy formulas a Class learns between two Levels, and the highest value allowed.
+   * @param {Item} cls
+   * @param {number} from   0 at creation.
+   * @param {number} to
+   * @returns {{picks: number, max: number}}
+   */
+  #formulaPlan(cls, from, to) {
+    const alchemy = (cls?.system.features ?? []).some(f => (f.name.toLowerCase() === "alchemy") && (f.level <= to));
+    if ( !alchemy ) return { picks: 0, max: 0 };
+    const before = from ? rules.formulasKnown(from) : 0;
+    return { picks: Math.max(0, rules.formulasKnown(to) - before), max: rules.formulaMaxValue(to) };
+  }
+
+  /**
+   * Ancestry Traits that ask for a choice, with their options.
+   * @param {Item} anc
+   * @returns {{name: string, flag: string, options: Record<string, string>}[]}
+   */
+  static #traitChoices(anc) {
+    const types = CONFIG.VAGABOND.damageTypes;
+    return (anc?.system.traits ?? []).map(t => {
+      const rule = CONFIG.VAGABOND.traitChoices[t.name.toLowerCase()];
+      if ( !rule ) return null;
+      return { name: t.name, flag: rule.flag, options: Object.fromEntries(rule.options.map(k => [k, types[k] ?? k])) };
+    }).filter(Boolean);
   }
 
   /**
@@ -315,12 +367,13 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       spells: this.actor.itemTypes.spell.map(i => i.name),
       rules: HeroBuilder.#perkRules(cls?.system.features ?? [], to)
     };
+    const formulas = this.#formulaPlan(cls, from, to);
     const done = (!statIncrease || !!s.statUp) && (s.skills.size === trainingPicks)
       && (s.perks.size === perkPicks) && this.#perksFit([...s.perks], perkCtx) && this.#perkChoicesDone()
-      && (s.spells.size === spellPicks);
+      && (s.spells.size === spellPicks) && (s.formulas.size === formulas.picks);
     return {
       cls, rewards, grants, statIncrease, before, after, hpGain, manaGain, castMaxBefore, castMaxAfter,
-      trainingPicks, spellPicks, perkPicks, features, fixedPerkNames: grants.perks, fixedSpellNames: grants.spells,
+      trainingPicks, spellPicks, perkPicks, formulas, features, fixedPerkNames: grants.perks, fixedSpellNames: grants.spells,
       trained, perkCtx, done
     };
   }
@@ -344,7 +397,11 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     const s = this.build;
     const plan = this.#planCreate();
     context.plan = plan;
-    const steps = HeroBuilder.CREATE_STEPS.filter(id => (id !== "spells") || plan.spellPicks || plan.fixedSpellNames.length || !plan.cls);
+    const steps = HeroBuilder.CREATE_STEPS.filter(id => {
+      if ( id === "spells" ) return plan.spellPicks || plan.fixedSpellNames.length || !plan.cls;
+      if ( id === "formulas" ) return plan.formulas.picks > 0;
+      return true;
+    });
     if ( !steps.includes(s.step) ) s.step = "review";
     const index = steps.indexOf(s.step);
     context.steps = steps.map((id, i) => ({
@@ -361,7 +418,8 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
         context.cards = await Promise.all(this.#options.ancestry.map(async a => ({
           uuid: a.uuid, name: a.name, img: a.img, selected: a.uuid === s.ancestry,
           tags: a.system.chatTags,
-          traits: await Promise.all(a.system.traits.map(async t => ({ name: t.name, html: await this.#enrich(t.description) })))
+          traits: await Promise.all(a.system.traits.map(async t => ({ name: t.name, html: await this.#enrich(t.description) }))),
+          choices: (a.uuid === s.ancestry) ? plan.traitChoices.map(c => ({ ...c, value: s.traitChoices[c.flag] ?? "" })) : []
         })));
         break;
       case "class":
@@ -389,6 +447,12 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
         context.spellCards = await this.#spellCards(plan.fixedSpellNames, []);
         context.spellsLeft = plan.spellPicks - s.spells.size;
         context.anySkill = this.#anySkillRows();
+        context.needsDamageSpell = plan.needsDamageSpell && !plan.hasDamageSpell;
+        break;
+      case "formulas":
+        context.formulaCards = await this.#formulaCards(plan.formulas.max, []);
+        context.formulasLeft = plan.formulas.picks - s.formulas.size;
+        context.formulaMax = rules.formatCoins(plan.formulas.max);
         break;
       case "review":
         context.review = this.#review(plan);
@@ -416,6 +480,11 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     context.perksLeft = plan.perkPicks - s.perks.size;
     if ( plan.spellPicks || plan.fixedSpellNames.length ) context.spellCards = await this.#spellCards(plan.fixedSpellNames, knownSpells);
     context.spellsLeft = plan.spellPicks - s.spells.size;
+    if ( plan.formulas.picks ) {
+      context.formulaCards = await this.#formulaCards(plan.formulas.max, this.actor.getFlag("vagabond-rpg", "formulas") ?? []);
+      context.formulasLeft = plan.formulas.picks - s.formulas.size;
+      context.formulaMax = rules.formatCoins(plan.formulas.max);
+    }
     context.canFinish = plan.done;
   }
 
@@ -473,7 +542,6 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     }));
   }
 
-  /** Names of the Spells chosen or granted in Hero creation. */
   /** Rows for choosing which picked Spell is Cast with a Skill of the Hero's choice, and that Skill. */
   #anySkillRows() {
     const cfg = CONFIG.VAGABOND;
@@ -483,6 +551,7 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     return (s.anySkill ?? []).map((a, i) => ({ i, source: a.source, spell: a.spell, skill: a.skill, spells: picked, skills }));
   }
 
+  /** Names of the Spells chosen or granted in Hero creation. */
   #chosenSpellNames(plan) {
     return [...plan.fixedSpellNames, ...[...this.build.spells].map(u => this.#find("spell", u)?.name).filter(Boolean)];
   }
@@ -730,6 +799,31 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     })));
   }
 
+  /**
+   * Cards for the Alchemy formula picker.
+   * @param {number} max            Highest value allowed, in silver.
+   * @param {string[]} known        UUIDs of formulas the Hero already knows.
+   */
+  async #formulaCards(max, known) {
+    const cfg = CONFIG.VAGABOND;
+    const s = this.build;
+    const have = new Set(known);
+    return Promise.all(this.#options.alchemical.map(async it => {
+      const value = it.system.value ?? 0;
+      const tooDear = value > max;
+      const type = it.system.alchemicalType ? game.i18n.localize(cfg.alchemicalTypes[it.system.alchemicalType] ?? "") : "";
+      return {
+        uuid: it.uuid, name: it.name, img: it.img,
+        prerequisites: [rules.formatCoins(value), type].filter(Boolean).join(" · "),
+        unmet: tooDear ? game.i18n.format("VAGABOND.Builder.FormulaTooDear", { max: rules.formatCoins(max) }) : "",
+        owned: have.has(it.uuid),
+        blocked: tooDear && !s.formulas.has(it.uuid),
+        selected: s.formulas.has(it.uuid),
+        html: await this.#enrich(it.system.description)
+      };
+    }));
+  }
+
   /** Summary for the last creation step. */
   #review(plan) {
     const cfg = CONFIG.VAGABOND;
@@ -742,6 +836,8 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       skills: plan.trained.map(k => label(cfg.skills, k)).join(", "),
       perks: [...plan.fixedPerkNames, ...[...s.perks].map(u => this.#perkLabel(u))].filter(Boolean).join(", "),
       spells: this.#chosenSpellNames(plan).join(", "),
+      formulas: [...s.formulas].map(u => this.#find("alchemical", u)?.name).filter(Boolean).join(", "),
+      traitChoices: plan.traitChoices.map(c => ({ name: c.name, value: c.options[s.traitChoices[c.flag]] ?? "" })),
       mana: plan.cls ? plan.cls.system.mana.perLevel : 0,
       missing: Object.entries(plan.done).filter(([k, v]) => !v && (k !== "review")).map(([k]) => `VAGABOND.Builder.Step.${k}`),
       ...this.#kitOptions(plan)
@@ -831,6 +927,12 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
         this.render();
       });
     }
+    for ( const el of this.element.querySelectorAll("select[data-trait-choice]") ) {
+      el.addEventListener("change", event => {
+        this.build.traitChoices[event.currentTarget.dataset.traitChoice] = event.currentTarget.value;
+        this.render();
+      });
+    }
     for ( const el of this.element.querySelectorAll("input[data-filter-unmet]") ) {
       el.addEventListener("change", event => {
         this.build.hideUnmet = event.currentTarget.checked;
@@ -911,10 +1013,10 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     const { kind, uuid } = target.closest("[data-uuid]").dataset;
     const s = this.build;
     if ( kind === "ancestry" ) {
-      if ( s.ancestry !== uuid ) s.boost = "";
+      if ( s.ancestry !== uuid ) { s.boost = ""; s.traitChoices = {}; }
       s.ancestry = uuid;
     } else if ( kind === "class" ) {
-      if ( s.cls !== uuid ) { s.spells.clear(); s.skills.clear(); }
+      if ( s.cls !== uuid ) { s.spells.clear(); s.skills.clear(); s.formulas.clear(); }
       s.cls = uuid;
     }
     this.#trimChoices();
@@ -960,10 +1062,17 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
           return ui.notifications.warn(game.i18n.format("VAGABOND.Builder.NotQualified", { name: perk.name }));
         }
       }
+      if ( kind === "formulas" ) {
+        const it = this.#find("alchemical", id);
+        if ( (it?.system.value ?? 0) > plan.formulas.max ) {
+          return ui.notifications.warn(game.i18n.format("VAGABOND.Builder.FormulaTooDear", { max: rules.formatCoins(plan.formulas.max) }));
+        }
+      }
       const limit = {
         skills: this.mode === "create" ? plan.skillPicks : plan.trainingPicks,
         perks: plan.perkPicks,
-        spells: plan.spellPicks
+        spells: plan.spellPicks,
+        formulas: plan.formulas.picks
       }[kind];
       let replace = false;
       if ( (kind === "skills") && (this.mode === "create") ) {
@@ -1056,8 +1165,10 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       "system.details.beingType": plan.anc.system.beingType,
       "system.attributes.castingSkill": plan.cls.system.castingSkill || "",
       "system.attributes.fatigue": 0,
-      "system.attributes.luck.value": plan.stats.luk
+      "system.attributes.luck.value": plan.stats.luk,
+      "flags.vagabond-rpg.formulas": [...s.formulas]
     };
+    for ( const t of plan.traitChoices ) updates[`flags.vagabond-rpg.${t.flag}`] = s.traitChoices[t.flag];
     const gains = this.#perkGains();
     for ( const [k, v] of Object.entries(plan.stats) ) {
       updates[`system.stats.${k}.value`] = gains.stats[k] ? Math.min(ADVANCEMENT_CAP, v + gains.stats[k]) : v;
@@ -1123,6 +1234,9 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       updates[`system.stats.${k}.value`] = Math.min(ADVANCEMENT_CAP, plan.after[k] + n);
     }
     for ( const k of [...s.skills, ...gains.skills] ) updates[`system.skills.${k}.trained`] = true;
+    if ( s.formulas.size ) {
+      updates["flags.vagabond-rpg.formulas"] = [...(actor.getFlag("vagabond-rpg", "formulas") ?? []), ...s.formulas];
+    }
     await actor.update(updates, { vagabondLog: false });
 
     const items = [];
@@ -1151,6 +1265,7 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       s.statUp ? `${game.i18n.localize(cfg.stats[s.statUp].label)} ${plan.before[s.statUp]} → ${plan.after[s.statUp]}` : null,
       ...plan.features.map(f => f.name),
       ...created.map(i => i.name),
+      ...[...s.formulas].map(u => `${game.i18n.localize("VAGABOND.Formulas.Label")}: ${this.#find("alchemical", u)?.name ?? ""}`),
       ...gains.stats ? Object.entries(gains.stats).map(([k]) => `${game.i18n.localize(cfg.stats[k].label)} ${plan.after[k]} → ${Math.min(ADVANCEMENT_CAP, plan.after[k] + gains.stats[k])}`) : [],
       ...[...s.skills, ...gains.skills].map(k => `${game.i18n.localize("VAGABOND.Trained")}: ${game.i18n.localize(cfg.skills[k].label)}`)
     ].filter(Boolean);

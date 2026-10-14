@@ -61,11 +61,12 @@ The sheet warns you about:
 ### Hero builder and leveling
 
 A Hero with no Class shows a **Build Hero** button in the header. It walks through:
-1. **Ancestry** and **Class**, with their Traits, Key Stats, Trainings, and 1st-Level Features.
+1. **Ancestry** and **Class**, with their Traits, Key Stats, Trainings, and 1st-Level Features. A Draken picks the damage type for Draconic Resilience (Acid, Cold, Fire, or Shock); it's kept on the sheet's Features tab and halves damage of that type when damage is applied.
 2. **Stats**: pick one of the 8 Stat Arrays. The highest values go to your Class's Key Stats, and you can reassign them freely. Human Strong Potential adds +1 here.
 3. **Trainings**: Class and Ancestry Trainings are locked in, and you pick half your Reason (rounded up), plus any Traits grant.
-4. **Spells** for casters, including required ones such as the Druid's Polymorph. An Elf's Naturally Attuned Spell is picked here too, along with which of the chosen Spells it is and the Skill (any Skill) to Cast it with.
-5. **Perk**: your creation Perk, plus any granted picks. Perks your Class grants (for example Bookworm for Wizards) are added for you.
+4. **Spells** for casters, including required ones such as the Druid's Polymorph. An Elf's Naturally Attuned Spell is picked here too, along with which of the chosen Spells it is and the Skill (any Skill) to Cast it with. A Magus or Revelator must include a Spell with a damage base.
+5. **Alchemy** for Alchemists: the 4 Alchemical Items you know how to Craft, worth no more than 50s each at 1st Level.
+6. **Perk**: your creation Perk, plus any granted picks. Perks your Class grants (for example Bookworm for Wizards) are added for you.
    - Perks whose prerequisites you don't meet are locked.
    - Class Features that bend the rules are followed: Well-Versed (Bard) ignores Stat minimums. Fighting Style and Survivalist each grant a Perk with a combat or Survival Training prerequisite, ignoring the rest, and the builder marks those Perks "Allowed by …". Occultist's Perk needs the Mysticism prerequisite.
    - Perks you can take again (Magical Secret, Tough, Advancement, Silver Tongued up to 4 times, and so on) stay available until their limit.
@@ -75,13 +76,16 @@ A Hero with no Class shows a **Build Hero** button in the header. It walks throu
      - New Training: a Skill to become Trained in.
      - Cryptozoologist: a Being Type.
    - The choice is applied and added to the Perk's name, for example "Magical Secret (Fireball)". A Magical Secret Spell remembers its Skill (**Cast With** on the Spell sheet, which offers every Skill) and raises Spells Known by one, as does Naturally Attuned.
-6. **Review**: name the Hero and pick a **Starting Pack** (your Class's recommended packs are listed first), or take 3g to spend instead. The pack's Weapons, Armor, and Gear are listed with quantities and the Wealth left over.
+7. **Review**: name the Hero and pick a **Starting Pack** (your Class's recommended packs are listed first), or take 3g to spend instead. The pack's Weapons, Armor, and Gear are listed with quantities and the Wealth left over.
 
 Once a Hero has a Class, the button becomes **Level Up**. It shows the new Features, HP, Mana, and Cast Max, then asks only for what that Level needs:
 - a Stat +1 (max 7) on even Levels;
 - a Perk on odd Levels after 1st, plus repeat grants such as the Fighter's Fighting Style at 4th and 8th;
 - a new Training if Reason went up enough;
-- new Spells when Spells Known grows.
+- new Spells when Spells Known grows;
+- a new Alchemy formula for Alchemists at 4th, 7th, and 10th Level (worth up to Level × 50s).
+
+An Alchemist's known formulas are listed on the Features tab. **Craft** adds one of that Item to the Inventory (or one more to the stack), and **+** learns a formula by hand, for Heroes made before the builder asked for them.
 
 What each Class Feature or Ancestry Trait grants lives on that row's **Hero builder grants** in the item sheet, so homebrew Classes and Ancestries work too.
 

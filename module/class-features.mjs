@@ -1,3 +1,5 @@
+import { formulasKnown, formulaMaxValue } from "./rules.mjs";
+
 /**
  * Class Feature automation. Features live on the Class item as rows; a Hero has every row at or below their Level.
  * This module turns the scaling numbers in those Features into bonuses the system applies, and into short "now"
@@ -156,7 +158,7 @@ export function featureMods(actor) {
   }
 
   // ---- Shown as numbers only ----------------------------------------------------------
-  note("Alchemy", "Alchemy", { n: 4 + tier(L, 4, 3), max: L * 50 });
+  note("Alchemy", "Alchemy", { n: formulasKnown(L), max: formulaMaxValue(L) });
   note("Eureka", "Eureka", { n: 15 - tier(L, 2) + 1 });
   note("Overtuned", "Overtuned", { n: 21 - tier(L, 2) + 1 });
   note("Audacity", "Countdown", { die: cd(8) });

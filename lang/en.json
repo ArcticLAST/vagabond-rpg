@@ -154,7 +154,8 @@
       "Vehement": "Vehement Magic: dice Explode on a 1",
       "Berserk": "Berserk: damage die up one size",
       "Murder": "Berserk (Murder Mode): +{n} per die, Exploding",
-      "Sickened": "Sickened: −2 per healing die"
+      "Sickened": "Sickened: −2 per healing die",
+      "Resilient": "{name} takes half {type} damage (Draconic Resilience)."
     },
     "DamageBase": {
       "none": "—",
@@ -652,7 +653,8 @@
         "skills": "Trainings",
         "perks": "Perk",
         "spells": "Spells",
-        "review": "Review"
+        "review": "Review",
+        "formulas": "Alchemy"
       },
       "Intro": {
         "ancestry": "Choose an Ancestry. It sets your Being Type, Size, and Traits.",
@@ -660,7 +662,8 @@
         "stats": "Pick a Stat Array, then assign its values to your Stats in any order. Your Class's Key Stats get the highest values when you pick an array.",
         "skills": "Your Class and Ancestry Trainings are locked in. Pick the rest: half your Reason (rounded up), plus any your Traits grant.",
         "perks": "Take a Perk. Perks your Class or Ancestry grants are already included. Locked Perks need prerequisites you don't have yet. Some Perks ask you to choose a Spell, Stat, or Training.",
-        "spells": "Choose the Spells you know at 1st Level."
+        "spells": "Choose the Spells you know at 1st Level.",
+        "formulas": "Choose the Alchemical Items you know how to Craft (Alchemy, p. 29), worth no more than {max} each."
       },
       "KeyStats": "Key Stats",
       "KeyStat": "Key Stat for your Class",
@@ -719,7 +722,11 @@
       "ApplyFailed": "The builder couldn't finish: {error}. Check the sheet before trying again.",
       "AlreadyLevel": "{name} is already Level {level}.",
       "AnySkillSpell": "Spell (pick it below first)",
-      "AnySkillSkill": "Cast it with"
+      "AnySkillSkill": "Cast it with",
+      "FormulaTooDear": "Worth more than {max}",
+      "FormulaMax": "up to {max} each",
+      "NewFormulas": "New Alchemy Formulas",
+      "NeedsDamageSpell": "One of your Spells must have a damage base."
     },
     "Grants": {
       "Label": "Hero builder grants",
@@ -1038,6 +1045,17 @@
     },
     "Icons": {
       "Migrated": "Updated the art on {n} Actors and Items to the system's new icons."
+    },
+    "Formulas": {
+      "Label": "Alchemy Formulas",
+      "Learn": "Learn a Formula",
+      "UpTo": "up to {max}",
+      "Craft": "Craft",
+      "CraftHint": "Add one to your Inventory.",
+      "Forget": "Forget this Formula",
+      "Empty": "No formulas yet. Use + to learn one.",
+      "Missing": "That Alchemical Item can't be found.",
+      "NoneLeft": "There are no more Alchemical Items you can learn at this Level."
     }
   }
 }

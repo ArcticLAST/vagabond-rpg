@@ -20,6 +20,10 @@
           <i class="pick-check {{#if selected}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i>
         </header>
         <ul class="pick-traits">{{#each traits}}<li><strong>{{name}}.</strong> {{{html}}}</li>{{/each}}</ul>
+        {{#each choices}}
+        <label class="pick-choice trait-choice"><span>{{name}}</span>
+          <select data-trait-choice="{{flag}}"><option value="">—</option>{{selectOptions options selected=value localize=true}}</select></label>
+        {{/each}}
       </article>
       {{/each}}
     </div>
@@ -115,6 +119,7 @@
     {{#if (eq step "spells")}}
     <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.spells"}}</p>
     <p class="counter {{#if (eq spellsLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=spellsLeft}}</p>
+    {{#if needsDamageSpell}}<p class="warning">{{localize "VAGABOND.Builder.NeedsDamageSpell"}}</p>{{/if}}
     {{#each anySkill}}
     <div class="any-skill-choice">
       <strong>{{source}}</strong>
@@ -127,11 +132,17 @@
     {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=spellCards kind="spells" search=state.search.spells}}
     {{/if}}
 
+    {{#if (eq step "formulas")}}
+    <p class="builder-intro">{{localize "VAGABOND.Builder.Intro.formulas" max=formulaMax}}</p>
+    <p class="counter {{#if (eq formulasLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=formulasLeft}}</p>
+    {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=formulaCards kind="formulas" search=state.search.formulas}}
+    {{/if}}
+
     {{#if (eq step "review")}}
     <div class="review">
       <label class="review-name"><span>{{localize "Name"}}</span><input type="text" data-field="name" value="{{state.name}}"></label>
       <dl class="review-list">
-        <div><dt>{{localize "TYPES.Item.ancestry"}}</dt><dd>{{review.ancestry}}</dd></div>
+        <div><dt>{{localize "TYPES.Item.ancestry"}}</dt><dd>{{review.ancestry}}{{#each review.traitChoices}} · {{name}}: {{localize value}}{{/each}}</dd></div>
         <div><dt>{{localize "TYPES.Item.class"}}</dt><dd>{{review.cls}}</dd></div>
         <div><dt>{{localize "VAGABOND.Stats"}}</dt><dd>{{#each review.stats}}<span class="tag">{{localize abbr}} {{value}}</span> {{/each}}</dd></div>
         {{#if review.preview}}
@@ -140,6 +151,7 @@
         <div><dt>{{localize "VAGABOND.Builder.Trainings"}}</dt><dd>{{review.skills}}</dd></div>
         <div><dt>{{localize "TYPES.Item.perkPl"}}</dt><dd>{{review.perks}}</dd></div>
         {{#if review.spells}}<div><dt>{{localize "TYPES.Item.spellPl"}}</dt><dd>{{review.spells}}</dd></div>{{/if}}
+        {{#if review.formulas}}<div><dt>{{localize "VAGABOND.Formulas.Label"}}</dt><dd>{{review.formulas}}</dd></div>{{/if}}
       </dl>
       <label class="review-kit"><span>{{localize "VAGABOND.Builder.StartingPack"}}</span>
         <select data-field="kit">
@@ -219,6 +231,12 @@
     <h3>{{localize "VAGABOND.Builder.NewSpells"}}</h3>
     <p class="counter {{#if (eq spellsLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=spellsLeft}}</p>
     {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=spellCards kind="spells" search=state.search.spells}}
+    {{/if}}
+
+    {{#if formulaCards}}
+    <h3>{{localize "VAGABOND.Builder.NewFormulas"}}</h3>
+    <p class="counter {{#if (eq formulasLeft 0)}}complete{{/if}}">{{localize "VAGABOND.Builder.ChooseLeft" n=formulasLeft}} · {{localize "VAGABOND.Builder.FormulaMax" max=formulaMax}}</p>
+    {{> "systems/vagabond-rpg/templates/apps/parts/item-picker.hbs" cards=formulaCards kind="formulas" search=state.search.formulas}}
     {{/if}}
   </section>
 

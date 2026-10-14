@@ -31,7 +31,10 @@ export default class CharacterSheet extends BaseActorSheet {
       dismount: CharacterSheet.#onDismount,
       openMount: CharacterSheet.#onOpenMount,
       openBuilder: CharacterSheet.#onOpenBuilder,
-      levelUp: CharacterSheet.#onLevelUp
+      levelUp: CharacterSheet.#onLevelUp,
+      craftFormula: CharacterSheet.#onCraftFormula,
+      learnFormula: CharacterSheet.#onLearnFormula,
+      forgetFormula: CharacterSheet.#onForgetFormula
     }
   };
 
@@ -216,9 +219,25 @@ export default class CharacterSheet extends BaseActorSheet {
       html: await this._enrich(f.description)
     }))) : [];
     const anc = context.ancestryItem;
-    context.ancestryTraits = anc ? await Promise.all(anc.system.traits.map(async (t, i) => ({
-      ...t, index: i, html: await this._enrich(t.description)
-    }))) : [];
+    context.ancestryTraits = anc ? await Promise.all(anc.system.traits.map(async (t, i) => {
+      const rule = cfg.traitChoices[t.name.toLowerCase()];
+      const choice = rule ? {
+        name: `flags.vagabond-rpg.${rule.flag}`, value: actor.getFlag("vagabond-rpg", rule.flag) ?? "",
+        options: Object.fromEntries(rule.options.map(k => [k, cfg.damageTypes[k] ?? k]))
+      } : null;
+      return { ...t, index: i, choice, html: await this._enrich(t.description) };
+    })) : [];
+
+    // Alchemy formulas (Alchemist): the Alchemical Items this Hero can Craft.
+    const alchemy = cls?.system.features.some(f => (f.name.toLowerCase() === "alchemy") && (f.level <= level));
+    const known = actor.getFlag("vagabond-rpg", "formulas") ?? [];
+    context.formulas = (alchemy || known.length) ? {
+      max: rules.formulasKnown(level), cap: rules.formatCoins(rules.formulaMaxValue(level)),
+      items: known.map(uuid => {
+        const entry = fromUuidSync(uuid, { strict: false });
+        return { uuid, name: entry?.name ?? uuid, img: entry?.img ?? cfg.defaultIcons.gear };
+      })
+    } : null;
 
     context.currencyValue = rules.formatCoins(
       actor.system.currency.g * 100 + actor.system.currency.s + (actor.system.currency.c / 100)
@@ -342,6 +361,53 @@ export default class CharacterSheet extends BaseActorSheet {
   }
 
   /* -------------------------------------------- */
+
+  /** Craft one of a known Alchemical Item: add it to the inventory, or one more to a stack already there. */
+  static async #onCraftFormula(event, target) {
+    const uuid = target.closest("[data-uuid]")?.dataset.uuid;
+    const source = uuid ? await fromUuid(uuid) : null;
+    if ( !source ) return ui.notifications.warn(game.i18n.localize("VAGABOND.Formulas.Missing"));
+    const stack = this.actor.items.find(i => (i.type === source.type) && ((i._stats?.compendiumSource === uuid) || (i.name === source.name)));
+    if ( stack ) return stack.update({ "system.quantity": (stack.system.quantity ?? 0) + 1 });
+    const data = source.toObject();
+    delete data._id;
+    foundry.utils.setProperty(data, "_stats.compendiumSource", uuid);
+    data.system.quantity = 1;
+    return this.actor.createEmbeddedDocuments("Item", [data]);
+  }
+
+  /** Learn an Alchemy formula: pick an Alchemical Item worth no more than Level × 50s. */
+  static async #onLearnFormula() {
+    const actor = this.actor;
+    const known = new Set(actor.getFlag("vagabond-rpg", "formulas") ?? []);
+    const cap = rules.formulaMaxValue(actor.system.details.level);
+    const options = [];
+    const pack = game.packs.get(CONFIG.VAGABOND.builderPacks.alchemical);
+    const index = pack ? await pack.getIndex({ fields: ["system.value"] }) : [];
+    for ( const e of index ) options.push({ uuid: e.uuid, name: e.name, value: e.system?.value ?? 0 });
+    for ( const i of game.items ) {
+      if ( (i.type === "gear") && (i.system.category === "alchemical") ) options.push({ uuid: i.uuid, name: i.name, value: i.system.value ?? 0 });
+    }
+    const allowed = options.filter(o => !known.has(o.uuid) && (o.value <= cap)).sort((a, b) => a.name.localeCompare(b.name, game.i18n.lang));
+    if ( !allowed.length ) return ui.notifications.info(game.i18n.localize("VAGABOND.Formulas.NoneLeft"));
+    const esc = foundry.utils.escapeHTML;
+    const uuid = await foundry.applications.api.DialogV2.prompt({
+      window: { title: game.i18n.localize("VAGABOND.Formulas.Learn") },
+      content: `<div class="form-group"><label>${game.i18n.format("VAGABOND.Formulas.UpTo", { max: rules.formatCoins(cap) })}</label>
+        <select name="formula">${allowed.map(o => `<option value="${esc(o.uuid)}">${esc(o.name)} (${rules.formatCoins(o.value)})</option>`).join("")}</select></div>`,
+      ok: { label: "VAGABOND.Formulas.Learn", callback: (event, button) => button.form.elements.formula.value },
+      rejectClose: false
+    });
+    if ( !uuid ) return;
+    return actor.setFlag("vagabond-rpg", "formulas", [...known, uuid]);
+  }
+
+  /** Forget an Alchemy formula. */
+  static async #onForgetFormula(event, target) {
+    const uuid = target.closest("[data-uuid]")?.dataset.uuid;
+    const known = this.actor.getFlag("vagabond-rpg", "formulas") ?? [];
+    return this.actor.setFlag("vagabond-rpg", "formulas", known.filter(u => u !== uuid));
+  }
 
   /** Set the Hero's standing Favor / Normal / Hinder roll setting. */
   static async #onSetRollMode(event, target) {
