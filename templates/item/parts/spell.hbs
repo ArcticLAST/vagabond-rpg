@@ -6,6 +6,6 @@
 <div class="form-row">
   <div class="form-group checkbox"><label>{{localize "VAGABOND.Spell.Focus"}}</label><input type="checkbox" name="system.focus" {{checked source.focus}}></div>
   <div class="form-group checkbox"><label>{{localize "VAGABOND.Spell.NoDamage"}}</label><input type="checkbox" name="system.noDamage" {{checked source.noDamage}}></div>
-  <div class="form-group"><label data-tooltip="VAGABOND.Spell.CastSkillHint">{{localize "VAGABOND.Spell.CastSkill"}}</label><select name="system.castSkill">{{selectOptions options.castSkills selected=source.castSkill localize=true}}</select></div>
+  {{#if source.castSkill}}<div class="form-group"><label data-tooltip="VAGABOND.Spell.CastSkillHint">{{localize "VAGABOND.Spell.CastSkill"}}</label><select name="system.castSkill">{{selectOptions options.castSkills selected=source.castSkill localize=true}}</select></div>{{/if}}
 </div>
 <div class="form-group stacked"><label>{{localize "VAGABOND.Spell.Crit"}}</label><textarea name="system.crit" rows="3">{{source.crit}}</textarea></div>

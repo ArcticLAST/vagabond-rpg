@@ -495,7 +495,7 @@
       "Focus": "Focus",
       "NoDamage": "Can't deal damage",
       "CastSkill": "Cast With",
-      "CastSkillHint": "Magical Secret: Cast this Spell with its own Skill instead of your Class's.",
+      "CastSkillHint": "Magical Secret or Naturally Attuned: this Spell is Cast with its own Skill instead of your Class's.",
       "ClassSkill": "Class Skill",
       "Ready": "Ready (show under Attacks)",
       "Unready": "Unready"
@@ -721,12 +721,13 @@
       "Applying": "Applying…",
       "ApplyFailed": "The builder couldn't finish: {error}. Check the sheet before trying again.",
       "AlreadyLevel": "{name} is already Level {level}.",
-      "AnySkillSpell": "Spell (pick it below first)",
+      "AnySkillSpell": "Spell",
       "AnySkillSkill": "Cast it with",
       "FormulaTooDear": "Worth more than {max}",
       "FormulaMax": "up to {max} each",
       "NewFormulas": "New Alchemy Formulas",
-      "NeedsDamageSpell": "One of your Spells must have a damage base."
+      "NeedsDamageSpell": "One of your Spells must have a damage base.",
+      "AnySkillHint": "This Spell is picked separately and Cast with the Skill you choose. Your other Spells use your Class's Skill."
     },
     "Grants": {
       "Label": "Hero builder grants",

@@ -64,7 +64,7 @@ A Hero with no Class shows a **Build Hero** button in the header. It walks throu
 1. **Ancestry** and **Class**, with their Traits, Key Stats, Trainings, and 1st-Level Features. A Draken picks the damage type for Draconic Resilience (Acid, Cold, Fire, or Shock); it's kept on the sheet's Features tab and halves damage of that type when damage is applied.
 2. **Stats**: pick one of the 8 Stat Arrays. The highest values go to your Class's Key Stats, and you can reassign them freely. Human Strong Potential adds +1 here.
 3. **Trainings**: Class and Ancestry Trainings are locked in, and you pick half your Reason (rounded up), plus any Traits grant.
-4. **Spells** for casters, including required ones such as the Druid's Polymorph. An Elf's Naturally Attuned Spell is picked here too, along with which of the chosen Spells it is and the Skill (any Skill) to Cast it with. A Magus or Revelator must include a Spell with a damage base.
+4. **Spells** for casters, including required ones such as the Druid's Polymorph. An Elf's Naturally Attuned Spell is picked separately here, with the Skill (any Skill) to Cast it with; the Class's Spells use the Class's casting Skill. A Magus or Revelator must include a Spell with a damage base.
 5. **Alchemy** for Alchemists: the 4 Alchemical Items you know how to Craft, worth no more than 50s each at 1st Level.
 6. **Perk**: your creation Perk, plus any granted picks. Perks your Class grants (for example Bookworm for Wizards) are added for you.
    - Perks whose prerequisites you don't meet are locked.
@@ -75,7 +75,7 @@ A Hero with no Class shows a **Build Hero** button in the header. It walks throu
      - Advancement: a Stat below 7, which goes up by 1.
      - New Training: a Skill to become Trained in.
      - Cryptozoologist: a Being Type.
-   - The choice is applied and added to the Perk's name, for example "Magical Secret (Fireball)". A Magical Secret Spell remembers its Skill (**Cast With** on the Spell sheet, which offers every Skill) and raises Spells Known by one, as does Naturally Attuned.
+   - The choice is applied and added to the Perk's name, for example "Magical Secret (Fireball)". A Magical Secret Spell remembers its Skill (**Cast With** on the Spell sheet, shown only for Spells with their own Skill) and raises Spells Known by one, as does Naturally Attuned.
 7. **Review**: name the Hero and pick a **Starting Pack** (your Class's recommended packs are listed first), or take 3g to spend instead. The pack's Weapons, Armor, and Gear are listed with quantities and the Wealth left over.
 
 Once a Hero has a Class, the button becomes **Level Up**. It shows the new Features, HP, Mana, and Cast Max, then asks only for what that Level needs:

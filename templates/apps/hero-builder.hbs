@@ -122,7 +122,7 @@
     {{#if needsDamageSpell}}<p class="warning">{{localize "VAGABOND.Builder.NeedsDamageSpell"}}</p>{{/if}}
     {{#each anySkill}}
     <div class="any-skill-choice">
-      <strong>{{source}}</strong>
+      <strong data-tooltip="VAGABOND.Builder.AnySkillHint">{{source}}</strong>
       <label><span>{{localize "VAGABOND.Builder.AnySkillSpell"}}</span>
         <select data-any-skill="{{i}}" data-any-field="spell"><option value="">—</option>{{selectOptions spells selected=spell}}</select></label>
       <label><span>{{localize "VAGABOND.Builder.AnySkillSkill"}}</span>

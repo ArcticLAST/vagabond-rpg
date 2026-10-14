@@ -1,6 +1,6 @@
 {
   "name": "vagabond-rpg",
-  "version": "0.6.15",
+  "version": "0.6.16",
   "private": true,
   "description": "Unofficial Foundry VTT system for Vagabond (Alpha 3).",
   "type": "module",
