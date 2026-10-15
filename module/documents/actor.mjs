@@ -1,6 +1,7 @@
 import * as rules from "../rules.mjs";
 import { rollCheck, rollDamage } from "../dice/rolls.mjs";
 import * as sheetLog from "../sheet-log.mjs";
+import * as history from "../history.mjs";
 import * as vision from "../vision.mjs";
 
 /**
@@ -332,6 +333,11 @@ export default class VagabondActor extends Actor {
       const before = sheetLog.snapshot(this, changed);
       if ( before ) options.vagabondBefore = { ...(options.vagabondBefore ?? {}), [this.id]: before };
     }
+    // Stats, Trainings, and Level before the change, for the Character History.
+    if ( history.tracks(this, options) ) {
+      const before = history.snapshot(this, changed);
+      if ( before ) options.vagabondHistoryBefore = { ...(options.vagabondHistoryBefore ?? {}), [this.id]: before };
+    }
   }
 
   /** @override */
@@ -339,6 +345,10 @@ export default class VagabondActor extends Actor {
     super._onUpdate(changed, options, userId);
     const before = options.vagabondBefore?.[this.id];
     if ( (userId === game.user.id) && before ) sheetLog.post(this, sheetLog.fieldLines(this, before), options);
+    const histBefore = options.vagabondHistoryBefore?.[this.id];
+    if ( (userId === game.user.id) && histBefore ) {
+      history.record(this, "edit", history.changeLines(this, histBefore), history.baselineLines(this, histBefore));
+    }
     // Senses or Level (Ancestry traits) changed: update Token vision.
     const flat = foundry.utils.flattenObject(changed);
     if ( (userId === game.user.id) && (("system.details.senses" in flat) || ("system.details.level" in flat)) ) {

@@ -76,7 +76,7 @@ A Hero with no Class shows a **Build Hero** button in the header. It walks throu
      - New Training: a Skill to become Trained in.
      - Cryptozoologist: a Being Type.
    - The choice is applied and added to the Perk's name, for example "Magical Secret (Fireball)". A Magical Secret Spell remembers its Skill (**Cast With** on the Spell sheet, shown only for Spells with their own Skill) and raises Spells Known by one, as does Naturally Attuned.
-7. **Review**: name the Hero and pick a **Starting Pack** (your Class's recommended packs are listed first), or take 3g to spend instead. The pack's Weapons, Armor, and Gear are listed with quantities and the Wealth left over.
+7. **Review**: name the Hero and pick a **Starting Pack**, or take 3g to spend instead. Every pack is shown as a card listing its Weapons, Armor, and Gear with quantities and the Wealth left over, with your Class's recommended packs first.
 
 Once a Hero has a Class, the button becomes **Level Up**. It shows the new Features, HP, Mana, and Cast Max, then asks only for what that Level needs:
 - a Stat +1 (max 7) on even Levels;
@@ -86,6 +86,8 @@ Once a Hero has a Class, the button becomes **Level Up**. It shows the new Featu
 - a new Alchemy formula for Alchemists at 4th, 7th, and 10th Level (worth up to Level × 50s).
 
 An Alchemist's known formulas are listed on the Features tab. **Craft** adds one of that Item to the Inventory (or one more to the stack), and **+** learns a formula by hand, for Heroes made before the builder asked for them.
+
+**Character History** (Biography tab, under Notes) is the record of how the Hero was built: the starting Stats and Trainings from the Hero Builder, each Level Up's Stat and Training changes and Perks, and any other change to Stats, Trainings, or Level, with who made it and when. A Hero made before the history existed starts recording with their values before the first change.
 
 What each Class Feature or Ancestry Trait grants lives on that row's **Hero builder grants** in the item sheet, so homebrew Classes and Ancestries work too.
 
@@ -204,11 +206,10 @@ The **Studied** box in the Hero header holds Studied dice (p. 19).
 - The owner or GM can lock a Container so players can only look. A Capacity of 0 means no limit.
 - Drop a Container on the scene to get a token players can double-click to open.
 
-**Mounts** (p. 13): drop a Being on a Hero's sheet to ride it. The Hero then uses its Speed and Travel miles, as the rules say. The sidebar shows the Mount, and the button there dismounts.
-- The sheet warns if the rider isn't at least one Size smaller than the Mount.
+**Mounts**: the Hero sheet has no Mount section; riding is handled at the table.
 - Beings have a **Cargo** capacity and a **Travel** speed. The Elephant and the Draft, Riding, and War Horses in the Bestiary come with the numbers from the Riding Animals table. A Being with Cargo works like a Container.
 
-**Vehicles** are a new Actor type with HP, Armor, Speed, Travel miles per Shift, Cost, and a Cargo hold that works like a Container. Heroes board one by dropping it on their sheet or with the button on the Vehicle. The Vehicle lists who is aboard, and they use its Speed. The **Vehicles** compendium has the eight vessels from the Water Travel table (p. 17).
+**Vehicles** are a new Actor type with HP, Armor, Speed, Travel miles per Shift, Cost, and a Cargo hold that works like a Container. Heroes board one with the button on the Vehicle. The Vehicle lists who is aboard, and they use its Speed. The **Vehicles** compendium has the eight vessels from the Water Travel table (p. 17).
 
 ### Other systems
 

@@ -1,3 +1,10 @@
+{{#*inline "kitCard"}}
+<article class="kit-card {{#if selected}}selected{{/if}}" data-kit="{{value}}">
+  <header data-action="pickKit"><strong>{{label}}</strong><i class="pick-check {{#if selected}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i></header>
+  {{#each groups}}<h5>{{label}}</h5><ul class="kit-items">{{#each items}}<li><span class="kit-name">{{name}}{{#if worth}} <span class="kit-qty">({{worth}})</span>{{/if}}</span>{{#if (gt quantity 1)}}<span class="kit-count">×{{quantity}}</span>{{/if}}</li>{{/each}}</ul>{{/each}}
+  <p class="kit-wealth">{{localize "VAGABOND.Builder.KitWealth"}}: <strong>{{wealth}}</strong></p>
+</article>
+{{/inline}}
 <div class="builder {{mode}}">
 {{#if isCreate}}
   <nav class="builder-steps">
@@ -153,25 +160,16 @@
         {{#if review.spells}}<div><dt>{{localize "TYPES.Item.spellPl"}}</dt><dd>{{review.spells}}</dd></div>{{/if}}
         {{#if review.formulas}}<div><dt>{{localize "VAGABOND.Formulas.Label"}}</dt><dd>{{review.formulas}}</dd></div>{{/if}}
       </dl>
-      <label class="review-kit"><span>{{localize "VAGABOND.Builder.StartingPack"}}</span>
-        <select data-field="kit">
-          <option value="gold" {{#if (eq review.kitChoice "gold")}}selected{{/if}}>{{localize "VAGABOND.Builder.KitGold"}}</option>
-          {{#if review.kitsRecommended.length}}<optgroup label="{{localize "VAGABOND.Builder.KitRecommended"}}">{{#each review.kitsRecommended}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</optgroup>{{/if}}
-          {{#if review.kitsOther.length}}<optgroup label="{{localize "VAGABOND.Builder.KitOther"}}">{{#each review.kitsOther}}<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>{{/each}}</optgroup>{{/if}}
-          <option value="" {{#if (eq review.kitChoice "")}}selected{{/if}}>{{localize "VAGABOND.Builder.KitNone"}}</option>
-        </select>
-      </label>
-      {{#if review.kitGroups.length}}
-      <div class="kit-review">
-        <h4>{{localize "VAGABOND.Builder.KitIncludes"}}</h4>
-        {{#each review.kitGroups}}
-        <div class="kit-group"><h5>{{label}}</h5>
-          <ul class="kit-items">{{#each items}}<li><img src="{{img}}" alt="" width="24" height="24"><span class="kit-name">{{name}}{{#if worth}} <span class="kit-qty">({{worth}})</span>{{/if}}</span>{{#if (gt quantity 1)}}<span class="kit-count">×{{quantity}}</span>{{/if}}</li>{{/each}}</ul>
-        </div>
-        {{/each}}
-        <p class="kit-wealth"><i class="fa-solid fa-coins"></i> {{localize "VAGABOND.Builder.KitWealth"}}: <strong>{{review.kitWealth}}</strong></p>
+      <h3 class="kit-heading">{{localize "VAGABOND.Builder.StartingPack"}}</h3>
+      <div class="kit-grid">
+        <button type="button" class="kit-card plain {{#if (eq review.kitChoice "gold")}}selected{{/if}}" data-action="pickKit" data-kit="gold">{{localize "VAGABOND.Builder.KitGold"}}</button>
+        <button type="button" class="kit-card plain {{#if (eq review.kitChoice "")}}selected{{/if}}" data-action="pickKit" data-kit="">{{localize "VAGABOND.Builder.KitNone"}}</button>
       </div>
-      {{else}}<p class="hint">{{localize "VAGABOND.Builder.GearHint"}}</p>{{/if}}
+      {{#if review.kitsRecommended.length}}<h4 class="kit-heading">{{localize "VAGABOND.Builder.KitRecommended"}}</h4>
+      <div class="kit-grid">{{#each review.kitsRecommended}}{{> kitCard}}{{/each}}</div>{{/if}}
+      {{#if review.kitsOther.length}}<h4 class="kit-heading">{{localize "VAGABOND.Builder.KitOther"}}</h4>
+      <div class="kit-grid">{{#each review.kitsOther}}{{> kitCard}}{{/each}}</div>{{/if}}
+      <p class="hint">{{localize "VAGABOND.Builder.GearHint"}}</p>
       {{#if review.missing.length}}<p class="warning">{{localize "VAGABOND.Builder.StillNeeded"}}: {{#each review.missing}}{{localize this}} {{/each}}</p>{{/if}}
     </div>
     {{/if}}

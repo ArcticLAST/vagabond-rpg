@@ -1,5 +1,6 @@
 import * as rules from "../rules.mjs";
 import { grantLevels, splitList } from "../data/item-simple.mjs";
+import * as history from "../history.mjs";
 
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
@@ -66,6 +67,7 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       pickArray: HeroBuilder.#onPickArray,
       autoAssign: HeroBuilder.#onAutoAssign,
       toggle: HeroBuilder.#onToggle,
+      pickKit: HeroBuilder.#onPickKit,
       finish: HeroBuilder.#onFinish
     }
   };
@@ -143,6 +145,9 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       const world = game.items.filter(i => {
         if ( type === "kit" ) return i.system.isKit;
         if ( type === "alchemical" ) return (i.type === "gear") && (i.system.category === "alchemical");
+        // Skip empty Classes and Ancestries made in the world by accident.
+        if ( type === "class" ) return (i.type === "class") && (i.system.features?.length > 0);
+        if ( type === "ancestry" ) return (i.type === "ancestry") && (i.system.traits?.length > 0);
         return i.type === type;
       });
       out[type] = [...docs, ...world].sort((a, b) => a.name.localeCompare(b.name, game.i18n.lang));
@@ -889,17 +894,18 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     const s = this.build;
     const short = name => name.replace(/^Starting Pack:\s*/i, "");
     const rec = new Set((CONFIG.VAGABOND.recommendedPacks[plan.cls?.name.toLowerCase()] ?? []).map(n => n.toLowerCase()));
-    const opt = k => ({ value: k.uuid, label: short(k.name), selected: s.kit === k.uuid });
+    const fmt = v => foundry.utils.isEmpty(v) ? "" : v;
+    // Every pack with its contents, so players can compare them before choosing.
+    const opt = k => ({
+      value: k.uuid, label: short(k.name), selected: s.kit === k.uuid,
+      groups: this.#kitGroups(k), wealth: fmt(this.constructor.coins(k.system.wealth)) || "0s"
+    });
     const kits = this.#options?.kit ?? [];
     const isRec = k => rec.has(short(k.name).toLowerCase());
-    const chosen = (s.kit && (s.kit !== "gold")) ? this.#find("kit", s.kit) : null;
-    const fmt = v => foundry.utils.isEmpty(v) ? "" : v;
     return {
       kitsRecommended: kits.filter(isRec).map(opt),
       kitsOther: kits.filter(k => !isRec(k)).map(opt),
-      kitChoice: s.kit,
-      kitGroups: chosen ? this.#kitGroups(chosen) : [],
-      kitWealth: chosen ? (fmt(this.constructor.coins(chosen.system.wealth)) || "0s") : ""
+      kitChoice: s.kit
     };
   }
 
@@ -988,7 +994,6 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       case "boost": s.boost = el.value; break;
       case "statUp": s.statUp = el.value; break;
       case "name": s.name = el.value; return;
-      case "kit": s.kit = el.value; return;
     }
     // Choices that depend on Stats may no longer fit.
     this.#trimChoices();
@@ -1035,6 +1040,12 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       s.cls = uuid;
     }
     this.#trimChoices();
+    this.render();
+  }
+
+  /** Choose a Starting Pack, 3g instead, or nothing. */
+  static #onPickKit(event, target) {
+    this.build.kit = target.closest("[data-kit]").dataset.kit;
     this.render();
   }
 
@@ -1191,7 +1202,8 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     const trained = new Set([...plan.trained, ...gains.skills]);
     for ( const k of Object.keys(cfg.skills) ) updates[`system.skills.${k}.trained`] = trained.has(k);
     if ( s.kit === "gold" ) Object.assign(updates, { "system.currency.g": cfg.startingGold, "system.currency.s": 0, "system.currency.c": 0 });
-    await actor.update(updates, { vagabondLog: false });
+    updates["flags.vagabond-rpg.history"] = [];
+    await actor.update(updates, { vagabondLog: false, vagabondHistory: false });
 
     const owned = new Set(actor.items.map(i => `${i.type}:${i.name.toLowerCase()}`));
     const items = [plan.anc, plan.cls];
@@ -1226,6 +1238,12 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
       "system.attributes.hp.value": actor.system.attributes.hp.max,
       "system.attributes.mana.value": actor.system.attributes.mana.max
     }, { vagabondLog: false });
+    await history.record(actor, "create", [
+      `${plan.anc.name} ${plan.cls.name}`,
+      `${game.i18n.localize("VAGABOND.Stats")}: ${history.statsLine(actor)}`,
+      `${game.i18n.localize("VAGABOND.History.TrainedIn")}: ${history.trainedLine(actor)}`,
+      ...[...s.perks].map(u => this.#perkLabel(u)).filter(Boolean).map(n => `${game.i18n.localize("TYPES.Item.perk")}: ${n}`)
+    ]);
     ui.notifications.info(game.i18n.format("VAGABOND.Builder.Created", { name: actor.name }));
     return this.close();
   }
@@ -1255,7 +1273,8 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     if ( s.formulas.size ) {
       updates["flags.vagabond-rpg.formulas"] = [...(actor.getFlag("vagabond-rpg", "formulas") ?? []), ...s.formulas];
     }
-    await actor.update(updates, { vagabondLog: false });
+    const histBefore = history.snapshot(actor, updates);
+    await actor.update(updates, { vagabondLog: false, vagabondHistory: false });
 
     const items = [];
     const missing = [];
@@ -1275,6 +1294,11 @@ export default class HeroBuilder extends HandlebarsApplicationMixin(ApplicationV
     const created = [...items.filter(Boolean).map(HeroBuilder.#itemData), ...gains.items, ...gains.spells];
     if ( created.length ) await actor.createEmbeddedDocuments("Item", created, { vagabondLog: false });
     if ( missing.length ) ui.notifications.warn(game.i18n.format("VAGABOND.Builder.Missing", { names: missing.join(", ") }));
+    const perkNames = [...s.perks].map(u => this.#perkLabel(u)).filter(Boolean);
+    await history.record(actor, "level", [
+      ...history.changeLines(actor, histBefore ?? {}),
+      ...perkNames.map(n => `${game.i18n.localize("TYPES.Item.perk")}: ${n}`)
+    ]);
 
     // Announce the new Level.
     const cfg = CONFIG.VAGABOND;

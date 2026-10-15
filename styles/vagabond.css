@@ -452,8 +452,6 @@
 .hero-builder .picker-filter { display: inline-flex; align-items: center; gap: 4px; flex: none; font-size: 0.9em; white-space: nowrap; }
 
 /* Starting Packs */
-.hero-builder .review-kit { display: flex; align-items: center; gap: 8px; margin-top: 10px; font-weight: bold; }
-.hero-builder .review-kit select { flex: 1; }
 .vagabond .kit-contents .kit-list { list-style: none; margin: 0 0 6px; padding: 0; columns: 2; }
 .vagabond .kit-contents .kit-list li { display: flex; gap: 4px; align-items: center; padding: 2px 0; break-inside: avoid; }
 .vagabond .kit-contents .kit-list li a[data-action] { margin-left: auto; opacity: 0.6; }
@@ -580,13 +578,6 @@
 .vagabond .resource.box .box-value .box-link { color: #f6ead2; font-size: 0.8em; opacity: 0.85; }
 .vagabond .resource.box .box-value .box-link:hover { opacity: 1; color: #ffd38a; }
 .vagabond .header-buttons .roll-mode button.studied-toggle.active { background: #3b78b0; color: #fff; }
-.vagabond .vg-sidebar .mount { margin-top: 8px; }
-.vagabond .vg-sidebar .mount .row { display: flex; justify-content: space-between; align-items: center; padding: 2px 0; font-size: 0.9em; border-bottom: 1px dotted var(--vg-line); }
-.vagabond .vg-sidebar .mount .over { color: var(--vg-bad); font-weight: bold; }
-.vagabond .mount-card { display: flex; align-items: center; gap: 6px; padding: 3px 4px; margin-bottom: 4px; border: 1px solid var(--vg-line); border-radius: var(--vg-radius); background: var(--vg-paper); }
-.vagabond .mount-card img { border: 1px solid var(--vg-line); border-radius: 4px; flex: none; }
-.vagabond .mount-card .mount-name { flex: 1; font-weight: bold; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.vagabond .vg-sidebar .mount .hint { font-size: 0.8em; color: var(--vg-ink-soft); margin: 4px 0 0; }
 .vagabond .storage-header .lock-toggle { color: #f6ead2; font-size: 1.1em; padding: 2px 6px; border: 1px solid #f6ead255; border-radius: 4px; }
 .vagabond .storage-header .lock-toggle.active { background: #b8892f; color: #2a1d14; }
 .vagabond .storage-header .resource.box .box-value input { width: 54px; }
@@ -623,9 +614,6 @@
 .hero-builder .trait-choice select { min-width: 140px; }
 
 /* Hero builder: Starting Pack contents */
-.hero-builder .kit-review { margin-top: 8px; padding: 8px 10px; border: 1px solid var(--vg-line); border-radius: var(--vg-radius); background: rgba(255, 255, 255, 0.45); }
-.hero-builder .kit-review h4 { margin: 0 0 4px; font-size: 1em; color: var(--vg-accent); border: none; }
-.hero-builder .kit-review h5 { margin: 6px 0 2px; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.05em; color: var(--vg-ink-soft); border-bottom: 1px solid var(--vg-line); }
 .hero-builder .kit-items { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px 12px; }
 .hero-builder .kit-items li { display: flex; align-items: center; gap: 6px; padding: 2px 0; color: var(--vg-ink); }
 .hero-builder .kit-items img { border: 1px solid var(--vg-line); border-radius: 3px; flex: none; }
@@ -696,3 +684,25 @@
 /* Hero Builder: a Spell Cast with a Skill of the Hero's choice (Naturally Attuned). */
 .hero-builder .any-skill-choice { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 4px 0 8px; padding: 6px 8px; border: 1px solid #7a6a55; border-radius: 6px; background: #ffffff55; }
 .hero-builder .any-skill-choice label { display: flex; align-items: center; gap: 6px; }
+
+/* Starting Pack cards on the Hero Builder review step: every pack shows its contents. */
+.hero-builder .kit-heading { margin: 12px 0 4px; }
+.hero-builder h4.kit-heading { font-size: 1em; color: var(--vg-accent); border: none; }
+.hero-builder .kit-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; }
+.hero-builder .kit-card { padding: 6px 8px; border: 1px solid var(--vg-line); border-radius: var(--vg-radius); background: rgba(255, 255, 255, 0.45); color: var(--vg-ink); text-align: left; }
+.hero-builder .kit-card.plain { font-weight: bold; cursor: pointer; }
+.hero-builder .kit-card.selected { border-color: var(--vg-gold); box-shadow: 0 0 0 2px rgba(184, 137, 47, 0.45); background: rgba(184, 137, 47, 0.12); }
+.hero-builder .kit-card header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+.hero-builder .kit-card h5 { margin: 6px 0 2px; font-size: 0.75em; text-transform: uppercase; letter-spacing: 0.05em; color: var(--vg-ink-soft); border-bottom: 1px solid var(--vg-line); }
+.hero-builder .kit-card .kit-items { grid-template-columns: 1fr; gap: 0; font-size: 0.85em; }
+.hero-builder .kit-card .kit-items li { padding: 0; min-height: 0; line-height: 1.35; }
+.hero-builder .kit-card .kit-wealth { margin: 4px 0 0; font-size: 0.85em; }
+
+/* Character History on the Biography tab. */
+.vagabond .character-history { list-style: none; margin: 0; padding: 0; }
+.vagabond .character-history .history-entry { padding: 4px 6px; margin-bottom: 4px; border-left: 3px solid var(--vg-line); background: rgba(255, 255, 255, 0.35); }
+.vagabond .character-history .history-entry.create { border-left-color: var(--vg-gold); }
+.vagabond .character-history .history-entry.level { border-left-color: var(--vg-good); }
+.vagabond .character-history .history-head { display: flex; gap: 6px; align-items: baseline; }
+.vagabond .character-history .history-meta { margin-left: auto; font-size: 0.8em; color: var(--vg-ink-soft); }
+.vagabond .character-history ul { margin: 2px 0 0; padding-left: 18px; font-size: 0.9em; }

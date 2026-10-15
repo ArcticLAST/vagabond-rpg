@@ -1057,6 +1057,19 @@
       "Empty": "No formulas yet. Use + to learn one.",
       "Missing": "That Alchemical Item can't be found.",
       "NoneLeft": "There are no more Alchemical Items you can learn at this Level."
+    },
+    "History": {
+      "Label": "Character History",
+      "Empty": "Nothing recorded yet. Creating the Hero with the Hero Builder, leveling up, and any change to Stats, Trainings, or Level are recorded here.",
+      "Trained": "Trained in {skill}",
+      "Untrained": "No longer Trained in {skill}",
+      "TrainedIn": "Trained",
+      "Kind": {
+        "create": "Created",
+        "level": "Level Up",
+        "edit": "Changed",
+        "start": "Before recording began"
+      }
     }
   }
 }

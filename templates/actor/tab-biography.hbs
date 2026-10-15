@@ -7,4 +7,15 @@
   {{#if editable}}
   <prose-mirror name="system.details.notes" value="{{source.details.notes}}" document-uuid="{{actor.uuid}}" toggled>{{{notesHTML}}}</prose-mirror>
   {{else}}<div class="prose">{{{notesHTML}}}</div>{{/if}}
+  <h3>{{localize "VAGABOND.History.Label"}}</h3>
+  <ol class="character-history">
+    {{#each history}}
+    <li class="history-entry {{kind}}">
+      <div class="history-head"><strong>{{label}}</strong> · {{localize "VAGABOND.Level"}} {{level}}<span class="history-meta">{{user}} · {{date}}</span></div>
+      <ul>{{#each lines}}<li>{{this}}</li>{{/each}}</ul>
+    </li>
+    {{else}}
+    <li class="empty">{{localize "VAGABOND.History.Empty"}}</li>
+    {{/each}}
+  </ol>
 </section>

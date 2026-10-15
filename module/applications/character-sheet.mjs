@@ -2,6 +2,7 @@ import BaseActorSheet from "./base-actor-sheet.mjs";
 import * as rules from "../rules.mjs";
 import HeroBuilder from "./hero-builder.mjs";
 import { giveStudied } from "../transfer.mjs";
+import * as history from "../history.mjs";
 
 /**
  * The Hero sheet, laid out after the dnd5e character sheet: a header with resources, a sidebar of Stats
@@ -28,8 +29,6 @@ export default class CharacterSheet extends BaseActorSheet {
       toggleStudied: CharacterSheet.#onToggleStudied,
       study: CharacterSheet.#onStudy,
       giveStudied: CharacterSheet.#onGiveStudied,
-      dismount: CharacterSheet.#onDismount,
-      openMount: CharacterSheet.#onOpenMount,
       openBuilder: CharacterSheet.#onOpenBuilder,
       levelUp: CharacterSheet.#onLevelUp,
       craftFormula: CharacterSheet.#onCraftFormula,
@@ -113,16 +112,11 @@ export default class CharacterSheet extends BaseActorSheet {
     context.manaBar = { pct: attrs.mana.pct, value: attrs.mana.value, max: attrs.mana.max };
     context.slotsBar = { pct: attrs.slots.pct, value: attrs.slots.value, max: attrs.slots.max, over: attrs.slots.over };
     context.warnings = this._prepareWarnings();
-    const mount = system.mountActor;
-    context.mount = mount ? {
-      name: mount.name, img: mount.img, isVehicle: mount.type === "vehicle",
-      speed: attrs.speed.value, travel: attrs.speed.travel, own: attrs.speed.own,
-      cargo: mount.type === "vehicle" ? mount.system.slots : mount.system.cargo?.slots
-    } : null;
 
     await this._prepareItems(context);
     context.biographyHTML = await this._enrich(system.details.biography);
     context.notesHTML = await this._enrich(system.details.notes);
+    context.history = history.entries(this.actor);
     context.sizes = cfg.sizes;
     context.beingTypes = cfg.beingTypes;
     context.castingSkills = Object.fromEntries(Object.entries(cfg.skills).map(([k, v]) => [k, v.label]));
@@ -293,17 +287,6 @@ export default class CharacterSheet extends BaseActorSheet {
     return created;
   }
 
-  /**
-   * Drop a Mount or Vehicle onto the sheet to ride it.
-   * @override
-   */
-  async _onDropActor(event, data) {
-    if ( !this.actor.isOwner ) return null;
-    const actor = (data instanceof Actor) ? data : await fromUuid(data?.uuid ?? "");
-    if ( !(actor instanceof Actor) || !["npc", "vehicle"].includes(actor.type) ) return null;
-    return this.actor.setMount(actor);
-  }
-
   /* -------------------------------------------- */
   /*  Actions                                     */
   /* -------------------------------------------- */
@@ -449,14 +432,6 @@ export default class CharacterSheet extends BaseActorSheet {
     });
     const ally = game.actors.get(id);
     if ( ally ) return giveStudied(this.actor, ally);
-  }
-
-  static async #onDismount() {
-    if ( this.isEditable ) return this.actor.setMount(null);
-  }
-
-  static #onOpenMount() {
-    return this.actor.system.mountActor?.sheet.render({ force: true });
   }
 
   /** Open the Hero builder. */

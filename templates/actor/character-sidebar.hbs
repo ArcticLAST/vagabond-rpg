@@ -39,21 +39,4 @@
     <div class="row"><span>{{localize "VAGABOND.CastMax"}}</span><span>{{system.attributes.castMax}}</span></div>
     {{/if}}
   </section>
-
-  <section class="mount">
-    <h3>{{localize "VAGABOND.Mount.Label"}}</h3>
-    {{#if mount}}
-    <div class="mount-card">
-      <img src="{{mount.img}}" alt="" width="32" height="32">
-      <a class="mount-name" data-action="openMount">{{mount.name}}</a>
-      {{#if editable}}<a class="item-control" data-action="dismount" data-tooltip="{{#if mount.isVehicle}}VAGABOND.Mount.Disembark{{else}}VAGABOND.Mount.Dismount{{/if}}"><i class="fa-solid fa-person-walking-arrow-right"></i></a>{{/if}}
-    </div>
-    <div class="row"><span>{{localize "VAGABOND.Speed.Label"}}</span><span>{{mount.speed}}'</span></div>
-    <div class="row"><span>{{localize "VAGABOND.Speed.Travel"}}</span><span>{{mount.travel}} mi</span></div>
-    {{#if mount.cargo.max}}<div class="row"><span>{{localize "VAGABOND.Storage.Cargo"}}</span><span class="{{#if mount.cargo.over}}over{{/if}}">{{mount.cargo.value}} / {{mount.cargo.max}}</span></div>{{/if}}
-    <p class="hint">{{#if mount.isVehicle}}{{localize "VAGABOND.Mount.VehicleHint"}}{{else}}{{localize "VAGABOND.Mount.RiderHint"}}{{/if}}</p>
-    {{else}}
-    <p class="hint">{{localize "VAGABOND.Mount.DropHint"}}</p>
-    {{/if}}
-  </section>
 </aside>
