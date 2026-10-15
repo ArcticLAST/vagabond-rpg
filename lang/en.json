@@ -307,7 +307,8 @@
         "statusImmunities": "Status Immunities"
       },
       "TravelHint": "Miles per Shift of Travel, for Riding Animals (p. 13). 0 uses Speed / 5.",
-      "CargoHint": "Slots it can carry as a pack animal or Mount (p. 13). Players who can see it can store Items on it."
+      "CargoHint": "Slots it can carry as a pack animal or Mount (p. 13). Players who can see it can store Items on it.",
+      "ItemToAction": "{name} was added as {type}. Hold Shift while dropping to keep it as an Item."
     },
     "Notes": "Notes",
     "Outcome": {

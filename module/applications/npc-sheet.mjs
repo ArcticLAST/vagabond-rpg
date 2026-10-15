@@ -1,6 +1,7 @@
 import BaseActorSheet from "./base-actor-sheet.mjs";
 import CreatureBuilder from "./creature-builder.mjs";
 import { inlineDice } from "../rules.mjs";
+import { actionFromItem } from "../npc-actions.mjs";
 
 /**
  * A statblock-style sheet for Enemies and other GM-run Beings (p. 108-109).
@@ -95,6 +96,28 @@ export default class NPCSheet extends BaseActorSheet {
 
   get #sharedCargo() {
     return (this.actor.system.cargo?.max > 0) && this.actor.testUserPermission(game.user, "OBSERVER");
+  }
+
+  /**
+   * Weapons, Spells, Perks, and Features dropped here become statblock Actions and Abilities.
+   * Hold Shift while dropping to keep the Item as it is instead.
+   * @override
+   */
+  async _onDropItem(event, item) {
+    this._keepItem = event.shiftKey;
+    try { return await super._onDropItem(event, item); }
+    finally { this._keepItem = false; }
+  }
+
+  /** @override */
+  async _onDropItemCreate(item) {
+    const data = this._keepItem ? null : actionFromItem(item, this.actor);
+    if ( !data ) return super._onDropItemCreate(item);
+    const created = await this.actor.createEmbeddedDocuments("Item", [data]);
+    ui.notifications.info(game.i18n.format("VAGABOND.NPC.ItemToAction", {
+      name: item.name, type: game.i18n.localize(CONFIG.VAGABOND.npcActionTypes[data.system.actionType])
+    }));
+    return created;
   }
 
   static #onOpenCreatureBuilder() {
