@@ -161,6 +161,7 @@
 .vagabond .skill { display: flex; align-items: center; gap: 6px; padding: 3px 4px; border-bottom: 1px dotted var(--vg-line); }
 .vagabond .skill.trained { background: rgba(184, 137, 47, 0.12); }
 .vagabond .skill .trained-toggle { color: var(--vg-gold-text); }
+.vagabond .skill .trained-toggle.locked { cursor: default; }
 .vagabond .skill .skill-name { flex: 1; }
 .vagabond .skill .skill-stat { font-size: 0.75em; color: var(--vg-ink-soft); }
 .vagabond .skill.trained .difficulty { background: var(--vg-accent); }

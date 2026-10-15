@@ -5,9 +5,15 @@
       <li class="list-header"><span>{{localize "VAGABOND.Skills"}}</span><span>{{localize "VAGABOND.Difficulty"}}</span></li>
       {{#each skills}}
       <li class="skill {{#if trained}}trained{{/if}}" data-skill="{{key}}">
+        {{#if @root.editMode}}
         <a class="trained-toggle" data-action="toggleTrained" data-tooltip="VAGABOND.Trained">
           <i class="{{#if trained}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i>
         </a>
+        {{else}}
+        <span class="trained-toggle locked" data-tooltip="{{#if trained}}VAGABOND.Trained{{else}}VAGABOND.Sheet.UnlockToTrain{{/if}}">
+          <i class="{{#if trained}}fa-solid fa-circle-check{{else}}fa-regular fa-circle{{/if}}"></i>
+        </span>
+        {{/if}}
         <a class="skill-name rollable" data-action="rollSkill">{{localize label}}
           {{#if attack}}<i class="fa-solid fa-crosshairs fa-xs" data-tooltip="VAGABOND.AttackSkill"></i>{{/if}}
           {{#if casting}}<i class="fa-solid fa-wand-sparkles fa-xs" data-tooltip="VAGABOND.CastingSkill"></i>{{/if}}

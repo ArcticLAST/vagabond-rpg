@@ -305,7 +305,8 @@ export default class CharacterSheet extends BaseActorSheet {
   }
 
   static async #onToggleTrained(event, target) {
-    if ( !this.isEditable ) return;
+    // Like Stats, Training only changes with the sheet unlocked for editing.
+    if ( !this.isEditable || !this.isEditMode ) return;
     const skill = target.closest("[data-skill]").dataset.skill;
     return this.actor.update({ [`system.skills.${skill}.trained`]: !this.actor.system.skills[skill].trained });
   }

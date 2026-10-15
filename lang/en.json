@@ -438,7 +438,8 @@
       "TrainingHint": "Trained in {count} Skills. At Level 1 you get your Class Trainings plus {bonus} more (half Reason, round up).",
       "Storage": "Vagabond Container / Vehicle Sheet",
       "ReadiedSpells": "Readied Spells",
-      "NoReadiedSpells": "No readied Spells. Ready one with the bookmark on the Magic tab."
+      "NoReadiedSpells": "No readied Spells. Ready one with the bookmark on the Magic tab.",
+      "UnlockToTrain": "Not Trained. Unlock the sheet to change Training."
     },
     "Size": {
       "Label": "Size",
