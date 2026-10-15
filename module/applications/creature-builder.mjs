@@ -209,21 +209,30 @@ export default class CreatureBuilder extends HandlebarsApplicationMixin(Applicat
       checkIcons: Object.fromEntries(Object.entries(plan.checks).map(([k, v]) => [k, { cls: v, icon: icon[v] }])),
       dprOverridden: Number.isFinite(b.dpr) && (b.dpr !== null),
       hpOverridden: Number.isFinite(b.hpCustom) && (b.hpCustom !== null),
-      traits: CreatureBuilder.TRAIT_FIELDS.map(field => {
-        const { keys, other } = rules.splitTraits(field, b[field]);
-        return {
-          field, other, label: game.i18n.localize(`VAGABOND.CreatureBuilder.${field[0].toUpperCase()}${field.slice(1)}`),
-          options: rules.TRAIT_OPTIONS[field].map(([key]) => ({ key, label: CreatureBuilder.#traitLabel(field, key), checked: keys.includes(key) }))
-        };
-      })
+      traits: CreatureBuilder.traitPickers(b)
     };
   }
 
   /** Immune, Weak, and Status Immunities: picked from options, with a free entry for anything else. */
   static TRAIT_FIELDS = ["immune", "weak", "statusImmunities"];
 
+  /**
+   * Picker rows for Immune, Weak, and Status Immunities, shared with the NPC sheet's edit mode.
+   * @param {object} values  The three statblock lines, keyed by field.
+   * @returns {object[]}
+   */
+  static traitPickers(values) {
+    return CreatureBuilder.TRAIT_FIELDS.map(field => {
+      const { keys, other } = rules.splitTraits(field, values[field]);
+      return {
+        field, other, label: game.i18n.localize(`VAGABOND.CreatureBuilder.${field[0].toUpperCase()}${field.slice(1)}`),
+        options: rules.TRAIT_OPTIONS[field].map(([key]) => ({ key, label: CreatureBuilder.traitLabel(field, key), checked: keys.includes(key) }))
+      };
+    });
+  }
+
   /** The label for a picked Immune, Weak, or Status Immunity option. */
-  static #traitLabel(field, key) {
+  static traitLabel(field, key) {
     const own = `VAGABOND.Trait.${key}`;
     if ( game.i18n.has(own) ) return game.i18n.localize(own);
     return game.i18n.localize(field === "statusImmunities" ? `VAGABOND.Status.${key}` : `VAGABOND.DamageType.${key}`);

@@ -149,6 +149,7 @@ NPCs use a statblock sheet with:
   - A second Save button, such as **Endure if Hit**, for attacks that force another Save on a Being they hit ("5 (d10) and pass an [Endure] Save or be Cursed"). The damage card repeats every Save button. The Action sheet's "Saves After a Hit" boxes set these.
   - A **Damage** button, on Abilities too when they deal damage (Smoky Escape, Leap, Fiery Revival). Actions marked **Heals** (Cure Wounds, Regenerate) roll healing instead.
   - A **Combo** is not an attack. It says which attacks the Being makes with one Action, so "8×Claw" means eight Claw attacks. Its card has a button for each attack it names, which posts that attack's card.
+- In edit mode, Immune, Weak, and Status Immunities are picked from the same options as the Creature Builder, with an Other box for anything else.
 - Drag a Weapon, Spell, Perk, or Class Feature onto an NPC and it becomes a statblock entry that works right away. Hold Shift while dropping to keep it as a plain Item instead.
   - A Weapon becomes a Melee or Ranged Attack with its damage die, damage type, and Relic bonus, avoided with Reflex (p. 14). A Rapier becomes "Rapier [Melee Attack]: 2 (d4)", and a Dagger keeps Thrown.
   - A Spell becomes a Cast with its usual Delivery and one die of its Damage Base, avoided with Reflex when it deals damage. Enemies don't track Mana (p. 14), so set dice and a Recharge on the Action if you want more.

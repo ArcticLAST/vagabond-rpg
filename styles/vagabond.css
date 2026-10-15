@@ -662,14 +662,15 @@
 .vagabond.cast-dialog .cast-buttons button:not(.bright) { color: var(--vg-ink); background: #f6efdf; border: 1px solid var(--vg-line); }
 
 /* Creature Builder: Immune, Weak, and Status Immunity pickers. */
-.creature-builder .trait-picker { display: grid; grid-template-columns: 120px 1fr; gap: 8px; align-items: start; margin: 6px 0; }
-.creature-builder .trait-picker .trait-label { font-weight: bold; color: var(--vg-ink); padding-top: 4px; }
-.creature-builder .trait-chips { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
-.creature-builder .trait-chip { display: inline-flex; align-items: center; padding: 2px 9px; border: 1px solid var(--vg-line); border-radius: 12px; background: #f7efdd; color: var(--vg-ink); cursor: pointer; font-size: 0.9em; user-select: none; }
-.creature-builder .trait-chip input { display: none; }
-.creature-builder .trait-chip:hover { border-color: var(--vg-accent); }
-.creature-builder .trait-chip.on { background: var(--vg-accent); border-color: #5c1a12; color: #fff; font-weight: bold; }
-.creature-builder .trait-chips .trait-other { flex: 1 1 180px; min-width: 160px; height: 24px; }
+:is(.creature-builder, .vagabond.npc) .trait-picker { display: grid; grid-template-columns: 120px 1fr; gap: 8px; align-items: start; margin: 6px 0; }
+:is(.creature-builder, .vagabond.npc) .trait-picker .trait-label { font-weight: bold; color: var(--vg-ink); padding-top: 4px; }
+:is(.creature-builder, .vagabond.npc) .trait-chips { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+:is(.creature-builder, .vagabond.npc) .trait-chip { display: inline-flex; align-items: center; padding: 2px 9px; border: 1px solid var(--vg-line); border-radius: 12px; background: #f7efdd; color: var(--vg-ink); cursor: pointer; font-size: 0.9em; user-select: none; }
+:is(.creature-builder, .vagabond.npc) .trait-chip input { display: none; }
+:is(.creature-builder, .vagabond.npc) .trait-chip:hover { border-color: var(--vg-accent); }
+:is(.creature-builder, .vagabond.npc) .trait-chip.on { background: var(--vg-accent); border-color: #5c1a12; color: #fff; font-weight: bold; }
+:is(.creature-builder, .vagabond.npc) .trait-chips .trait-other { flex: 1 1 180px; min-width: 160px; height: 24px; }
+.vagabond.npc .trait-picker .trait-label { color: var(--vg-accent); }
 
 /* Sheet change notes. */
 .vagabond.chat-card.sheet-log { font-size: 0.9em; }

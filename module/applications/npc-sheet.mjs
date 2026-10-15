@@ -1,6 +1,6 @@
 import BaseActorSheet from "./base-actor-sheet.mjs";
 import CreatureBuilder from "./creature-builder.mjs";
-import { inlineDice } from "../rules.mjs";
+import { inlineDice, joinTraits } from "../rules.mjs";
 import { actionFromItem } from "../npc-actions.mjs";
 
 /**
@@ -52,6 +52,10 @@ export default class NPCSheet extends BaseActorSheet {
     context.beingTypes = cfg.beingTypes;
     context.zones = cfg.zones;
     context.descriptionHTML = await this._enrich(system.details.description);
+    // In edit mode Immune, Weak, and Status Immunities are picked from options below the fields, as in the Creature Builder.
+    if ( context.editMode ) context.traits = CreatureBuilder.traitPickers(this.actor._source.system.details);
+    context.traitShown = Object.fromEntries(["appearing", "senses", "immune", "weak", "statusImmunities"].map(f => [f,
+      context.editMode ? !CreatureBuilder.TRAIT_FIELDS.includes(f) : !!system.details[f]]));
 
     const items = this.actor.items.contents.sort((a, b) => (a.sort || 0) - (b.sort || 0));
     context.actions = [];
@@ -122,6 +126,22 @@ export default class NPCSheet extends BaseActorSheet {
 
   static #onOpenCreatureBuilder() {
     new CreatureBuilder({ actor: this.actor }).render({ force: true });
+  }
+
+  /** @override */
+  _onRender(context, options) {
+    super._onRender(context, options);
+    for ( const el of this.element.querySelectorAll("[data-trait]") ) el.addEventListener("change", this.#onTraitChange.bind(this));
+  }
+
+  /** Rewrite an Immune, Weak, or Status Immunities line after one of its options or its Other entry changes. */
+  async #onTraitChange(event) {
+    event.stopPropagation();
+    const field = event.currentTarget.dataset.trait;
+    const box = this.element.querySelector(`.trait-picker[data-trait-field="${field}"]`);
+    const keys = [...box.querySelectorAll("input[type=checkbox]:checked")].map(el => el.value);
+    const other = box.querySelector("input[data-trait-other]")?.value ?? "";
+    return this.actor.update({ [`system.details.${field}`]: joinTraits(field, keys, other) });
   }
 
   /** @override */

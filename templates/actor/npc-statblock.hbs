@@ -8,7 +8,7 @@
       {{#if editMode}}<select name="system.details.zone">{{selectOptions zones selected=source.details.zone localize=true blank=""}}</select>
       {{else}}{{localize (lookup config.zones system.details.zone)}}{{/if}}</dd></div>
     {{#each (vgArray "appearing" "senses" "immune" "weak" "statusImmunities") as |field|}}
-    {{#if (or @root.editMode (lookup @root.system.details field))}}
+    {{#if (lookup @root.traitShown field)}}
     <div><dt>{{localize (concat "VAGABOND.NPC.Field." field)}}</dt><dd>
       {{#if @root.editMode}}<input type="text" name="system.details.{{field}}" value="{{lookup @root.source.details field}}">
       {{else}}{{lookup @root.system.details field}}{{/if}}</dd></div>
@@ -29,6 +29,17 @@
       {{#if editMode}}<input type="text" name="system.attributes.armorTag" value="{{source.attributes.armorTag}}">{{else}}{{system.attributes.armorTag}}{{/if}}</dd></div>
     {{/if}}
   </dl>
+  {{#if editMode}}
+  {{#each traits}}
+  <div class="trait-picker" data-trait-field="{{field}}">
+    <span class="trait-label">{{label}}</span>
+    <div class="trait-chips">
+      {{#each options}}<label class="trait-chip {{#if checked}}on{{/if}}"><input type="checkbox" data-trait="{{../field}}" value="{{key}}" {{checked checked}}>{{label}}</label>{{/each}}
+      <input type="text" class="trait-other" data-trait="{{field}}" data-trait-other value="{{other}}" placeholder="{{localize "VAGABOND.Trait.Other"}}">
+    </div>
+  </div>
+  {{/each}}
+  {{/if}}
 
   <div class="item-section statblock-actions">
     <div class="list-header"><span class="col-name">{{localize "VAGABOND.NPC.Actions"}}</span>
