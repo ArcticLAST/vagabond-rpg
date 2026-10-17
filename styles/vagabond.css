@@ -240,8 +240,11 @@
 .vagabond .action-desc p { display: inline; margin: 0; }
 
 /* --- Biography / prose --------------------------------------------------- */
-.vagabond prose-mirror { min-height: 140px; display: block; background: rgba(255, 255, 255, 0.35); border: 1px solid var(--vg-line); border-radius: var(--vg-radius); }
+/* Keep Foundry's flex layout: as a block, the open editor's text area collapses to no height and can't be typed in. */
+.vagabond prose-mirror { min-height: 140px; background: rgba(255, 255, 255, 0.35); border: 1px solid var(--vg-line); border-radius: var(--vg-radius); }
 .vagabond .tab.biography prose-mirror { min-height: 220px; }
+/* The edit button stays visible instead of appearing only on hover. */
+.vagabond prose-mirror:not([open]) button.toggle:enabled { display: block; }
 
 /* --- Item sheet ---------------------------------------------------------- */
 .vagabond.item .tab fieldset { border: 1px solid var(--vg-line); border-radius: var(--vg-radius); margin: 0 0 8px; padding: 6px 8px; }
