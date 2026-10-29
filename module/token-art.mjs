@@ -42,8 +42,24 @@ export function creatureKeys(name) {
 }
 
 /**
- * Index image paths by name key. A file whose name says "token" is used for the token, any other for the portrait;
- * each falls back to the other.
+ * How well a path suits each slot. Token packs often keep the same file name in folders such as "portraits",
+ * "tokens", "thumbnails", and "subjects"; the full-size portrait and the framed token are preferred.
+ * @param {string} path
+ * @returns {{portrait: number, token: number}}
+ */
+function slotScores(path) {
+  const dirs = path.toLowerCase().split("/").slice(0, -1);
+  const file = path.toLowerCase().split("/").pop();
+  const has = re => dirs.some(d => re.test(d));
+  const minor = has(/^(thumb|thumbs|thumbnails|subjects?|other|tokens-original)$/);
+  return {
+    token: (has(/^tokens?$/) ? 3 : 0) + (/token/.test(file) ? 2 : 0) - (minor ? 4 : 0),
+    portrait: (has(/^portraits?$/) ? 3 : 0) - (/token/.test(file) || has(/^tokens?$/) ? 1 : 0) - (minor ? 4 : 0)
+  };
+}
+
+/**
+ * Index image paths by name key, keeping the best portrait and the best token for each name.
  * @param {string[]} paths
  * @returns {Map<string, {portrait?: string, token?: string}>}
  */
@@ -54,9 +70,11 @@ export function buildIndex(paths) {
     if ( !IMAGE.test(file) ) continue;
     const key = nameKey(file);
     if ( !key ) continue;
-    const entry = map.get(key) ?? {};
-    const slot = /token/i.test(file) ? "token" : "portrait";
-    entry[slot] ??= path;
+    const entry = map.get(key) ?? { scores: {} };
+    const scores = slotScores(decodeURIComponent(path));
+    for ( const slot of ["portrait", "token"] ) {
+      if ( !(slot in entry) || (scores[slot] > entry.scores[slot]) ) { entry[slot] = path; entry.scores[slot] = scores[slot]; }
+    }
     map.set(key, entry);
   }
   return map;
@@ -72,7 +90,7 @@ export function artFor(name, map = index) {
   if ( !map ) return null;
   for ( const key of creatureKeys(name) ) {
     const entry = map.get(key);
-    if ( entry ) return { portrait: entry.portrait ?? entry.token, token: entry.token ?? entry.portrait };
+    if ( entry ) return { portrait: entry.portrait, token: entry.token };
   }
   return null;
 }
@@ -167,7 +185,7 @@ export function registerTokenArt() {
     hint: "VAGABOND.TokenArt.Setting.Hint",
     scope: "world", config: true, type: String, default: "", filePicker: "folder",
     onChange: async () => {
-      if ( !game.user.isGM ) return refresh();
+      if ( !game.user.isGM ) return;
       const found = await refresh();
       if ( !found ) return;
       const apply = await foundry.applications.api.DialogV2.confirm({
@@ -181,7 +199,8 @@ export function registerTokenArt() {
     }
   });
 
-  Hooks.once("ready", () => refresh());
+  // Only the GM reads the folder, since a large folder means many requests; the GM is the one who adds NPCs.
+  Hooks.once("ready", () => { if ( game.user.isGM ) refresh(); });
 
   // New NPCs, such as those imported from the Bestiary, get matching art.
   Hooks.on("preCreateActor", (actor, data) => {
