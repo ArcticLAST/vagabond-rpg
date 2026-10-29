@@ -31,6 +31,13 @@ export default class VagabondActor extends Actor {
       if ( !("default" in (data.ownership ?? {})) ) changes["ownership.default"] = CONST.DOCUMENT_OWNERSHIP_LEVELS.OBSERVER;
     }
     changes.prototypeToken = foundry.utils.mergeObject(prototypeToken, data.prototypeToken ?? {});
+    // Bestiary creatures record where their token art sits in the GM's own data; use it when the file is there.
+    const art = (this.type === "npc") ? await VagabondActor.#findArt(this.getFlag(game.system.id, "art")) : null;
+    if ( art ) {
+      const placeholder = src => !src || (src === icon) || (src === this.constructor.DEFAULT_ICON);
+      if ( placeholder(changes.img ?? data.img) ) changes.img = art.portrait;
+      if ( placeholder(changes.prototypeToken.texture?.src) ) foundry.utils.setProperty(changes.prototypeToken, "texture.src", art.token);
+    }
     // Token vision from the Being's Senses, unless this is a copy whose vision already follows them.
     const sight = vision.prototypeVision(this);
     const flag = `flags.${game.system.id}.senses`;
@@ -38,6 +45,23 @@ export default class VagabondActor extends Actor {
       foundry.utils.mergeObject(changes.prototypeToken, sight);
     }
     this.updateSource(changes);
+  }
+
+  /**
+   * The recorded art, if its files exist on this server.
+   * @param {{portrait?: string, token?: string}} [art]
+   * @returns {Promise<{portrait: string, token: string}|null>}
+   */
+  static async #findArt(art) {
+    if ( !art?.portrait && !art?.token ) return null;
+    const exists = async src => {
+      if ( !src ) return false;
+      try { return (await fetch(foundry.utils.getRoute(src), { method: "HEAD" })).ok; }
+      catch { return false; }
+    };
+    const [portrait, token] = await Promise.all([exists(art.portrait), exists(art.token)]);
+    if ( !portrait && !token ) return null;
+    return { portrait: portrait ? art.portrait : art.token, token: token ? art.token : art.portrait };
   }
 
   /* -------------------------------------------- */

@@ -108,7 +108,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/Monster Core/grim-reaper.webp",
+        "token": "assets/tokens-pf2e/tokens/Monster Core/grim-reaper.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Grim Reaper",
     "displayName": 20,

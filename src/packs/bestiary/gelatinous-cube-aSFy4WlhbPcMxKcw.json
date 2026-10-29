@@ -170,7 +170,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/aberrant/ooze/gelatinous-cube.webp",
+        "token": "assets/tokens-pf2e/tokens/aberrant/ooze/gelatinous-cube.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Gelatinous Cube",
     "displayName": 20,

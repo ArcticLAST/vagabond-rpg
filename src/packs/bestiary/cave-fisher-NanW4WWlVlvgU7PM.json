@@ -171,7 +171,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/aberrant/eldritch/cave-fisher.webp",
+        "token": "assets/tokens-pf2e/tokens/aberrant/eldritch/cave-fisher.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Cave Fisher",
     "displayName": 20,

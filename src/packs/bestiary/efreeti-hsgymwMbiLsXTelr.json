@@ -235,7 +235,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/elemental/genie/efreeti.webp",
+        "token": "assets/tokens-pf2e/tokens/elemental/genie/efreeti.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Efreeti",
     "displayName": 20,

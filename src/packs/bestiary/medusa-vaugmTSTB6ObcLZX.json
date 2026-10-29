@@ -138,7 +138,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/humanoid/medusa.webp",
+        "token": "assets/tokens-pf2e/tokens/humanoid/medusa.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Medusa",
     "displayName": 20,

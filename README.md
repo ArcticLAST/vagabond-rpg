@@ -154,7 +154,7 @@ NPCs use a statblock sheet with:
   - A Weapon becomes a Melee or Ranged Attack with its damage die, damage type, and Relic bonus, avoided with Reflex (p. 14). A Rapier becomes "Rapier [Melee Attack]: 2 (d4)", and a Dagger keeps Thrown.
   - A Spell becomes a Cast with its usual Delivery and one die of its Damage Base, avoided with Reflex when it deals damage. Enemies don't track Mana (p. 14), so set dice and a Recharge on the Action if you want more.
   - A Perk or Class Feature becomes an Ability with its text.
-- **Token art:** set *Token Art Folder* in the system settings to a folder of creature images in your Foundry data. NPCs whose name matches a file name get that image as portrait and token ("Bat, Giant" matches "Giant Bat.webp" or "giant-bat-token.png"; for the token, an image in a "tokens" folder or with "token" in its name is preferred; for the portrait, one in a "portraits" folder; thumbnails are skipped). NPCs with no match are skipped, art you set yourself is kept, and NPCs imported later get their art automatically. The system ships no creature art. Installed token modules work too: point the setting at `modules` to search all of them.
+- **Token art:** Bestiary creatures carry the location of their art in the GM's own Foundry data (`assets/tokens-pf2e/...`). Dragging one out of the Bestiary uses that art when the file is there; otherwise it keeps the default icon. The system ships no creature art. `tools/token-art.mjs <file-list>` records the paths from a list of the art folder's files (rerun it after `tools/fix-bestiary.py`).
 - Dice printed in statblock text, such as "takes 18 (4d8) damage" or "aged 10 (d20) years", can be clicked to roll.
 - A world setting that chooses between rolling NPC damage and using the printed average.
 

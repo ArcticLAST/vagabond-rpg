@@ -6,7 +6,7 @@
   "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
-    "tl": 5.0,
+    "tl": 5,
     "attributes": {
       "hp": {
         "value": 40,
@@ -142,7 +142,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/bestial/mammalian/elephant.webp",
+        "token": "assets/tokens-pf2e/tokens/bestial/mammalian/elephant.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Elephant",
     "displayName": 20,

@@ -1072,16 +1072,6 @@
         "edit": "Changed",
         "start": "Before recording began"
       }
-    },
-    "TokenArt": {
-      "Title": "Token Art",
-      "Setting": {
-        "Name": "Token Art Folder",
-        "Hint": "A folder in your Foundry data with creature images. NPCs whose name matches an image's file name get it as their portrait and token, ignoring word order, case, and words like \"token\". NPCs with no match keep their art, and art you set yourself is never replaced."
-      },
-      "Confirm": "Found art for {n} creature names. Give matching NPCs in this world, and their Tokens on Scenes, this art now?",
-      "Applied": "Token art set on {n} NPCs.",
-      "ReadError": "Couldn't read the token art folder \"{folder}\"."
     }
   }
 }

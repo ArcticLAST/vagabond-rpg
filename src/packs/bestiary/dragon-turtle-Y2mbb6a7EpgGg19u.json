@@ -171,7 +171,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/draconic/dragon-turtle.webp",
+        "token": "assets/tokens-pf2e/tokens/draconic/dragon-turtle.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Dragon Turtle",
     "displayName": 20,

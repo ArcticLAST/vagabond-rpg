@@ -139,7 +139,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/humanoid/hybrid/minotaur.webp",
+        "token": "assets/tokens-pf2e/tokens/humanoid/hybrid/minotaur.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Minotaur",
     "displayName": 20,

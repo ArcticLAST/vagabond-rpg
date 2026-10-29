@@ -106,7 +106,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/bestial/mythological/blink-dog.webp",
+        "token": "assets/tokens-pf2e/tokens/bestial/mythological/blink-dog.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Blink Dog",
     "displayName": 20,

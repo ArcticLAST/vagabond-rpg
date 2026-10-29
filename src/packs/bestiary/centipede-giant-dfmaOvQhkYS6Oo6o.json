@@ -74,7 +74,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/bestial/invertebrate/centipede-giant.webp",
+        "token": "assets/tokens-pf2e/tokens/bestial/invertebrate/centipede-giant.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Centipede, Giant",
     "displayName": 20,

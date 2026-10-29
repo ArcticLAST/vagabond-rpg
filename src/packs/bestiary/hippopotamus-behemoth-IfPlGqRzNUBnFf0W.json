@@ -106,7 +106,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/bestial/mammalian/behemoth-hippopotamus.webp",
+        "token": "assets/tokens-pf2e/tokens/bestial/mammalian/behemoth-hippopotamus.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Hippopotamus, Behemoth",
     "displayName": 20,

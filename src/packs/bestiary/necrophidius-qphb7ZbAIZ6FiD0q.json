@@ -6,7 +6,7 @@
   "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 2,
-    "tl": 2.0,
+    "tl": 2,
     "attributes": {
       "hp": {
         "value": 9,
@@ -138,7 +138,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/undead/skeletal/necrophidius.webp",
+        "token": "assets/tokens-pf2e/tokens/undead/skeletal/necrophidius.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Necrophidius",
     "displayName": 20,

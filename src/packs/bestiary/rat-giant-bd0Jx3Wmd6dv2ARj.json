@@ -138,7 +138,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/bestial/mammalian/rat-giant.webp",
+        "token": "assets/tokens-pf2e/tokens/bestial/mammalian/rat-giant.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Rat, Giant",
     "displayName": 20,

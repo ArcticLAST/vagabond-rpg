@@ -331,7 +331,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/elemental/fire/phoenix.webp",
+        "token": "assets/tokens-pf2e/tokens/elemental/fire/phoenix.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Phoenix",
     "displayName": 20,

@@ -203,7 +203,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/constructed/golem/stone-golem.webp",
+        "token": "assets/tokens-pf2e/tokens/constructed/golem/stone-golem.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Golem, Stone",
     "displayName": 20,

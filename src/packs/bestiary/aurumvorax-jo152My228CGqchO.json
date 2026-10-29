@@ -139,7 +139,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/bestial/mammalian/aurumvorax.webp",
+        "token": "assets/tokens-pf2e/tokens/bestial/mammalian/aurumvorax.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Aurumvorax",
     "displayName": 20,

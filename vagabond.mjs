@@ -20,7 +20,6 @@ import * as transfer from "./module/transfer.mjs";
 import * as dice from "./module/dice/rolls.mjs";
 import * as vision from "./module/vision.mjs";
 import { migrateIcons } from "./module/migrate-icons.mjs";
-import { registerTokenArt } from "./module/token-art.mjs";
 
 const SYSTEM_ID = "vagabond-rpg";
 
@@ -119,7 +118,6 @@ function registerSettings() {
     hint: "VAGABOND.Settings.Burning.Hint",
     scope: "world", config: true, type: Boolean, default: true
   });
-  registerTokenArt();
 }
 
 function registerHandlebarsHelpers() {

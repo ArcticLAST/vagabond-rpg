@@ -138,7 +138,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/constructed/magical/animated-armor.webp",
+        "token": "assets/tokens-pf2e/tokens/constructed/magical/animated-armor.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Animated Armor",
     "displayName": 20,

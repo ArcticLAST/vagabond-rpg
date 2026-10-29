@@ -235,7 +235,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/humanoid/werecreature/werewolf.webp",
+        "token": "assets/tokens-pf2e/tokens/humanoid/werecreature/werewolf.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Werewolf",
     "displayName": 20,

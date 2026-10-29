@@ -6,7 +6,7 @@
   "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 3,
-    "tl": 2.0,
+    "tl": 2,
     "attributes": {
       "hp": {
         "value": 13,
@@ -203,7 +203,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/humanoid/werecreature/wererat.webp",
+        "token": "assets/tokens-pf2e/tokens/humanoid/werecreature/wererat.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Wererat",
     "displayName": 20,

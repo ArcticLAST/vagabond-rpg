@@ -107,7 +107,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/plant/fungal/violet-fungus.webp",
+        "token": "assets/tokens-pf2e/tokens/plant/fungal/violet-fungus.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Violet Fungus",
     "displayName": 20,

@@ -234,7 +234,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/aberrant/ooze/black-pudding.webp",
+        "token": "assets/tokens-pf2e/tokens/aberrant/ooze/black-pudding.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Black Pudding",
     "displayName": 20,

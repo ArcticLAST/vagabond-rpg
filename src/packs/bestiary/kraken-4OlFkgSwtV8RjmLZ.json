@@ -171,7 +171,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/bestial/aquatic/kraken.webp",
+        "token": "assets/tokens-pf2e/tokens/bestial/aquatic/kraken.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Kraken",
     "displayName": 20,

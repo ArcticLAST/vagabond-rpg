@@ -74,7 +74,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/aberrant/monstrous/choker.webp",
+        "token": "assets/tokens-pf2e/tokens/aberrant/monstrous/choker.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Choker",
     "displayName": 20,

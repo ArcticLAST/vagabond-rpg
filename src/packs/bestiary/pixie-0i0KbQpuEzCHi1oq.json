@@ -6,7 +6,7 @@
   "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 1,
-    "tl": 2.0,
+    "tl": 2,
     "attributes": {
       "hp": {
         "value": 1,
@@ -170,7 +170,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/fey/fairy/pixie.webp",
+        "token": "assets/tokens-pf2e/tokens/fey/fairy/pixie.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Pixie",
     "displayName": 20,

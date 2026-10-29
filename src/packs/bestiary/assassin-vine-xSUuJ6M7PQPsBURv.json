@@ -6,7 +6,7 @@
   "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 4,
-    "tl": 2.0,
+    "tl": 2,
     "attributes": {
       "hp": {
         "value": 18,
@@ -106,7 +106,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/plant/assassin-vine.webp",
+        "token": "assets/tokens-pf2e/tokens/plant/assassin-vine.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Assassin Vine",
     "displayName": 20,

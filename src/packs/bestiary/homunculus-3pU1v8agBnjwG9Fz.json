@@ -106,7 +106,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/constructed/magical/homunculus.webp",
+        "token": "assets/tokens-pf2e/tokens/constructed/magical/homunculus.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Homunculus",
     "displayName": 20,

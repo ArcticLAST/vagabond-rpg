@@ -74,7 +74,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/bestial/reptilian/pteranodon.webp",
+        "token": "assets/tokens-pf2e/tokens/bestial/reptilian/pteranodon.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Pteranodon",
     "displayName": 20,

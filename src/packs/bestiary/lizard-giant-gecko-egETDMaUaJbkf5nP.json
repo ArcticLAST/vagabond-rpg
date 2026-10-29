@@ -74,7 +74,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/Monster Core/lizard-giant-gecko.webp",
+        "token": "assets/tokens-pf2e/tokens/Monster Core/lizard-giant-gecko.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Lizard, Giant Gecko",
     "displayName": 20,

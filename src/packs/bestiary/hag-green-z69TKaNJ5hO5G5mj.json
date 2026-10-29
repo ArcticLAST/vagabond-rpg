@@ -6,7 +6,7 @@
   "img": "systems/vagabond-rpg/assets/icons/dragon-head.svg",
   "system": {
     "hd": 9,
-    "tl": 4.0,
+    "tl": 4,
     "attributes": {
       "hp": {
         "value": 40,
@@ -267,7 +267,14 @@
   "ownership": {
     "default": 0
   },
-  "flags": {},
+  "flags": {
+    "vagabond-rpg": {
+      "art": {
+        "portrait": "assets/tokens-pf2e/tokens/humanoid/hag/green-hag.webp",
+        "token": "assets/tokens-pf2e/tokens/humanoid/hag/green-hag.webp"
+      }
+    }
+  },
   "prototypeToken": {
     "name": "Hag, Green",
     "displayName": 20,
