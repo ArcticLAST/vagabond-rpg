@@ -1,6 +1,6 @@
 /**
  * Vagabond (Alpha 3) for Foundry Virtual Tabletop.
- * An unofficial game system for Vagabond: Pulp Fantasy RPG, structured after the dnd5e system.
+ * Experimental test system. Not suited for general use.
  */
 import { VAGABOND } from "./module/config.mjs";
 import * as rules from "./module/rules.mjs";

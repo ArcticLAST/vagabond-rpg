@@ -2,7 +2,7 @@
   "name": "vagabond-rpg",
   "version": "0.6.24",
   "private": true,
-  "description": "Unofficial Foundry VTT system for Vagabond (Alpha 3).",
+  "description": "Experimental Foundry VTT test system for Vagabond Alpha 3. Not suited for general use.",
   "type": "module",
   "scripts": {
     "build:packs": "node tools/build-packs.mjs pack",

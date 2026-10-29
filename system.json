@@ -1,7 +1,7 @@
 {
   "id": "vagabond-rpg",
   "title": "Vagabond (Alpha 3)",
-  "description": "An unofficial Foundry VTT game system for Vagabond, the pulp fantasy roleplaying game by Land of the Blind. Built against the Core Rulebook v3 Alpha 3 playtest material.",
+  "description": "Experimental Foundry VTT test system for Vagabond Alpha 3. Not suited for general use.",
   "version": "0.6.24",
   "compatibility": {
     "minimum": "13",
