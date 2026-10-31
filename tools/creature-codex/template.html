@@ -1,0 +1,726 @@
+<title>Vagabond Creature Codex</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500;700&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: workbench of three columns (codex shelf / editor / live statblock), stacking to one column on phones. */
+:root{
+  --bg:#eceeea; --panel:#f7f8f5; --sheet:#fcfcf9; --ink:#1c2320; --muted:#5a6762; --line:#cdd5d0;
+  --accent:#1d6a5a; --accent-ink:#ffffff; --brass:#9a7426; --field:#ffffff;
+  --ok:#2c7a45; --low:#2f5f9e; --high:#a6452a; --danger:#a3352a;
+  --f-display:"Alegreya SC", "Palatino Linotype", Palatino, Georgia, serif;
+  --f-body:"Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#131816; --panel:#1a201e; --sheet:#1d2421; --ink:#e2e8e4; --muted:#93a29b; --line:#2f3a36;
+  --accent:#5cb7a1; --accent-ink:#0c1512; --brass:#d2aa5c; --field:#121715;
+  --ok:#6cc58a; --low:#7fa9e6; --high:#e98b6d; --danger:#ef7d70; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#131816; --panel:#1a201e; --sheet:#1d2421; --ink:#e2e8e4; --muted:#93a29b; --line:#2f3a36;
+  --accent:#5cb7a1; --accent-ink:#0c1512; --brass:#d2aa5c; --field:#121715;
+  --ok:#6cc58a; --low:#7fa9e6; --high:#e98b6d; --danger:#ef7d70; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.45;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:14px 40px}
+h1,h2,h3{font-family:var(--f-display);font-weight:700;text-wrap:balance;margin:0}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;margin-bottom:12px}
+.top h1{font-size:1.6rem;letter-spacing:.02em}
+.top .sync{font-size:.82rem;color:var(--muted)}
+.top .spacer{flex:1}
+.wb{display:grid;grid-template-columns:240px minmax(0,1fr) minmax(0,420px);gap:14px;align-items:start}
+@media (max-width:1180px){.wb{grid-template-columns:220px minmax(0,1fr)}.sbcol{grid-column:1/-1}}
+@media (max-width:760px){.wb{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;min-width:0}
+.label{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700}
+.btn{border:1px solid var(--line);background:var(--field);border-radius:6px;padding:5px 10px;cursor:pointer;line-height:1.2}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.danger{color:var(--danger)}
+.btn.danger.armed{background:var(--danger);color:var(--sheet);border-color:var(--danger)}
+.btn.small{padding:2px 7px;font-size:.82rem}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+input[type=text],input[type=number],input[type=search],select,textarea{background:var(--field);border:1px solid var(--line);border-radius:5px;padding:5px 7px;width:100%;min-width:0}
+textarea{resize:vertical;min-height:2.4em}
+input[type=number]{font-family:var(--f-mono);font-size:.92rem}
+/* Codex shelf */
+.shelf{display:flex;flex-direction:column;gap:10px;position:sticky;top:env(safe-area-inset-top,0px);max-height:calc(100vh - 28px);overflow:auto}
+@media (max-width:760px){.shelf{position:static;max-height:none}}
+.list{display:flex;flex-direction:column;gap:2px}
+.item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;align-items:baseline;text-align:left;border:1px solid transparent;background:none;border-radius:5px;padding:5px 7px;cursor:pointer;width:100%}
+.item:hover{background:var(--field);border-color:var(--line)}
+.item.on{background:var(--field);border-color:var(--accent)}
+.item .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item .tl{font-family:var(--f-mono);font-size:.78rem;color:var(--muted)}
+.item .sub{grid-column:1/-1;font-size:.76rem;color:var(--muted);margin-top:-3px}
+.empty{color:var(--muted);font-size:.88rem;padding:4px 2px}
+details.tpl summary{cursor:pointer;font-weight:500}
+/* Editor */
+.editor{display:flex;flex-direction:column;gap:12px}
+.sec{display:flex;flex-direction:column;gap:8px}
+.sec>h2{font-size:1.05rem;color:var(--accent);border-bottom:1px solid var(--line);padding-bottom:3px;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px}
+.sec>h2 .hint{font-family:var(--f-body);font-weight:400;font-size:.8rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.grid .wide{grid-column:span 2}
+.grid .full{grid-column:1/-1}
+@media (max-width:420px){.grid .wide{grid-column:1/-1}}
+.fld{display:flex;flex-direction:column;gap:3px;min-width:0}
+.fld>span{font-size:.75rem;color:var(--muted);font-weight:500}
+.check{display:flex;align-items:center;gap:6px;font-size:.88rem}
+.derived{font-family:var(--f-mono);font-size:.85rem;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:4px}
+.chip{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:999px;padding:1px 9px;font-size:.82rem;cursor:pointer;user-select:none;background:var(--field)}
+.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip:has(input:checked){background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.chip:has(input:focus-visible){outline:2px solid var(--accent);outline-offset:2px}
+.trait{display:grid;grid-template-columns:120px minmax(0,1fr);gap:8px;align-items:start}
+@media (max-width:520px){.trait{grid-template-columns:minmax(0,1fr)}}
+/* Quick build */
+.quick{background:var(--field);border:1px dashed var(--brass);border-radius:8px;padding:10px;display:flex;flex-direction:column;gap:8px}
+.quick p{margin:0;font-size:.86rem;color:var(--muted)}
+/* Actions */
+.acts{display:flex;flex-direction:column;gap:8px}
+.act{border:1px solid var(--line);border-radius:7px;padding:8px;background:var(--field);display:grid;gap:6px;grid-template-columns:minmax(0,1.3fr) minmax(0,.9fr) minmax(0,1.4fr) auto}
+.act.k-ability{border-left:3px solid var(--brass)}
+.act.k-combo{border-left:3px solid var(--accent)}
+.act .x{grid-column:1/-1}
+.act .meta{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);gap:6px}
+.act .tools{display:flex;gap:3px;align-items:end}
+.act .avg{font-family:var(--f-mono);font-size:.8rem;color:var(--muted)}
+@media (max-width:560px){.act{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.act .tools{grid-column:1/-1;justify-content:flex-end}.act .meta{grid-template-columns:minmax(0,1fr)}}
+.borrow{display:flex;flex-direction:column;gap:4px;max-height:260px;overflow:auto}
+.borrow button{text-align:left;border:1px solid var(--line);background:var(--panel);border-radius:5px;padding:4px 7px;cursor:pointer;font-size:.86rem}
+.borrow button:hover{border-color:var(--accent)}
+.borrow small{color:var(--muted)}
+/* TL panel */
+.tlbox{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 14px;align-items:center}
+.tlnum{font-family:var(--f-display);font-size:2.6rem;line-height:1;color:var(--accent)}
+.formula{font-family:var(--f-mono);font-size:.8rem;color:var(--muted)}
+.checks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+@media (max-width:420px){.checks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.ck{border:1px solid var(--line);border-radius:6px;padding:4px 7px;background:var(--field);font-size:.8rem}
+.ck b{display:block;font-family:var(--f-mono);font-weight:500;font-size:.92rem}
+.ck .st{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.ck.ok .st{color:var(--ok)} .ck.low .st{color:var(--low)} .ck.high .st{color:var(--high)}
+/* Statblock */
+.sbcol{position:sticky;top:env(safe-area-inset-top,0px);display:flex;flex-direction:column;gap:10px}
+@media (max-width:1180px){.sbcol{position:static}}
+.sb{background:var(--sheet);border-top:3px solid var(--brass);border-bottom:3px solid var(--brass);padding:14px 16px;font-size:.93rem;line-height:1.4;box-shadow:0 1px 0 var(--line)}
+.sb .hd{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.sb .hd h3{font-size:1.35rem}
+.sb .hd .tl{font-family:var(--f-display);font-weight:700;white-space:nowrap}
+.sb .kind{font-style:italic;color:var(--muted);margin-top:-2px}
+.sb .desc{margin:6px 0 8px}
+.sb .stats{display:grid;grid-template-columns:repeat(3,auto);justify-content:space-between;gap:0 10px}
+.sb .stats .r{text-align:right}
+.sb .ln{margin:0}
+.sb b{font-weight:700}
+.sb .cap{font-family:var(--f-display);font-weight:700;letter-spacing:.06em;margin-top:6px;border-bottom:1px solid var(--brass);color:var(--brass)}
+.sb .a{margin:2px 0 0;padding-left:1em;text-indent:-1em}
+.sb .a.sub{margin-left:1.2em}
+.sb .note{margin-top:8px;font-size:.84rem;color:var(--muted)}
+.sbtools{display:flex;flex-wrap:wrap;gap:6px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));background:var(--ink);color:var(--bg);padding:7px 14px;border-radius:6px;font-size:.88rem;z-index:20}
+.notes textarea{min-height:5em}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<header class="top">
+  <h1>Creature Codex</h1>
+  <span class="sync" id="sync">Opening your codex…</span>
+  <span class="spacer"></span>
+  <div class="row">
+    <button class="btn" id="b-import" type="button">Import JSON</button>
+    <input type="file" id="f-import" accept=".json,application/json" hidden>
+    <button class="btn" id="b-export-all" type="button">Export codex</button>
+  </div>
+</header>
+
+<main class="wb">
+  <aside class="panel shelf" aria-label="Your codex">
+    <div class="row"><button class="btn primary" id="b-new" type="button">New creature</button><button class="btn" id="b-dup" type="button">Duplicate</button></div>
+    <input type="search" id="q-codex" placeholder="Search your codex">
+    <div class="label">Your creatures</div>
+    <div class="list" id="codex"></div>
+    <details class="tpl" id="tpl">
+      <summary>Start from the Bestiary</summary>
+      <div class="sec" style="margin-top:6px">
+        <input type="search" id="q-tpl" placeholder="Search 300+ statblocks">
+        <div class="list" id="tpls"></div>
+      </div>
+    </details>
+  </aside>
+
+  <section class="panel editor" id="editor" aria-label="Edit creature"></section>
+
+  <aside class="sbcol" aria-label="Statblock">
+    <div class="panel"><div id="tlinfo"></div><div id="tlctl"></div><div id="tlchecks" class="checks"></div></div>
+    <article class="sb" id="sb"></article>
+    <div class="sbtools">
+      <button class="btn" id="b-copy" type="button">Copy statblock</button>
+      <button class="btn" id="b-copy-md" type="button">Copy as Markdown</button>
+      <button class="btn" id="b-export-md" type="button">Download .md</button>
+      <button class="btn" id="b-export-one" type="button">Download JSON</button>
+      <button class="btn danger" id="b-del" type="button">Delete</button>
+    </div>
+  </aside>
+</main>
+<div class="toast" id="toast" hidden></div>
+<textarea id="copybuf" class="sr" aria-hidden="true" tabindex="-1"></textarea>
+
+<script>
+const BESTIARY = /*BESTIARY*/[];
+</script>
+<script>
+"use strict";
+/* ---------------- Rules (Vagabond Core Rulebook, Alpha 3, pp. 109-111) ---------------- */
+const SIZES = ["small","medium","large","huge","giant","colossal"];
+const TYPES = ["artificial","beast","cryptid","fae","humanlike","outer","primordial","undead"];
+const ZONES = ["frontline","midline","backline"];
+const cap = s => s ? s[0].toUpperCase() + s.slice(1) : "";
+const ARMOR_TAGS = [["None",0],["as Unarmored",0],["as Unarmored plus Shield",1],["as Leather",1],["as Leather plus Shield",2],
+  ["as Hide",1],["as Hide plus Shield",2],["as Chain",2],["as Chain plus Shield",3],["as Scale",2],["as Scale plus Shield",3],
+  ["as Plate",3],["as Plate plus Shield",4],["as Splint",3],["as Splint plus Shield",4],["as (+1) Plate",4],
+  ["as (+1) Plate plus Shield",5],["as (+2) Plate",5],["as (+2) Plate plus Shield",6],["as (+3) Plate",6],["as (+3) Plate plus Shield",7]];
+const THREAT = [[0,"1-2","1-9",0,"0-2"],[1,"3-4","10-19",0,"3-5"],[2,"5-6","20-29",1,"6-8"],[3,"7-8","30-39",1,"9-11"],
+  [4,"9-11","40-49",2,"12-14"],[5,"12-13","50-59",2,"15-17"],[6,"14-15","60-69",3,"18-20"],[7,"16-17","70-79",3,"21-23"],
+  [8,"18-19","80-89",4,"24-26"],[9,"20-22","90-99",4,"27-29"],[10,"23-24","100-109",5,"30-32"],[11,"25-26","110-119",5,"33-35"],
+  [12,"27-28","120-129",6,"36-38"],[13,"29-31","130-139",6,"39-41"],[14,"32-33","140-149",7,"42-44"],[15,"34-35","150-159",7,"45-47"],
+  [16,"36-37","160-169",8,"48-50"],[17,"38-39","170-179",8,"51-53"],[18,"40-41","180-189",9,"54-56"],[19,"42-43","190-199",9,"57-59"],
+  [20,"44-45","200-209",10,"60-62"]].map(([tl,hd,hp,armor,dpr])=>({tl,hd,hp,armor:String(armor),dpr}));
+const ACTION_TYPES = {melee:"Melee Attack",ranged:"Ranged Attack",attack:"Attack",cast:"Cast",action:"Action",combo:"Combo",ability:"Ability"};
+const DEFAULT_TAGS = {melee:"Melee Attack",ranged:"Ranged Attack",attack:"Attack",cast:"Cast",action:"Action",ability:"",combo:""};
+const SAVES = {"":"No Save",reflex:"Reflex",endure:"Endure",will:"Will",endureReflex:"Endure or Reflex"};
+const TRAITS = {
+  immune:[["physical","Physical"],["physicalNonRelic","Physical from non-Relics"],["blunt","Blunt"],["pierce","Pierce"],["slash","Slash"],
+    ["acid","Acid"],["cold","Cold"],["fire","Fire"],["poison","Poison"],["shock","Shock"],["magic","Magic"]],
+  weak:[["physical","Physical"],["blunt","Blunt"],["pierce","Pierce"],["slash","Slash"],["acid","Acid"],["cold","Cold"],["fire","Fire"],
+    ["poison","Poison"],["shock","Shock"],["magic","Magic"],["silvered","Silvered Weapons"],["adamant","Adamant Weapons"],["coldIron","Cold Iron Weapons"]],
+  statusImmunities:[["berserk","Berserk"],["blinded","Blinded"],["burning","Burning"],["charmed","Charmed"],["confused","Confused"],["dazed","Dazed"],
+    ["fatigued","Fatigued"],["frightened","Frightened"],["incapacitated","Incapacitated"],["paralyzed","Paralyzed"],["prone","Prone"],
+    ["restrained","Restrained"],["sickened","Sickened"],["suffocating","Suffocating"],["unconscious","Unconscious"]]
+};
+const TRAIT_LABEL = {immune:"Immune",weak:"Weak",statusImmunities:"Status Immunities"};
+const TRAIT_ALIASES = {"physical from non-relic":"physicalNonRelic","physical from non-relic weapons":"physicalNonRelic",silver:"silvered",
+  "silver weapons":"silvered","silvered weapons":"silvered",adamantine:"adamant","adamantine weapons":"adamant","cold iron":"coldIron",fatigue:"fatigued",blindness:"blinded"};
+
+function splitTraits(field, text){
+  const opts = TRAITS[field], keys = [], other = [];
+  for (const raw of String(text ?? "").split(/[;,]/)) {
+    const e = raw.trim().replace(/\.$/, ""); if (!e) continue;
+    const low = e.toLowerCase();
+    const key = opts.find(([k,t]) => t.toLowerCase() === low || k.toLowerCase() === low)?.[0] ?? TRAIT_ALIASES[low];
+    if (key && opts.some(([k]) => k === key)) { if (!keys.includes(key)) keys.push(key); } else other.push(e);
+  }
+  return {keys, other: other.join(", ")};
+}
+function joinTraits(field, keys, other){
+  const picked = TRAITS[field].filter(([k]) => keys.includes(k)).map(([,t]) => t);
+  const extra = String(other ?? "").trim();
+  return [...picked, ...(extra ? [extra] : [])].join(", ");
+}
+const hpFromHD = (hd, size) => { hd = Number(hd) || 0; return size === "small" ? hd : Math.floor(hd * 4.5); };
+function averageDamage(formula){
+  const text = String(formula ?? "").replace(/\s+/g,"").replace(/!/g,"").toLowerCase();
+  if (!text) return null;
+  let total = 0;
+  for (const term of text.match(/[+-]?[^+-]+/g) ?? []) {
+    const sign = term.startsWith("-") ? -1 : 1, body = term.replace(/^[+-]/, "");
+    const d = body.match(/^(\d*)d(\d+)$/);
+    if (d) total += sign * (Number(d[1] || 1) * (Number(d[2]) + 1) / 2);
+    else if (/^\d+$/.test(body)) total += sign * Number(body);
+    else return null;
+  }
+  return Math.max(0, Math.floor(total));
+}
+const threatLevel = (armor, hp, dpr) => Math.round((((2 * (Number(armor)||0)) + (Number(hp)||0) / 10) / 4 + (Number(dpr)||0) / 6) * 10) / 10;
+/** Dice whose average is closest to a target, in the book's style (d8, 2d6, 3d6+2...). */
+function diceFor(target){
+  target = Math.max(1, Math.round(target));
+  let best = null;
+  for (const die of [4,6,8,10,12]) for (let n = 1; n <= 12; n++) for (const flat of [0,1,2,3,4,5]) {
+    const avg = Math.floor(n * (die + 1) / 2) + flat;
+    const cost = Math.abs(avg - target) * 10 + flat * 1.5 + n * 0.4 + (die === 6 || die === 8 ? 0 : 0.3);
+    if (!best || cost < best.cost) best = {cost, f: (n > 1 ? n : "") + "d" + die + (flat ? "+" + flat : "")};
+  }
+  return best.f;
+}
+const rangeOf = t => { const [lo, hi] = String(t).split("-").map(Number); return [lo, hi ?? lo]; };
+const cmp = (v, t) => { const [lo, hi] = rangeOf(t); return v < lo ? "low" : v > hi ? "high" : "ok"; };
+const mid = t => { const [lo, hi] = rangeOf(t); return Math.round((lo + hi) / 2); };
+
+const isAttack = t => t === "melee" || t === "ranged" || t === "attack";
+const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+/** Damage per Round: best single damaging Action, or a Combo of the Actions it names ("2×Talons and 1×Beak"). */
+function suggestDPR(actions){
+  let best = {dpr: 0, from: ""};
+  const dmg = actions.filter(r => r.t !== "ability" && r.t !== "combo" && r.n?.trim());
+  for (const r of dmg) { const a = averageDamage(r.d) ?? 0; if (a > best.dpr) best = {dpr: a, from: r.n}; }
+  for (const c of actions.filter(r => r.t === "combo")) {
+    const text = String(c.x ?? "").toLowerCase(); let sum = 0; const parts = [];
+    for (const r of dmg) {
+      const m = text.match(new RegExp(`(?:(\\d+)\\s*[×x]\\s*)?\\b${escRe(r.n.trim().toLowerCase())}(?:e?s)?\\b`));
+      if (!m) continue;
+      const n = Number(m[1] || 1); sum += n * (averageDamage(r.d) ?? 0); parts.push(n > 1 ? `${n}×${r.n}` : r.n);
+    }
+    if (sum > best.dpr) best = {dpr: sum, from: `${c.n || "Combo"} (${parts.join(", ")})`};
+  }
+  return best;
+}
+/** Names of the Actions a Combo uses, so the statblock can nest them under it. */
+function comboMembers(actions){
+  const set = new Set();
+  for (const c of actions.filter(r => r.t === "combo")) {
+    const text = String(c.x ?? "").toLowerCase();
+    for (const r of actions) if (r.t !== "combo" && r.t !== "ability" && r.n?.trim() &&
+      new RegExp(`\\b${escRe(r.n.trim().toLowerCase())}(?:e?s)?\\b`).test(text)) set.add(r);
+  }
+  return set;
+}
+
+/* ---------------- Creature model ---------------- */
+const uid = () => "c" + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+function blank(){
+  return {id: uid(), name: "", size: "medium", beingType: "beast", subtype: "", desc: "", hd: 1, hpOverride: null, tougher: false,
+    speed: 30, speedTypes: "", zone: "frontline", morale: "7", appearing: "", senses: "", armorTag: "as Unarmored", armor: 0,
+    immune: "", weak: "", statusImmunities: "", actions: [], dprOverride: null, targetTL: null, notes: "", updatedAt: 0};
+}
+function fromTemplate(t){
+  const c = blank();
+  Object.assign(c, {name: t.name, size: t.size || "medium", beingType: t.beingType || "beast", subtype: t.subtype || "", desc: t.desc || "",
+    hd: t.hd ?? 1, speed: t.speed ?? 30, speedTypes: t.speedTypes || "", zone: t.zone || "frontline",
+    morale: t.morale == null ? "-" : String(t.morale), appearing: t.appearing || "", senses: t.senses || "",
+    armorTag: t.armorTag || "", armor: t.armor ?? 0, immune: t.immune || "", weak: t.weak || "", statusImmunities: t.statusImmunities || ""});
+  c.bookTL = t.tl ?? null;
+  const avg = hpFromHD(c.hd, c.size);
+  if (t.hp === avg * 2 && avg > 0) c.tougher = true; else if (t.hp !== avg) c.hpOverride = t.hp;
+  c.actions = (t.actions || []).map(a => {
+    let g = a.g || "", s = a.s || "";
+    // The statblock writes the Save after a bar: "Cast, Remote | Will". Keep it in the Save field when it says just that.
+    const bar = g.lastIndexOf("|");
+    if (bar >= 0 && s && g.slice(bar + 1).trim().toLowerCase() === SAVES[s].toLowerCase()) g = g.slice(0, bar).trim();
+    return {n: a.n || "", t: a.t || "action", g, d: a.d || "", s, r: a.r || "", x: a.x || ""};
+  });
+  return c;
+}
+function derive(c){
+  const avgHP = hpFromHD(c.hd, c.size);
+  const base = c.hpOverride != null && c.hpOverride !== "" ? Number(c.hpOverride) : avgHP;
+  const hp = c.tougher ? base * 2 : base;
+  const sug = suggestDPR(c.actions);
+  const dpr = c.dprOverride != null && c.dprOverride !== "" ? Number(c.dprOverride) : sug.dpr;
+  const tl = threatLevel(c.armor, hp, dpr);
+  const target = c.targetTL != null && c.targetTL !== "" ? Number(c.targetTL) : Math.min(20, Math.max(0, Math.round(tl)));
+  const row = THREAT.find(r => r.tl === target) ?? THREAT[0];
+  return {avgHP, hp, sug, dpr, tl, target, row,
+    parts: {a: 2 * (Number(c.armor) || 0), b: hp / 10, c: dpr / 6},
+    checks: {hd: cmp(Number(c.hd) || 0, row.hd), hp: cmp(hp, row.hp), armor: cmp(Number(c.armor) || 0, row.armor), dpr: cmp(dpr, row.dpr)}};
+}
+
+/* ---------------- Statblock text ---------------- */
+const esc = s => String(s ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[ch]);
+function bracket(a){
+  let g = (a.g || "").trim();
+  const showSave = a.s && !g.includes("|") && !(isAttack(a.t) && a.s === "reflex");
+  if (showSave) g = g ? `${g} | ${SAVES[a.s]}` : SAVES[a.s];
+  return g ? ` [${g}]` : "";
+}
+function actionBody(a){
+  let text = (a.x || "").trim();
+  const avg = averageDamage(a.d);
+  if (a.d && a.t !== "combo" && !text.includes(`(${a.d})`)) {
+    const lead = `${avg ?? ""} (${a.d})`.trim();
+    text = text ? (/^[,.;]/.test(text) ? lead + text : `${lead} ${text}`) : lead;
+  }
+  return text;
+}
+function actionLine(a){
+  if (a.t === "combo") return {head: "Combo", body: (a.x || "").trim()};
+  return {head: `${a.n || "Unnamed"}${a.t === "ability" && !a.g ? "" : bracket(a)}${a.r ? ` (${a.r})` : ""}`, body: actionBody(a)};
+}
+const kindLine = c => `${cap(c.size)} ${cap(c.beingType)}${c.subtype ? ` (${c.subtype})` : ""}`;
+const speedLine = c => `${c.speed}'${c.speedTypes ? `, ${c.speedTypes}` : ""}`;
+const armorLine = c => `${c.armor}${c.armorTag ? ` [${c.armorTag}]` : ""}`;
+
+function statblockHTML(c, d){
+  const members = comboMembers(c.actions);
+  const acts = c.actions.filter(a => a.t !== "ability" && (a.n?.trim() || a.t === "combo"));
+  const abil = c.actions.filter(a => a.t === "ability" && a.n?.trim());
+  const line = (a, sub) => { const l = actionLine(a); return `<p class="a${sub ? " sub" : ""}"><b>${esc(l.head)}:</b> ${esc(l.body)}</p>`; };
+  const opt = (lbl, v) => v ? `<p class="ln"><b>${lbl}:</b> ${esc(v)}</p>` : "";
+  return `<div class="hd"><h3>${esc(c.name || "Unnamed creature")}</h3><span class="tl">TL: ${d.tl.toFixed(1)}</span></div>
+  <div class="kind">${esc(kindLine(c))}</div>
+  ${c.desc ? `<p class="desc">${esc(c.desc)}</p>` : `<div style="height:6px"></div>`}
+  <div class="stats"><span><b>HD:</b> ${esc(c.hd)} (${d.hp} HP)${c.tougher ? "*" : ""}</span><span></span><span class="r"><b>Speed:</b> ${esc(speedLine(c))}</span>
+  <span><b>Zone:</b> ${esc(cap(c.zone))}</span><span><b>Morale:</b> ${esc(c.morale || "-")}</span><span class="r"><b># Appearing:</b> ${esc(c.appearing || "-")}</span></div>
+  ${opt("Senses", c.senses)}
+  <p class="ln"><b>Armor:</b> ${esc(armorLine(c))}</p>
+  ${opt("Immune", c.immune)}${opt("Weak", c.weak)}${opt("Status Immunities", c.statusImmunities)}
+  ${acts.length ? `<div class="cap">ACTIONS</div>${acts.map(a => line(a, members.has(a))).join("")}` : ""}
+  ${abil.length ? `<div class="cap">ABILITIES</div>${abil.map(a => line(a)).join("")}` : ""}
+  ${c.tougher ? `<p class="note">* Tougher: HP doubled for a Boss or Mini Boss.</p>` : ""}`;
+}
+function statblockText(c, d, md){
+  const B = s => md ? `**${s}**` : s;
+  const L = [];
+  L.push(md ? `### ${c.name || "Unnamed creature"} (TL ${d.tl.toFixed(1)})` : `${(c.name || "Unnamed creature").toUpperCase()}    TL: ${d.tl.toFixed(1)}`);
+  L.push(md ? `*${kindLine(c)}*` : kindLine(c));
+  if (c.desc) L.push(md ? "" : "", c.desc);
+  L.push("");
+  L.push(`${B("HD:")} ${c.hd} (${d.hp} HP)${c.tougher ? " [Tougher]" : ""}    ${B("Speed:")} ${speedLine(c)}`);
+  L.push(`${B("Zone:")} ${cap(c.zone)}    ${B("Morale:")} ${c.morale || "-"}    ${B("# Appearing:")} ${c.appearing || "-"}`);
+  if (c.senses) L.push(`${B("Senses:")} ${c.senses}`);
+  L.push(`${B("Armor:")} ${armorLine(c)}`);
+  for (const f of ["immune","weak","statusImmunities"]) if (c[f]) L.push(`${B(TRAIT_LABEL[f] + ":")} ${c[f]}`);
+  const members = comboMembers(c.actions);
+  const acts = c.actions.filter(a => a.t !== "ability" && (a.n?.trim() || a.t === "combo"));
+  const abil = c.actions.filter(a => a.t === "ability" && a.n?.trim());
+  const one = (a, sub) => { const l = actionLine(a); return `${sub ? (md ? "  - " : "    ") : (md ? "- " : "")}${B(l.head + ":")} ${l.body}`; };
+  if (acts.length) { L.push(md ? "\n**ACTIONS**" : "ACTIONS"); acts.forEach(a => L.push(one(a, members.has(a)))); }
+  if (abil.length) { L.push(md ? "\n**ABILITIES**" : "ABILITIES"); abil.forEach(a => L.push(one(a))); }
+  return L.join(md ? "  \n" : "\n").replace(/ {2}\n\n/g, "\n\n");
+}
+
+/* ---------------- State and storage ---------------- */
+const SAMPLE = (() => {
+  const c = blank();
+  Object.assign(c, {id: "example", name: "Cinder Hound (example)", size: "medium", beingType: "primordial", desc: "A lean hound of banked coals that hunts in packs and leaves scorched pawprints.",
+    hd: 7, speed: 40, zone: "frontline", morale: "8", appearing: "d4", senses: "Darksight", armorTag: "as Leather", armor: 1,
+    immune: "Fire", weak: "Cold", targetTL: 3,
+    actions: [
+      {n: "", t: "combo", g: "", d: "", s: "", r: "", x: "2×Bite"},
+      {n: "Bite", t: "melee", g: "Melee Attack", d: "d10", s: "reflex", r: "", x: "and Burning (Cd4) on a Crit"},
+      {n: "Ember Breath", t: "attack", g: "Attack, Near Cone", d: "2d6", s: "endure", r: "Recharge Cd4", x: ", half on a pass"},
+      {n: "Pack Tactics", t: "ability", g: "", d: "", s: "", r: "", x: "Its attacks are Favored against a Target an Ally is Close to."}
+    ]});
+  return c;
+})();
+let codex = new Map();          // id -> creature
+let cur = structuredClone(SAMPLE);
+let isExample = true;
+let store = null;               // {kind, put, del}
+const LS_KEY = "vagabond-creature-codex-v1";
+
+function lsRead(){ try { return JSON.parse(localStorage.getItem(LS_KEY) || "[]"); } catch { return []; } }
+function lsWrite(){ try { localStorage.setItem(LS_KEY, JSON.stringify([...codex.values()])); } catch {} }
+function setSync(t){ document.getElementById("sync").textContent = t; }
+
+function localStore(note){
+  for (const c of lsRead()) codex.set(c.id, c);
+  setSync(note);
+  return {kind: "local", put: async c => { codex.set(c.id, c); lsWrite(); }, del: async id => { codex.delete(id); lsWrite(); }};
+}
+async function openStore(){
+  let db = null;
+  try { db = window.claude?.use ? await window.claude.use("db") : null; } catch { db = null; }
+  if (!db) { store = localStore("Saved in this browser only"); renderCodex(); return; }
+  const col = db.collection("creatures");
+  const chains = new Map();
+  store = {kind: "db",
+    put: c => { codex.set(c.id, c); const p = (chains.get(c.id) || Promise.resolve()).then(() => col.doc(c.id).set(JSON.parse(JSON.stringify(c)))).catch(e => { setSync(e?.code === "quota_exceeded" ? "Codex is full: delete some creatures" : "Couldn't save just now; it will retry on your next change"); }); chains.set(c.id, p); return p; },
+    del: async id => { codex.delete(id); await col.doc(id).delete(); }};
+  let loaded = false;
+  const timer = setTimeout(() => { if (!loaded) setSync("Still reaching your saved codex…"); }, 10000);
+  col.onSnapshot(snap => {
+    for (const ch of snap.docChanges()) {
+      if (ch.type === "removed") codex.delete(ch.doc.id);
+      else { const data = structuredClone(ch.doc.data()); if (!(cur.id === ch.doc.id && pending)) codex.set(ch.doc.id, data);
+        if (cur.id === ch.doc.id && !pending && !snap.metadata.hasPendingWrites && data.updatedAt > cur.updatedAt) { cur = structuredClone(data); renderAll(); } }
+    }
+    if (!snap.metadata.fromCache) { loaded = true; clearTimeout(timer); setSync(`Saved to your codex · ${codex.size} creature${codex.size === 1 ? "" : "s"}`); }
+    renderCodex();
+  }, e => { clearTimeout(timer); setSync("Your saved codex can't be reached right now"); });
+}
+let pending = null;
+function changed(structural){
+  cur.updatedAt = Date.now();
+  if (isExample) { isExample = false; if (cur.id === "example") cur.id = uid(); cur.name = cur.name.replace(/ \(example\)$/, ""); }
+  if (structural) { renderEditor(); renderControls(); }
+  renderOutput();
+  clearTimeout(pending);
+  setSync("Saving…");
+  pending = setTimeout(async () => {
+    pending = null;
+    if (!store) return;
+    await store.put(structuredClone(cur));
+    renderCodex();
+    setSync(store.kind === "db" ? `Saved to your codex · ${codex.size} creature${codex.size === 1 ? "" : "s"}` : "Saved in this browser only");
+  }, 900);
+  renderCodex();
+}
+function flush(){ if (pending) { clearTimeout(pending); pending = null; store?.put(structuredClone(cur)); } }
+function openCreature(c, example = false){
+  flush();
+  cur = structuredClone(c); isExample = example; armed = false;
+  renderAll();
+}
+
+/* ---------------- Rendering ---------------- */
+const $ = s => document.querySelector(s);
+function renderCodex(){
+  const q = $("#q-codex").value.trim().toLowerCase();
+  const list = [...codex.values()];
+  if (!isExample && !codex.has(cur.id)) list.push(cur);
+  const items = list.map(c => c.id === cur.id ? cur : c).filter(c => !q || (c.name || "").toLowerCase().includes(q))
+    .sort((a, b) => (a.name || "~").localeCompare(b.name || "~"));
+  const el = $("#codex");
+  el.innerHTML = items.length ? items.map(c => {
+    const d = derive(c);
+    return `<button type="button" class="item${c.id === cur.id ? " on" : ""}" data-open="${esc(c.id)}"><span class="nm">${esc(c.name || "Unnamed creature")}</span><span class="tl">TL ${d.tl.toFixed(1)}</span><span class="sub">${esc(kindLine(c))}</span></button>`;
+  }).join("") : `<p class="empty">${q ? "No creatures match." : "Nothing saved yet. Edit the example, start a new creature, or copy one from the Bestiary below."}</p>`;
+}
+function renderTemplates(){
+  const q = $("#q-tpl").value.trim().toLowerCase();
+  const hits = BESTIARY.map((t, i) => [t, i]).filter(([t]) => !q || t.name.toLowerCase().includes(q) || (t.beingType || "").includes(q)).slice(0, 60);
+  $("#tpls").innerHTML = hits.map(([t, i]) => `<button type="button" class="item" data-tpl="${i}"><span class="nm">${esc(t.name)}</span><span class="tl">TL ${(t.tl ?? 0).toFixed(1)}</span><span class="sub">${esc(cap(t.size))} ${esc(cap(t.beingType))}${t.pack === "humanlike" ? " · Humanlike" : ""}</span></button>`).join("")
+    || `<p class="empty">No statblocks match.</p>`;
+}
+const opt = (v, label, sel) => `<option value="${esc(v)}"${String(v) === String(sel) ? " selected" : ""}>${esc(label)}</option>`;
+function fld(label, inner, cls = ""){ return `<label class="fld ${cls}"><span>${label}</span>${inner}</label>`; }
+function inp(f, v, type = "text", extra = ""){ return `<input type="${type}" id="f-${f}" data-f="${f}" value="${esc(v ?? "")}" ${extra}>`; }
+
+function renderEditor(){
+  const c = cur;
+  const traitRows = Object.keys(TRAITS).map(f => {
+    const {keys, other} = splitTraits(f, c[f]);
+    return `<div class="trait"><div class="label" style="padding-top:4px">${TRAIT_LABEL[f]}</div><div class="sec" style="gap:5px"><div class="chips">${
+      TRAITS[f].map(([k, t]) => `<label class="chip"><input type="checkbox" data-trait="${f}" value="${k}"${keys.includes(k) ? " checked" : ""}>${esc(t)}</label>`).join("")
+    }</div><input type="text" id="t-${f}" data-trait-other="${f}" value="${esc(other)}" placeholder="Anything else, e.g. Physical from non-Relics and Relic Weapons weaker than (+2)"></div></div>`;
+  }).join("");
+  const tags = ARMOR_TAGS.map(([t]) => `<option value="${esc(t)}"></option>`).join("");
+  $("#editor").innerHTML = `
+  ${isExample ? `<p class="empty" style="margin:0">This is an example creature. Change anything and it becomes a new entry in your codex.</p>` : ""}
+  <div class="sec"><h2>Identity</h2>
+    <div class="grid">
+      ${fld("Name", inp("name", c.name, "text", 'placeholder="e.g. Marsh Wight"'), "wide")}
+      ${fld("Size", `<select id="f-size" data-f="size">${SIZES.map(s => opt(s, cap(s), c.size)).join("")}</select>`)}
+      ${fld("Being Type", `<select id="f-beingType" data-f="beingType">${TYPES.map(s => opt(s, cap(s), c.beingType)).join("")}</select>`)}
+      ${fld("Extra types", inp("subtype", c.subtype, "text", 'placeholder="e.g. Wyrm"'))}
+      ${fld("Description", `<textarea id="f-desc" data-f="desc" rows="2" placeholder="One or two lines on what it looks like and how it behaves.">${esc(c.desc)}</textarea>`, "full")}
+    </div></div>
+  <div class="sec"><h2>Quick build <span class="hint">Set stats to the book's averages for a Threat Level</span></h2>
+    <div class="quick">
+      <div class="grid">
+        ${fld("Target Threat Level", `<select id="q-tl">${THREAT.map(r => opt(r.tl, "TL " + r.tl, d0().target)).join("")}</select>`)}
+        ${fld("Attacks per Round", `<select id="q-n">${[1,2,3,4,5,6].map(n => opt(n, n === 1 ? "1 attack" : n + " (Combo)", qN)).join("")}</select>`)}
+        <div class="fld" style="justify-content:end"><button class="btn primary" type="button" id="b-quick">Apply</button></div>
+      </div>
+      <p>Sets HD, Armor, and damage dice to land on that row of the Threat Level table. With more than one attack, it writes a Combo. Your names, text, and Abilities stay.</p>
+    </div></div>
+  <div class="sec"><h2>Defenses</h2>
+    <div class="grid">
+      ${fld("Hit Dice", inp("hd", c.hd, "number", 'min="0" step="1"'))}
+      ${fld(`HP <span class="derived">(avg ${hpFromHD(c.hd, c.size)})</span>`, inp("hpOverride", c.hpOverride, "number", `min="0" placeholder="${hpFromHD(c.hd, c.size)}"`))}
+      <label class="check" style="align-self:end;padding-bottom:6px"><input type="checkbox" id="f-tougher" data-f="tougher"${c.tougher ? " checked" : ""}> Tougher (Boss, double HP)</label>
+      ${fld("Armor", inp("armor", c.armor, "number", 'min="0" step="1"'))}
+      ${fld("Armor tag", `<input type="text" list="armortags" id="f-armorTag" data-f="armorTag" value="${esc(c.armorTag)}"><datalist id="armortags">${tags}</datalist>`, "wide")}
+    </div>
+    ${traitRows}
+  </div>
+  <div class="sec"><h2>Movement and behavior</h2>
+    <div class="grid">
+      ${fld("Speed (feet)", inp("speed", c.speed, "number", 'min="0" step="5"'))}
+      ${fld("Speed types", inp("speedTypes", c.speedTypes, "text", `placeholder="Fly 60', Swim"`))}
+      ${fld("Zone", `<select id="f-zone" data-f="zone">${ZONES.map(s => opt(s, cap(s), c.zone)).join("")}</select>`)}
+      ${fld("Morale", inp("morale", c.morale, "text", 'placeholder="2-12, or -"'))}
+      ${fld("# Appearing", inp("appearing", c.appearing, "text", 'placeholder="d4"'))}
+      ${fld("Senses", inp("senses", c.senses, "text", 'placeholder="Darksight, Blindsight"'), "wide")}
+    </div></div>
+  <div class="sec"><h2>Actions and Abilities <span class="hint">Listed in priority order; the creature uses its top-most viable Action</span></h2>
+    <div class="acts" id="acts">${c.actions.map(actionRow).join("") || `<p class="empty">No Actions yet. Add one below, or borrow one from the Bestiary.</p>`}</div>
+    <div class="row">
+      ${Object.entries(ACTION_TYPES).map(([k, v]) => `<button class="btn small" type="button" data-add="${k}">+ ${v === "Combo" ? "Combo" : v}</button>`).join("")}
+    </div>
+    <details><summary style="cursor:pointer">Borrow an Action or Ability from the Bestiary</summary>
+      <div class="sec" style="margin-top:6px"><input type="search" id="q-borrow" placeholder="Search by name or text, e.g. breath, poison, regenerate"><div class="borrow" id="borrow"></div></div>
+    </details>
+  </div>
+  <div class="sec notes"><h2>Planning notes <span class="hint">Only you see these; they stay off the statblock</span></h2>
+    <textarea id="f-notes" data-f="notes" placeholder="Lair, tactics, phases, loot, where it shows up…">${esc(c.notes)}</textarea>
+  </div>`;
+  renderBorrow();
+}
+let qN = 1;
+const d0 = () => derive(cur);
+function actionRow(a, i){
+  const avg = averageDamage(a.d);
+  const n = cur.actions.length;
+  const tools = `<div class="tools"><button class="btn small" type="button" data-move="${i}" data-dir="-1" aria-label="Move up"${i === 0 ? " disabled" : ""}>↑</button><button class="btn small" type="button" data-move="${i}" data-dir="1" aria-label="Move down"${i === n - 1 ? " disabled" : ""}>↓</button><button class="btn small danger" type="button" data-rm="${i}" aria-label="Remove">✕</button></div>`;
+  const type = fld("Type", `<select id="a-${i}-t" data-a="${i}.t">${Object.entries(ACTION_TYPES).map(([k, v]) => opt(k, v, a.t)).join("")}</select>`);
+  if (a.t === "combo") return `<div class="act k-combo">${type}${fld("Uses", `<input type="text" id="a-${i}-x" data-a="${i}.x" value="${esc(a.x)}" placeholder="2×Claw and 1×Bite">`, "")}<div></div>${tools}
+    <p class="x empty" style="padding:0">A Combo says how it attacks: it uses all the named Actions at once with one Action. Name the Actions as they appear below.</p></div>`;
+  return `<div class="act k-${a.t}">
+    ${fld("Name", `<input type="text" id="a-${i}-n" data-a="${i}.n" value="${esc(a.n)}" placeholder="${a.t === "ability" ? "e.g. Regenerate" : "e.g. Claw"}">`)}
+    ${type}
+    ${fld(a.t === "ability" ? "Tags (optional)" : "Tags", `<input type="text" id="a-${i}-g" data-a="${i}.g" value="${esc(a.g)}" placeholder="${a.t === "ability" ? "" : esc(DEFAULT_TAGS[a.t] + ", Near")}">`)}
+    ${tools}
+    <div class="meta">
+      ${fld(`Damage <span class="avg" data-avg="${i}">${avg != null ? "avg " + avg : ""}</span>`, `<input type="text" id="a-${i}-d" data-a="${i}.d" value="${esc(a.d)}" placeholder="${a.t === "ability" ? "none" : "d8, 2d6+1"}">`)}
+      ${fld("Save", `<select id="a-${i}-s" data-a="${i}.s">${Object.entries(SAVES).map(([k, v]) => opt(k, v, a.s)).join("")}</select>`)}
+      ${fld("Recharge / uses", `<input type="text" id="a-${i}-r" data-a="${i}.r" value="${esc(a.r)}" placeholder="Recharge Cd4, 1/Day">`)}
+    </div>
+    ${fld("Effect text", `<textarea id="a-${i}-x" data-a="${i}.x" rows="1" placeholder="${a.t === "ability" ? "What it does" : "and pass [Endure] or be Sickened (Cd4)"}">${esc(a.x)}</textarea>`, "x")}
+  </div>`;
+}
+let borrowIndex = null;
+function renderBorrow(){
+  const box = $("#borrow"); if (!box) return;
+  const q = ($("#q-borrow")?.value || "").trim().toLowerCase();
+  if (!borrowIndex) { borrowIndex = []; const seen = new Set();
+    for (const t of BESTIARY) for (const a of t.actions || []) { if (a.t === "combo") continue;
+      const key = (a.n + "|" + (a.x || "") + "|" + (a.d || "")).toLowerCase(); if (seen.has(key)) continue; seen.add(key);
+      borrowIndex.push({a, from: t.name, hay: (a.n + " " + (a.x || "") + " " + (a.g || "")).toLowerCase()}); } }
+  if (!q) { box.innerHTML = `<p class="empty">Type to search ${borrowIndex.length} Actions and Abilities.</p>`; return; }
+  const hits = borrowIndex.filter(b => b.hay.includes(q)).slice(0, 40);
+  box.innerHTML = hits.map((b, i) => { const l = actionLine(b.a); return `<button type="button" data-borrow="${borrowIndex.indexOf(b)}"><b>${esc(l.head)}:</b> ${esc(l.body)} <small>· ${esc(b.from)}</small></button>`; }).join("") || `<p class="empty">Nothing matches.</p>`;
+}
+function renderOutput(){
+  const d = derive(cur);
+  $("#sb").innerHTML = statblockHTML(cur, d);
+  const lbl = {ok: "on target", low: "below", high: "above"};
+  const ck = (k, name, v, want) => `<div class="ck ${d.checks[k]}"><span class="st">${lbl[d.checks[k]]}</span>${name}<b>${v}</b><span class="derived">want ${want}</span></div>`;
+  $("#tlinfo").innerHTML = `<div class="tlbox"><div><div class="label">Threat Level</div><div class="tlnum">${d.tl.toFixed(1)}</div></div>
+    <div><div class="formula">(2×${Number(cur.armor)||0} + ${d.hp}/10) / 4 + ${d.dpr}/6</div>
+    <div class="formula">= (${d.parts.a} + ${+d.parts.b.toFixed(2)}) / 4 + ${+d.parts.c.toFixed(2)}</div>
+    <div style="font-size:.85rem;margin-top:3px">Damage per Round <b class="derived" style="color:var(--ink)">${d.dpr}</b> ${cur.dprOverride != null && cur.dprOverride !== "" ? `(set by hand) <button class="btn small" type="button" id="b-dpr-reset">Use suggested ${d.sug.dpr}</button>` : d.sug.from ? `from ${esc(d.sug.from)}` : "(add a damaging Action)"}</div>${cur.bookTL != null ? `<div style="font-size:.8rem;color:var(--muted);margin-top:3px">The Bestiary lists TL ${Number(cur.bookTL).toFixed(1)}. Its rating also weighs effects the formula leaves out, such as Burning or Statuses.</div>` : ""}</div></div>
+`;
+  $("#tlchecks").innerHTML = `${ck("hd", "HD", cur.hd, d.row.hd)}${ck("hp", "HP", d.hp, d.row.hp)}${ck("armor", "Armor", Number(cur.armor)||0, d.row.armor)}${ck("dpr", "DPR", d.dpr, d.row.dpr)}`;
+  { const o = $("#f-dprOverride"); if (o) o.placeholder = d.sug.dpr; }
+  document.querySelectorAll("[data-avg]").forEach(el => { const a = cur.actions[Number(el.dataset.avg)]; const v = a ? averageDamage(a.d) : null; el.textContent = v != null ? "avg " + v : ""; });
+  $("#b-del").hidden = isExample;
+}
+function renderControls(){
+  $("#tlctl").innerHTML = `<div class="row" style="margin:8px 0 6px;gap:10px">
+      <label class="check">Compare with <select id="f-targetTL" data-f="targetTL" style="width:auto">${opt("", "nearest TL", cur.targetTL ?? "")}${THREAT.map(r => opt(r.tl, "TL " + r.tl, cur.targetTL ?? "")).join("")}</select></label>
+      <label class="check">DPR by hand <input type="number" id="f-dprOverride" data-f="dprOverride" min="0" style="width:5.5em" value="${esc(cur.dprOverride ?? "")}" placeholder=""></label>
+    </div>`;
+}
+function renderAll(){ renderEditor(); renderControls(); renderOutput(); renderCodex(); }
+
+/* ---------------- Events ---------------- */
+const NUM = new Set(["hd", "speed", "armor"]);
+const NULLABLE = new Set(["hpOverride", "dprOverride", "targetTL"]);
+document.addEventListener("input", e => {
+  const el = e.target;
+  if (el.id === "q-codex") return renderCodex();
+  if (el.id === "q-tpl") return renderTemplates();
+  if (el.id === "q-borrow") return renderBorrow();
+  if (el.dataset.f) {
+    const f = el.dataset.f;
+    let v = el.type === "checkbox" ? el.checked : el.value;
+    if (NUM.has(f)) v = Math.max(0, Math.floor(Number(v) || 0));
+    else if (NULLABLE.has(f)) v = v === "" ? null : Math.max(0, Number(v) || 0);
+    cur[f] = v;
+    if (f === "armorTag") { const t = ARMOR_TAGS.find(([x]) => x === v); if (t) { cur.armor = t[1]; const a = $("#f-armor"); if (a) a.value = t[1]; } }
+    if (f === "hd" || f === "size") { const h = $("#f-hpOverride"); if (h) h.placeholder = hpFromHD(cur.hd, cur.size); const s = h?.closest(".fld")?.querySelector(".derived"); if (s) s.textContent = `(avg ${hpFromHD(cur.hd, cur.size)})`; }
+    return changed(false);
+  }
+  if (el.dataset.a) {
+    const [i, k] = el.dataset.a.split("."); const a = cur.actions[Number(i)]; if (!a) return;
+    if (k === "t") { const old = a.t; a.t = el.value; if (!a.g || a.g === DEFAULT_TAGS[old]) a.g = DEFAULT_TAGS[a.t]; if (a.t === "ability" && a.s === "reflex") a.s = ""; if (isAttack(a.t) && !a.s) a.s = "reflex"; return changed(true); }
+    a[k] = el.value; return changed(false);
+  }
+  if (el.dataset.trait || el.dataset.traitOther) {
+    const f = el.dataset.trait || el.dataset.traitOther;
+    const keys = [...document.querySelectorAll(`input[data-trait="${f}"]:checked`)].map(x => x.value);
+    cur[f] = joinTraits(f, keys, $("#t-" + f).value); return changed(false);
+  }
+  if (el.id === "q-n") qN = Number(el.value);
+});
+let armed = false;
+document.addEventListener("click", async e => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.open) { const c = codex.get(b.dataset.open); if (c && c.id !== cur.id) openCreature(c); return; }
+  if (b.dataset.tpl) { const c = fromTemplate(BESTIARY[Number(b.dataset.tpl)]); openCreature(c); changed(false); toast(`Copied ${c.name} into your codex`); return; }
+  if (b.dataset.add) { const t = b.dataset.add; cur.actions.push({n: "", t, g: DEFAULT_TAGS[t], d: "", s: isAttack(t) ? "reflex" : "", r: "", x: ""});
+    changed(true); const last = cur.actions.length - 1; document.getElementById(`a-${last}-${t === "combo" ? "x" : "n"}`)?.focus(); return; }
+  if (b.dataset.rm) { cur.actions.splice(Number(b.dataset.rm), 1); return changed(true); }
+  if (b.dataset.move) { const i = Number(b.dataset.move), j = i + Number(b.dataset.dir); if (j < 0 || j >= cur.actions.length) return;
+    [cur.actions[i], cur.actions[j]] = [cur.actions[j], cur.actions[i]]; return changed(true); }
+  if (b.dataset.borrow) { const a = structuredClone(borrowIndex[Number(b.dataset.borrow)].a);
+    cur.actions.push({n: a.n || "", t: a.t || "action", g: a.g || "", d: a.d || "", s: a.s || "", r: a.r || "", x: a.x || ""}); changed(true); toast(`Added ${a.n}`); return; }
+  switch (b.id) {
+    case "b-new": { const c = blank(); openCreature(c); changed(false); $("#f-name")?.focus(); return; }
+    case "b-dup": { const c = structuredClone(cur); c.id = uid(); c.name = (c.name || "Unnamed creature").replace(/ \(example\)$/, "") + " (copy)"; openCreature(c); changed(false); toast("Duplicated"); return; }
+    case "b-quick": return quickBuild();
+    case "b-dpr-reset": cur.dprOverride = null; return changed(true);
+    case "b-copy": return copy(statblockText(cur, derive(cur), false), "Statblock copied");
+    case "b-copy-md": return copy(statblockText(cur, derive(cur), true), "Markdown copied");
+    case "b-export-md": return download(`${slug(cur.name)}.md`, statblockText(cur, derive(cur), true));
+    case "b-export-one": return download(`${slug(cur.name)}.json`, {format: "vagabond-creature-codex", version: 1, creatures: [cur]});
+    case "b-export-all": flush(); return download("creature-codex.json", {format: "vagabond-creature-codex", version: 1, creatures: [...codex.values()]});
+    case "b-import": return $("#f-import").click();
+    case "b-del": {
+      if (!armed) { armed = true; b.textContent = "Click again to delete"; b.classList.add("armed"); setTimeout(() => { armed = false; b.textContent = "Delete"; b.classList.remove("armed"); }, 4000); return; }
+      armed = false; b.textContent = "Delete"; b.classList.remove("armed");
+      clearTimeout(pending); pending = null;
+      const name = cur.name; await store?.del(cur.id);
+      const next = [...codex.values()].sort((x, y) => (x.name || "").localeCompare(y.name || ""))[0];
+      cur = next ? structuredClone(next) : structuredClone(SAMPLE); isExample = !next; renderAll(); toast(`Deleted ${name || "creature"}`); return;
+    }
+  }
+});
+$("#f-import").addEventListener("change", async e => {
+  const f = e.target.files?.[0]; if (!f) return;
+  try {
+    const data = JSON.parse(await f.text());
+    const list = Array.isArray(data) ? data : data.creatures ?? [data];
+    let n = 0;
+    for (const raw of list) { if (!raw || typeof raw !== "object" || !Array.isArray(raw.actions)) continue;
+      const c = Object.assign(blank(), raw); if (codex.has(c.id)) c.id = uid(); c.updatedAt = Date.now(); await store?.put(c); n++; }
+    renderCodex(); toast(n ? `Imported ${n} creature${n === 1 ? "" : "s"}` : "That file has no creatures from this tool");
+  } catch { toast("That file isn't valid JSON"); }
+  e.target.value = "";
+});
+
+function quickBuild(){
+  const tl = Number($("#q-tl").value), n = Number($("#q-n").value);
+  const row = THREAT.find(r => r.tl === tl);
+  cur.hd = mid(row.hd); cur.hpOverride = null; cur.tougher = false; cur.dprOverride = null; cur.targetTL = tl;
+  cur.armor = Number(row.armor);
+  const tag = ARMOR_TAGS.find(([t, a]) => a === cur.armor && !/^None|Shield/.test(t)) ?? ARMOR_TAGS.find(([t, a]) => a === cur.armor && t !== "None");
+  if (!ARMOR_TAGS.some(([t, a]) => t === cur.armorTag && a === cur.armor)) cur.armorTag = tag ? tag[0] : "";
+  // Damage budget so the result lands on the row: solve TL for DPR, then split it between the attacks.
+  const hp = hpFromHD(cur.hd, cur.size);
+  const want = Math.max(1, (tl - (2 * cur.armor + hp / 10) / 4) * 6);
+  const per = want / n;
+  let attacks = cur.actions.filter(a => isAttack(a.t) || ((a.t === "cast" || a.t === "action") && a.d));
+  if (!attacks.length) { cur.actions.unshift({n: "Strike", t: "melee", g: "Melee Attack", d: "", s: "reflex", r: "", x: ""}); attacks = [cur.actions[0]]; }
+  const used = attacks.slice(0, Math.min(n, attacks.length));
+  for (const a of attacks) a.d = diceFor(per);
+  cur.actions = cur.actions.filter(a => a.t !== "combo");
+  if (n > 1) {
+    const counts = used.map((a, i) => Math.floor(n / used.length) + (i < n % used.length ? 1 : 0));
+    const text = used.map((a, i) => `${counts[i]}×${a.n || "Strike"}`).join(" and ");
+    cur.actions.unshift({n: "", t: "combo", g: "", d: "", s: "", r: "", x: text});
+  }
+  changed(true);
+  const d = derive(cur);
+  toast(`Built to TL ${tl}: now TL ${d.tl.toFixed(1)}`);
+}
+
+/* ---------------- Output helpers ---------------- */
+const slug = s => (s || "creature").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "creature";
+async function copy(text, msg){
+  try { await navigator.clipboard.writeText(text); toast(msg); }
+  catch { const t = $("#copybuf"); t.value = text; t.select(); try { document.execCommand("copy"); toast(msg); } catch { toast("Copy was blocked; select the statblock and copy it by hand"); } }
+}
+let dl = null;
+async function download(filename, obj){
+  const text = typeof obj === "string" ? obj : JSON.stringify(obj, null, 2);
+  if (dl === null) { try { dl = window.claude?.use ? await window.claude.use("downloads") : null; } catch { dl = null; } dl = dl || false; }
+  if (dl) { try { await dl.save({filename, data: text}); return; } catch (e) { if (e?.code === "cancelled" || e?.code === "declined") return; } }
+  copy(text, "Downloads aren't available here, so it was copied instead");
+}
+let toastT = null;
+function toast(msg){ const t = $("#toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(() => t.hidden = true, 2600); }
+
+/* ---------------- Boot ---------------- */
+renderTemplates();
+renderAll();
+openStore();
+window.addEventListener("pagehide", flush);
+</script>
